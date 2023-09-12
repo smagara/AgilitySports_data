@@ -1,0 +1,415 @@
+N	Team	Number	Country	Name	Position	Handed	Age	Drafted	BirthPlace	CountryName
+1	Bruins	70		Jesper Boqvist	C	L	24	2023	Falun, Sweden	Sweden
+2	Bruins	38		Patrick Brown	C	R	31	2023	Bloomfield Hills, Michigan	United States
+3	Bruins	25		Brandon Carlo	D	R	26	2015	Colorado Springs, Colorado	United States
+4	Bruins	13		Charlie Coyle	C	R	31	2019	Weymouth, Massachusetts	United States
+5	Bruins	74		Jake DeBrusk	LW	L	26	2015	Edmonton, Alberta	Canada
+6	Bruins	28		Derek Forbort	D	L	31	2021	Duluth, Minnesota	United States
+7	Bruins	11		Trent Frederic	C	L	25	2016	St. Louis, Missouri	United States
+8	Bruins	39		Morgan Geekie	RW	R	25	2023	Strathclair, Manitoba	Canada
+9	Bruins	10		A. J. Greer	LW	L	26	2022	Joliette, Quebec	Canada
+10	Bruins	48		Matt Grzelcyk	D	L	29	2012	Charlestown, Massachusetts	United States
+11	Bruins	27		Hampus Lindholm	D	L	29	2022	Helsingborg, Sweden	Sweden
+12	Bruins	6		Mason Lohrei	D	L	22	2020	Baton Rouge, Louisiana	United States
+13	Bruins	17		Milan Lucic	LW	L	35	2023	Vancouver, British Columbia	Canada
+14	Bruins	23		Fabian Lysell	RW	L	20	2021	Gothenburg, Sweden	Sweden
+15	Bruins	63		Brad Marchand (A)	LW	L	35	2006	Halifax, Nova Scotia	Canada
+16	Bruins	73		Charlie McAvoy	D	R	25	2016	Long Beach, New York	United States
+17	Bruins	20		Jayson Megna	C	R	33	2023	Fort Lauderdale, Florida	United States
+18	Bruins	14		Ian Mitchell	D	R	24	2023	St. Albert, Alberta	Canada
+19	Bruins	88		David Pastrnak	RW	R	27	2014	Havířov, Czech Republic	Czech Republic
+20	Bruins	75		Alec Regula	D	R	23	2023	West Bloomfield Township, Michigan	United States
+21	Bruins	90		Anthony Richard	C	L	26	2023	Trois-Rivières, Quebec	Canada
+22	Bruins	12		Kevin Shattenkirk	D	R	34	2023	New Rochelle, New York	United States
+23	Bruins	1		Jeremy Swayman	G	L	24	2017	Anchorage, Alaska	United States
+24	Bruins	35		Linus Ullmark	G	L	30	2021	Lugnvik, Sweden	Sweden
+25	Bruins	21		James van Riemsdyk	LW	L	34	2023	Middletown Township, New Jersey	United States
+26	Bruins	18		Pavel Zacha	C	L	26	2022	Brno, Czech Republic	Czech Republic
+27	Bruins	67		Jakub Zboril	D	L	26	2015	Brno, Czech Republi	Czech Republic
+28	Sabres	78		Jacob Bryson	D	L	25	2017	London, Ontario	Canada
+29	Sabres	38		Kale Clague	D	L	25	2022	Regina, Saskatchewan	Canada
+30	Sabres	75		Connor Clifton	D	R	28	2023	Long Branch, New Jersey	United States
+31	Sabres	31		Eric Comrie 	G	L	28	2022	Edmonton, Alberta	Canada
+32	Sabres	24		Dylan Cozens	C	R	22	2019	Whitehorse, Yukon	Injured Reserve
+33	Sabres	26		Rasmus Dahlin (A)	D	L	23	2018	Trollhattan, Sweden	Canada
+34	Sabres	28		Zemgus Girgensons (A)	C	L	29	2012	Riga, Latvia	Sweden
+35	Sabres	12		Jordan Greenway	LW	L	26	2023	Canton, New York	Latvia
+36	Sabres	6		Erik Johnson	D	R	35	2023	Bloomington, Minnesota	United States
+37	Sabres	10		Henri Jokiharju	D	R	24	2019	Oulu, Finland	United States
+38	Sabres	17		Tyson Jost	C	L	25	2022	St. Albert, Alberta	Finland
+39	Sabres	19		Peyton Krebs	C	L	22	2021	Okotoks, Alberta	Canada
+40	Sabres	27		Devon Levi	G	L	21	2021	Dollard-des-Ormeaux, Quebec	Canada
+41	Sabres	1		Ukko-Pekka Luukkonen	G	L	24	2017	Espoo, Finland	Canada
+42	Sabres	37		Casey Mittelstadt	C	L	24	2017	Eden Prairie, Minnesota	Finland
+43	Sabres	21		Kyle Okposo (C)	RW	R	35	2016	Saint Paul, Minnesota	United States
+44	Sabres	71		Victor Olofsson	LW	L	28	2014	Ornskoldsvik, Sweden	United States
+45	Sabres	77		JJ Peterka	LW	L	21	2020	Munich, Germany	Sweden
+46	Sabres	25		Owen Power	D	L	20	2021	Mississauga, Ontario	Germany
+47	Sabres	22		Jack Quinn 	RW	R	21	2020	Ottawa, Ontario	Canada
+48	Sabres	23		Mattias Samuelsson 	D	L	23	2018	Voorhees, New Jersey	Canada
+49	Sabres	53		Jeff Skinner	LW	L	31	2018	Markham, Ontario	Injured Reserve
+50	Sabres	61		Riley Stillman	D	L	25	2023	Calgary, Alberta	United States
+51	Sabres	72		Tage Thompson	C	R	25	2018	Phoenix, Arizona	Injured Reserve
+52	Sabres	89		Alex Tuch	RW	R	27	2021	Syracuse, New York	Canada
+53	Red Wings	48		Jonatan Berggren	LW	L	23	2018	Uppsala, Sweden	Canada
+54	Red Wings	8		Ben Chiarot	D	L	32	2022	Hamilton, Ontario	United States
+55	Red Wings	18		Andrew Copp	C	L	29	2022	Ann Arbor, Michigan	United States
+56	Red Wings	37		J.T. Compher	C	R	28	2023	Northbrook, Illinois	Sweden
+57	Red Wings	21		Austin Czarnik	C	R	30	2022	Detroit, Michigan	Canada
+58	Red Wings	93		Alex DeBrincat	LW	R	25	2023	Farmington Hills, Michigan	United States
+59	Red Wings	14		Robby Fabbri	C	L	27	2019	Mississauga, Ontario	United States
+60	Red Wings	36		Christian Fischer	C	R	26	2023	Chicago, Illinois	United States
+61	Red Wings	41		Shayne Gostisbehere	D	L	30	2023	Pembroke Pines, Florida	United States
+62	Red Wings	3		Justin Holl	D	R	31	2023	Tonka Bay, Minnesota	Canada
+63	Red Wings	35		Ville Husso	G	L	28	2023	Helsinki, Finland	United States
+64	Red Wings	92		Marco Kasper	C	L	19	2022	Innsbruck, Austria	United States
+65	Red Wings	24		Klim Kostin	LW	L	24	2023	Penza, Russia	United States
+66	Red Wings	71		Dylan Larkin (C)	C	L	27	2014	Waterford, Michigan	Finland
+67	Red Wings	22		Matt Luff	RW	R	26	2022	Oakville, Ontario	Austria
+68	Red Wings	34		Alex Lyon	G	L	30	2023	Baudette, Minnesota	Russia
+69	Red Wings	2		Olli Maatta	D	L	29	2022	Jyvaskyla, Finland	United States
+70	Red Wings	57		David Perron	LW	R	35	2022	Sherbrooke, Quebec	Canada
+71	Red Wings	46		Jeff Petry	D	R	35	2023	Ann Arbor, Michigan	United States
+72	Red Wings	27		Michael Rasmussen 	C	L	24	2017	Vancouver, British Columbia	Finland
+73	Red Wings	23		Lucas Raymond	LW	R	21	2020	Gothenburg, Sweden	Canada
+74	Red Wings	47		James Reimer	G	L	35	2023	Arborg, Manitoba	United States
+75	Red Wings	53		Moritz Seider	D	R	22	2019	Zell, Germany	Canada
+76	Red Wings	88		Daniel Sprong	RW	R	26	2023	Amsterdam, Netherlands	Injured Reserve
+77	Red Wings	90		Joe Veleno	C	L	23	2018	Montreal, Quebec	Sweden
+78	Red Wings	96		Jake Walman	D	L	27	2022	Toronto, Ontario	Canada
+79	Panthers	16		Aleksander Barkov (C)	C	L	27	2013	Tampere, Finland	Germany
+80	Panthers	9		Sam Bennett	C	L	27	2021	East Gwillimbury, Ontario	Netherlands
+81	Panthers	44		Mike Benning	D	R	21	2020	Edmonton, Alberta	Canada
+82	Panthers	72		Sergei Bobrovsky	G	L	34	2019	Novokuznetsk, Soviet Union	Canada
+83	Panthers	32		Lucas Carlsson	D	L	26	2021	Gävle, Sweden	Finland
+84	Panthers	21		Nick Cousins	C	L	30	2022	Belleville, Ontario	Canada
+85	Panthers	22		Zac Dalpe	C	R	33	2021	Paris, Ontario	Canada
+86	Panthers	14		Grigori Denisenko	RW	R	23	2018	Novosibirsk, Russia	Russia
+87	Panthers	5		Aaron Ekblad (A)	D	R	27	2014	Windsor, Ontario	Sweden
+88	Panthers	91		Oliver Ekman-Larsson	D	L	32	2023	Karlskrona, Sweden	Canada
+89	Panthers	4		Casey Fitzgerald	D	R	26	2023	Boca Raton, Florida	Canada
+90	Panthers	42		Gustav Forsling	D	L	27	2021	Linköping, Sweden	Russia
+91	Panthers	36		Patrick Giles	C	R	23	2022	Chevy Chase, Maryland	Canada
+92	Panthers	29		Mack Guzda	G	L	22	2022	Knoxville, Tennessee	Sweden
+93	Panthers	3		Matt Kiersted	D	L	25	2021	Elk River, Minnesota	United States
+94	Panthers	75		Santtu Kinnunen	D	R	24	2018	Lahti, Finland	Sweden
+95	Panthers	30		Spencer Knight	G	L	22	2019	Darien, Connecticut	United States
+96	Panthers	7		Dmitry Kulikov	D	L	32	2023	Lipetsk, Soviet Union	United States
+97	Panthers	94		Ryan Lomberg	LW	L	28	2021	Richmond Hill, Ontario	United States
+98	Panthers	18		Steven Lorentz	LW	L	27	2023	Kitchener, Ontario	Finland
+99	Panthers	53		John Ludvig	D	L	23	2019	Liberec, Czech Republic	United States
+100	Panthers	15		Anton Lundell	C	L	21	2020	Espoo, Finland	Russia
+101	Panthers	27		Eetu Luostarinen	C	L	25	2020	Siilinjärvi, Finland	Canada
+102	Panthers	28		Josh Mahura	D	L	25	2022	St. Albert, Alberta	Canada
+103	Panthers	77		Niko Mikkola	D	L	27	2023	Kiiminki, Finland	Canada
+104	Panthers	62		Brandon Montour	D	R	29	2021	Ohsweken, Ontario	Finland
+105	Panthers	6		Mike Reilly	D	L	30	2023	Chicago, Illinois	Finland
+106	Panthers	13		Sam Reinhart	C	R	27	2021	North Vancouver, British Columbia	Canada
+107	Panthers	17		Evan Rodrigues	C	R	30	2023	Toronto, Ontario	Finland
+108	Panthers	79		Calle Sjalin	D	L	24	2022	Östersund, Sweden	Canada
+109	Panthers	82		Kevin Stenlund	C	L	26	2023	Stockholm, Sweden	United States
+110	Panthers	41		Anthony Stolarz	G	L	29	2023	Edison, New Jersey	Canada
+111	Panthers	19		Matthew Tkachuk (A)	LW	L	25	2022	Scottsdale, Arizona	Canada
+112	Panthers	23		Carter Verhaeghe	C	L	28	2020	Toronto, Ontario	Sweden
+113	Canadiens	34		Jake Allen	G	L	33	2020	Fredericton, New Brunswick	Sweden
+114	Canadiens	17		Josh Anderson	RW	R	29	2020	Burlington, Ontario	United States
+115	Canadiens	40		Joel Armia	RW	R	30	2018	Pori, Finland	United States
+116	Canadiens	52		Justin Barron	D	R	21	2022	Halifax, Nova Scotia	Canada
+117	Canadiens	22		Cole Caufield 	RW	R	22	2019	Mosinee, Wisconsin	Canada
+118	Canadiens	77		Kirby Dach	C	R	22	2022	St. Albert, Alberta	Canada
+119	Canadiens	–		Casey DeSmith	G	L	32	2023	Rochester, New Hampshire	Finland
+120	Canadiens	28		Christian Dvorak	C	L	27	2021	Palos, Illinois	Canada
+121	Canadiens	71		Jake Evans	C	R	27	2014	Toronto, Ontario	United States
+122	Canadiens	57		Sean Farrell	C	L	21	2020	Milton, Massachusetts	Injured Reserve
+123	Canadiens	11		Brendan Gallagher (A)	RW	R	31	2010	Edmonton, Alberta	Canada
+124	Canadiens	21		Kaiden Guhle	D	L	21	2020	Edmonton, Alberta	United States
+125	Canadiens	54		Jordan Harris	D	L	23	2018	Haverhill, Massachusetts	United States
+126	Canadiens	49		Rafael Harvey-Pinard	LW	L	24	2019	Saguenay, Quebec	Canada
+127	Canadiens	26		Johnathan Kovacevic	D	R	26	2022	Niagara Falls, Ontario	United States
+128	Canadiens	–		Gustav Lindstrom	D	R	24	2023	Ostervala, Sweden	Canada
+129	Canadiens	8		Mike Matheson	D	L	29	2022	Pointe-Claire, Quebec	Canada
+130	Canadiens	91		Sean Monahan 	C	L	28	2022	Brampton, Ontario	United States
+131	Canadiens	35		Sam Montembeault	G	L	26	2021	Bécancour, Quebec	Canada
+132	Canadiens	15		Alex Newhook	C	L	22	2023	St. John's, Newfoundland	Canada
+133	Canadiens	55		Michael Pezzetta	LW	L	25	2016	Toronto, Ontario	Sweden
+134	Canadiens	31		Carey Price 	G	L	36	2005	Anahim Lake, British Columbia	Canada
+135	Canadiens	58		David Savard	D	R	32	2021	Saint-Hyacinthe, Quebec	Canada
+136	Canadiens	20		Juraj Slafkovsky 	LW	L	19	2022	Košice, Slovakia	Injured Reserve
+137	Canadiens	14		Nick Suzuki (C)	C	R	24	2018	London, Ontario	Canada
+138	Canadiens	6		Chris Wideman	D	R	33	2021	St. Louis, Missouri	Canada
+139	Canadiens	72		Arber Xhekaj 	D	L	22	2021	Hamilton, Ontario	Canada
+140	Senators	19		Drake Batherson	RW	R	25	2017	Fort Wayne, Indiana	Canada
+141	Senators	24		Jacob Bernard-Docker	D	R	23	2018	Canmore, Alberta	Injured Reserve
+142	Senators	26		Erik Brannstrom	D	L	24	2019	Eksjö, Sweden	Canada
+143	Senators	72		Thomas Chabot (A)	D	L	26	2015	Sainte-Marie, Quebec	Slovakia
+144	Senators	6		Jakob Chychrun	D	L	25	2023	Boca Raton, Florida	Injured Reserve
+145	Senators	31		Anton Forsberg 	G	L	30	2021	Härnösand, Sweden	Canada
+146	Senators	28		Claude Giroux (A)	RW	R	35	2022	Hearst, Ontario	United States
+147	Senators	23		Travis Hamonic	D	R	33	2022	St. Malo, Manitoba	Canada
+148	Senators	21		Mathieu Joseph	RW	L	26	2022	Laval, Quebec	Injured Reserve
+149	Senators	12		Mark Kastelic	C	R	24	2019	Phoenix, Arizona	Canada
+150	Senators	27		Parker Kelly	C	L	24	2021	Camrose, Alberta	Canada
+151	Senators	43		Tyler Kleven	D	L	21	2020	Fargo, North Dakota	Sweden
+152	Senators	70		Joonas Korpisalo	G	L	29	2023	Pori, Finland	Canada
+153	Senators	81		Dominik Kubalik	LW	L	28	2023	Plzen, Czech Republic	Canada
+154	Senators	17		Zack MacEwen	RW	R	27	2023	Charlottetown, Prince Edward Island	Sweden
+155	Senators	9		Josh Norris 	C	L	24	2018	Oxford, Michigan	Injured Reserve
+156	Senators	57		Shane Pinto (RFA)	C	R	22	2019	Franklin Square, New York	Canada
+157	Senators	85		Jake Sanderson	D	L	21	2020	Whitefish, Montana	Canada
+158	Senators	18		Tim Stuetzle	LW	L	21	2020	Viersen, Germany	Canada
+159	Senators	91		Vladimir Tarasenko	RW	L	31	2023	Yaroslavl, Soviet Union	United States
+160	Senators	7		Brady Tkachuk (C)	LW	L	23	2018	Scottsdale, Arizona	Canada
+161	Senators	2		Artyom Zub	D	R	27	2020	Khabarovsk, Russia	United States
+162	Lightening	–		Josh Archibald	RW	R	30	2023	Regina, Saskatchewan	Finland
+163	Lightening	24		Zach Bogosian	D	R	33	2021	Massena, New York	Czech Republic
+164	Lightening	–		Logan Brown	C	L	25	2023	Raleigh, North Carolina	Canada
+165	Lightening	81		Erik Cernak 	D	R	26	2017	Košice, Slovakia	United States
+166	Lightening	71		Anthony Cirelli	C	L	26	2015	Woodbridge, Ontario	Injured Reserve
+167	Lightening	–		Calvin de Haan	D	L	32	2023	Carp, Ontario	United States
+168	Lightening	23		Mikey Eyssimont	LW	L	27	2023	Littleton, Colorado	United States
+169	Lightening	7		Haydn Fleury	D	L	27	2022	Carlyle, Saskatchewan	Germany
+170	Lightening	–		Luke Glendening	C	R	34	2023	East Grand Rapids, Michigan	Russia
+171	Lightening	38		Brandon Hagel	LW	L	25	2022	Saskatoon, Saskatchewan	United States
+172	Lightening	77		Victor Hedman (A)	D	L	32	2009	Örnsköldsvik, Sweden	Russia
+173	Lightening	84		Tanner Jeannot	LW	L	26	2023	Oxbow, Saskatchewan	Canada
+174	Lightening	–		Jonas Johansson	G	L	27	2023	Gävle, Sweden	United States
+175	Lightening	86		Nikita Kucherov	RW	L	30	2011	Maykop, Russia	United States
+176	Lightening	14		Tyler Motte	C/LW	L	28	2023	Port Huron, Michigan	Slovakia
+177	Lightening	20		Nick Paul	LW	L	28	2022	Mississauga, Ontario	Injured Reserve
+178	Lightening	48		Nick Perbix	D	R	25	2017	Elk River, Minnesota	Canada
+179	Lightening	21		Brayden Point	C	R	27	2014	Calgary, Alberta	Canada
+180	Lightening	43		Darren Raddysh	D	R	27	2021	Caledon, Ontario	United States
+181	Lightening	98		Mikhail Sergachev	D	L	25	2017	Nizhnekamsk, Russia	Canada
+182	Lightening	–		Conor Sheary	LW	L	31	2023	Winchester, Massachusetts	United States
+183	Lightening	91		Steven Stamkos (C)	C/RW	R	33	2008	Markham, Ontario	Canada
+184	Lightening	88		Andrei Vasilevskiy	G	L	28	2012	Tyumen, Russia	Sweden
+185	Maple Leafs	–		Simon Benoit	D	L	24	2023	Laval, Quebec	Canada
+186	Maple Leafs	59		Tyler Bertuzzi	LW	L	28	2023	Sudbury, Ontario	Sweden
+187	Maple Leafs	78		T. J. Brodie	D	L	33	2020	Chatham, Ontario	Russia
+188	Maple Leafs	11		Max Domi	LW	L	28	2023	Winnipeg, Manitoba	United States
+189	Maple Leafs	–		Dylan Gambrell	C	R	27	2023	Bonney Lake, Washington	Canada
+190	Maple Leafs	55		Mark Giordano	D	L	39	2022	Toronto, Ontario	United States
+191	Maple Leafs	19		Calle Jarnkrok	RW	R	31	2022	Gävle, Sweden	Canada
+192	Maple Leafs	–		Martin Jones	G	L	33	2023	North Vancouver, British Columbia	Canada
+193	Maple Leafs	64		David Kampf	C	L	28	2021	Jirkov, Czech Republic	Russia
+194	Maple Leafs	3		John Klingberg	D	R	31	2023	Gothenburg, Sweden	United States
+195	Maple Leafs	23		Matthew Knies	LW	L	20	2021	Phoenix, Arizona	Canada
+196	Maple Leafs	28		Sam Lafferty	C	R	28	2023	Hollidaysburg, Pennsylvania	Russia
+197	Maple Leafs	37		Timothy Liljegren	D	R	24	2017	Kristianstad, Sweden	Canada
+198	Maple Leafs	16		Mitch Marner (A)	RW	R	26	2015	Markham, Ontario	Canada
+199	Maple Leafs	34		Auston Matthews (A)	C	L	25	2016	San Ramon, California	Canada
+200	Maple Leafs	22		Jake McCabe	D	L	29	2023	Eau Claire, Wisconsin	Canada
+201	Maple Leafs	74		Bobby McMann	C	L	27	2022	Wainwright, Alberta	United States
+202	Maple Leafs	30		Matt Murray 	G	L	29	2022	Thunder Bay, Ontario	Canada
+203	Maple Leafs	8		Jake Muzzin (A) 	D	L	34	2019	Woodstock, Ontario	Sweden
+204	Maple Leafs	88		William Nylander	RW	R	27	2014	Calgary, Alberta	Canada
+205	Maple Leafs	75		Ryan Reaves	RW	R	36	2023	Winnipeg, Manitoba	Czech Republic
+206	Maple Leafs	44		Morgan Rielly (A)	D	L	29	2012	West Vancouver, British Columbia	Sweden
+207	Maple Leafs	89		Nicholas Robertson 	LW	L	21	2019	Arcadia, California	United States
+208	Maple Leafs	35		Ilya Samsonov	G	L	26	2022	Magnitogorsk, Russia	United States
+209	Maple Leafs	91		John Tavares (C)	C	L	32	2018	Mississauga, Ontario	Sweden
+210	Maple Leafs	25		Conor Timmins	D	R	24	2022	St. Catharines, Ontario	Canada
+211	Hurricanes	20		Sebastian Aho (A)	C	L	26	2015	Rauma, Finland	United States
+212	Hurricanes	31		Frederik Andersen	G	L	33	2021	Herning, Denmark	United States
+213	Hurricanes	–		Nathan Beaulieu (PTO)	D	L	30	2023	Strathroy, Ontario	Canada
+214	Hurricanes	58		Michael Bunting	LW	L	27	2023	Scarborough, Ontario	Canada
+215	Hurricanes	8		Brent Burns	D	R	38	2022	Barrie, Ontario	Injured Reserve
+216	Hurricanes	5		Jalen Chatfield	D	R	27	2021	Ypsilanti, Michigan	Canada
+217	Hurricanes	15		Dylan Coghlan	D	R	25	2022	Duncan, British Columbia	Injured Reserve
+218	Hurricanes	77		Tony DeAngelo	D	R	27	2023	Sewell, New Jersey	Sweden
+219	Hurricanes	18		Jack Drury	C	L	23	2018	New York, New York	Canada
+220	Hurricanes	71		Jesper Fast	RW	R	31	2020	Nässjö, Sweden	Canada
+221	Hurricanes	51		Jake Gardiner 	D	L	33	2019	Minneapolis, Minnesota	United States
+222	Hurricanes	24		Seth Jarvis	C	R	21	2020	Winnipeg, Manitoba	Injured Reserve
+223	Hurricanes	–		Caleb Jones	D	L	26	2023	Arlington, Texas	Russia
+224	Hurricanes	52		Pyotr Kochetkov	G	L	24	2019	Penza, Russia	Canada
+225	Hurricanes	82		Jesperi Kotkaniemi	C	L	23	2021	Pori, Finland	Canada
+226	Hurricanes	28		Brendan Lemieux	LW	L	27	2023	Denver, Colorado	Finland
+227	Hurricanes	48		Jordan Martinook (A)	LW	L	31	2018	Brandon, Manitoba	Denmark
+228	Hurricanes	88		Martin Necas	C	R	24	2017	Nové Město na Moravě, Czech Republic	Canada
+229	Hurricanes	23		Stefan Noesen	RW	R	30	2021	Plano, Texas	Canada
+230	Hurricanes	7		Dmitry Orlov	D	L	32	2023	Novokuznetsk, Soviet Union	Canada
+231	Hurricanes	22		Brett Pesce	D	R	28	2013	Tarrytown, New York	United States
+232	Hurricanes	92		Vasily Ponomarev	C	L	21	2020	Moscow, Russia	Canada
+233	Hurricanes	32		Antti Raanta	G	L	34	2021	Rauma, Finland	United States
+234	Hurricanes	81		Jamieson Rees	C	L	22	2019	Hamilton, Ontario	United States
+235	Hurricanes	76		Brady Skjei	D	L	29	2020	Lakeville, Minnesota	Sweden
+236	Hurricanes	74		Jaccob Slavin (A)	D	L	29	2012	Erie, Colorado	United States
+237	Hurricanes	11		Jordan Staal (C)	C	L	35	2012	Thunder Bay, Ontario	Injured Reserve
+238	Hurricanes	61		Ryan Suzuki	C	L	22	2019	London, Ontario	Canada
+239	Hurricanes	37		Andrei Svechnikov 	RW	L	23	2018	Barnaul, Russia	United States
+240	Hurricanes	86		Teuvo Teravainen 	LW	L	28	2016	Helsinki, Finland	Russia
+241	Blue Jackets	22		Jake Bean 	D	L	25	2021	Calgary, Alberta	Finland
+242	Blue Jackets	52		Emil Bemstrom	RW	R	24	2017	Nyköping, Sweden	Canada
+243	Blue Jackets	75		Tim Berni (RFA)	D	L	23	2018	Männedorf, Switzerland	Canada
+244	Blue Jackets	47		Marcus Bjork	D	R	25	2022	Umeå, Sweden	Czech Republic
+245	Blue Jackets	77		Nick Blankenburg	D	R	25	2022	Washington, Michigan	United States
+246	Blue Jackets	27		Adam Boqvist	D	R	23	2021	Falun, Sweden	Russia
+247	Blue Jackets	17		Justin Danforth 	RW	R	30	2021	Oshawa, Ontario	United States
+248	Blue Jackets	11		Adam Fantilli	C	L	18	2023	Nobleton, Ontario	Russia
+249	Blue Jackets	19		Liam Foudy	C	L	23	2018	Toronto, Ontario	Finland
+250	Blue Jackets	13		Johnny Gaudreau	LW	L	30	2022	Salem, New Jersey	Canada
+251	Blue Jackets	44		Erik Gudbranson 	D	R	31	2022	Ottawa, Ontario	United States
+252	Blue Jackets	38		Boone Jenner (C)	C	L	30	2011	London, Ontario	United States
+253	Blue Jackets	91		Kent Johnson	C	L	20	2021	Port Moody, British Columbia	Canada
+254	Blue Jackets	7		Sean Kuraly 	C	L	30	2021	Dublin, Ohio	Canada
+255	Blue Jackets	29		Patrik Laine 	RW	R	25	2021	Tampere, Finland	Russia
+256	Blue Jackets	86		Kirill Marchenko	RW	R	23	2018	Barnaul, Russia	Injured Reserve
+257	Blue Jackets	41		Hunter McKown	C	R	21	2023	San Jose, California	Finland
+258	Blue Jackets	90		Elvis Merzlikins	G	L	29	2014	Riga, Latvia	Injured Reserve
+259	Blue Jackets	24		Mathieu Olivier	RW	R	26	2022	Biloxi, Mississippi	Canada
+260	Blue Jackets	2		Andrew Peeke	D	R	25	2016	Parkland, Florida	Injured Reserve
+261	Blue Jackets	9		Ivan Provorov	D	L	26	2023	Yaroslavl, Russia	Sweden
+262	Blue Jackets	50		Eric Robinson	LW	L	28	2018	Bellmawr, New Jersey	Switzerland
+263	Blue Jackets	96		Jack Roslovic	C	R	26	2021	Columbus, Ohio	Sweden
+264	Blue Jackets	78		Damon Severson	D	R	29	2023	Brandon, Manitoba	United States
+265	Blue Jackets	42		Alexandre Texier	C	L	23	2017	Grenoble, France	Sweden
+266	Blue Jackets	8		Zach Werenski (A) 	D	L	26	2015	Grosse Pointe, Michigan	Canada
+267	Devils	88		Kevin Bahl	D	L	23	2019	New Westminster, British Columbia	Injured Reserve
+268	Devils	14		Nathan Bastian	RW	R	25	2021	Kitchener, Ontario	Canada
+269	Devils	63		Jesper Bratt	LW	L	25	2017	Stockholm, Sweden	Canada
+270	Devils	92		Graeme Clarke	RW	R	22	2019	Waconia, Minnesota	United States
+271	Devils	50		Nico Daws	G	L	21	2020	Munich, Germany	Canada
+272	Devils	52		Cal Foote	D	R	24	2023	Englewood, Colorado	Injured Reserve
+273	Devils	25		Nolan Foote	LW	L	22	2020	Englewood, Colorado	Canada
+274	Devils	48		Brian Halonen	LW	R	24	2022	Delano, Minnesota	Canada
+275	Devils	7		Dougie Hamilton	D	R	30	2021	Toronto, Ontario	United States
+276	Devils	56		Erik Haula	LW	L	32	2022	Pori, Finland	Injured Reserve
+277	Devils	13		Nico Hischier (C)	C	L	24	2017	Brig, Switzerland	Finland
+278	Devils	10		Alexander Holtz	F	L	21	2020	Saltsjö-Boo, Sweden	Injured Reserve
+279	Devils	86		Jack Hughes (A)	C	L	22	2019	Orlando, Florida	Russia
+280	Devils	43		Luke Hughes	D	L	20	2021	Manchester, New Hampshire	United States
+281	Devils	42		Curtis Lazar	C	R	28	2023	Salmon Arm, British Columbia	Latvia
+282	Devils	6		John Marino	D	R	26	2022	Easton, Massachusetts	Canada
+283	Devils	20		Michael McLeod	C	R	25	2016	Mississauga, Ontario	United States
+284	Devils	96		Timo Meier	LW	L	26	2023	Herisau, Switzerland	Russia
+285	Devils	91		Dawson Mercer	C	R	21	2020	Bay Roberts, Newfoundland	United States
+286	Devils	24		Colin Miller	D	R	30	2023	Sault Ste. Marie, Ontario	United States
+287	Devils	5		Simon Nemec	D	R	19	2022	Liptovský Mikuláš, Slovakia	Canada
+288	Devils	92		Tomas Nosek	C	L	31	2023	Pardubice, Czechoslovakia	France
+289	Devils	18		Ondrej Palat (A)	LW	L	32	2022	Frýdek-Místek, Czechoslovakia	United States
+290	Devils	40		Akira Schmid	G	L	23	2018	Bern, Switzerland	Injured Reserve
+291	Devils	71		Jonas Siegenthaler	D	L	26	2021	Zürich, Switzerland	Canada
+292	Devils	2		Brendan Smith	D	L	34	2022	Etobicoke, Ontario	Canada
+293	Devils	12		Tyce Thompson	C	R	24	2019	Oyster Bay, New York	Sweden
+294	Devils	67		Chris Tierney	C	L	29	2023	Keswick, Ontario	Canada
+295	Devils	73		Tyler Toffoli	RW	R	31	2023	Scarborough, Ontario	Canada
+296	Devils	41		Vitek Vanecek	G	L	27	2022	Havlíčkův Brod, Czech Republic	Canada
+297	Devils	83		Topias Vilen	D	L	20	2021	Lahti, Finland	Canada
+298	Islanders	25		Sebastian Aho	D	L	27	2017	Umeå, Sweden	United States
+299	Islanders	13		Mathew Barzal	C	R	26	2015	Coquitlam, British Columbia	Canada
+300	Islanders	4		Samuel Bolduc	D	L	22	2019	Laval, Quebec	Finland
+301	Islanders	53		Casey Cizikas	C	L	32	2009	Toronto, Ontario	Switzerland
+302	Islanders	15		Cal Clutterbuck (A)	RW	R	35	2013	Welland, Ontario	Sweden
+303	Islanders	8		Noah Dobson	D	R	23	2018	Summerside, Prince Edward Island	United States
+304	Islanders	18		Pierre Engvall	LW	L	27	2023	Ljungby, Sweden	United States
+305	Islanders	20		Hudson Fasching	RW	R	28	2022	Milwaukee, Wisconsin	Canada
+306	Islanders	77		Julien Gauthier	RW	R	25	2023	Pointe-aux-Trembles, Quebec	United States
+307	Islanders	10		Simon Holmstrom	RW	L	22	2019	Tranas, Sweden	Canada
+308	Islanders	14		Bo Horvat	C	L	28	2023	Rodney, Ontario	Switzerland
+309	Islanders	32		Ross Johnston	LW	L	29	2015	Charlottetown, Prince Edward Island	Canada
+310	Islanders	20		Karson Kuhlman	C	R	27	2023	Esko, Minnesota	Canada
+311	Islanders	27		Anders Lee (C)	LW	L	33	2009	Edina, Minnesota	Slovakia
+312	Islanders	17		Matt Martin	LW	L	34	2018	Windsor, Ontario	Czech Republic
+313	Islanders	24		Scott Mayfield	D	R	30	2011	St. Louis, Missouri	Czech Republic
+314	Islanders	29		Brock Nelson	LW	L	31	2010	Warroad, Minnesota	Switzerland
+315	Islanders	44		Jean-Gabriel Pageau	C	R	30	2020	Ottawa, Ontario	Switzerland
+316	Islanders	21		Kyle Palmieri	RW	R	32	2021	Smithtown, New York	Canada
+317	Islanders	11		Zach Parise (UFA)	LW	L	39	2021	Minneapolis, Minnesota	United States
+318	Islanders	3		Adam Pelech	D	L	29	2012	Toronto, Ontario	Canada
+319	Islanders	6		Ryan Pulock	D	R	28	2013	Grandview, Manitoba	Canada
+320	Islanders	28		Alexander Romanov	D	L	23	2022	Moscow, Russia	Czech Republic
+321	Islanders	35		Cory Schneider (UFA)	G	L	37	2021	Marblehead, Massachusetts	Finland
+322	Islanders	1		Jakub Skarek	G	L	23	2018	Jihlava, Czech Republic	Sweden
+323	Islanders	30		Ilya Sorokin	G	L	28	2014	Mezhdurechensk, Russia	Canada
+324	Islanders	40		Semyon Varlamov	G	L	35	2019	Kuybyshev, Soviet Union	Canada
+325	Islanders	26		Oliver Wahlstrom 	RW	R	23	2018	Yarmouth, Maine	Canada
+326	Rangers	–		Alex Belzile	RW	R	32	2023	Saint-Eloi, Quebec	Canada
+327	Rangers	–		Nick Bonino	C	L	35	2023	Hartford, Connecticut	Canada
+328	Rangers	72		Filip Chytil	C	L	24	2017	Kroměříž, Czech Republic	Sweden
+329	Rangers	23		Adam Fox	D	R	25	2019	Jericho, New York	United States
+330	Rangers	21		Barclay Goodrow (A)	C/RW	L	30	2021	Toronto, Ontario	Canada
+331	Rangers	–		Erik Gustafsson	D	L	31	2023	Nynäshamn, Sweden	Sweden
+332	Rangers	5		Ben Harpur	D	L	28	2022	Hamilton, Ontario	Canada
+333	Rangers	24		Kaapo Kakko	RW	L	22	2019	Turku, Finland	Canada
+334	Rangers	20		Chris Kreider (A)	LW	L	32	2009	Boxford, Massachusetts	United States
+335	Rangers	13		Alexis Lafreniere	LW	L	21	2020	Saint-Eustache, Quebec	United States
+336	Rangers	55		Ryan Lindgren	D	L	25	2018	Minneapolis, Minnesota	Canada
+337	Rangers	–		Connor Mackey	D	L	26	2023	Tower Lakes, Illinois	United States
+338	Rangers	79		K'Andre Miller	D	L	23	2018	Saint Paul, Minnesota	United States
+339	Rangers	10		Artemi Panarin (A)	LW	R	31	2019	Korkino, Soviet Union	Canada
+340	Rangers	–		Tyler Pitlick	C	R	31	2023	Minneapolis, Minnesota	United States
+341	Rangers	32		Jonathan Quick	G	L	37	2023	Milford, Connecticut	United States
+342	Rangers	4		Braden Schneider	D	R	21	2020	Prince Albert, Saskatchewan	Canada
+343	Rangers	31		Igor Shesterkin	G	L	27	2014	Moscow, Russia	Canada
+344	Rangers	16		Vincent Trocheck	C	R	30	2022	Pittsburgh, Pennsylvania	Russia
+345	Rangers	8		Jacob Trouba (C)	D	R	29	2019	Rochester, Michigan	United States
+346	Rangers	26		Jimmy Vesey	LW	L	30	2022	Boston, Massachusetts	Czech Republic
+347	Rangers	17		Blake Wheeler	RW	R	37	2023	Plymouth, Minnesota	Russia
+348	Rangers	93		Mika Zibanejad (A)	C	R	30	2016	Huddinge, Sweden	Russia
+349	Flyers	17		Wade Allison	RW	R	25	2016	Myrtle, Manitoba	United States
+350	Flyers	89		Cam Atkinson 	RW	R	34	2021	Riverside, Connecticut	Injured Reserve
+351	Flyers	27		Noah Cates	LW	L	24	2017	Stillwater, Minnesota	Canada
+352	Flyers	14		Sean Couturier (A) 	C	L	30	2011	Phoenix, Arizona	United States
+353	Flyers	44		Nicolas Deslauriers	LW	L	32	2022	LaSalle, Quebec	Czech Republic
+354	Flyers	94		Ryan Ellis 	D	R	32	2021	Hamilton, Ontario	United States
+355	Flyers	86		Joel Farabee	LW	L	23	2018	Cicero, New York	Canada
+356	Flyers	48		Morgan Frost	C	L	24	2017	Aurora, Ontario	Sweden
+357	Flyers	79		Carter Hart	G	L	25	2016	Sherwood Park, Alberta	Canada
+358	Flyers	19		Garnet Hathaway	RW	R	31	2023	Naples, Florida	Finland
+359	Flyers	11		Travis Konecny	RW	R	26	2015	London, Ontario	United States
+360	Flyers	58		Tanner Laczynski	C	R	26	2016	Shorewood, Illinois	Canada
+361	Flyers	21		Scott Laughton (A)	C	L	29	2012	Oakville, Ontario	United States
+362	Flyers	40		Cal Petersen	G	R	28	2023	Waterloo, Iowa	United States
+363	Flyers	25		Ryan Poehling	C/LW	L	24	2023	Lakeville, Minnesota	United States
+364	Flyers	55		Rasmus Ristolainen	D	R	28	2021	Turku, Finland	Russia
+365	Flyers	32		Felix Sandstrom	G	L	26	2015	Gävle, Sweden	United States
+366	Flyers	6		Travis Sanheim	D	L	27	2014	Elkhorn, Manitoba	United States
+367	Flyers	24		Nick Seeler	D	L	30	2021	Eden Prairie, Minnesota	Canada
+368	Flyers	18		Marc Staal	D	L	36	2023	Thunder Bay, Ontario	Russia
+369	Flyers	74		Owen Tippett	RW	R	24	2022	Peterborough, Ontario	United States
+370	Flyers	26		Sean Walker	D	R	28	2023	Keswick, Ontario	United States
+371	Flyers	8		Cameron York	D	L	22	2019	Anaheim, California	United States
+372	Penguins	55		Noel Acciari	C	R	31	2023	Johnston, Rhode Island	United States
+373	Penguins	77		Jeff Carter	C/RW	R	38	2021	London, Ontario	Sweden
+374	Penguins	87		Sidney Crosby (C)	C	L	36	2005	Cole Harbour, Nova Scotia	Canada
+375	Penguins	20		Lars Eller	C	L	34	2023	Rødovre, Denmark	United States
+376	Penguins	27		Ryan Graves	D	L	28	2023	Yarmouth, Nova Scotia	Injured Reserve
+377	Penguins	59		Jake Guentzel	LW	L	28	2013	Omaha, Nebraska	United States
+378	Penguins	–		Libor Hajek (PTO)	D	L	25	2018	Smrček, Czech Republic	Canada
+379	Penguins	13		Vinnie Hinostroza	C	L	29	2023	Melrose Park, Illinois	Injured Reserve
+380	Penguins	35		Tristan Jarry	G	L	28	2013	Surrey, British Columbia	Canada
+381	Penguins	18		Andreas Johnsson	LW	L	28	2023	Gävle, Sweden	Canada
+382	Penguins	73		Pierre-Olivier Joseph	D	L	24	2019	Laval, Quebec	Injured Reserve
+383	Penguins	65		Erik Karlsson	D	R	33	2023	Landsbro, Sweden	United States
+384	Penguins	58		Kris Letang (A)	D	R	36	2005	Montreal, Quebec	Canada
+385	Penguins	71		Evgeni Malkin (A)	C	L	37	2004	Magnitogorsk, Soviet Union	Canada
+386	Penguins	39		Alex Nedeljkovic	G	L	27	2023	Parma, Ohio	United States
+387	Penguins	83		Matt Nieto	LW	L	30	2023	Long Beach, California	Canada
+388	Penguins	11		Alexander Nylander	RW	R	25	2022	Calgary, Alberta	United States
+389	Penguins	10		Drew O'Connor	LW/C	L	25	2020	Chatham, New Jersey	Canada
+390	Penguins	28		Marcus Pettersson 	D	L	27	2018	Skellefteå, Sweden	United States
+391	Penguins	16		Rem Pitlick	C	L	26	2023	Ottawa, Ontario	United States
+392	Penguins	–		Austin Wagner (PTO)	LW	L	26	2023	Calgary, Alberta	Finland
+393	Capitals	27		Alexander Alexeyev	D	L	23	2018	St. Petersburg, Russia	Sweden
+394	Capitals	96		Nicolas Aube-Kubel	RW	R	27	2022	Slave Lake, Alberta	Canada
+395	Capitals	19		Nicklas Backstrom (A)	C	L	35	2006	Gävle, Sweden	United States
+396	Capitals	74		John Carlson (A)	D	R	33	2008	Natick, Massachusetts	Canada
+397	Capitals	26		Nic Dowd	C	R	33	2018	Huntsville, Alabama	Canada
+398	Capitals	6		Joel Edmundson	D	L	30	2023	Brandon, Manitoba	Canada
+399	Capitals	42		Martin Fehervary	D	L	23	2018	Bratislava, Slovakia	United States
+400	Capitals	3		Nick Jensen	D	R	32	2019	Rogers, Minnesota	United States
+401	Capitals	35		Darcy Kuemper	G	L	33	2022	Saskatoon, Saskatchewan	Canada
+402	Capitals	92		Evgeny Kuznetsov	C	L	31	2010	Chelyabinsk, Russia	Canada
+403	Capitals	79		Charlie Lindgren	G	R	29	2022	Lakeville, Minnesota	Denmark
+404	Capitals	39		Anthony Mantha	RW	L	28	2021	Longueuil, Quebec	Canada
+405	Capitals	15		Sonny Milano	LW	L	27	2022	Massapequa, New York	United States
+406	Capitals	77		T. J. Oshie	RW	R	36	2015	Mount Vernon, Washington	Czech Republic
+407	Capitals	8		Alexander Ovechkin (C)	LW	R	37	2004	Moscow, Soviet Union	United States
+408	Capitals	67		Max Pacioretty 	LW	L	34	2023	New Canaan, Connecticut	Canada
+409	Capitals	–		Matthew Phillips	RW	R	25	2023	Calgary, Alberta	Sweden
+410	Capitals	–		Chase Priskie	D	R	27	2023	Pembroke Pines, Florida	Canada
+411	Capitals	38		Rasmus Sandin	D	L	23	2023	Uppsala, Sweden	Sweden
+412	Capitals	17		Dylan Strome	C	L	26	2022	Mississauga, Ontario	Canada
+413	Capitals	57		Trevor van Riemsdyk	D	R	32	2020	Middletown, New Jersey	Russia
+414	Capitals	43		Tom Wilson	RW	R	29	2012	Toronto, Ontario	United States

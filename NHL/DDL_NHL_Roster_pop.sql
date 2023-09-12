@@ -1,0 +1,21 @@
+/****** populate the NHL Roster  ******/
+
+INSERT INTO AgilitySports.NHL.Roster ( [Team]
+      ,[Number]
+      ,[Name]
+      ,[Position]
+      ,[Handed]
+      ,[Age]
+      ,[Drafted]
+      ,[BirthPlace]
+      ,[BirthCountry])
+SELECT [Team]
+      ,[Number]
+      ,[Name]
+      ,[Position]
+      ,[Handed]
+      ,[Age]
+      ,[Drafted]
+      ,[BirthPlace]
+      ,[BirthCountry]
+  FROM [Xfer].[NHL].[Roster]
