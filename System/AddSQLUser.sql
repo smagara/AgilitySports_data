@@ -2,8 +2,11 @@
 -- Create Azure SQL User account for AgilitySports API data access
 -- =============================================================================================================================
 
---Use AgilitySports2;
+/* drop the old SQL login with password */
+DROP USER [agility_user]; -- run in AgilitySports2  
+DROP LOGIN [agility_user_login]; -- run in master
 
-CREATE USER [agility_user] WITH PASSWORD = 'jfZwV8Ki4P4I5w', DEFAULT_SCHEMA=[MLB];
-
-ALTER ROLE db_datareader ADD MEMBER [agility_user];
+/* Create a new SQL login from an Azure managed identity for passwordless access */
+CREATE LOGIN AgilitySQLUserReadonly  FROM EXTERNAL PROVIDER; -- run in Master
+CREATE USER AgilitySQLUserReadonly   FROM EXTERNAL PROVIDER; -- run in AgilitySports2
+ALTER ROLE db_datareader ADD MEMBER AgilitySQLUserReadonly ; -- run in AgilitySports2
