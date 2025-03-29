@@ -3,4 +3,4 @@
 
 SELECT Sport, PositionCode, PositionDesc
 FROM dbo.PositionCodes
-ORDER BY 1, 2
+ORDER BY Sport, PositionCode
