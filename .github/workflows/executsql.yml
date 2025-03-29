@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the repository with full history
+      # Step 1: Checkout the repository to access the files
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
@@ -34,6 +34,10 @@ jobs:
           AZURE_SQL_SERVER: ${{ secrets.AZURE_SQL_SERVER }}
           AZURE_SQL_DATABASE: ${{ secrets.AZURE_SQL_DATABASE }}
         run: |
+          # Initialize a log file
+          LOG_FILE="execution_log.txt"
+          echo "SQL Execution Log - $(date)" > $LOG_FILE
+
           # Get the list of changed files
           if git rev-parse HEAD~1 >/dev/null 2>&1; then
             CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD)
@@ -45,7 +49,15 @@ jobs:
           # Filter for .sql files and execute them
           for file in $CHANGED_FILES; do
             if [[ $file == *.sql ]]; then
-              echo "Executing $file"
-              /opt/mssql-tools/bin/sqlcmd -S $AZURE_SQL_SERVER -d $AZURE_SQL_DATABASE -U $AZURE_SQL_USER -P $AZURE_SQL_PASSWORD -i "$file"
+              echo "Executing $file" | tee -a $LOG_FILE
+              /opt/mssql-tools/bin/sqlcmd -S $AZURE_SQL_SERVER -d $AZURE_SQL_DATABASE -U $AZURE_SQL_USER -P $AZURE_SQL_PASSWORD -i "$file" >> $LOG_FILE 2>&1
+              if [ $? -eq 0 ]; then
+                echo "Execution of $file succeeded." | tee -a $LOG_FILE
+              else
+                echo "Execution of $file failed." | tee -a $LOG_FILE
+              fi
             fi
           done
+
+          # Display the log file in the workflow logs
+          cat $LOG_FILE
