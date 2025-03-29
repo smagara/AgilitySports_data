@@ -1,0 +1,40 @@
+name: Execute Azure SQL Code
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-sql:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository to access the files
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Step 2: Install SQL tools (e.g., sqlcmd)
+      - name: Install SQL tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y mssql-tools unixodbc-dev
+
+      # Step 3: Detect changed SQL files from this merge and execute them.  If order matters, do separate PRs.
+      - name: Execute changed SQL scripts
+        env:
+          AZURE_SQL_USER: ${{ secrets.AZURE_SQL_USER }}
+          AZURE_SQL_PASSWORD: ${{ secrets.AZURE_SQL_PASSWORD }}
+          AZURE_SQL_SERVER: ${{ secrets.AZURE_SQL_SERVER }}
+          AZURE_SQL_DATABASE: ${{ secrets.AZURE_SQL_DATABASE }}
+        run: |
+          # Get the list of changed files in the merge
+          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD)
+
+          # Filter for .sql files and execute them
+          for file in $CHANGED_FILES; do
+            if [[ $file == *.sql ]]; then
+              echo "Executing $file"
+              /opt/mssql-tools/bin/sqlcmd -S $AZURE_SQL_SERVER -d $AZURE_SQL_DATABASE -U $AZURE_SQL_USER -P $AZURE_SQL_PASSWORD -i "$file"
+            fi
+          done
