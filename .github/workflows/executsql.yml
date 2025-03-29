@@ -14,13 +14,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Step 2: Install SQL tools (e.g., sqlcmd)
+      # Step 2: Add Microsoft SQL Server tools repository and install SQL tools
       - name: Install SQL tools
         run: |
+          # Add Microsoft repository for SQL Server tools
+          curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+          curl https://packages.microsoft.com/config/ubuntu/20.04/prod.list | sudo tee /etc/apt/sources.list.d/mssql-release.list
           sudo apt-get update
-          sudo apt-get install -y mssql-tools unixodbc-dev
+          sudo ACCEPT_EULA=Y apt-get install -y mssql-tools unixodbc-dev
 
-      # Step 3: Detect changed SQL files from this merge and execute them.  If order matters, do separate PRs.
+          # Add sqlcmd to PATH for easier usage
+          echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+          source ~/.bashrc
+
+      # Step 3: Detect changed SQL files and execute them
       - name: Execute changed SQL scripts
         env:
           AZURE_SQL_USER: ${{ secrets.AZURE_SQL_USER }}
