@@ -10,20 +10,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the repository to access the files
+      # Step 1: Checkout the repository with full history
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # Fetch the full history to ensure HEAD~1 is valid
 
-      # Step 2: Add Microsoft SQL Server tools repository and install SQL tools
+      # Step 2: Install SQL tools
       - name: Install SQL tools
         run: |
-          # Add Microsoft repository for SQL Server tools
           curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
           curl https://packages.microsoft.com/config/ubuntu/20.04/prod.list | sudo tee /etc/apt/sources.list.d/mssql-release.list
           sudo apt-get update
           sudo ACCEPT_EULA=Y apt-get install -y mssql-tools unixodbc-dev
-
-          # Add sqlcmd to PATH for easier usage
           echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
           source ~/.bashrc
 
@@ -35,8 +34,13 @@ jobs:
           AZURE_SQL_SERVER: ${{ secrets.AZURE_SQL_SERVER }}
           AZURE_SQL_DATABASE: ${{ secrets.AZURE_SQL_DATABASE }}
         run: |
-          # Get the list of changed files in the merge
-          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD)
+          # Get the list of changed files
+          if git rev-parse HEAD~1 >/dev/null 2>&1; then
+            CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD)
+          else
+            # If no previous commit, consider all files in the repository
+            CHANGED_FILES=$(git ls-files)
+          fi
 
           # Filter for .sql files and execute them
           for file in $CHANGED_FILES; do
