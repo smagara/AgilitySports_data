@@ -6,7 +6,7 @@
 	Remerging because the SQL CI/CD GitHub action was disabled for the database normalization.
 */
 
-Use AgilitySports;
+Use AgilitySports2;
 GO
 
 BEGIN TRAN
