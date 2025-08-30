@@ -7,7 +7,7 @@
 
 */
 
-Use AgilitySports;
+Use AgilitySports2;
 GO
 
 BEGIN TRAN
