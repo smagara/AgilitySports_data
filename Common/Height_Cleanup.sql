@@ -2,6 +2,9 @@
 	Update height fields to eliminate interior spaces.
 	The formats were not consistent between sports.
 	New format is 5'11" not 5' 11", for example.
+
+	Remerging because the SQL CI/CD GitHub action was disabled for the database normalization.
+
 */
 
 Use AgilitySports;
