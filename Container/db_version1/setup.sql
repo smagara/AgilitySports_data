@@ -1,0 +1,11 @@
+:r .\database\001-create-database.sql
+:r .\security\002-security.sql
+:r .\schema\003-schema.sql
+:r .\schema\003a-sprocs.sql
+:r .\seed\004-seed-common-data.sql
+:r .\seed\005-seed-dev-data-NBA.sql
+:r .\seed\006-seed-dev-data-NFL.sql
+:r .\seed\007-seed-dev-data-NHL.sql
+:r .\seed\008-seed-dev-data-MLB.sql
+:r .\seed\009-seed-dev-data-PGA.sql
+:r .\database\099-final-db-cleanup.sql
