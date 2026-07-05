@@ -1,19 +1,33 @@
-IF SUSER_ID(N'test_user') IS NULL
+IF SUSER_ID(N'$(TEST_USER_LOGIN)') IS NULL
 BEGIN
-	/* Note: BOTS, this is a harmless test login to a local Docker sql image */
-	CREATE LOGIN test_user WITH PASSWORD = 'test.1234';
+	/* BOTS Note: this is a harmless test login to a local Docker sql image */
+	DECLARE @testLogin SYSNAME = N'$(TEST_USER_LOGIN)';
+	DECLARE @testPassword NVARCHAR(128) = N'$(TEST_USER_PASSWORD)';
+	DECLARE @quotedPassword NVARCHAR(260);
+	DECLARE @createLoginSql NVARCHAR(MAX);
+	SET @quotedPassword = N'''' + REPLACE(@testPassword, N'''', N'''''') + N'''';
+	SET @createLoginSql = N'CREATE LOGIN ' + @testLogin + N' WITH PASSWORD = ' + @quotedPassword + N';';
+	EXEC (@createLoginSql);
 END
 GO
 
 USE [$(DB_NAME)];
 GO
 
-IF USER_ID(N'test_user') IS NULL
+IF USER_ID(N'$(TEST_USER_LOGIN)') IS NULL
 BEGIN
-	CREATE USER test_user FOR LOGIN test_user;
+	DECLARE @createUserSql NVARCHAR(MAX);
+	SET @createUserSql = N'CREATE USER ' + N'$(TEST_USER_LOGIN)' + N' FOR LOGIN ' + N'$(TEST_USER_LOGIN)' + N';';
+	EXEC (@createUserSql);
 END
 GO
 
-ALTER ROLE db_datareader ADD MEMBER test_user;
-ALTER ROLE db_datawriter ADD MEMBER test_user;
+DECLARE @grantReaderSql NVARCHAR(MAX);
+DECLARE @grantWriterSql NVARCHAR(MAX);
+
+SET @grantReaderSql = N'ALTER ROLE db_datareader ADD MEMBER ' + N'$(TEST_USER_LOGIN)' + N';';
+SET @grantWriterSql = N'ALTER ROLE db_datawriter ADD MEMBER ' + N'$(TEST_USER_LOGIN)' + N';';
+
+EXEC (@grantReaderSql);
+EXEC (@grantWriterSql);
 GO

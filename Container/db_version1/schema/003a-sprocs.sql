@@ -28,7 +28,13 @@ SELECT
 END
 
 GO
-GRANT EXEC ON [MLB].[attendanceReportSproc] to test_user;
+IF USER_ID(N'$(TEST_USER_LOGIN)') IS NOT NULL
+BEGIN
+	DECLARE @grantExecSql NVARCHAR(MAX);
+	SET @grantExecSql = N'GRANT EXEC ON [MLB].[attendanceReportSproc] TO [' + N'$(TEST_USER_LOGIN)' + N'];';
+	PRINT @grantExecSql;
+	EXEC (@grantExecSql);
+END
 GRANT EXEC ON [MLB].[attendanceReportSproc] to public;
 GO
 

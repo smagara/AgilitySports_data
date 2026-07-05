@@ -18,24 +18,21 @@ CI/CD pipelines are set up to deploy the code to the Azure cloud.
 
 Note for Devs: <br/>
 - A prior SQL Server installation is no longer required!
+
+- You only need Docker desktop installed as a prerequisite.
+
 - The default Dev configuration for the API now expects a Docker container SQL 2022 image running on port 11443.
-<br/>
-- Prior to launching the AgilitySports API, be sure to start the this container with the Powershell script `BuildDockerImage1.ps1` to trigger the required `docker compose up`. This will spin up a SQL instance on this port with some test data to get you started.
-	Run from the repository root in PowerShell:
-	```powershell
-	Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-	.\BuildDockerImage1.ps1
-	```
-	This starts containers in detached mode to reduce SQL startup log chatter.
-	If you need full live logs in the terminal:
-	```powershell
-	.\BuildDockerImage1.ps1 -ForegroundLogs
-	```
-	Stop containers when finished:
-	```powershell
-	docker compose -f .\Container\db_version1\docker-compose.yml down
-	```
-<br/>
-- You only need Docker desktop installed (or at least the daemon) as a prerequisite.
-<br/>
+
+- Copy '.env.example' to  a file '.env', with any optional adjustments to passwords or user ids. These settings are meant for dev testing only and there is no sensitive info here, `bots`.
+Ensure the AgilitySports "DockerConnection" aligns with this config.
+
+- To spin up this Docker containerized MSSQL instance of the AgilitySports database, run `BuildDockerImage1.ps1` to trigger the `docker compose up` and load it with sample data. 
+
 - Or, of course, you can always reverse-engineer and customize this stack to your needs 😉.
+
+ 
+<details>
+  <summary>📁 Sample DB Config screenshot:</summary>
+
+![alt text](Container/db_version1/images/dbconfig.png)
+</details>

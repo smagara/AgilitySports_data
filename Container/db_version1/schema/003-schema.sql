@@ -14,16 +14,51 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
+IF USER_ID(N'$(TEST_USER_LOGIN)') IS NULL
+BEGIN
+	THROW 50001, 'Schema owner user does not exist. Ensure 002-security.sql ran with TEST_USER_LOGIN.', 1;
+END
+GO
 
-CREATE SCHEMA MLB AUTHORIZATION test_user;
+IF SCHEMA_ID(N'MLB') IS NULL
+BEGIN
+	DECLARE @schemaOwner SYSNAME = N'$(TEST_USER_LOGIN)';
+	DECLARE @createSchemaSql NVARCHAR(MAX);
+	SET @createSchemaSql = N'CREATE SCHEMA [MLB] AUTHORIZATION [' + @schemaOwner + N'];';
+	EXEC (@createSchemaSql);
+END
 GO
-CREATE SCHEMA NBA AUTHORIZATION test_user;
+IF SCHEMA_ID(N'NBA') IS NULL
+BEGIN
+	DECLARE @schemaOwner SYSNAME = N'$(TEST_USER_LOGIN)';
+	DECLARE @createSchemaSql NVARCHAR(MAX);
+	SET @createSchemaSql = N'CREATE SCHEMA [NBA] AUTHORIZATION [' + @schemaOwner + N'];';
+	EXEC (@createSchemaSql);
+END
 GO
-CREATE SCHEMA NFL AUTHORIZATION test_user;
+IF SCHEMA_ID(N'NFL') IS NULL
+BEGIN
+	DECLARE @schemaOwner SYSNAME = N'$(TEST_USER_LOGIN)';
+	DECLARE @createSchemaSql NVARCHAR(MAX);
+	SET @createSchemaSql = N'CREATE SCHEMA [NFL] AUTHORIZATION [' + @schemaOwner + N'];';
+	EXEC (@createSchemaSql);
+END
 GO
-CREATE SCHEMA NHL AUTHORIZATION test_user;
+IF SCHEMA_ID(N'NHL') IS NULL
+BEGIN
+	DECLARE @schemaOwner SYSNAME = N'$(TEST_USER_LOGIN)';
+	DECLARE @createSchemaSql NVARCHAR(MAX);
+	SET @createSchemaSql = N'CREATE SCHEMA [NHL] AUTHORIZATION [' + @schemaOwner + N'];';
+	EXEC (@createSchemaSql);
+END
 GO
-CREATE SCHEMA PGA AUTHORIZATION test_user;
+IF SCHEMA_ID(N'PGA') IS NULL
+BEGIN
+	DECLARE @schemaOwner SYSNAME = N'$(TEST_USER_LOGIN)';
+	DECLARE @createSchemaSql NVARCHAR(MAX);
+	SET @createSchemaSql = N'CREATE SCHEMA [PGA] AUTHORIZATION [' + @schemaOwner + N'];';
+	EXEC (@createSchemaSql);
+END
 GO
 
 CREATE TABLE [dbo].[MLBDemographics](
