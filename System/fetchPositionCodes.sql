@@ -2,5 +2,5 @@
 -- Test CI/CD SQL pipeline
 
 SELECT Sport, PositionCode, PositionDesc
-FROM dbo.PositionCodes
+FROM reference.PositionCodes
 ORDER BY Sport, PositionCode
