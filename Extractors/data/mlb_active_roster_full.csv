@@ -1,0 +1,778 @@
+playerID,sportCode,team_id,team_abbrev,team_name,positionCode,firstName,lastName,dateOfBirth,height,weight,number,college,birthCountry,birthCityState,draftYear,playerID,bats,throws,battingAverage,homeRuns,ERA
+4926295,MLB,29,ARI,Diamondbacks,RP,Philip,Abner,2002-05-05,"6' 1""",230.0,50,Florida,United States,"Charlotte, NC",2025,4926295,L,L,NULL,NULL,NULL
+5123768,MLB,29,ARI,Diamondbacks,SP,Mitch,Bratt,2003-07-03,"6' 1""",190.0,60,NULL,Canada,"Newmarket, ON",2026,5123768,L,L,NULL,NULL,NULL
+35277,MLB,29,ARI,Diamondbacks,RP,Taylor,Clarke,1993-05-13,"6' 3""",210.0,45,Charleston,United States,"Ashburn, VA",2019,35277,R,R,NULL,NULL,NULL
+5202600,MLB,29,ARI,Diamondbacks,RP,Brandyn,Garcia,2000-05-27,"6' 4""",235.0,55,NULL,United States,"Newport, RI",2025,5202600,L,L,NULL,NULL,NULL
+41432,MLB,29,ARI,Diamondbacks,RP,Kevin,Ginkel,1994-03-24,"6' 4""",235.0,37,Southwestern University,United States,"San Diego, CA",2019,41432,L,R,NULL,NULL,NULL
+4415753,MLB,29,ARI,Diamondbacks,RP,Drey,Jameson,1997-08-17,"6' 0""",165.0,99,Ball State,United States,"Greenfield, IN",2022,4415753,R,R,NULL,NULL,NULL
+32968,MLB,29,ARI,Diamondbacks,SP,Merrill,Kelly,1988-10-14,"6' 2""",202.0,29,Arizona State,United States,"Houston, TX",2019,32968,R,R,NULL,NULL,NULL
+39807,MLB,29,ARI,Diamondbacks,RP,Jonathan,Loaisiga,1994-11-02,"5' 11""",195.0,43,NULL,Nicaragua,Managua,2018,39807,R,R,NULL,NULL,NULL
+4722925,MLB,29,ARI,Diamondbacks,RP,Juan,Morillo,1999-03-19,"6' 1""",150.0,62,NULL,Venezuela,Maracaibo,2025,4722925,R,R,NULL,NULL,NULL
+4721302,MLB,29,ARI,Diamondbacks,RP,Brandon,Pfaadt,1998-10-15,"6' 4""",220.0,32,Bellarmine,United States,"Louisville, KY",2023,4721302,R,R,NULL,NULL,NULL
+32675,MLB,29,ARI,Diamondbacks,SP,Eduardo,Rodriguez,1993-04-07,"6' 2""",231.0,57,NULL,Venezuela,Valencia,2015,32675,L,L,NULL,NULL,NULL
+35009,MLB,29,ARI,Diamondbacks,RP,Paul,Sewald,1990-05-26,"6' 3""",219.0,38,San Diego,United States,"Las Vegas, NV",2017,35009,R,R,NULL,NULL,NULL
+38628,MLB,29,ARI,Diamondbacks,RP,Ryan,Thompson,1992-06-26,"6' 5""",210.0,81,NULL,United States,"Turner, OR",2020,38628,R,R,NULL,NULL,NULL
+32046,MLB,29,ARI,Diamondbacks,C,James,McCann,1990-06-13,"6' 2""",235.0,8,Arkansas,United States,"Santa Barbara, CA",2014,32046,R,R,NULL,NULL,NULL
+42464,MLB,29,ARI,Diamondbacks,C,Gabriel,Moreno,2000-02-14,"5' 9""",195.0,14,NULL,Venezuela,Barquisimeto,2022,42464,R,R,NULL,NULL,NULL
+31261,MLB,29,ARI,Diamondbacks,3B,Nolan,Arenado,1991-04-16,"6' 2""",215.0,28,NULL,United States,"Newport Beach, CA",2013,31261,R,R,NULL,NULL,NULL
+32512,MLB,29,ARI,Diamondbacks,2B,Ketel,Marte,1993-10-12,"6' 0""",210.0,4,NULL,Dominican Republic,Nizao,2015,32512,B,R,NULL,NULL,NULL
+41355,MLB,29,ARI,Diamondbacks,SS,Geraldo,Perdomo,1999-10-22,"6' 2""",203.0,2,NULL,Dominican Republic,Santo Domingo,2021,41355,B,R,NULL,NULL,NULL
+32985,MLB,29,ARI,Diamondbacks,1B,Ildemaro,Vargas,1991-07-16,"5' 11""",202.0,6,NULL,Venezuela,Caripito,2017,32985,B,R,NULL,NULL,NULL
+41259,MLB,29,ARI,Diamondbacks,CF,Jorge,Barrosa,2001-02-17,"5' 6""",165.0,1,NULL,Venezuela,Puerto Cabello,2024,41259,B,L,NULL,NULL,NULL
+42404,MLB,29,ARI,Diamondbacks,RF,Corbin,Carroll,2000-08-21,"5' 10""",165.0,7,NULL,United States,"Seattle, WA",2022,42404,L,L,NULL,NULL,NULL
+36040,MLB,29,ARI,Diamondbacks,LF,Lourdes,Gurriel Jr.,1993-10-10,"6' 3""",215.0,12,NULL,Cuba,Sancti Spíritus,2018,36040,R,R,NULL,NULL,NULL
+31870,MLB,29,ARI,Diamondbacks,LF,Max,Kepler,1993-02-10,"6' 4""",225.0,22,NULL,Germany,Berlin,2015,31870,L,L,NULL,NULL,NULL
+4345192,MLB,29,ARI,Diamondbacks,LF,Tim,Tawa,1999-04-07,"5' 11""",196.0,13,Stanford,United States,"West Linn, OR",2025,4345192,R,R,NULL,NULL,NULL
+4837403,MLB,29,ARI,Diamondbacks,LF,Tommy,Troy,2002-01-17,"5' 9""",197.0,9,Stanford,United States,"San Jose, CA",2026,4837403,R,R,NULL,NULL,NULL
+5129344,MLB,29,ARI,Diamondbacks,CF,Ryan,Waldschmidt,2002-10-07,"6' 0""",205.0,15,Kentucky,United States,"Sarasota, FL",2026,5129344,R,R,NULL,NULL,NULL
+42211,MLB,11,ATH,Athletics,RP,Elvis,Alvarado,1999-02-23,"6' 6""",253.0,37,NULL,Dominican Republic,Sabaneta,2025,42211,R,R,NULL,NULL,NULL
+4620704,MLB,11,ATH,Athletics,RP,Mason,Barnett,2000-11-07,"6' 0""",218.0,63,NULL,United States,"Kennesaw, GA",2025,4620704,R,R,NULL,NULL,NULL
+40934,MLB,11,ATH,Athletics,SP,Aaron,Civale,1995-06-12,"6' 1""",245.0,45,NULL,United States,"East Windsor, CT",2019,40934,R,R,NULL,NULL,NULL
+4414002,MLB,11,ATH,Athletics,SP,J.T.,Ginn,1999-05-20,"6' 2""",200.0,35,Mississippi State,United States,"Flowood, MS",2024,4414002,R,R,NULL,NULL,NULL
+41364,MLB,11,ATH,Athletics,RP,Hogan,Harris,1996-12-26,"6' 3""",230.0,36,Lafayette,United States,"Lafayette, LA",2023,41364,R,L,NULL,NULL,NULL
+5023852,MLB,11,ATH,Athletics,SP,Gage,Jump,2003-04-12,"6' 0""",200.0,61,NULL,United States,"Aliso Viejo, CA",2026,5023852,L,L,NULL,NULL,NULL
+36202,MLB,11,ATH,Athletics,RP,Mark,Leiter Jr.,1991-03-13,"6' 0""",210.0,38,NJIT,United States,"Fort Lauderdale, FL",2017,36202,R,R,NULL,NULL,NULL
+42239,MLB,11,ATH,Athletics,SP,Jacob,Lopez,1998-03-11,"6' 4""",220.0,57,NULL,United States,"Granada Hills, CA",2023,42239,L,L,NULL,NULL,NULL
+40949,MLB,11,ATH,Athletics,RP,Luis,Medina,1999-05-03,"6' 1""",175.0,46,NULL,Dominican Republic,Nagua,2023,40949,R,R,NULL,NULL,NULL
+4418686,MLB,11,ATH,Athletics,RP,Jack,Perkins,1999-12-26,"6' 1""",220.0,50,Indiana,United States,"Kokomo, IN",2025,4418686,R,R,NULL,NULL,NULL
+35397,MLB,11,ATH,Athletics,SP,Jeffrey,Springs,1992-09-20,"6' 3""",218.0,59,App State,United States,"Belmont, NC",2018,35397,L,L,NULL,NULL,NULL
+4307467,MLB,11,ATH,Athletics,RP,Justin,Sterner,1996-08-29,"6' 1""",215.0,60,BYU,United States,"La Jolla, CA",2024,4307467,R,R,NULL,NULL,NULL
+40981,MLB,11,ATH,Athletics,RP,Jose,Suarez,1998-01-03,"5' 10""",225.0,54,NULL,Venezuela,Naguanagua,2019,40981,L,L,NULL,NULL,NULL
+33842,MLB,11,ATH,Athletics,C,Jonah,Heim,1995-06-27,"6' 4""",220.0,15,NULL,United States,"Buffalo, NY",2020,33842,B,R,NULL,NULL,NULL
+42598,MLB,11,ATH,Athletics,C,Shea,Langeliers,1997-11-18,"5' 11""",205.0,23,Baylor,United States,"Portland, OR",2022,42598,R,R,NULL,NULL,NULL
+41441,MLB,11,ATH,Athletics,C,Brian,Serven,1995-05-05,"6' 0""",207.0,10,NULL,United States,"Palm Desert, CA",2022,41441,R,R,NULL,NULL,NULL
+5023768,MLB,11,ATH,Athletics,SS,Joshua,Kuroda-Grauer,2003-01-31,"5' 10""",205.0,44,NULL,United States,"New Brunswick, NJ",2026,5023768,R,R,NULL,NULL,NULL
+33900,MLB,11,ATH,Athletics,2B,Jeff,McNeil,1992-04-08,"6' 0""",195.0,22,Long Beach State,United States,"Santa Barbara, CA",2018,33900,L,R,NULL,NULL,NULL
+34534,MLB,11,ATH,Athletics,1B,Joey,Meneses,1992-05-06,"6' 4""",235.0,13,NULL,Mexico,Culiacan,2022,34534,R,R,NULL,NULL,NULL
+4424289,MLB,11,ATH,Athletics,SS,Alika,Williams,1999-03-12,"6' 1""",183.0,12,Arizona State,United States,"San Diego, CA",2023,4424289,R,R,NULL,NULL,NULL
+4719300,MLB,11,ATH,Athletics,SS,Jacob,Wilson,2002-03-30,"6' 2""",190.0,5,Grand Canyon,United States,"Los Angeles, CA",2024,4719300,R,R,NULL,NULL,NULL
+5080756,MLB,11,ATH,Athletics,CF,Henry,Bolte,2003-08-04,"6' 3""",195.0,33,NULL,United States,"San Francisco, CA",2026,5080756,R,R,NULL,NULL,NULL
+4917919,MLB,11,ATH,Athletics,RF,Lawrence,Butler,2000-07-10,"6' 3""",210.0,4,NULL,United States,"Burlington, NJ",2023,4917919,L,R,NULL,NULL,NULL
+41595,MLB,11,ATH,Athletics,RF,Carlos,Cortes,1997-06-30,"5' 7""",197.0,26,NULL,United States,"Orlando, FL",2025,41595,L,B,NULL,NULL,NULL
+4686066,MLB,11,ATH,Athletics,LF,Tyler,Soderstrom,2001-11-24,"6' 2""",200.0,21,NULL,United States,"Turlock, CA",2023,4686066,L,R,NULL,NULL,NULL
+4662616,MLB,11,ATH,Athletics,RF,Colby,Thomas,2001-01-26,"5' 10""",190.0,32,NULL,United States,"Valdosta, GA",2025,4662616,R,R,NULL,NULL,NULL
+4416462,MLB,15,ATL,Braves,RP,Dylan,Dodd,1998-06-06,"6' 2""",210.0,46,Southeast Missouri State,United States,"Danville, IL",2023,4416462,L,L,NULL,NULL,NULL
+4301067,MLB,15,ATL,Braves,SP,Bryce,Elder,1999-05-19,"6' 2""",220.0,55,Texas,United States,"Decatur, TX",2022,4301067,R,R,NULL,NULL,NULL
+5291189,MLB,15,ATL,Braves,RP,Didier,Fuentes,2005-06-17,"6' 0""",170.0,72,NULL,Colombia,Tolu Sucre,2025,5291189,R,R,NULL,NULL,NULL
+33840,MLB,15,ATL,Braves,SP,Grant,Holmes,1996-03-22,"6' 0""",226.0,66,NULL,United States,"Conway, SC",2024,33840,L,R,NULL,NULL,NULL
+33618,MLB,15,ATL,Braves,RP,Raisel,Iglesias,1990-01-04,"6' 2""",190.0,26,NULL,Cuba,Isla de la Juventud,2015,33618,R,R,NULL,NULL,NULL
+34166,MLB,15,ATL,Braves,RP,Tyler,Kinley,1991-01-31,"6' 4""",220.0,45,Barry,United States,"Plantation, FL",2018,34166,R,R,NULL,NULL,NULL
+41455,MLB,15,ATL,Braves,RP,Dylan,Lee,1994-08-01,"6' 3""",214.0,52,Fresno State,United States,"Dinuba, CA",2021,41455,L,L,NULL,NULL,NULL
+33860,MLB,15,ATL,Braves,RP,Reynaldo,Lopez,1994-01-04,"6' 1""",225.0,40,NULL,Dominican Republic,San Pedro de Macoris,2016,33860,R,R,NULL,NULL,NULL
+4683391,MLB,15,ATL,Braves,RP,Victor,Mederos,2001-06-08,"6' 2""",222.0,58,NULL,Cuba,"Santa Clara, FL",2023,4683391,R,R,NULL,NULL,NULL
+5080750,MLB,15,ATL,Braves,SP,Owen,Murphy,2003-09-27,"6' 1""",190.0,73,NULL,United States,"Chicago, IL",2026,5080750,R,R,NULL,NULL,NULL
+5080757,MLB,15,ATL,Braves,SP,JR,Ritchie,2003-06-26,"6' 2""",185.0,60,NULL,United States,"Seattle, WA",2026,5080757,R,R,NULL,NULL,NULL
+30948,MLB,15,ATL,Braves,SP,Chris,Sale,1989-03-30,"6' 6""",180.0,51,Florida Gulf Coast,United States,"Lakeland, FL",2010,30948,L,L,NULL,NULL,NULL
+40903,MLB,15,ATL,Braves,RP,Danny,Young,1994-05-27,"6' 3""",200.0,63,Florida,United States,"Boynton Beach, FL",2022,40903,L,L,NULL,NULL,NULL
+4810190,MLB,15,ATL,Braves,C,Drake,Baldwin,2001-03-28,"6' 0""",225.0,30,Missouri State,United States,"Madison, WI",2025,4810190,L,R,NULL,NULL,NULL
+41168,MLB,15,ATL,Braves,C,Joey,Bart,1996-12-15,"6' 2""",242.0,16,Georgia Tech,United States,"Buford, GA",2020,41168,R,R,NULL,NULL,NULL
+33783,MLB,15,ATL,Braves,2B,Ozzie,Albies,1997-01-07,"5' 7""",165.0,1,NULL,Curacao,Willemstad,2017,33783,B,R,NULL,NULL,NULL
+5205951,MLB,15,ATL,Braves,SS,Jim,Jarvis,2000-11-06,"5' 9""",190.0,74,NULL,United States,"San Diego, CA",2026,5205951,L,R,NULL,NULL,NULL
+33832,MLB,15,ATL,Braves,SS,Jorge,Mateo,1995-06-23,"6' 0""",200.0,2,NULL,Dominican Republic,Santo Domingo,2020,33832,R,R,NULL,NULL,NULL
+32767,MLB,15,ATL,Braves,1B,Matt,Olson,1994-03-29,"6' 4""",225.0,28,NULL,United States,"Atlanta, GA",2016,32767,L,R,NULL,NULL,NULL
+34982,MLB,15,ATL,Braves,3B,Austin,Riley,1997-04-02,"6' 1""",225.0,27,NULL,United States,"Memphis, TN",2019,34982,R,R,NULL,NULL,NULL
+35304,MLB,15,ATL,Braves,LF,Mauricio,Dubon,1994-07-19,"5' 11""",173.0,14,NULL,Honduras,San Pedro Sula,2019,35304,R,R,NULL,NULL,NULL
+42470,MLB,15,ATL,Braves,CF,Michael,Harris II,2001-03-07,"5' 11""",195.0,23,NULL,United States,"DeKalb, GA",2022,42470,L,L,NULL,NULL,NULL
+41378,MLB,15,ATL,Braves,CF,Brewer,Hicklen,1996-02-09,"6' 2""",215.0,53,UAB,United States,"Huntsville, AL",2022,41378,R,R,NULL,NULL,NULL
+39963,MLB,15,ATL,Braves,RF,Eli,White,1994-06-26,"6' 2""",195.0,36,Clemson,United States,"Greenville, SC",2020,39963,R,R,NULL,NULL,NULL
+33287,MLB,15,ATL,Braves,DH,Kyle,Farmer,1990-08-17,"5' 11""",205.0,15,Georgia,United States,"Atlanta, GA",2017,33287,R,R,NULL,NULL,NULL
+33218,MLB,15,ATL,Braves,DH,Dominic,Smith,1995-06-15,"5' 11""",224.0,8,NULL,United States,"Los Angeles, CA",2017,33218,L,L,NULL,NULL,NULL
+39639,MLB,1,BAL,Orioles,SP,Shane,Baz,1999-06-17,"6' 3""",200.0,34,NULL,United States,"Houston, TX",2021,39639,R,R,NULL,NULL,NULL
+4311625,MLB,1,BAL,Orioles,SP,Kyle,Bradish,1996-09-12,"6' 3""",215.0,38,New Mexico State,United States,"Peoria, AZ",2022,4311625,R,R,NULL,NULL,NULL
+35536,MLB,1,BAL,Orioles,RP,Yennier,Cano,1994-03-09,"6' 4""",245.0,78,NULL,Cuba,Havana,2022,35536,R,R,NULL,NULL,NULL
+41382,MLB,1,BAL,Orioles,RP,Rico,Garcia,1994-01-10,"5' 9""",215.0,50,Hawaiʻi Pacific,United States,"Honolulu, HI",2019,41382,R,R,NULL,NULL,NULL
+35872,MLB,1,BAL,Orioles,RP,Andrew,Kittredge,1990-03-17,"6' 1""",235.0,39,Washington,United States,"Spokane, WA",2017,35872,R,R,NULL,NULL,NULL
+38295,MLB,1,BAL,Orioles,SP,Dean,Kremer,1996-01-07,"6' 2""",210.0,64,NULL,United States,"Stockton, CA",2020,38295,R,R,NULL,NULL,NULL
+5275196,MLB,1,BAL,Orioles,RP,Anthony,Nunez,2001-07-10,"6' 2""",220.0,66,NULL,United States,"Miami, FL",2026,5275196,B,R,NULL,NULL,NULL
+41006,MLB,1,BAL,Orioles,RP,Nick,Raquet,1995-12-12,"6' 0""",215.0,72,NULL,United States,"Boalsburg, PA",2025,41006,R,L,NULL,NULL,NULL
+39640,MLB,1,BAL,Orioles,SP,Trevor,Rogers,1997-11-13,"6' 5""",230.0,28,NULL,United States,"Carlsbad, NM",2020,39640,L,L,NULL,NULL,NULL
+31109,MLB,1,BAL,Orioles,RP,Albert,Suarez,1989-10-08,"6' 3""",235.0,49,NULL,Venezuela,San Felix,2016,31109,R,R,NULL,NULL,NULL
+4717904,MLB,1,BAL,Orioles,RP,Tyler,Wells,1994-08-26,"6' 8""",270.0,68,NULL,United States,"Tulsa, OK",2021,4717904,R,R,NULL,NULL,NULL
+3961066,MLB,1,BAL,Orioles,RP,Grant,Wolfram,1996-12-12,"6' 7""",250.0,48,Central Michigan,United States,"Holland, MI",2025,3961066,L,L,NULL,NULL,NULL
+4414339,MLB,1,BAL,Orioles,SP,Brandon,Young,1998-08-19,"6' 6""",230.0,63,NULL,United States,"Lumberton, TX",2025,4414339,R,R,NULL,NULL,NULL
+4917646,MLB,1,BAL,Orioles,C,Samuel,Basallo,2004-08-13,"6' 4""",250.0,29,NULL,Dominican Republic,Santo Domingo,2025,4917646,L,R,NULL,NULL,NULL
+42178,MLB,1,BAL,Orioles,C,Adley,Rutschman,1998-02-06,"6' 1""",230.0,35,Oregon State,United States,"Portland, OR",2022,42178,B,R,NULL,NULL,NULL
+41345,MLB,1,BAL,Orioles,3B,Blaze,Alexander,1999-06-11,"5' 11""",200.0,23,NULL,United States,"Cape Coral, FL",2024,41345,R,R,NULL,NULL,NULL
+37498,MLB,1,BAL,Orioles,1B,Pete,Alonso,1994-12-07,"6' 3""",245.0,25,Florida,United States,"Tampa, FL",2019,37498,R,R,NULL,NULL,NULL
+42507,MLB,1,BAL,Orioles,SS,Gunnar,Henderson,2001-06-29,"6' 3""",230.0,2,NULL,United States,"Montgomery, AL",2022,42507,L,R,NULL,NULL,NULL
+5080633,MLB,1,BAL,Orioles,2B,Jackson,Holliday,2003-12-04,"5' 11""",200.0,7,NULL,United States,"Austin, TX",2024,5080633,L,R,NULL,NULL,NULL
+41264,MLB,1,BAL,Orioles,2B,Jeremiah,Jackson,2000-03-26,"5' 11""",200.0,82,NULL,United States,"Antioch, TN",2025,41264,R,R,NULL,NULL,NULL
+4683371,MLB,1,BAL,Orioles,3B,Coby,Mayo,2001-12-10,"6' 5""",225.0,16,NULL,United States,"Coral Springs, FL",2024,4683371,R,R,NULL,NULL,NULL
+4959037,MLB,1,BAL,Orioles,RF,Dylan,Beavers,2001-08-11,"6' 5""",220.0,12,California,United States,"San Luis Obispo, CA",2025,4959037,L,R,NULL,NULL,NULL
+4416990,MLB,1,BAL,Orioles,CF,Colton,Cowser,2000-03-20,"6' 3""",220.0,17,Sam Houston,United States,"Houston, TX",2023,4416990,L,R,NULL,NULL,NULL
+34168,MLB,1,BAL,Orioles,RF,Tyler,O'Neill,1995-06-22,"5' 9""",200.0,9,NULL,Canada,"Burnaby, BC",2018,34168,R,R,NULL,NULL,NULL
+34951,MLB,1,BAL,Orioles,CF,Leody,Taveras,1998-09-08,"6' 2""",210.0,30,NULL,Dominican Republic,Tenares,2020,34951,B,R,NULL,NULL,NULL
+34923,MLB,1,BAL,Orioles,LF,Taylor,Ward,1993-12-14,"6' 0""",205.0,3,Fresno State,United States,"Dayton, OH",2018,34923,R,R,NULL,NULL,NULL
+4720856,MLB,2,BOS,Red Sox,SP,Brayan,Bello,1999-05-17,"6' 1""",195.0,66,NULL,Dominican Republic,Santa Barbara de Samana,2022,4720856,R,R,NULL,NULL,NULL
+4654024,MLB,2,BOS,Red Sox,SP,Jake,Bennett,2000-12-02,"6' 6""",234.0,64,Oklahoma,United States,"Tulsa, OK",2026,4654024,L,L,NULL,NULL,NULL
+30442,MLB,2,BOS,Red Sox,RP,Aroldis,Chapman,1988-02-28,"6' 4""",235.0,44,NULL,Cuba,Holguin,2010,30442,L,L,NULL,NULL,NULL
+32082,MLB,2,BOS,Red Sox,SP,Sonny,Gray,1989-11-07,"5' 10""",190.0,54,Vanderbilt,United States,"Smyrna, TN",2013,32082,R,R,NULL,NULL,NULL
+33654,MLB,2,BOS,Red Sox,RP,Tyron,Guerrero,1991-01-09,"6' 8""",225.0,41,NULL,Colombia,Bogota,2016,33654,R,R,NULL,NULL,NULL
+4722926,MLB,2,BOS,Red Sox,RP,Jovani,Moran,1997-04-24,"6' 1""",167.0,47,NULL,Puerto Rico,Mayagüez,2021,4722926,L,L,NULL,NULL,NULL
+5265014,MLB,2,BOS,Red Sox,SP,Eduardo,Rivera,2003-06-13,"6' 7""",237.0,99,NULL,Puerto Rico,San Juan,2026,5265014,L,L,NULL,NULL,NULL
+40975,MLB,2,BOS,Red Sox,SP,Patrick,Sandoval,1996-10-18,"6' 3""",190.0,43,NULL,United States,"Mission Viejo, CA",2019,40975,L,L,NULL,NULL,NULL
+4917925,MLB,2,BOS,Red Sox,RP,Justin,Slaten,1997-09-15,"6' 4""",222.0,63,New Mexico,United States,"Longview, TX",2024,4917925,R,R,NULL,NULL,NULL
+4966140,MLB,2,BOS,Red Sox,SP,Payton,Tolle,2002-11-01,"6' 6""",250.0,70,Wichita State,United States,"Stillwater, OK",2025,4966140,L,L,NULL,NULL,NULL
+5125911,MLB,2,BOS,Red Sox,RP,Ryan,Watson,1997-11-15,"6' 5""",225.0,56,NULL,United States,"Auburn, AL",2026,5125911,R,R,NULL,NULL,NULL
+41485,MLB,2,BOS,Red Sox,RP,Greg,Weissert,1995-02-04,"6' 2""",235.0,57,NULL,United States,"Bay Shore, NY",2022,41485,R,R,NULL,NULL,NULL
+39674,MLB,2,BOS,Red Sox,RP,Garrett,Whitlock,1996-06-11,"6' 5""",222.0,22,UAB,United States,"Snellville, GA",2021,39674,R,R,NULL,NULL,NULL
+5012120,MLB,2,BOS,Red Sox,C,Carlos,Narvaez,1998-11-26,"5' 11""",190.0,75,NULL,Venezuela,Maracay,2024,5012120,R,R,NULL,NULL,NULL
+40086,MLB,2,BOS,Red Sox,C,Connor,Wong,1996-05-19,"5' 10""",190.0,12,NULL,United States,"Houston, TX",2021,40086,R,R,NULL,NULL,NULL
+42692,MLB,2,BOS,Red Sox,SS,Tsung-Che,Cheng,2001-07-26,"5' 8""",180.0,39,NULL,Taiwan,Pingtung County,2025,42692,L,R,NULL,NULL,NULL
+5007615,MLB,2,BOS,Red Sox,3B,Caleb,Durbin,2000-02-22,"5' 6""",183.0,5,NULL,United States,"Lake Forest, IL",2025,5007615,R,R,NULL,NULL,NULL
+36950,MLB,2,BOS,Red Sox,SS,Andruw,Monasterio,1997-05-30,"5' 11""",195.0,32,NULL,Venezuela,Caracas,2023,36950,R,R,NULL,NULL,NULL
+41194,MLB,2,BOS,Red Sox,2B,Anthony,Seigler,1999-06-20,"5' 9""",192.0,48,NULL,United States,"Fort Defiance, AZ",2025,41194,B,B,NULL,NULL,NULL
+4990055,MLB,2,BOS,Red Sox,RF,Wilyer,Abreu,1999-06-24,"5' 10""",215.0,52,NULL,Venezuela,Maracaibo,2023,4990055,L,L,NULL,NULL,NULL
+41610,MLB,2,BOS,Red Sox,LF,Jarren,Duran,1996-09-05,"6' 0""",205.0,16,Long Beach State,United States,"Corona, CA",2021,41610,L,R,NULL,NULL,NULL
+42845,MLB,2,BOS,Red Sox,OF,Nate,Eaton,1996-12-22,"5' 11""",200.0,18,NULL,United States,"Chester, VA",2022,42845,R,R,NULL,NULL,NULL
+4987382,MLB,2,BOS,Red Sox,CF,Ceddanne,Rafaela,2000-09-18,"5' 10""",165.0,3,NULL,Curacao,Willemstad,2023,4987382,R,R,NULL,NULL,NULL
+42826,MLB,2,BOS,Red Sox,DH,Romy,Gonzalez,1996-09-06,"6' 0""",215.0,23,NULL,United States,"Miami, FL",2021,42826,R,R,NULL,NULL,NULL
+4872598,MLB,2,BOS,Red Sox,DH,Masataka,Yoshida,1993-07-15,"5' 8""",192.0,7,NULL,Japan,Fukui,2023,4872598,L,R,NULL,NULL,NULL
+5002950,MLB,16,CHC,Cubs,SP,Javier,Assad,1997-07-30,"6' 1""",200.0,72,NULL,Mexico,Tijuana,2022,5002950,R,R,NULL,NULL,NULL
+34401,MLB,16,CHC,Cubs,SP,Matthew,Boyd,1991-02-02,"6' 3""",223.0,16,Oregon State,United States,"Mercer Island, WA",2015,34401,L,L,NULL,NULL,NULL
+41612,MLB,16,CHC,Cubs,RP,Tyler,Ferguson,1993-10-05,"6' 4""",225.0,64,NULL,United States,"Fresno, CA",2024,41612,R,R,NULL,NULL,NULL
+4208302,MLB,16,CHC,Cubs,RP,Gavin,Hollowell,1997-11-04,"6' 7""",215.0,46,St. John's,United States,"Somerset, NJ",2022,4208302,R,R,NULL,NULL,NULL
+5134630,MLB,16,CHC,Cubs,SP,Shota,Imanaga,1993-09-01,"5' 10""",175.0,18,NULL,Japan,Kitakyushu,2024,5134630,L,L,NULL,NULL,NULL
+36161,MLB,16,CHC,Cubs,RP,Phil,Maton,1993-03-25,"6' 2""",206.0,88,Louisiana Tech,United States,"Paducah, KY",2017,36161,R,R,NULL,NULL,NULL
+40921,MLB,16,CHC,Cubs,SP,David,Peterson,1995-09-03,"6' 6""",240.0,19,Oregon,United States,"Denver, CO",2020,40921,L,L,NULL,NULL,NULL
+31010,MLB,16,CHC,Cubs,RP,Drew,Pomeranz,1988-11-22,"6' 5""",246.0,47,Ole Miss,United States,"Memphis, TN",2011,31010,R,L,NULL,NULL,NULL
+33950,MLB,16,CHC,Cubs,SP,Colin,Rea,1990-07-01,"6' 5""",220.0,53,Indiana State,United States,"Cascade, IA",2015,33950,R,R,NULL,NULL,NULL
+41220,MLB,16,CHC,Cubs,RP,Ryan,Rolison,1997-07-11,"6' 2""",213.0,33,NULL,United States,"Jackson, TN",2025,41220,R,L,NULL,NULL,NULL
+32440,MLB,16,CHC,Cubs,RP,Caleb,Thielbar,1987-01-31,"6' 0""",205.0,24,South Dakota State,United States,"Northfield, MN",2013,32440,R,L,NULL,NULL,NULL
+36728,MLB,16,CHC,Cubs,RP,Trent,Thornton,1993-09-30,"6' 0""",190.0,49,North Carolina,United States,"Charlotte, NC",2019,36728,R,R,NULL,NULL,NULL
+40384,MLB,16,CHC,Cubs,RP,Jacob,Webb,1993-08-15,"6' 2""",210.0,71,NULL,United States,"Riverside, CA",2019,40384,R,R,NULL,NULL,NULL
+38905,MLB,16,CHC,Cubs,C,Miguel,Amaya,1999-03-09,"6' 1""",230.0,9,NULL,Panama,Herrera,2023,38905,R,R,NULL,NULL,NULL
+32797,MLB,16,CHC,Cubs,C,Carson,Kelly,1994-07-14,"6' 1""",212.0,15,NULL,United States,"Chicago, IL",2016,32797,R,R,NULL,NULL,NULL
+34886,MLB,16,CHC,Cubs,3B,Alex,Bregman,1994-03-30,"5' 10""",190.0,3,LSU,United States,"Albuquerque, NM",2016,34886,R,R,NULL,NULL,NULL
+42415,MLB,16,CHC,Cubs,1B,Michael,Busch,1997-11-09,"5' 11""",210.0,29,NULL,United States,"Inver Grove Heights, MN",2023,42415,L,R,NULL,NULL,NULL
+41219,MLB,16,CHC,Cubs,2B,Nico,Hoerner,1997-05-13,"5' 11""",200.0,2,Stanford,United States,"Oakland, CA",2019,41219,R,R,NULL,NULL,NULL
+5012995,MLB,16,CHC,Cubs,2B,Pedro,Ramirez,2004-04-01,"5' 9""",165.0,75,NULL,Venezuela,Táriba,2026,5012995,B,R,NULL,NULL,NULL
+34895,MLB,16,CHC,Cubs,SS,Dansby,Swanson,1994-02-11,"6' 0""",190.0,7,Vanderbilt,United States,"Kennesaw, GA",2016,34895,R,R,NULL,NULL,NULL
+4717833,MLB,16,CHC,Cubs,CF,Pete,Crow-Armstrong,2002-03-25,"6' 0""",184.0,4,NULL,United States,"Sherman Oaks, CA",2023,4717833,L,L,NULL,NULL,NULL
+41531,MLB,16,CHC,Cubs,CF,Justin,Dean,1996-12-06,"5' 8""",185.0,1,Lenoir Rhyne,United States,"Mauldin, SC",2025,41531,R,R,NULL,NULL,NULL
+34945,MLB,16,CHC,Cubs,LF,Ian,Happ,1994-08-12,"5' 10""",205.0,8,Cincinnati,United States,"Pittsburgh, PA",2017,34945,B,R,NULL,NULL,NULL
+4142424,MLB,16,CHC,Cubs,RF,Seiya,Suzuki,1994-08-18,"5' 11""",182.0,27,NULL,Japan,Tokyo,2022,4142424,R,R,NULL,NULL,NULL
+42500,MLB,16,CHC,Cubs,DH,Kevin,Alcantara,2002-07-12,"6' 6""",188.0,13,NULL,Dominican Republic,Santo Domingo,2024,42500,R,R,NULL,NULL,NULL
+33711,MLB,16,CHC,Cubs,DH,Michael,Conforto,1993-03-01,"5' 11""",215.0,20,Oregon State,United States,"Seattle, WA",2015,33711,L,R,NULL,NULL,NULL
+4867679,MLB,4,CHW,White Sox,SP,Sean,Burke,1999-12-18,"6' 6""",240.0,59,Maryland,United States,"Sutton, MA",2024,4867679,R,R,NULL,NULL,NULL
+37793,MLB,4,CHW,White Sox,RP,Seranthony,Dominguez,1994-11-25,"6' 1""",225.0,58,NULL,Dominican Republic,Esperanza,2018,37793,R,R,NULL,NULL,NULL
+33793,MLB,4,CHW,White Sox,SP,Erick,Fedde,1993-02-25,"6' 4""",205.0,47,UNLV,United States,"Las Vegas, NV",2017,33793,R,R,NULL,NULL,NULL
+37909,MLB,4,CHW,White Sox,RP,Jordan,Hicks,1996-09-06,"6' 2""",217.0,44,NULL,United States,"Houston, TX",2018,37909,R,R,NULL,NULL,NULL
+4991171,MLB,4,CHW,White Sox,RP,Bryan,Hudson,1997-05-08,"6' 8""",248.0,60,NULL,United States,"Godfrey, IL",2023,4991171,L,L,NULL,NULL,NULL
+40947,MLB,4,CHW,White Sox,SP,Anthony,Kay,1995-03-21,"6' 0""",225.0,18,NULL,United States,"Stony Brook, NY",2019,40947,L,L,NULL,NULL,NULL
+42823,MLB,4,CHW,White Sox,SP,Davis,Martin,1997-01-04,"6' 2""",215.0,65,Texas Tech,United States,"Abilene, TX",2022,42823,L,R,NULL,NULL,NULL
+4084958,MLB,4,CHW,White Sox,RP,Chris,Murphy,1998-06-05,"6' 1""",186.0,38,San Diego,United States,"Mission Hills, CA",2023,4084958,L,L,NULL,NULL,NULL
+33856,MLB,4,CHW,White Sox,RP,Sean,Newcomb,1993-06-12,"6' 5""",255.0,15,Hartford,United States,"Brockton, MA",2017,33856,L,L,NULL,NULL,NULL
+39912,MLB,4,CHW,White Sox,RP,Trevor,Richards,1993-05-15,"6' 2""",205.0,43,Drury,United States,"Aviston, IL",2018,39912,R,R,NULL,NULL,NULL
+5080754,MLB,4,CHW,White Sox,SP,Noah,Schultz,2003-08-05,"6' 10""",240.0,22,NULL,United States,"Naperville, IL",2026,5080754,L,L,NULL,NULL,NULL
+4927630,MLB,4,CHW,White Sox,RP,Grant,Taylor,2002-05-20,"6' 3""",230.0,31,NULL,United States,"Florence, AL",2025,4927630,R,R,NULL,NULL,NULL
+4917765,MLB,4,CHW,White Sox,C,Drew,Romo,2001-08-29,"6' 0""",205.0,36,NULL,United States,"Fountain Valley, CA",2024,4917765,B,R,NULL,NULL,NULL
+4743772,MLB,4,CHW,White Sox,C,Kyle,Teel,2002-02-15,"5' 11""",210.0,8,Virginia,United States,"Ridgewood, NJ",2025,4743772,L,R,NULL,NULL,NULL
+42411,MLB,4,CHW,White Sox,SS,Luisangel,Acuna,2002-03-12,"5' 7""",181.0,0,NULL,Venezuela,Caracas,2024,42411,R,R,NULL,NULL,NULL
+5136929,MLB,4,CHW,White Sox,2B,Chase,Meidroth,2001-07-23,"5' 9""",190.0,10,NULL,United States,"Torrance, CA",2025,5136929,R,R,NULL,NULL,NULL
+4872685,MLB,4,CHW,White Sox,SS,Colson,Montgomery,2002-02-27,"6' 3""",230.0,12,NULL,United States,"Holland, IN",2025,4872685,L,R,NULL,NULL,NULL
+4872595,MLB,4,CHW,White Sox,1B,Munetaka,Murakami,2000-02-02,"6' 2""",213.0,5,NULL,Japan,Kumamoto,2026,4872595,L,R,NULL,NULL,NULL
+42453,MLB,4,CHW,White Sox,3B,Miguel,Vargas,1999-11-17,"6' 2""",225.0,20,NULL,Cuba,Havana,2022,42453,R,R,NULL,NULL,NULL
+5207167,MLB,4,CHW,White Sox,LF,Sam,Antonacci,2003-02-06,"5' 11""",193.0,17,NULL,United States,"Springfield, IL",2026,5207167,L,R,NULL,NULL,NULL
+4950345,MLB,4,CHW,White Sox,RF,Braden,Montgomery,2003-04-16,"6' 2""",220.0,24,Texas A&M,United States,"Des Moines, IA",2026,4950345,B,R,NULL,NULL,NULL
+42471,MLB,4,CHW,White Sox,CF,Junior,Perez,2001-07-04,"6' 0""",165.0,37,NULL,Dominican Republic,San Cristóbal,2026,42471,R,R,NULL,NULL,NULL
+5085893,MLB,4,CHW,White Sox,CF,Tristan,Peters,2000-02-29,"6' 0""",180.0,29,NULL,Canada,"Winkler, MB",2025,5085893,L,R,NULL,NULL,NULL
+34986,MLB,4,CHW,White Sox,DH,Andrew,Benintendi,1994-07-06,"5' 9""",185.0,23,Arkansas,United States,"Cincinnati, OH",2016,34986,L,L,NULL,NULL,NULL
+31399,MLB,4,CHW,White Sox,DH,Randal,Grichuk,1991-08-13,"6' 0""",210.0,34,NULL,United States,"Rosenberg, TX",2014,31399,R,R,NULL,NULL,NULL
+4414528,MLB,17,CIN,Reds,SP,Andrew,Abbott,1999-06-01,"6' 0""",192.0,41,Virginia,United States,"Lynchburg, VA",2023,4414528,L,L,NULL,NULL,NULL
+42355,MLB,17,CIN,Reds,RP,Tejay,Antone,1993-12-05,"6' 4""",230.0,70,NULL,United States,"Oklahoma City, OK",2020,42355,R,R,NULL,NULL,NULL
+39945,MLB,17,CIN,Reds,RP,Brock,Burke,1996-08-04,"6' 4""",210.0,49,NULL,United States,"Chicago, IL",2019,39945,L,L,NULL,NULL,NULL
+4927516,MLB,17,CIN,Reds,SP,Chase,Burns,2003-01-16,"6' 3""",210.0,26,Tennessee,Italy,Naples,2025,4927516,R,R,NULL,NULL,NULL
+41017,MLB,17,CIN,Reds,RP,Caleb,Ferguson,1996-07-02,"6' 3""",225.0,46,NULL,United States,"Columbus, OH",2018,41017,R,L,NULL,NULL,NULL
+42806,MLB,17,CIN,Reds,RP,Julian,Garcia,1995-05-13,"6' 3""",206.0,57,NULL,United States,"Fort Collins, CO",2026,42806,L,R,NULL,NULL,NULL
+39635,MLB,17,CIN,Reds,SP,Hunter,Greene,1999-08-06,"6' 5""",242.0,21,NULL,United States,"Los Angeles, CA",2022,39635,R,R,NULL,NULL,NULL
+32777,MLB,17,CIN,Reds,RP,Pierce,Johnson,1991-05-10,"6' 2""",202.0,52,Missouri State,United States,"Denver, CO",2017,32777,R,R,NULL,NULL,NULL
+4758873,MLB,17,CIN,Reds,SP,Rhett,Lowder,2002-03-08,"6' 1""",200.0,25,Wake Forest,United States,"Albemarle, NC",2024,4758873,R,R,NULL,NULL,NULL
+34928,MLB,17,CIN,Reds,RP,Sam,Moll,1992-01-03,"5' 9""",190.0,50,Memphis,United States,"Lakeland, TN",2017,34928,L,L,NULL,NULL,NULL
+33403,MLB,17,CIN,Reds,RP,Emilio,Pagan,1991-05-07,"6' 2""",208.0,15,Belmont Abbey,United States,"Simpsonville, SC",2017,33403,L,R,NULL,NULL,NULL
+4872687,MLB,17,CIN,Reds,RP,Chase,Petty,2003-04-04,"6' 1""",190.0,61,NULL,United States,"Camden, NJ",2025,4872687,R,R,NULL,NULL,NULL
+41172,MLB,17,CIN,Reds,SP,Brady,Singer,1996-08-04,"6' 5""",215.0,51,Florida,United States,"Leesburg, FL",2020,41172,R,R,NULL,NULL,NULL
+34975,MLB,17,CIN,Reds,C,Tyler,Stephenson,1996-08-16,"6' 3""",225.0,37,NULL,United States,"Atlanta, GA",2020,34975,R,R,NULL,NULL,NULL
+35268,MLB,17,CIN,Reds,C,Jose,Trevino,1992-11-28,"5' 9""",215.0,35,Oral Roberts,United States,"Corpus Christi, TX",2018,35268,R,R,NULL,NULL,NULL
+4919919,MLB,17,CIN,Reds,2B,Edwin,Arroyo,2003-08-25,"5' 11""",173.0,2,NULL,Puerto Rico,Arecibo,2026,4919919,B,R,NULL,NULL,NULL
+4917694,MLB,17,CIN,Reds,SS,Elly,De La Cruz,2002-01-11,"6' 6""",200.0,44,NULL,Dominican Republic,Sabana Grande de Boya,2023,4917694,B,R,NULL,NULL,NULL
+35020,MLB,17,CIN,Reds,3B,Ke'Bryan,Hayes,1997-01-28,"5' 11""",215.0,3,NULL,United States,"Tomball, TX",2020,35020,R,R,NULL,NULL,NULL
+4722954,MLB,17,CIN,Reds,2B,Ivan,Johnson,1998-10-11,"6' 0""",190.0,63,NULL,United States,"Atlanta, GA",2026,4722954,B,R,NULL,NULL,NULL
+4722857,MLB,17,CIN,Reds,1B,Spencer,Steer,1997-12-07,"5' 9""",185.0,7,NULL,United States,"Long Beach, CA",2022,4722857,R,R,NULL,NULL,NULL
+5080771,MLB,17,CIN,Reds,1B,Sal,Stewart,2003-12-07,"6' 1""",224.0,27,NULL,United States,"Miami, FL",2025,5080771,R,R,NULL,NULL,NULL
+42410,MLB,17,CIN,Reds,LF,JJ,Bleday,1997-11-10,"6' 2""",205.0,22,NULL,United States,"Danville, PA",2022,42410,L,L,NULL,NULL,NULL
+36020,MLB,17,CIN,Reds,CF,TJ,Friedl,1995-08-14,"5' 8""",180.0,29,NULL,United States,"Sewickley, PA",2021,36020,L,L,NULL,NULL,NULL
+41307,MLB,17,CIN,Reds,RF,Noelvi,Marte,2001-10-16,"6' 2""",216.0,4,NULL,Dominican Republic,Cotui,2023,41307,R,R,NULL,NULL,NULL
+40538,MLB,17,CIN,Reds,DH,Nathaniel,Lowe,1995-07-07,"6' 4""",220.0,31,Mississippi State,United States,"Norfolk, VA",2019,40538,L,R,NULL,NULL,NULL
+32367,MLB,17,CIN,Reds,DH,Eugenio,Suarez,1991-07-18,"5' 11""",213.0,28,NULL,Venezuela,Puerto Ordaz,2014,32367,R,R,NULL,NULL,NULL
+4719319,MLB,5,CLE,Guardians,RP,Franco,Aleman,2000-06-26,"6' 6""",235.0,55,Florida,Cuba,"Yaguajay, FL",2026,4719319,R,R,NULL,NULL,NULL
+33499,MLB,5,CLE,Guardians,RP,Shawn,Armstrong,1990-09-11,"6' 2""",225.0,43,East Carolina,United States,"New Bern, NC",2015,33499,R,R,NULL,NULL,NULL
+4345278,MLB,5,CLE,Guardians,SP,Tanner,Bibee,1999-03-05,"6' 2""",205.0,28,Cal State Fullerton,United States,"Mission Viejo, CA",2023,4345278,R,R,NULL,NULL,NULL
+42488,MLB,5,CLE,Guardians,SP,Joey,Cantillo,1999-12-18,"6' 4""",225.0,54,NULL,United States,"Honolulu, HI",2024,42488,L,L,NULL,NULL,NULL
+41462,MLB,5,CLE,Guardians,SP,Slade,Cecconi,1999-06-24,"6' 4""",219.0,44,Miami,United States,"Oviedo, FL",2023,41462,R,R,NULL,NULL,NULL
+39871,MLB,5,CLE,Guardians,RP,Matt,Festa,1993-03-11,"6' 1""",195.0,52,East Stroudsburg,United States,"Brooklyn, NY",2018,39871,R,R,NULL,NULL,NULL
+4187661,MLB,5,CLE,Guardians,RP,Hunter,Gaddis,1998-04-09,"6' 6""",260.0,33,Georgia State,United States,"Canton, GA",2022,4187661,R,R,NULL,NULL,NULL
+42138,MLB,5,CLE,Guardians,RP,Codi,Heuer,1996-07-03,"6' 5""",200.0,50,Wichita State,United States,"Missoula, MT",2020,42138,R,R,NULL,NULL,NULL
+4917897,MLB,5,CLE,Guardians,RP,Colin,Holderman,1995-10-08,"6' 6""",230.0,35,NULL,United States,"Bourbonnais, IL",2022,4917897,R,R,NULL,NULL,NULL
+4619898,MLB,5,CLE,Guardians,SP,Parker,Messick,2000-10-26,"6' 0""",225.0,77,Florida State,United States,"Plant City, FL",2025,4619898,L,L,NULL,NULL,NULL
+5194333,MLB,5,CLE,Guardians,RP,Erik,Sabrowski,1997-10-31,"6' 4""",230.0,62,NULL,Canada,"Edmonton, AB",2024,5194333,R,L,NULL,NULL,NULL
+4987924,MLB,5,CLE,Guardians,RP,Cade,Smith,1999-05-09,"6' 5""",230.0,36,NULL,Canada,"Vancouver, BC",2024,4987924,R,R,NULL,NULL,NULL
+4345076,MLB,5,CLE,Guardians,SP,Gavin,Williams,1999-07-26,"6' 6""",250.0,32,East Carolina,United States,"Fayetteville, NC",2023,4345076,L,R,NULL,NULL,NULL
+4345843,MLB,5,CLE,Guardians,C,Patrick,Bailey,1999-05-29,"6' 0""",223.0,16,NC State,United States,"Greensboro, NC",2023,4345843,B,R,NULL,NULL,NULL
+32168,MLB,5,CLE,Guardians,C,Austin,Hedges,1992-08-18,"6' 0""",220.0,27,NULL,United States,"San Juan Capistrano, CA",2015,32168,R,R,NULL,NULL,NULL
+40344,MLB,5,CLE,Guardians,SS,Gabriel,Arias,2000-02-27,"6' 1""",217.0,13,NULL,Venezuela,La Victoria,2022,40344,R,R,NULL,NULL,NULL
+5007707,MLB,5,CLE,Guardians,2B,Travis,Bazzana,2002-08-28,"5' 11""",199.0,37,Oregon State,Australia,Hornsby,2026,5007707,L,R,NULL,NULL,NULL
+35291,MLB,5,CLE,Guardians,1B,Rhys,Hoskins,1993-03-17,"6' 3""",241.0,8,Sacramento State,United States,"Sacramento, CA",2017,35291,R,R,NULL,NULL,NULL
+4917927,MLB,5,CLE,Guardians,1B,Kyle,Manzardo,2000-07-18,"5' 11""",205.0,9,Washington State,United States,"Couer d'Alene, ID",2024,4917927,L,R,NULL,NULL,NULL
+41217,MLB,5,CLE,Guardians,SS,Brayan,Rocchio,2001-01-13,"5' 9""",170.0,4,NULL,Venezuela,Caracas,2023,41217,B,R,NULL,NULL,NULL
+4619649,MLB,5,CLE,Guardians,RF,Chase,DeLauter,2001-10-08,"6' 3""",235.0,24,James Madison,United States,"Frederick, MD",2025,4619649,L,L,NULL,NULL,NULL
+41672,MLB,5,CLE,Guardians,RF,David,Fry,1995-11-20,"6' 1""",215.0,6,Northwestern State,United States,"Colleyville, TX",2023,41672,R,R,NULL,NULL,NULL
+4722962,MLB,5,CLE,Guardians,CF,Petey,Halpin,2002-05-26,"5' 11""",200.0,0,NULL,United States,"San Mateo, CA",2025,4722962,L,R,NULL,NULL,NULL
+41996,MLB,5,CLE,Guardians,CF,Steven,Kwan,1997-09-05,"5' 8""",170.0,38,Oregon State,United States,"Los Gatos, CA",2022,41996,L,L,NULL,NULL,NULL
+42001,MLB,5,CLE,Guardians,CF,Daniel,Schneemann,1997-01-23,"6' 0""",185.0,10,NULL,United States,"San Diego, CA",2024,42001,L,R,NULL,NULL,NULL
+4872684,MLB,5,CLE,Guardians,RF,Kahlil,Watson,2003-04-16,"5' 9""",178.0,31,NULL,United States,"Chase City, VA",2026,4872684,L,R,NULL,NULL,NULL
+5207459,MLB,27,COL,Rockies,RP,Zach,Agnos,2000-08-15,"6' 0""",225.0,36,NULL,United States,"Haymarket, VA",2025,5207459,R,R,NULL,NULL,NULL
+35876,MLB,27,COL,Rockies,RP,Brennan,Bernardino,1992-01-15,"6' 4""",216.0,83,NULL,United States,"Valencia, CA",2022,35876,L,L,NULL,NULL,NULL
+4423332,MLB,27,COL,Rockies,RP,Jeff,Criswell,1999-03-10,"6' 4""",236.0,46,Michigan,United States,"Portage, MI",2024,4423332,R,R,NULL,NULL,NULL
+4019484,MLB,27,COL,Rockies,SP,Ryan,Feltner,1996-09-02,"6' 4""",200.0,18,Ohio State,United States,"Orlando, FL",2021,4019484,R,R,NULL,NULL,NULL
+33839,MLB,27,COL,Rockies,SP,Kyle,Freeland,1993-05-14,"6' 4""",202.0,21,Evansville,United States,"Denver, CO",2017,33839,L,L,NULL,NULL,NULL
+4415658,MLB,27,COL,Rockies,RP,Tanner,Gordon,1997-10-26,"6' 5""",220.0,29,Indiana,United States,"Champaign, IL",2024,4415658,L,R,NULL,NULL,NULL
+36093,MLB,27,COL,Rockies,RP,Jimmy,Herget,1993-09-09,"6' 3""",183.0,44,South Florida,United States,"Tampa, FL",2019,36093,R,R,NULL,NULL,NULL
+4634930,MLB,27,COL,Rockies,SP,Gabriel,Hughes,2001-08-22,"6' 4""",238.0,43,Gonzaga,United States,"Anchorage, AK",2026,4634930,R,R,NULL,NULL,NULL
+33252,MLB,27,COL,Rockies,SP,Michael,Lorenzen,1992-01-04,"6' 1""",210.0,24,Cal State Fullerton,United States,"Anaheim, CA",2015,33252,R,R,NULL,NULL,NULL
+5185107,MLB,27,COL,Rockies,RP,Juan,Mejia,2000-07-04,"6' 3""",210.0,47,NULL,Dominican Republic,Santo Domingo,2025,5185107,R,R,NULL,NULL,NULL
+36380,MLB,27,COL,Rockies,RP,Jordan,Romano,1993-04-21,"6' 5""",210.0,68,Oral Roberts,Canada,"Markham, ON",2019,36380,R,R,NULL,NULL,NULL
+33750,MLB,27,COL,Rockies,RP,Antonio,Senzatela,1995-01-21,"6' 1""",235.0,49,NULL,Venezuela,Valencia,2017,33750,R,R,NULL,NULL,NULL
+4722599,MLB,27,COL,Rockies,RP,Victor,Vodnik,1999-10-09,"6' 0""",216.0,38,NULL,United States,"Whittier, CA",2023,4722599,R,R,NULL,NULL,NULL
+4416591,MLB,27,COL,Rockies,C,Hunter,Goodman,1999-10-08,"5' 11""",220.0,15,Memphis,United States,"Arlington, TN",2023,4416591,R,R,NULL,NULL,NULL
+39913,MLB,27,COL,Rockies,C,Brett,Sullivan,1994-02-22,"5' 11""",190.0,26,Pacific,United States,"Stockton, CA",2023,39913,L,R,NULL,NULL,NULL
+34230,MLB,27,COL,Rockies,2B,Willi,Castro,1997-04-24,"6' 0""",209.0,3,NULL,Puerto Rico,Rio Piedras,2019,34230,B,R,NULL,NULL,NULL
+3985190,MLB,27,COL,Rockies,2B,Edouard,Julien,1999-04-30,"6' 1""",195.0,6,Auburn,Canada,"Quebec City, PQ",2023,3985190,L,R,NULL,NULL,NULL
+5203102,MLB,27,COL,Rockies,3B,Kyle,Karros,2002-07-26,"6' 5""",225.0,12,NULL,United States,"Los Angeles, CA",2025,5203102,R,R,NULL,NULL,NULL
+5014349,MLB,27,COL,Rockies,1B,TJ,Rumfield,2000-05-17,"6' 5""",238.0,7,Virginia Tech,United States,"Richmond, VA",2026,5014349,L,R,NULL,NULL,NULL
+4905919,MLB,27,COL,Rockies,SS,Ezequiel,Tovar,2001-08-01,"6' 0""",192.0,14,NULL,Venezuela,Maracay,2022,4905919,R,R,NULL,NULL,NULL
+5149102,MLB,27,COL,Rockies,CF,Cole,Carrigg,2002-05-08,"6' 2""",204.0,16,NULL,United States,"Modesto, CA",2026,5149102,B,R,NULL,NULL,NULL
+40958,MLB,27,COL,Rockies,RF,Tyler,Freeman,1999-05-21,"5' 11""",200.0,2,NULL,United States,"Rancho Cucamonga, CA",2022,40958,R,R,NULL,NULL,NULL
+4346111,MLB,27,COL,Rockies,RF,Troy,Johnston,1997-06-22,"5' 11""",206.0,20,Gonzaga,United States,"Tacoma, WA",2025,4346111,L,L,NULL,NULL,NULL
+41197,MLB,27,COL,Rockies,CF,Jake,McCarthy,1997-07-30,"6' 0""",213.0,31,Virginia,United States,"Scranton, PA",2021,41197,L,L,NULL,NULL,NULL
+36181,MLB,27,COL,Rockies,LF,Mickey,Moniak,1998-05-13,"6' 1""",209.0,22,NULL,United States,"Encinitas, CA",2020,36181,L,R,NULL,NULL,NULL
+5000931,MLB,27,COL,Rockies,DH,Braxton,Fulford,1998-12-09,"5' 10""",205.0,37,Texas Tech,United States,"Lubbock, TX",2025,5000931,R,R,NULL,NULL,NULL
+41125,MLB,6,DET,Tigers,RP,Drew,Anderson,1994-03-22,"6' 3""",205.0,38,Nebraska,United States,"Reno, NV",2017,41125,R,R,NULL,NULL,NULL
+4917779,MLB,6,DET,Tigers,RP,Beau,Brieske,1998-04-04,"6' 3""",200.0,4,CSU Pueblo,United States,"Chandler, AZ",2022,4917779,R,R,NULL,NULL,NULL
+36543,MLB,6,DET,Tigers,RP,Kyle,Finnegan,1991-09-04,"6' 2""",198.0,67,Texas State,United States,"Detroit, MI",2020,36543,R,R,NULL,NULL,NULL
+33837,MLB,6,DET,Tigers,SP,Jack,Flaherty,1995-10-15,"6' 4""",225.0,9,NULL,United States,"Burbank, CA",2017,33837,R,R,NULL,NULL,NULL
+3983833,MLB,6,DET,Tigers,RP,Tyler,Holton,1996-06-13,"6' 2""",200.0,87,Florida State,United States,"Tallahassee, FL",2022,3983833,L,L,NULL,NULL,NULL
+29630,MLB,6,DET,Tigers,RP,Kenley,Jansen,1987-09-30,"6' 5""",265.0,74,NULL,Curacao,Willemstad,2010,29630,B,R,NULL,NULL,NULL
+5294127,MLB,6,DET,Tigers,SP,Troy,Melton,2000-12-03,"6' 4""",210.0,52,NULL,United States,"Newport Beach, CA",2025,5294127,R,R,NULL,NULL,NULL
+41167,MLB,6,DET,Tigers,SP,Casey,Mize,1997-05-01,"6' 3""",212.0,12,Auburn,United States,"Springville, AL",2020,41167,R,R,NULL,NULL,NULL
+5182933,MLB,6,DET,Tigers,SP,Keider,Montero,2000-07-06,"6' 1""",145.0,54,NULL,Venezuela,Santa Teresa del Tuy,2024,5182933,R,R,NULL,NULL,NULL
+42409,MLB,6,DET,Tigers,SP,Tarik,Skubal,1996-11-20,"6' 3""",240.0,29,Seattle U,United States,"Hayward, CA",2020,42409,R,L,NULL,NULL,NULL
+5272008,MLB,6,DET,Tigers,RP,Drew,Sommers,2000-08-14,"6' 3""",250.0,51,NULL,United States,"Hoffman Estates, IL",2025,5272008,L,L,NULL,NULL,NULL
+37726,MLB,6,DET,Tigers,RP,Jacob,Waguespack,1993-11-05,"6' 6""",228.0,58,NULL,United States,"Prairieville, LA",2019,37726,R,R,NULL,NULL,NULL
+4345620,MLB,6,DET,Tigers,C,Dillon,Dingler,1998-09-17,"6' 1""",210.0,13,Ohio State,United States,"Massillon, OH",2024,4345620,R,R,NULL,NULL,NULL
+39900,MLB,6,DET,Tigers,C,Jake,Rogers,1995-04-18,"5' 11""",201.0,34,Tulane,United States,"Canyon, TX",2019,39900,R,R,NULL,NULL,NULL
+5133392,MLB,6,DET,Tigers,C,Eduardo,Valencia,2000-01-25,"6' 1""",180.0,32,NULL,Venezuela,Valencia,2026,5133392,R,R,NULL,NULL,NULL
+4683384,MLB,6,DET,Tigers,3B,Colt,Keith,2001-08-14,"6' 2""",211.0,33,NULL,United States,"Zanesville, OH",2024,4683384,L,R,NULL,NULL,NULL
+5124113,MLB,6,DET,Tigers,2B,Hao-Yu,Lee,2003-02-03,"5' 9""",190.0,50,NULL,Taiwan,New Taipei,2026,5124113,R,R,NULL,NULL,NULL
+5149072,MLB,6,DET,Tigers,SS,Kevin,McGonigle,2004-08-18,"5' 9""",187.0,7,NULL,United States,"Media, PA",2026,5149072,L,R,NULL,NULL,NULL
+38420,MLB,6,DET,Tigers,2B,Zach,McKinstry,1995-04-29,"5' 11""",180.0,39,Central Michigan,United States,"Toledo, OH",2020,38420,L,R,NULL,NULL,NULL
+4424286,MLB,6,DET,Tigers,1B,Spencer,Torkelson,1999-08-26,"6' 1""",220.0,20,Arizona State,United States,"Petaluma, CA",2022,4424286,R,R,NULL,NULL,NULL
+42714,MLB,6,DET,Tigers,RF,Kerry,Carpenter,1997-09-02,"6' 1""",220.0,30,NULL,United States,"Eustis, FL",2022,42714,L,R,NULL,NULL,NULL
+42179,MLB,6,DET,Tigers,LF,Riley,Greene,2000-09-28,"6' 2""",200.0,31,NULL,United States,"Orlando, FL",2022,42179,L,L,NULL,NULL,NULL
+4867327,MLB,6,DET,Tigers,CF,Ben,Malgeri,2000-01-12,"6' 1""",215.0,53,Northeastern,United States,"Exeter, NH",2026,4867327,R,R,NULL,NULL,NULL
+41802,MLB,6,DET,Tigers,CF,James,Outman,1997-05-14,"6' 2""",215.0,43,Sacramento State,United States,"Redwood City, CA",2022,41802,L,R,NULL,NULL,NULL
+41636,MLB,6,DET,Tigers,CF,Matt,Vierling,1996-09-16,"6' 1""",205.0,8,NULL,United States,"St. Louis, MO",2021,41636,R,R,NULL,NULL,NULL
+41208,MLB,18,HOU,Astros,RP,Bryan,Abreu,1997-04-22,"6' 1""",230.0,52,NULL,Dominican Republic,Santo Domingo,2019,41208,R,R,NULL,NULL,NULL
+4726080,MLB,18,HOU,Astros,SP,Spencer,Arrighetti,2000-01-02,"6' 2""",186.0,41,Louisiana,United States,"Albuquerque, NM",2024,4726080,R,R,NULL,NULL,NULL
+42556,MLB,18,HOU,Astros,RP,AJ,Blubaugh,2000-07-04,"6' 2""",190.0,69,Milwaukee,United States,"Mansfield, OH",2025,42556,R,R,NULL,NULL,NULL
+4717803,MLB,18,HOU,Astros,SP,Hunter,Brown,1998-08-29,"6' 2""",220.0,58,NULL,United States,"Detroit, MI",2022,4717803,R,R,NULL,NULL,NULL
+35026,MLB,18,HOU,Astros,RP,Enyel,De Los Santos,1995-12-25,"6' 3""",235.0,65,NULL,Dominican Republic,San Pedro de Macoris,2018,35026,R,R,NULL,NULL,NULL
+32760,MLB,18,HOU,Astros,RP,Josh,Hader,1994-04-07,"6' 3""",188.0,71,NULL,United States,"Millersville, MD",2017,32760,L,L,NULL,NULL,NULL
+5330833,MLB,18,HOU,Astros,SP,Tatsuya,Imai,1998-05-09,"5' 11""",176.0,45,NULL,Japan,Tochigi,2026,5330833,R,R,NULL,NULL,NULL
+41261,MLB,18,HOU,Astros,SP,Cristian,Javier,1997-03-26,"6' 1""",210.0,53,NULL,Dominican Republic,Santo Domingo,2020,41261,R,R,NULL,NULL,NULL
+5201821,MLB,18,HOU,Astros,RP,Bryan,King,1996-11-05,"6' 1""",205.0,74,NULL,United States,"Littleton, CO",2024,5201821,R,L,NULL,NULL,NULL
+39898,MLB,18,HOU,Astros,SP,Peter,Lambert,1997-04-18,"6' 2""",208.0,38,NULL,United States,"San Dimas, CA",2019,39898,R,R,NULL,NULL,NULL
+33716,MLB,18,HOU,Astros,RP,Steven,Okert,1991-07-09,"6' 2""",202.0,48,Oklahoma,United States,"Riverside, CA",2016,33716,L,L,NULL,NULL,NULL
+39646,MLB,18,HOU,Astros,RP,Nate,Pearson,1996-08-20,"6' 6""",255.0,55,Central Florida CC,United States,"Odessa, FL",2020,39646,R,R,NULL,NULL,NULL
+5332989,MLB,18,HOU,Astros,RP,Alimber,Santa,2003-05-03,"5' 10""",228.0,72,NULL,Dominican Republic,Azua Province,2026,5332989,R,R,NULL,NULL,NULL
+4781491,MLB,18,HOU,Astros,C,Yainer,Diaz,1998-09-21,"5' 11""",195.0,21,NULL,Dominican Republic,Azua Province,2022,4781491,R,R,NULL,NULL,NULL
+31389,MLB,18,HOU,Astros,C,Christian,Vazquez,1990-08-21,"5' 8""",205.0,2,NULL,Puerto Rico,Bayamon,2014,31389,R,R,NULL,NULL,NULL
+40338,MLB,18,HOU,Astros,SS,Nick,Allen,1998-10-08,"5' 7""",166.0,20,NULL,United States,"San Diego, CA",2022,40338,R,R,NULL,NULL,NULL
+31662,MLB,18,HOU,Astros,2B,Jose,Altuve,1990-05-06,"5' 6""",167.0,27,NULL,Venezuela,Maracay,2011,31662,R,R,NULL,NULL,NULL
+39706,MLB,18,HOU,Astros,3B,Isaac,Paredes,1999-02-18,"5' 11""",213.0,15,NULL,Mexico,Hermosillo,2020,39706,R,R,NULL,NULL,NULL
+41273,MLB,18,HOU,Astros,SS,Jeremy,Pena,1997-09-22,"6' 0""",202.0,3,Maine,Dominican Republic,Santo Domingo,2022,41273,R,R,NULL,NULL,NULL
+32758,MLB,18,HOU,Astros,1B,Christian,Walker,1991-03-28,"5' 11""",208.0,8,South Carolina,United States,"Norristown, PA",2014,32758,R,R,NULL,NULL,NULL
+4838117,MLB,18,HOU,Astros,CF,Brice,Matthews,2002-03-16,"5' 10""",190.0,0,Nebraska,United States,"Houston, TX",2025,4838117,R,R,NULL,NULL,NULL
+5080766,MLB,18,HOU,Astros,RF,Cam,Smith,2003-02-22,"6' 3""",224.0,11,Florida State,United States,"Lake Worth, FL",2025,5080766,R,R,NULL,NULL,NULL
+37773,MLB,18,HOU,Astros,CF,Taylor,Trammell,1997-09-13,"6' 1""",220.0,26,NULL,United States,"Powder Springs, GA",2021,37773,L,L,NULL,NULL,NULL
+37798,MLB,18,HOU,Astros,LF,LaMonte,Wade Jr.,1994-01-01,"5' 11""",215.0,31,Maryland,United States,"Baltimore, MD",2019,37798,L,L,NULL,NULL,NULL
+36018,MLB,18,HOU,Astros,DH,Yordan,Alvarez,1997-06-27,"6' 4""",237.0,44,NULL,Cuba,Las Tunas,2019,36018,L,R,NULL,NULL,NULL
+5201985,MLB,7,KC,Royals,RP,Luinder,Avila,2001-08-21,"6' 3""",195.0,58,NULL,Venezuela,Caracas,2025,5201985,R,R,NULL,NULL,NULL
+4417208,MLB,7,KC,Royals,SP,Noah,Cameron,1999-07-17,"6' 3""",220.0,65,Central Arkansas,United States,"Saint Joseph, MO",2025,4417208,L,L,NULL,NULL,NULL
+5002931,MLB,7,KC,Royals,RP,Steven,Cruz,1999-06-15,"6' 7""",225.0,64,NULL,Dominican Republic,Tenares,2023,5002931,R,R,NULL,NULL,NULL
+42214,MLB,7,KC,Royals,RP,Randy,Dobnak,1995-01-17,"6' 1""",230.0,62,NULL,United States,"South Park, PA",2019,42214,R,R,NULL,NULL,NULL
+36618,MLB,7,KC,Royals,RP,Lucas,Erceg,1995-05-01,"6' 2""",214.0,60,Menlo,United States,"San Jose, CA",2023,36618,L,R,NULL,NULL,NULL
+40976,MLB,7,KC,Royals,RP,Alex,Lange,1995-10-02,"6' 3""",202.0,56,LSU,United States,"Riverside, CA",2021,40976,R,R,NULL,NULL,NULL
+34873,MLB,7,KC,Royals,SP,Seth,Lugo,1989-11-17,"6' 4""",225.0,67,Centenary (LA),United States,"Shreveport, LA",2016,34873,R,R,NULL,NULL,NULL
+41227,MLB,7,KC,Royals,RP,Daniel,Lynch IV,1996-11-17,"6' 6""",200.0,41,Virginia,United States,"Richmond, VA",2021,41227,L,L,NULL,NULL,NULL
+41324,MLB,7,KC,Royals,RP,Eli,Morgan,1996-05-13,"5' 10""",190.0,34,Gonzaga,United States,"Rancho Palos Verdes, CA",2021,41324,R,R,NULL,NULL,NULL
+39949,MLB,7,KC,Royals,RP,John,Schreiber,1994-03-05,"6' 2""",224.0,46,Northwestern Ohio,United States,"Wyandotte, MI",2019,39949,R,R,NULL,NULL,NULL
+34862,MLB,7,KC,Royals,RP,Matt,Strahm,1991-11-12,"6' 2""",190.0,25,Neosho County CC KS,United States,"West Fargo, ND",2016,34862,R,L,NULL,NULL,NULL
+32640,MLB,7,KC,Royals,SP,Michael,Wacha,1991-07-01,"6' 6""",215.0,52,Texas A&M,United States,"Iowa City, IA",2013,32640,R,R,NULL,NULL,NULL
+4683369,MLB,7,KC,Royals,RP,Beck,Way,1999-08-06,"6' 4""",200.0,44,NULL,United States,"Harrisburg, PA",2026,4683369,R,R,NULL,NULL,NULL
+4917812,MLB,7,KC,Royals,C,Carter,Jensen,2003-07-03,"6' 0""",210.0,22,NULL,United States,"Kansas City, MO",2025,4917812,L,R,NULL,NULL,NULL
+33271,MLB,7,KC,Royals,C,Luke,Maile,1991-02-06,"6' 3""",225.0,18,Kentucky,United States,"Edgewood, KY",2015,33271,R,R,NULL,NULL,NULL
+31127,MLB,7,KC,Royals,C,Salvador,Perez,1990-05-10,"6' 2""",255.0,13,NULL,Venezuela,Valencia,2011,31127,R,R,NULL,NULL,NULL
+4314013,MLB,7,KC,Royals,3B,Nick,Loftin,1998-09-25,"5' 11""",180.0,12,Baylor,United States,"Corpus Christi, TX",2023,4314013,R,R,NULL,NULL,NULL
+4109223,MLB,7,KC,Royals,2B,Michael,Massey,1998-03-22,"6' 0""",195.0,19,Illinois,United States,"Palos Park, IL",2022,4109223,L,R,NULL,NULL,NULL
+4109109,MLB,7,KC,Royals,1B,Vinnie,Pasquantino,1997-10-10,"6' 3""",245.0,9,Old Dominion,United States,"Richmond, VA",2022,4109109,L,L,NULL,NULL,NULL
+40718,MLB,7,KC,Royals,3B,Josh,Rojas,1994-06-30,"6' 1""",200.0,40,Hawai'i,United States,"Litchfield Park, AZ",2019,40718,L,R,NULL,NULL,NULL
+4151063,MLB,7,KC,Royals,2B,Tyler,Tolbert,1998-01-27,"5' 10""",185.0,2,NULL,United States,"Birmingham, AL",2025,4151063,R,R,NULL,NULL,NULL
+42403,MLB,7,KC,Royals,SS,Bobby,Witt Jr.,2000-06-14,"6' 1""",200.0,7,NULL,United States,"Colleyville, TX",2022,42403,R,R,NULL,NULL,NULL
+4926296,MLB,7,KC,Royals,RF,Jac,Caglianone,2003-02-09,"6' 4""",250.0,14,Florida,United States,"Tampa, FL",2025,4926296,L,L,NULL,NULL,NULL
+42959,MLB,7,KC,Royals,LF,Isaac,Collins,1997-07-22,"5' 8""",188.0,1,NULL,United States,"Maple Grove, MN",2024,42959,B,R,NULL,NULL,NULL
+30830,MLB,7,KC,Royals,RF,Starling,Marte,1988-10-09,"6' 0""",195.0,0,NULL,Dominican Republic,Santo Domingo,2012,30830,R,R,NULL,NULL,NULL
+36409,MLB,7,KC,Royals,CF,Lane,Thomas,1995-08-23,"5' 11""",195.0,15,NULL,United States,"Knoxville, TN",2019,36409,R,R,NULL,NULL,NULL
+4621489,MLB,3,LAA,Angels,RP,Sam,Bachman,1999-09-30,"6' 1""",235.0,40,Miami (OH),United States,"Indianapolis, IN",2023,4621489,R,R,NULL,NULL,NULL
+4326697,MLB,3,LAA,Angels,SP,Reid,Detmers,1999-07-08,"6' 2""",210.0,48,Louisville,United States,"Nokomis, IL",2021,4326697,L,L,NULL,NULL,NULL
+5273851,MLB,3,LAA,Angels,RP,Mitch,Farris,2001-02-14,"6' 2""",195.0,70,NULL,United States,"Charlotte, NC",2025,5273851,L,L,NULL,NULL,NULL
+5265417,MLB,3,LAA,Angels,RP,Jose,Fermin,2001-11-28,"6' 3""",242.0,65,NULL,Dominican Republic,Payita,2025,5265417,R,R,NULL,NULL,NULL
+5007859,MLB,3,LAA,Angels,SP,Ryan,Johnson,2002-08-05,"6' 6""",215.0,32,NULL,United States,"Dallas, TX",2025,5007859,B,R,NULL,NULL,NULL
+5207461,MLB,3,LAA,Angels,RP,Samy,Natera Jr.,1999-11-05,"6' 4""",230.0,52,NULL,Mexico,Ciudad Juarez,2026,5207461,L,L,NULL,NULL,NULL
+41196,MLB,3,LAA,Angels,SP,Grayson,Rodriguez,1999-11-16,"6' 5""",230.0,21,NULL,United States,"Houston, TX",2023,41196,L,R,NULL,NULL,NULL
+4413990,MLB,3,LAA,Angels,RP,Chase,Silseth,2000-05-18,"6' 0""",217.0,63,Arizona,United States,"Farmington, NM",2022,4413990,R,R,NULL,NULL,NULL
+40973,MLB,3,LAA,Angels,SP,Jose,Soriano,1998-10-20,"6' 3""",220.0,59,NULL,Dominican Republic,Santo Domingo,2023,40973,R,R,NULL,NULL,NULL
+36023,MLB,3,LAA,Angels,RP,Brent,Suter,1989-08-29,"6' 4""",213.0,37,Harvard,United States,"Chicago, IL",2016,36023,L,L,NULL,NULL,NULL
+5197476,MLB,3,LAA,Angels,SP,Walbert,Urena,2004-01-25,"6' 0""",210.0,57,NULL,Dominican Republic,Mao,2026,5197476,R,R,NULL,NULL,NULL
+32623,MLB,3,LAA,Angels,RP,Kirby,Yates,1987-03-25,"5' 10""",205.0,39,Yavapai College,United States,"Lihue, HI",2014,32623,L,R,NULL,NULL,NULL
+4722057,MLB,3,LAA,Angels,RP,Ryan,Zeferjahn,1998-02-28,"6' 5""",209.0,56,NULL,United States,"Topeka, KS",2024,4722057,R,R,NULL,NULL,NULL
+33142,MLB,3,LAA,Angels,C,Tyler,Heineman,1991-06-19,"5' 10""",190.0,31,UCLA,United States,"Pacific Palisades, CA",2019,33142,B,R,NULL,NULL,NULL
+42047,MLB,3,LAA,Angels,C,Logan,O'Hoppe,2000-02-09,"6' 2""",225.0,14,NULL,United States,"West Islip, NY",2022,42047,R,R,NULL,NULL,NULL
+42503,MLB,3,LAA,Angels,2B,Vaughn,Grissom,2001-01-05,"6' 2""",210.0,5,NULL,United States,"Orlando, FL",2022,42503,R,R,NULL,NULL,NULL
+4917822,MLB,3,LAA,Angels,3B,Denzer,Guzman,2004-02-08,"6' 1""",190.0,23,NULL,Dominican Republic,San Pedro de Macoris,2025,4917822,R,R,NULL,NULL,NULL
+4666100,MLB,3,LAA,Angels,SS,Zach,Neto,2001-01-31,"5' 11""",185.0,9,Campbell,United States,"Miami, FL",2023,4666100,R,R,NULL,NULL,NULL
+42479,MLB,3,LAA,Angels,2B,Oswald,Peraza,2000-06-15,"5' 11""",200.0,2,NULL,Venezuela,Barquisimeto,2022,42479,R,R,NULL,NULL,NULL
+4739755,MLB,3,LAA,Angels,1B,Nolan,Schanuel,2002-02-14,"6' 2""",220.0,18,Florida Atlantic,United States,"Boca Raton, FL",2023,4739755,L,R,NULL,NULL,NULL
+40854,MLB,3,LAA,Angels,RF,Jo,Adell,1999-04-08,"6' 2""",215.0,7,NULL,United States,"Shelby, NC",2020,40854,R,R,NULL,NULL,NULL
+40557,MLB,3,LAA,Angels,LF,Josh,Lowe,1998-02-02,"6' 3""",220.0,3,NULL,United States,"Chesapeake, VA",2021,40557,L,R,NULL,NULL,NULL
+4424090,MLB,3,LAA,Angels,LF,Wade,Meckler,2000-04-21,"5' 9""",190.0,53,NULL,United States,"Anaheim, CA",2023,4424090,L,R,NULL,NULL,NULL
+33954,MLB,3,LAA,Angels,CF,Jose,Siri,1995-07-22,"6' 2""",210.0,28,NULL,Dominican Republic,Sabana Grande de Boya,2021,33954,R,R,NULL,NULL,NULL
+30836,MLB,3,LAA,Angels,CF,Mike,Trout,1991-08-07,"6' 1""",235.0,27,NULL,United States,"Vineland, NJ",2011,30836,R,R,NULL,NULL,NULL
+32558,MLB,3,LAA,Angels,DH,Jorge,Soler,1992-02-25,"6' 3""",235.0,12,NULL,Cuba,Havana,2014,32558,R,R,NULL,NULL,NULL
+5136082,MLB,19,LAD,Dodgers,RP,Jack,Dreyer,1999-02-27,"6' 2""",205.0,86,NULL,United States,"Salt Lake City, UT",2025,5136082,R,L,NULL,NULL,NULL
+5194684,MLB,19,LAD,Dodgers,RP,Edgardo,Henriquez,2002-06-24,"6' 4""",200.0,60,NULL,Venezuela,Cumaná,2024,5194684,R,R,NULL,NULL,NULL
+4313163,MLB,19,LAD,Dodgers,RP,Will,Klein,1999-11-28,"6' 5""",230.0,61,Eastern Illinois,United States,"Bloomington, IN",2024,4313163,R,R,NULL,NULL,NULL
+4417826,MLB,19,LAD,Dodgers,SP,Landon,Knack,1997-07-15,"6' 2""",220.0,96,East Tennessee State,United States,"Johnson City, TN",2024,4417826,L,R,NULL,NULL,NULL
+39915,MLB,19,LAD,Dodgers,SP,Eric,Lauer,1995-06-03,"6' 3""",209.0,33,Kent State,United States,"Elyria, OH",2018,39915,R,L,NULL,NULL,NULL
+37911,MLB,19,LAD,Dodgers,RP,Evan,Phillips,1994-09-11,"6' 2""",215.0,59,UNC Wilmington,United States,"Salisbury, MD",2018,37911,R,R,NULL,NULL,NULL
+5134638,MLB,19,LAD,Dodgers,SP,Roki,Sasaki,2001-11-03,"6' 2""",187.0,11,NULL,Japan,Iwate,2025,5134638,R,R,NULL,NULL,NULL
+35135,MLB,19,LAD,Dodgers,RP,Tanner,Scott,1994-07-22,"6' 0""",235.0,66,Howard Coll. TX (J.C.),United States,"Warren, OH",2017,35135,R,L,NULL,NULL,NULL
+4417806,MLB,19,LAD,Dodgers,SP,Emmet,Sheehan,1999-11-15,"6' 5""",220.0,80,Boston College,United States,"New York, NY",2023,4417806,R,R,NULL,NULL,NULL
+35997,MLB,19,LAD,Dodgers,RP,Brock,Stewart,1991-10-03,"6' 3""",220.0,41,Illinois State,United States,"Normal, IL",2016,35997,L,R,NULL,NULL,NULL
+42622,MLB,19,LAD,Dodgers,RP,Alex,Vesia,1996-04-11,"6' 1""",209.0,51,NULL,United States,"Alpine, CA",2020,42622,L,L,NULL,NULL,NULL
+4417203,MLB,19,LAD,Dodgers,SP,Justin,Wrobleski,2000-07-14,"6' 1""",194.0,70,Oklahoma State,United States,"Hoffman Estates, IL",2024,4417203,L,L,NULL,NULL,NULL
+4872587,MLB,19,LAD,Dodgers,SP,Yoshinobu,Yamamoto,1998-08-17,"5' 10""",176.0,18,NULL,Japan,Okayama,2024,4872587,R,R,NULL,NULL,NULL
+4917804,MLB,19,LAD,Dodgers,C,Eliezer,Alfonzo,1999-09-23,"5' 10""",155.0,64,NULL,Venezuela,Barcelona,2026,4917804,B,R,NULL,NULL,NULL
+4619839,MLB,19,LAD,Dodgers,C,Dalton,Rushing,2001-02-21,"6' 0""",220.0,68,Louisville,United States,"Memphis, TN",2025,4619839,L,R,NULL,NULL,NULL
+33039,MLB,19,LAD,Dodgers,SS,Mookie,Betts,1992-10-07,"5' 9""",180.0,50,NULL,United States,"Nashville, TN",2014,33039,R,R,NULL,NULL,NULL
+4727589,MLB,19,LAD,Dodgers,2B,Alex,Freeland,2001-08-24,"5' 11""",200.0,76,NULL,United States,"Louisville, KY",2025,4727589,B,R,NULL,NULL,NULL
+30193,MLB,19,LAD,Dodgers,1B,Freddie,Freeman,1989-09-12,"6' 4""",220.0,5,NULL,United States,"Villa Park, CA",2010,30193,L,R,NULL,NULL,NULL
+33303,MLB,19,LAD,Dodgers,3B,Max,Muncy,1990-08-25,"5' 10""",215.0,13,Baylor,United States,"Midland, TX",2015,33303,L,R,NULL,NULL,NULL
+30791,MLB,19,LAD,Dodgers,SS,Miguel,Rojas,1989-02-24,"5' 10""",188.0,72,NULL,Venezuela,Los Teques,2014,30791,R,R,NULL,NULL,NULL
+38994,MLB,19,LAD,Dodgers,LF,Alex,Call,1994-09-27,"5' 11""",189.0,12,Ball State,United States,"Burnsville, MN",2022,38994,R,R,NULL,NULL,NULL
+39907,MLB,19,LAD,Dodgers,LF,Tommy,Edman,1995-05-09,"5' 10""",193.0,25,Stanford,United States,"Pontiac, MI",2019,39907,B,R,NULL,NULL,NULL
+33377,MLB,19,LAD,Dodgers,LF,Teoscar,Hernandez,1992-10-15,"6' 0""",215.0,37,NULL,Dominican Republic,Cotui,2016,33377,R,R,NULL,NULL,NULL
+42468,MLB,19,LAD,Dodgers,CF,Andy,Pages,2000-12-08,"6' 1""",212.0,44,NULL,Cuba,Havana,2024,42468,R,R,NULL,NULL,NULL
+34967,MLB,19,LAD,Dodgers,RF,Kyle,Tucker,1997-01-17,"6' 3""",212.0,23,NULL,United States,"Tampa, FL",2018,34967,L,R,NULL,NULL,NULL
+39832,MLB,19,LAD,Dodgers,DH,Shohei,Ohtani,1994-07-05,"6' 4""",210.0,17,NULL,Japan,Oshu,2018,39832,L,R,NULL,NULL,NULL
+35241,MLB,28,MIA,Marlins,SP,Sandy,Alcantara,1995-09-07,"6' 5""",200.0,22,NULL,Dominican Republic,Azua Province,2017,35241,R,R,NULL,NULL,NULL
+42592,MLB,28,MIA,Marlins,RP,Lake,Bachar,1995-06-03,"6' 2""",219.0,84,NULL,United States,"Winfield, IL",2024,42592,R,R,NULL,NULL,NULL
+42180,MLB,28,MIA,Marlins,RP,Pete,Fairbanks,1993-12-16,"6' 6""",235.0,29,Missouri,United States,"Milwaukee, WI",2019,42180,R,R,NULL,NULL,NULL
+3978173,MLB,28,MIA,Marlins,RP,Calvin,Faucher,1995-09-22,"6' 1""",190.0,53,UC Irvine,United States,"Chula Vista, CA",2022,3978173,R,R,NULL,NULL,NULL
+4917850,MLB,28,MIA,Marlins,RP,Dax,Fulton,2001-10-16,"6' 7""",245.0,90,NULL,United States,"Weatherford, OK",2026,4917850,L,L,NULL,NULL,NULL
+5273591,MLB,28,MIA,Marlins,RP,Cade,Gibson,1998-02-18,"6' 2""",195.0,58,NULL,United States,"Ruston, LA",2025,5273591,L,L,NULL,NULL,NULL
+5131986,MLB,28,MIA,Marlins,SP,Ryan,Gusto,1999-03-11,"6' 4""",232.0,65,NULL,United States,"Santa Rosa, CA",2024,5131986,R,R,NULL,NULL,NULL
+4881980,MLB,28,MIA,Marlins,SP,Janson,Junk,1996-01-15,"6' 2""",197.0,26,NULL,United States,"Federal Way, WA",2021,4881980,R,R,NULL,NULL,NULL
+4345164,MLB,28,MIA,Marlins,SP,Max,Meyer,1999-03-12,"6' 0""",196.0,23,Minnesota,United States,"Woodbury, MN",2022,4345164,L,R,NULL,NULL,NULL
+4917854,MLB,28,MIA,Marlins,SP,Eury,Perez,2003-04-15,"6' 8""",220.0,39,NULL,Dominican Republic,Santiago,2023,4917854,R,R,NULL,NULL,NULL
+41824,MLB,28,MIA,Marlins,RP,Michael,Petersen,1994-05-16,"6' 7""",195.0,49,NULL,England,Middlesex,2024,41824,R,R,NULL,NULL,NULL
+41247,MLB,28,MIA,Marlins,RP,Tyler,Phillips,1997-10-27,"6' 5""",225.0,30,NULL,United States,"Lumberton, NJ",2024,41247,R,R,NULL,NULL,NULL
+42596,MLB,28,MIA,Marlins,RP,Tyler,Zuber,1995-06-16,"5' 11""",195.0,55,NULL,United States,"White Hall, AR",2020,42596,R,R,NULL,NULL,NULL
+4725251,MLB,28,MIA,Marlins,C,Liam,Hicks,1999-06-02,"5' 9""",185.0,34,NULL,Canada,"Toronto, ON",2025,4725251,L,R,NULL,NULL,NULL
+4872695,MLB,28,MIA,Marlins,C,Joe,Mack,2002-12-27,"6' 0""",210.0,80,NULL,United States,"Williamsville, NY",2026,4872695,L,R,NULL,NULL,NULL
+37802,MLB,28,MIA,Marlins,C,Brian,Navarreto,1994-12-29,"6' 1""",233.0,64,NULL,Puerto Rico,Bayamon,2020,37802,R,R,NULL,NULL,NULL
+41326,MLB,28,MIA,Marlins,2B,Xavier,Edwards,1999-08-09,"5' 9""",175.0,9,NULL,United States,"Mineola, NY",2023,41326,B,R,NULL,NULL,NULL
+41397,MLB,28,MIA,Marlins,3B,Leo,Jimenez,2001-05-17,"5' 10""",215.0,19,NULL,Panama,Chitre,2024,41397,R,R,NULL,NULL,NULL
+41917,MLB,28,MIA,Marlins,SS,Otto,Lopez,1998-10-01,"5' 10""",185.0,6,NULL,Dominican Republic,Santo Domingo,2021,41917,R,R,NULL,NULL,NULL
+5073992,MLB,28,MIA,Marlins,3B,Javier,Sanoja,2002-09-03,"5' 7""",150.0,8,NULL,Venezuela,Maracay,2024,5073992,R,R,NULL,NULL,NULL
+41295,MLB,28,MIA,Marlins,LF,Griffin,Conine,1997-07-11,"6' 1""",210.0,18,Duke,United States,"Plantation, FL",2024,41295,L,R,NULL,NULL,NULL
+42455,MLB,28,MIA,Marlins,LF,Heriberto,Hernandez,1999-12-16,"5' 11""",195.0,13,NULL,Dominican Republic,Bonao,2025,42455,R,R,NULL,NULL,NULL
+42545,MLB,28,MIA,Marlins,RF,Rece,Hinds,2000-09-05,"6' 3""",215.0,40,NULL,United States,"Niceville, FL",2024,42545,R,R,NULL,NULL,NULL
+4866735,MLB,28,MIA,Marlins,CF,Jakob,Marsee,2001-06-28,"6' 0""",180.0,87,Central Michigan,United States,"Dearborn, MI",2025,4866735,L,L,NULL,NULL,NULL
+39680,MLB,28,MIA,Marlins,RF,Esteury,Ruiz,1999-02-15,"5' 11""",169.0,3,NULL,Dominican Republic,Azua Province,2022,39680,R,R,NULL,NULL,NULL
+42796,MLB,28,MIA,Marlins,LF,Kyle,Stowers,1998-01-02,"6' 2""",215.0,28,Stanford,United States,"El Cajon, CA",2022,42796,L,L,NULL,NULL,NULL
+42161,MLB,8,MIL,Brewers,RP,Grant,Anderson,1997-06-21,"6' 0""",213.0,56,McNeese,United States,"Port Arthur, TX",2023,42161,R,R,NULL,NULL,NULL
+41325,MLB,8,MIL,Brewers,RP,Aaron,Ashby,1998-05-24,"6' 0""",194.0,26,Crowder,United States,"Kansas City, MO",2021,41325,R,L,NULL,NULL,NULL
+4315203,MLB,8,MIL,Brewers,RP,Shane,Drohan,1999-01-07,"6' 2""",202.0,55,Florida State,United States,"Fort Lauderdale, FL",2026,4315203,L,L,NULL,NULL,NULL
+4918251,MLB,8,MIL,Brewers,SP,Robert,Gasser,1999-05-31,"6' 0""",197.0,54,Houston,United States,"El Dorado Hills, CA",2024,4918251,L,L,NULL,NULL,NULL
+4917878,MLB,8,MIL,Brewers,SP,Logan,Henderson,2002-03-02,"6' 0""",209.0,43,McLennan Community,United States,"Houston, TX",2025,4917878,R,R,NULL,NULL,NULL
+4995802,MLB,8,MIL,Brewers,RP,Jared,Koenig,1994-01-24,"6' 5""",244.0,47,NULL,United States,"Aptos, CA",2022,4995802,R,L,NULL,NULL,NULL
+40080,MLB,8,MIL,Brewers,RP,Trevor,Megill,1993-12-05,"6' 8""",253.0,29,Loyola Marymount,United States,"Long Beach, CA",2021,40080,L,R,NULL,NULL,NULL
+5080761,MLB,8,MIL,Brewers,SP,Jacob,Misiorowski,2002-04-03,"6' 7""",201.0,32,NULL,United States,"Blue Springs, MO",2025,5080761,R,R,NULL,NULL,NULL
+5131708,MLB,8,MIL,Brewers,RP,Chad,Patrick,1998-08-14,"6' 1""",217.0,39,NULL,United States,"Crown Point, IN",2025,5131708,R,R,NULL,NULL,NULL
+4621041,MLB,8,MIL,Brewers,SP,Brandon,Sproat,2000-09-17,"6' 3""",205.0,23,Florida,United States,"Pensacola, FL",2025,4621041,R,R,NULL,NULL,NULL
+4917865,MLB,8,MIL,Brewers,RP,Abner,Uribe,2000-06-20,"6' 3""",205.0,45,NULL,Dominican Republic,Santo Domingo,2023,4917865,R,R,NULL,NULL,NULL
+40922,MLB,8,MIL,Brewers,RP,Bryse,Wilson,1997-12-20,"6' 2""",255.0,41,NULL,United States,"Hillsborough, NC",2018,40922,R,R,NULL,NULL,NULL
+4417465,MLB,8,MIL,Brewers,RP,Craig,Yoho,1999-10-23,"6' 2""",237.0,48,Indiana,United States,"Fishers, IN",2025,4417465,R,R,NULL,NULL,NULL
+39895,MLB,8,MIL,Brewers,C,William,Contreras,1997-12-24,"5' 10""",217.0,24,NULL,Venezuela,Puerto Cabello,2020,39895,R,R,NULL,NULL,NULL
+31095,MLB,8,MIL,Brewers,C,Gary,Sanchez,1992-12-02,"6' 2""",251.0,99,NULL,Dominican Republic,Santo Domingo,2015,31095,R,R,NULL,NULL,NULL
+35013,MLB,8,MIL,Brewers,1B,Jake,Bauers,1995-10-06,"6' 0""",216.0,9,NULL,United States,"Newport Beach, CA",2018,35013,L,L,NULL,NULL,NULL
+42958,MLB,8,MIL,Brewers,SS,Joey,Ortiz,1998-07-14,"5' 10""",192.0,3,New Mexico State,United States,"Garden Grove, CA",2023,42958,R,R,NULL,NULL,NULL
+5149101,MLB,8,MIL,Brewers,SS,Cooper,Pratt,2004-08-18,"6' 4""",210.0,12,NULL,United States,"Hialeah, FL",2026,5149101,R,R,NULL,NULL,NULL
+42408,MLB,8,MIL,Brewers,SS,Braden,Shewmake,1997-11-19,"6' 3""",200.0,13,NULL,United States,"Wylie, TX",2023,42408,L,R,NULL,NULL,NULL
+41179,MLB,8,MIL,Brewers,2B,Brice,Turang,1999-11-21,"6' 0""",190.0,2,NULL,United States,"Corona, CA",2023,41179,L,R,NULL,NULL,NULL
+42394,MLB,8,MIL,Brewers,1B,Andrew,Vaughn,1998-04-03,"5' 10""",215.0,28,NULL,United States,"Santa Rosa, CA",2021,42394,R,R,NULL,NULL,NULL
+4917869,MLB,8,MIL,Brewers,LF,Jackson,Chourio,2004-03-11,"6' 1""",199.0,11,NULL,Venezuela,Maracaibo,2024,4917869,R,R,NULL,NULL,NULL
+4417795,MLB,8,MIL,Brewers,RF,Sal,Frelick,2000-04-19,"5' 9""",191.0,10,Boston College,United States,"Boston, MA",2023,4417795,L,R,NULL,NULL,NULL
+5138536,MLB,8,MIL,Brewers,CF,Luis,Lara,2004-11-17,"5' 7""",169.0,18,NULL,Venezuela,San Felipe,2026,5138536,B,R,NULL,NULL,NULL
+4313442,MLB,8,MIL,Brewers,CF,Garrett,Mitchell,1998-09-04,"6' 2""",229.0,5,UCLA,United States,"Orange, CA",2022,4313442,L,R,NULL,NULL,NULL
+31283,MLB,8,MIL,Brewers,DH,Christian,Yelich,1991-12-05,"6' 4""",220.0,22,NULL,United States,"Thousand Oaks, CA",2013,31283,L,R,NULL,NULL,NULL
+4424951,MLB,9,MIN,Twins,RP,Travis,Adams,2000-01-19,"6' 1""",197.0,45,NULL,United States,"Palm Springs, CA",2025,4424951,R,R,NULL,NULL,NULL
+42480,MLB,9,MIN,Twins,SP,Taj,Bradley,2001-03-20,"6' 2""",220.0,26,NULL,United States,"Los Angeles, CA",2023,42480,R,R,NULL,NULL,NULL
+4348166,MLB,9,MIN,Twins,RP,Kody,Funderburk,1996-11-27,"6' 4""",230.0,57,Dallas Baptist,United States,"Mesa, AZ",2023,4348166,L,L,NULL,NULL,NULL
+5134609,MLB,9,MIN,Twins,RP,Woo-Suk,Go,1998-08-06,"5' 11""",198.0,1,NULL,South Korea,Incheon,2026,5134609,R,R,NULL,NULL,NULL
+42898,MLB,9,MIN,Twins,RP,Yoendrys,Gomez,1999-10-15,"6' 3""",212.0,94,NULL,Venezuela,Nirgua,2023,42898,R,R,NULL,NULL,NULL
+4791597,MLB,9,MIN,Twins,SP,Zebby,Matthews,2000-05-22,"6' 5""",225.0,52,Western Carolina,United States,"Cullowhee, NC",2024,4791597,R,R,NULL,NULL,NULL
+5007765,MLB,9,MIN,Twins,RP,Andrew,Morris,2001-09-01,"6' 0""",195.0,78,NULL,United States,"New York, NY",2026,5007765,R,R,NULL,NULL,NULL
+36385,MLB,9,MIN,Twins,RP,Tommy,Nance,1991-03-19,"6' 6""",235.0,35,Cypress Coll. CA (J.C.),United States,"Long Beach, CA",2021,36385,R,R,NULL,NULL,NULL
+3107919,MLB,9,MIN,Twins,SP,Bailey,Ober,1995-07-12,"6' 9""",260.0,17,Charleston,United States,"Huntersville, NC",2021,3107919,R,R,NULL,NULL,NULL
+5337593,MLB,9,MIN,Twins,SP,Mike,Paredes,2000-07-27,"5' 11""",185.0,53,NULL,United States,"San Diego, CA",2026,5337593,R,R,NULL,NULL,NULL
+33671,MLB,9,MIN,Twins,RP,Taylor,Rogers,1990-12-17,"6' 3""",190.0,55,Kentucky,United States,"Denver, CO",2016,33671,L,L,NULL,NULL,NULL
+5296012,MLB,9,MIN,Twins,RP,Kendry,Rojas,2002-11-26,"6' 2""",190.0,60,NULL,Cuba,Ciego de Avila,2026,5296012,L,L,NULL,NULL,NULL
+42450,MLB,9,MIN,Twins,SP,Joe,Ryan,1996-06-05,"6' 2""",205.0,41,Cal State Northridge,United States,"San Francisco, CA",2021,42450,R,R,NULL,NULL,NULL
+33229,MLB,9,MIN,Twins,C,Victor,Caratini,1993-08-17,"6' 0""",225.0,37,Miami-Dade CC FL,Puerto Rico,Ponce,2017,33229,B,R,NULL,NULL,NULL
+33707,MLB,9,MIN,Twins,C,Alex,Jackson,1995-12-25,"6' 1""",238.0,70,NULL,United States,"San Diego, CA",2019,33707,R,R,NULL,NULL,NULL
+41587,MLB,9,MIN,Twins,C,Ryan,Jeffers,1997-06-03,"6' 2""",235.0,27,UNC Wilmington,United States,"Raleigh, NC",2020,41587,R,R,NULL,NULL,NULL
+41311,MLB,9,MIN,Twins,1B,Kody,Clemens,1996-05-15,"6' 0""",200.0,2,Texas,United States,"Houston, TX",2022,41311,L,R,NULL,NULL,NULL
+39918,MLB,9,MIN,Twins,SS,Tristan,Gray,1996-03-22,"6' 1""",215.0,4,Rice,United States,"Houston, TX",2023,39918,L,R,NULL,NULL,NULL
+4977664,MLB,9,MIN,Twins,2B,Luke,Keaschall,2002-08-15,"6' 0""",190.0,15,San Francisco,United States,"Watsonville, CA",2025,4977664,R,R,NULL,NULL,NULL
+4629081,MLB,9,MIN,Twins,SS,Brooks,Lee,2001-02-14,"6' 0""",205.0,22,Cal Poly,United States,"San Luis Obispo, CA",2024,4629081,B,R,NULL,NULL,NULL
+40635,MLB,9,MIN,Twins,3B,Royce,Lewis,1999-06-05,"6' 0""",200.0,23,NULL,United States,"Aliso Viejo, CA",2022,40635,R,R,NULL,NULL,NULL
+42701,MLB,9,MIN,Twins,CF,Ryan,Kreidler,1997-11-12,"6' 3""",208.0,5,NULL,United States,"Davis, CA",2022,42701,R,R,NULL,NULL,NULL
+41205,MLB,9,MIN,Twins,LF,Trevor,Larnach,1997-02-26,"6' 3""",223.0,9,NULL,United States,"Walnut Creek, CA",2021,41205,L,R,NULL,NULL,NULL
+4297998,MLB,9,MIN,Twins,RF,Austin,Martin,1999-03-23,"5' 10""",185.0,16,Vanderbilt,United States,"DeLand, FL",2024,4297998,R,R,NULL,NULL,NULL
+4424368,MLB,9,MIN,Twins,LF,Alan,Roden,1999-12-22,"5' 11""",215.0,18,Creighton,United States,"Middleton, WI",2025,4424368,L,R,NULL,NULL,NULL
+32517,MLB,9,MIN,Twins,DH,Josh,Bell,1992-08-14,"6' 3""",261.0,56,NULL,United States,"Irving, TX",2016,32517,B,R,NULL,NULL,NULL
+4916509,MLB,21,NYM,Mets,RP,Huascar,Brazoban,1989-10-15,"6' 3""",155.0,43,NULL,Dominican Republic,Villa Mella,2022,4916509,R,R,NULL,NULL,NULL
+4204524,MLB,21,NYM,Mets,RP,Xzavion,Curry,1998-07-27,"6' 0""",195.0,53,Georgia Tech,United States,"Orangeburg, SC",2022,4204524,R,R,NULL,NULL,NULL
+33244,MLB,21,NYM,Mets,RP,Sean,Manaea,1992-02-01,"6' 5""",245.0,59,Indiana State,United States,"Valparaiso, IN",2016,33244,R,L,NULL,NULL,NULL
+4433874,MLB,21,NYM,Mets,SP,Nolan,McLean,2001-07-24,"6' 2""",214.0,26,Oklahoma State,United States,"Willow Spring, NC",2025,4433874,R,R,NULL,NULL,NULL
+36133,MLB,21,NYM,Mets,RP,A.J.,Minter,1993-09-02,"6' 0""",215.0,33,Texas A&M,United States,"Tyler, TX",2017,36133,L,L,NULL,NULL,NULL
+39825,MLB,21,NYM,Mets,SP,Freddy,Peralta,1996-06-04,"6' 0""",198.0,51,NULL,Dominican Republic,Moca,2018,39825,R,R,NULL,NULL,NULL
+36089,MLB,21,NYM,Mets,RP,Cionel,Perez,1996-04-21,"6' 0""",175.0,52,NULL,Cuba,Matanzas,2018,36089,R,L,NULL,NULL,NULL
+32005,MLB,21,NYM,Mets,RP,Brooks,Raley,1988-06-29,"6' 3""",200.0,25,Texas A&M,United States,"San Antonio, TX",2012,32005,L,L,NULL,NULL,NULL
+4414215,MLB,21,NYM,Mets,SP,Christian,Scott,1999-06-15,"6' 4""",215.0,45,Florida,United States,"Coconut Creek, FL",2024,4414215,R,R,NULL,NULL,NULL
+4142421,MLB,21,NYM,Mets,SP,Kodai,Senga,1993-01-30,"6' 1""",202.0,34,NULL,Japan,Aichi,2023,4142421,L,R,NULL,NULL,NULL
+5129576,MLB,21,NYM,Mets,SP,Zach,Thornton,2002-01-17,"6' 3""",170.0,49,Grand Canyon,United States,"Winona, MN",2026,5129576,L,L,NULL,NULL,NULL
+33770,MLB,21,NYM,Mets,RP,Luke,Weaver,1993-08-21,"6' 2""",180.0,30,Florida State,United States,"DeLand, FL",2016,33770,R,R,NULL,NULL,NULL
+33224,MLB,21,NYM,Mets,RP,Devin,Williams,1994-09-21,"6' 2""",193.0,38,NULL,United States,"St. Louis, MO",2019,33224,R,R,NULL,NULL,NULL
+41253,MLB,21,NYM,Mets,C,Francisco,Alvarez,2001-11-19,"5' 10""",233.0,4,NULL,Venezuela,Guatire,2022,41253,R,R,NULL,NULL,NULL
+33805,MLB,21,NYM,Mets,C,Luis,Torrens,1996-05-02,"5' 11""",217.0,13,NULL,Venezuela,Valencia,2017,33805,R,R,NULL,NULL,NULL
+42414,MLB,21,NYM,Mets,3B,Brett,Baty,1999-11-13,"6' 3""",210.0,7,NULL,United States,"Austin, TX",2022,42414,L,R,NULL,NULL,NULL
+38904,MLB,21,NYM,Mets,SS,Bo,Bichette,1998-03-05,"5' 11""",190.0,19,NULL,United States,"Orlando, FL",2019,38904,R,R,NULL,NULL,NULL
+32129,MLB,21,NYM,Mets,SS,Francisco,Lindor,1993-11-14,"5' 10""",190.0,12,NULL,Puerto Rico,Caguas,2015,32129,B,R,NULL,NULL,NULL
+36953,MLB,21,NYM,Mets,SS,Zack,Short,1995-05-29,"5' 10""",180.0,40,Sacred Heart,United States,"Kingston, NY",2021,36953,R,R,NULL,NULL,NULL
+4987650,MLB,21,NYM,Mets,1B,Eric,Wagaman,1997-08-14,"6' 4""",210.0,39,NULL,United States,"Mission Viejo, CA",2024,4987650,R,R,NULL,NULL,NULL
+41575,MLB,21,NYM,Mets,1B,Jared,Young,1995-07-09,"6' 2""",200.0,29,Old Dominion,Canada,"Prince George, BC",2022,41575,L,R,NULL,NULL,NULL
+4925604,MLB,21,NYM,Mets,RF,Carson,Benge,2003-01-20,"6' 1""",184.0,3,Oklahoma State,United States,"Oklahoma City, OK",2026,4925604,L,R,NULL,NULL,NULL
+5208019,MLB,21,NYM,Mets,CF,A.J.,Ewing,2004-08-10,"5' 10""",160.0,9,NULL,United States,"Kettering, OH",2026,5208019,L,R,NULL,NULL,NULL
+36969,MLB,21,NYM,Mets,LF,Juan,Soto,1998-10-25,"6' 1""",224.0,22,NULL,Dominican Republic,Santo Domingo,2018,36969,L,L,NULL,NULL,NULL
+32783,MLB,21,NYM,Mets,CF,Tyrone,Taylor,1994-01-22,"6' 0""",218.0,28,NULL,United States,"Torrance, CA",2019,32783,R,R,NULL,NULL,NULL
+32525,MLB,21,NYM,Mets,DH,Jorge,Polanco,1993-07-05,"6' 0""",208.0,11,NULL,Dominican Republic,San Pedro de Macoris,2014,32525,B,R,NULL,NULL,NULL
+38303,MLB,10,NYY,Yankees,RP,David,Bednar,1994-10-10,"6' 1""",250.0,53,Lafayette,United States,"Pittsburgh, PA",2019,38303,L,R,NULL,NULL,NULL
+3459223,MLB,10,NYY,Yankees,RP,Jake,Bird,1995-12-04,"6' 3""",215.0,59,UCLA,United States,"Newhall, CA",2022,3459223,R,R,NULL,NULL,NULL
+32776,MLB,10,NYY,Yankees,RP,Paul,Blackburn,1993-12-04,"6' 1""",196.0,58,NULL,United States,"Antioch, CA",2017,32776,R,R,NULL,NULL,NULL
+5185106,MLB,10,NYY,Yankees,RP,Angel,Chivilli,2002-07-28,"6' 2""",185.0,57,NULL,Dominican Republic,La Victoria,2024,5185106,R,R,NULL,NULL,NULL
+32081,MLB,10,NYY,Yankees,SP,Gerrit,Cole,1990-09-08,"6' 4""",220.0,45,UCLA,United States,"Newport Beach, CA",2013,32081,R,R,NULL,NULL,NULL
+34068,MLB,10,NYY,Yankees,RP,Fernando,Cruz,1990-03-28,"6' 2""",237.0,63,NULL,Puerto Rico,Bayamon,2022,34068,R,R,NULL,NULL,NULL
+41337,MLB,10,NYY,Yankees,RP,Camilo,Doval,1997-07-04,"6' 2""",205.0,75,NULL,Dominican Republic,Yamasa,2021,41337,R,R,NULL,NULL,NULL
+5116839,MLB,10,NYY,Yankees,RP,Brent,Headrick,1997-12-17,"6' 6""",235.0,47,NULL,United States,"Braidwood, IL",2023,5116839,L,L,NULL,NULL,NULL
+37005,MLB,10,NYY,Yankees,RP,Tim,Hill,1990-02-10,"6' 4""",210.0,41,Bacone College,United States,"Mission Hills, CA",2018,37005,R,L,NULL,NULL,NULL
+5134581,MLB,10,NYY,Yankees,SP,Cam,Schlittler,2001-02-05,"6' 6""",215.0,31,NULL,United States,"Weymouth, MA",2025,5134581,R,R,NULL,NULL,NULL
+5132011,MLB,10,NYY,Yankees,SP,Will,Warren,1999-06-16,"6' 2""",200.0,29,NULL,United States,"Brandon, MS",2024,5132011,R,R,NULL,NULL,NULL
+41178,MLB,10,NYY,Yankees,SP,Ryan,Weathers,1999-12-17,"6' 1""",230.0,40,NULL,United States,"Loretto, TN",2020,41178,R,L,NULL,NULL,NULL
+33735,MLB,10,NYY,Yankees,RP,Ryan,Yarbrough,1991-12-31,"6' 5""",205.0,33,Old Dominion,United States,"Austin, TX",2018,33735,R,L,NULL,NULL,NULL
+37537,MLB,10,NYY,Yankees,C,Ali,Sanchez,1997-01-20,"6' 0""",200.0,39,NULL,Venezuela,Carora,2020,37537,R,R,NULL,NULL,NULL
+4683349,MLB,10,NYY,Yankees,C,Austin,Wells,1999-07-12,"6' 1""",220.0,28,Arizona,United States,"Scottsdale, AZ",2023,4683349,L,R,NULL,NULL,NULL
+42135,MLB,10,NYY,Yankees,SS,Jose,Caballero,1996-08-30,"5' 9""",190.0,72,NULL,Panama,Las Tablas,2023,42135,R,R,NULL,NULL,NULL
+41433,MLB,10,NYY,Yankees,2B,Jazz,Chisholm Jr.,1998-02-01,"5' 11""",184.0,13,NULL,Bahamas,Nassau,2020,41433,L,R,NULL,NULL,NULL
+31027,MLB,10,NYY,Yankees,1B,Paul,Goldschmidt,1987-09-10,"6' 2""",225.0,48,Texas State,United States,"Wilmington, DE",2011,31027,R,R,NULL,NULL,NULL
+33247,MLB,10,NYY,Yankees,3B,Ryan,McMahon,1994-12-14,"6' 2""",211.0,19,NULL,United States,"Yorba Linda, CA",2017,33247,L,R,NULL,NULL,NULL
+5016968,MLB,10,NYY,Yankees,1B,Ben,Rice,1999-02-22,"6' 2""",228.0,22,NULL,United States,"Cohasset, MA",2024,5016968,L,R,NULL,NULL,NULL
+33215,MLB,10,NYY,Yankees,3B,Amed,Rosario,1995-11-20,"6' 1""",227.0,14,NULL,Dominican Republic,Santo Domingo,2017,33215,R,R,NULL,NULL,NULL
+3962127,MLB,10,NYY,Yankees,SS,Max,Schuemann,1997-06-11,"6' 0""",198.0,30,Eastern Michigan,United States,"Kalamazoo, MI",2024,3962127,R,R,NULL,NULL,NULL
+42547,MLB,10,NYY,Yankees,SS,Anthony,Volpe,2001-04-28,"5' 10""",197.0,11,NULL,United States,"New York, NY",2023,42547,R,R,NULL,NULL,NULL
+33912,MLB,10,NYY,Yankees,LF,Cody,Bellinger,1995-07-13,"6' 3""",204.0,35,NULL,United States,"Scottsdale, AZ",2017,33912,L,L,NULL,NULL,NULL
+42401,MLB,10,NYY,Yankees,RF,Jasson,Dominguez,2003-02-07,"5' 9""",218.0,24,NULL,Dominican Republic,Esperanza,2023,42401,B,R,NULL,NULL,NULL
+34995,MLB,10,NYY,Yankees,CF,Trent,Grisham,1996-11-01,"5' 10""",221.0,12,NULL,United States,"Burleson, TX",2019,34995,L,L,NULL,NULL,NULL
+36063,MLB,22,PHI,Phillies,RP,Jose,Alvarado,1995-05-21,"6' 2""",245.0,46,NULL,Venezuela,Maracaibo,2017,36063,L,L,NULL,NULL,NULL
+41344,MLB,22,PHI,Phillies,RP,Jonathan,Bowlan,1996-12-01,"6' 6""",240.0,52,Memphis,United States,"Arlington, TN",2023,41344,R,R,NULL,NULL,NULL
+41109,MLB,22,PHI,Phillies,RP,Jhoan,Duran,1998-01-08,"6' 5""",230.0,59,NULL,Dominican Republic,Esperanza,2022,41109,R,R,NULL,NULL,NULL
+35292,MLB,22,PHI,Phillies,RP,Brad,Keller,1995-07-27,"6' 5""",255.0,40,NULL,United States,"Snellville, GA",2018,35292,R,R,NULL,NULL,NULL
+4630789,MLB,22,PHI,Phillies,RP,Orion,Kerkering,2001-04-04,"6' 2""",204.0,50,South Florida,United States,"Huntington Beach, CA",2023,4630789,R,R,NULL,NULL,NULL
+42546,MLB,22,PHI,Phillies,RP,Max,Lazar,1999-06-03,"6' 1""",200.0,60,NULL,United States,"Coral Springs, FL",2024,42546,R,R,NULL,NULL,NULL
+39667,MLB,22,PHI,Phillies,SP,Jesus,Luzardo,1997-09-30,"6' 0""",218.0,44,NULL,Peru,"Lima, FL",2019,39667,L,L,NULL,NULL,NULL
+35773,MLB,22,PHI,Phillies,RP,Tim,Mayza,1992-01-15,"6' 3""",215.0,37,Millersville,United States,"Allentown, PA",2017,35773,L,L,NULL,NULL,NULL
+33709,MLB,22,PHI,Phillies,SP,Aaron,Nola,1993-06-04,"6' 2""",200.0,27,LSU,United States,"Baton Rouge, LA",2015,33709,R,R,NULL,NULL,NULL
+4917631,MLB,22,PHI,Phillies,RP,Alan,Rangel,1997-08-21,"6' 2""",170.0,57,NULL,Mexico,Hermosillo,2025,4917631,R,R,NULL,NULL,NULL
+42359,MLB,22,PHI,Phillies,SP,Cristopher,Sanchez,1996-12-12,"6' 6""",200.0,61,NULL,Dominican Republic,La Romana,2021,42359,L,L,NULL,NULL,NULL
+4990069,MLB,22,PHI,Phillies,RP,Chase,Shugart,1996-10-24,"5' 11""",200.0,55,Texas,United States,"Bridge City, TX",2024,4990069,L,R,NULL,NULL,NULL
+31267,MLB,22,PHI,Phillies,SP,Zack,Wheeler,1990-05-30,"6' 4""",195.0,45,NULL,United States,"Smyrna, GA",2013,31267,L,R,NULL,NULL,NULL
+40816,MLB,22,PHI,Phillies,C,Rafael,Marchan,1999-02-25,"5' 9""",170.0,13,NULL,Venezuela,San Cristóbal,2020,40816,B,R,NULL,NULL,NULL
+32177,MLB,22,PHI,Phillies,C,J.T.,Realmuto,1991-03-18,"6' 0""",212.0,10,NULL,United States,"Del City, OK",2014,32177,R,R,NULL,NULL,NULL
+35760,MLB,22,PHI,Phillies,C,Garrett,Stubbs,1993-05-26,"5' 9""",170.0,21,USC,United States,"San Diego, CA",2019,35760,L,R,NULL,NULL,NULL
+41169,MLB,22,PHI,Phillies,3B,Alec,Bohm,1996-08-03,"6' 4""",218.0,28,Wichita State,United States,"Omaha, NE",2020,41169,R,R,NULL,NULL,NULL
+30951,MLB,22,PHI,Phillies,1B,Bryce,Harper,1992-10-16,"6' 1""",210.0,3,Southern Nevada,United States,"Las Vegas, NV",2012,30951,L,R,NULL,NULL,NULL
+33809,MLB,22,PHI,Phillies,2B,Edmundo,Sosa,1996-03-06,"5' 11""",210.0,33,NULL,Panama,Panama City,2018,33809,R,R,NULL,NULL,NULL
+42417,MLB,22,PHI,Phillies,2B,Bryson,Stott,1997-10-06,"6' 0""",200.0,5,UNLV,United States,"Las Vegas, NV",2022,42417,L,R,NULL,NULL,NULL
+33710,MLB,22,PHI,Phillies,SS,Trea,Turner,1993-06-30,"6' 1""",185.0,7,NC State,United States,"Boynton Beach, FL",2015,33710,R,R,NULL,NULL,NULL
+5080642,MLB,22,PHI,Phillies,CF,Justin,Crawford,2004-01-13,"6' 2""",188.0,2,NULL,United States,"Phoenix, AZ",2026,5080642,L,R,NULL,NULL,NULL
+33721,MLB,22,PHI,Phillies,RF,Derek,Hill,1995-12-30,"6' 0""",206.0,49,NULL,United States,"Des Moines, IA",2020,33721,R,R,NULL,NULL,NULL
+40803,MLB,22,PHI,Phillies,LF,Brandon,Marsh,1997-12-18,"6' 2""",215.0,16,NULL,United States,"Buford, GA",2021,40803,L,R,NULL,NULL,NULL
+5131884,MLB,22,PHI,Phillies,RF,Gabriel,Rincones Jr.,2001-03-03,"6' 3""",225.0,17,NULL,United States,"Boynton Beach, FL",2026,5131884,L,R,NULL,NULL,NULL
+33712,MLB,22,PHI,Phillies,DH,Kyle,Schwarber,1993-03-05,"5' 11""",229.0,12,Indiana,United States,"Middletown, OH",2015,33712,L,R,NULL,NULL,NULL
+41282,MLB,23,PIT,Pirates,SP,Braxton,Ashcraft,1999-10-05,"6' 5""",218.0,35,NULL,United States,"Waco, TX",2025,41282,L,R,NULL,NULL,NULL
+4683325,MLB,23,PIT,Pirates,SP,Bubba,Chandler,2002-09-14,"6' 3""",206.0,36,NULL,United States,"Lawrenceville, GA",2025,4683325,B,R,NULL,NULL,NULL
+4228247,MLB,23,PIT,Pirates,RP,Brandon,Eisert,1998-01-19,"6' 2""",210.0,14,Oregon State,United States,"Portland, OR",2024,4228247,L,L,NULL,NULL,NULL
+4918156,MLB,23,PIT,Pirates,SP,Jared,Jones,2001-08-06,"6' 0""",211.0,17,NULL,United States,"Whittier, CA",2024,4918156,L,R,NULL,NULL,NULL
+33722,MLB,23,PIT,Pirates,SP,Mitch,Keller,1996-04-04,"6' 3""",213.0,23,NULL,United States,"Cedar Rapids, IA",2019,33722,R,R,NULL,NULL,NULL
+5134366,MLB,23,PIT,Pirates,SP,Antwone,Kelly,2003-09-01,"5' 10""",238.0,62,NULL,Aruba,Oranjestad,2026,5134366,R,R,NULL,NULL,NULL
+42063,MLB,23,PIT,Pirates,RP,Isaac,Mattson,1995-07-14,"6' 2""",214.0,72,NULL,United States,"Erie, PA",2021,42063,R,R,NULL,NULL,NULL
+4298378,MLB,23,PIT,Pirates,RP,Carmen,Mlodzinski,1999-02-19,"6' 2""",210.0,50,South Carolina,United States,"Hilton Head Island, SC",2023,4298378,R,R,NULL,NULL,NULL
+4424112,MLB,23,PIT,Pirates,RP,Mason,Montgomery,2000-06-17,"6' 2""",205.0,46,Texas Tech,United States,"Austin, TX",2024,4424112,L,L,NULL,NULL,NULL
+41893,MLB,23,PIT,Pirates,RP,Yohan,Ramirez,1995-05-06,"6' 3""",205.0,49,NULL,Dominican Republic,Villa Mella,2020,41893,R,R,NULL,NULL,NULL
+39801,MLB,23,PIT,Pirates,RP,Dennis,Santana,1996-04-12,"6' 2""",202.0,60,NULL,Dominican Republic,San Pedro de Macoris,2018,39801,R,R,NULL,NULL,NULL
+4719507,MLB,23,PIT,Pirates,SP,Paul,Skenes,2002-05-29,"6' 6""",260.0,30,LSU,United States,"Fullerton, CA",2024,4719507,R,R,NULL,NULL,NULL
+39804,MLB,23,PIT,Pirates,RP,Gregory,Soto,1995-02-11,"6' 1""",247.0,31,NULL,Dominican Republic,Bajos de Haina,2019,39804,L,L,NULL,NULL,NULL
+4418683,MLB,23,PIT,Pirates,C,Henry,Davis,1999-09-21,"5' 11""",225.0,32,Louisville,United States,"Bedford, NY",2023,4418683,R,R,NULL,NULL,NULL
+5131743,MLB,23,PIT,Pirates,C,Rafael,Flores Jr.,2000-11-07,"6' 3""",232.0,43,NULL,United States,"Anaheim, CA",2025,5131743,R,R,NULL,NULL,NULL
+4311634,MLB,23,PIT,Pirates,3B,Nick,Gonzales,1999-05-27,"5' 8""",193.0,3,New Mexico State,United States,"Tucson, AZ",2023,4311634,R,R,NULL,NULL,NULL
+4720990,MLB,23,PIT,Pirates,1B,Jacob,Gonzalez,2002-05-30,"6' 2""",205.0,26,Ole Miss,United States,"Glendora, CA",2026,4720990,L,R,NULL,NULL,NULL
+39961,MLB,23,PIT,Pirates,2B,Brandon,Lowe,1994-07-06,"5' 9""",181.0,5,Maryland,United States,"Suffolk, VA",2018,39961,L,R,NULL,NULL,NULL
+42933,MLB,23,PIT,Pirates,SS,Jared,Triolo,1998-02-08,"6' 3""",212.0,19,NULL,United States,"Nashua, NH",2023,42933,R,R,NULL,NULL,NULL
+42487,MLB,23,PIT,Pirates,LF,Tyler,Callihan,2000-06-22,"5' 11""",205.0,37,NULL,United States,"Jacksonville, FL",2025,42487,L,R,NULL,NULL,NULL
+5137038,MLB,23,PIT,Pirates,RF,Billy,Cook,1999-01-07,"6' 0""",204.0,25,NULL,United States,"Layton, UT",2024,5137038,R,R,NULL,NULL,NULL
+42664,MLB,23,PIT,Pirates,CF,Jake,Mangum,1996-03-08,"5' 11""",191.0,28,NULL,United States,"Flowood, MS",2025,42664,B,L,NULL,NULL,NULL
+35183,MLB,23,PIT,Pirates,RF,Ryan,O'Hearn,1993-07-26,"6' 2""",220.0,29,Sam Houston,United States,"Dunedin, FL",2018,35183,L,L,NULL,NULL,NULL
+38980,MLB,23,PIT,Pirates,LF,Bryan,Reynolds,1995-01-27,"6' 2""",210.0,10,Vanderbilt,United States,"Baltimore, MD",2019,38980,B,R,NULL,NULL,NULL
+5137200,MLB,23,PIT,Pirates,RF,Esmerlyn,Valdez,2004-01-27,"6' 2""",234.0,55,NULL,Dominican Republic,Peravia,2026,5137200,R,R,NULL,NULL,NULL
+31668,MLB,23,PIT,Pirates,DH,Marcell,Ozuna,1990-11-12,"6' 1""",251.0,24,NULL,Dominican Republic,Santo Domingo,2013,31668,R,R,NULL,NULL,NULL
+39251,MLB,25,SD,Padres,SP,Walker,Buehler,1994-07-28,"6' 2""",185.0,10,Vanderbilt,United States,"Lexington, KY",2017,39251,R,R,NULL,NULL,NULL
+41065,MLB,25,SD,Padres,SP,Griffin,Canning,1996-05-11,"6' 2""",180.0,17,UCLA,United States,"Mission Viejo, CA",2019,41065,R,R,NULL,NULL,NULL
+32055,MLB,25,SD,Padres,SP,Yu,Darvish,1986-08-16,"6' 5""",220.0,11,NULL,Japan,Osaka,2012,32055,R,R,NULL,NULL,NULL
+39936,MLB,25,SD,Padres,RP,Kyle,Hart,1992-11-23,"6' 5""",200.0,68,Indiana,United States,"Cincinnati, OH",2020,39936,L,L,NULL,NULL,NULL
+40429,MLB,25,SD,Padres,SP,Michael,King,1995-05-25,"6' 3""",210.0,34,Boston College,United States,"Rochester, NY",2019,40429,R,R,NULL,NULL,NULL
+4228723,MLB,25,SD,Padres,RP,Ron,Marinaccio,1995-07-01,"6' 2""",205.0,97,Delaware,United States,"Toms River, NJ",2022,4228723,R,R,NULL,NULL,NULL
+34874,MLB,25,SD,Padres,SP,German,Marquez,1995-02-22,"6' 1""",230.0,33,NULL,Venezuela,San Felix,2016,34874,R,R,NULL,NULL,NULL
+4142414,MLB,25,SD,Padres,RP,Yuki,Matsui,1995-10-30,"5' 8""",165.0,1,NULL,Japan,Yokohama,2024,4142414,L,L,NULL,NULL,NULL
+4730225,MLB,25,SD,Padres,RP,Mason,Miller,1998-08-24,"6' 5""",200.0,22,Gardner-Webb,United States,"Pittsburgh, PA",2023,4730225,R,R,NULL,NULL,NULL
+40917,MLB,25,SD,Padres,RP,Adrian,Morejon,1999-02-27,"5' 11""",224.0,50,NULL,Cuba,Havana,2019,40917,L,L,NULL,NULL,NULL
+36036,MLB,25,SD,Padres,RP,Wandy,Peralta,1991-07-27,"6' 0""",227.0,58,NULL,Dominican Republic,San Francisco de Macoris,2016,36036,L,L,NULL,NULL,NULL
+5266086,MLB,25,SD,Padres,RP,Bradgley,Rodriguez,2003-11-16,"6' 1""",160.0,72,NULL,Venezuela,Petare,2025,5266086,R,R,NULL,NULL,NULL
+39818,MLB,25,SD,Padres,SP,JP,Sears,1996-02-19,"5' 11""",180.0,38,The Citadel,United States,"Sumter, SC",2022,39818,R,L,NULL,NULL,NULL
+4020158,MLB,25,SD,Padres,RP,Matt,Waldron,1996-09-26,"6' 2""",185.0,61,Nebraska,United States,"Omaha, NE",2023,4020158,R,R,NULL,NULL,NULL
+40521,MLB,25,SD,Padres,C,Luis,Campusano,1998-09-29,"5' 10""",232.0,12,NULL,United States,"Augusta, GA",2020,40521,R,R,NULL,NULL,NULL
+40577,MLB,25,SD,Padres,C,Rodolfo,Duran,1998-02-19,"5' 8""",181.0,48,NULL,Dominican Republic,Santo Domingo,2026,40577,R,R,NULL,NULL,NULL
+31606,MLB,25,SD,Padres,SS,Xander,Bogaerts,1992-10-01,"6' 2""",218.0,2,NULL,Aruba,Oranjestad,2013,31606,R,R,NULL,NULL,NULL
+36364,MLB,25,SD,Padres,2B,Jake,Cronenworth,1994-01-21,"5' 11""",187.0,9,Michigan,United States,"Saint Clair, MI",2020,36364,L,R,NULL,NULL,NULL
+35591,MLB,25,SD,Padres,1B,Ty,France,1994-07-13,"5' 10""",215.0,25,San Diego State,United States,"Downey, CA",2019,35591,R,R,NULL,NULL,NULL
+31097,MLB,25,SD,Padres,3B,Manny,Machado,1992-07-06,"6' 2""",218.0,13,NULL,United States,"Miami, FL",2012,31097,R,R,NULL,NULL,NULL
+37237,MLB,25,SD,Padres,3B,Luis,Rengifo,1997-02-26,"5' 9""",204.0,21,NULL,Venezuela,Naguanagua,2019,37237,B,R,NULL,NULL,NULL
+40700,MLB,25,SD,Padres,1B,Gavin,Sheets,1996-04-23,"6' 3""",235.0,30,Wake Forest,United States,"Lutherville, MD",2021,40700,L,L,NULL,NULL,NULL
+5329585,MLB,25,SD,Padres,2B,Sung-Mun,Song,1996-08-29,"6' 0""",194.0,24,NULL,South Korea,Seoul,2026,5329585,L,R,NULL,NULL,NULL
+42704,MLB,25,SD,Padres,RF,Jase,Bowen,2000-09-02,"6' 0""",215.0,4,NULL,United States,"Northwood, OH",2026,42704,R,R,NULL,NULL,NULL
+4872691,MLB,25,SD,Padres,CF,Jackson,Merrill,2003-04-19,"6' 2""",195.0,3,NULL,United States,"Baltimore, MD",2024,4872691,L,R,NULL,NULL,NULL
+35983,MLB,25,SD,Padres,RF,Fernando,Tatis Jr.,1999-01-02,"6' 3""",217.0,23,NULL,Dominican Republic,San Pedro de Macoris,2019,35983,R,R,NULL,NULL,NULL
+33743,MLB,25,SD,Padres,DH,Miguel,Andujar,1995-03-02,"6' 0""",211.0,41,NULL,Dominican Republic,San Cristóbal,2017,33743,R,R,NULL,NULL,NULL
+41460,MLB,26,SF,Giants,RP,JT,Brubaker,1993-11-17,"6' 4""",197.0,34,NULL,United States,"Springfield, OH",2020,41460,R,R,NULL,NULL,NULL
+42698,MLB,26,SF,Giants,RP,Jason,Foley,1995-11-01,"6' 4""",215.0,64,NULL,United States,"Manhasset, NY",2021,42698,R,R,NULL,NULL,NULL
+41225,MLB,26,SF,Giants,RP,Sam,Hentges,1996-07-18,"6' 8""",255.0,31,NULL,United States,"Shoreview, MN",2021,41225,L,L,NULL,NULL,NULL
+32157,MLB,26,SF,Giants,SP,Adrian,Houser,1993-02-02,"6' 4""",227.0,12,NULL,United States,"Tahlequah, OK",2015,32157,R,R,NULL,NULL,NULL
+4875969,MLB,26,SF,Giants,RP,Caleb,Kilian,1997-06-02,"6' 4""",206.0,45,NULL,United States,"Anaheim, CA",2022,4875969,R,R,NULL,NULL,NULL
+34973,MLB,26,SF,Giants,SP,Tyler,Mahle,1994-09-29,"6' 3""",212.0,54,NULL,United States,"Newport Beach, CA",2017,34973,R,R,NULL,NULL,NULL
+5185136,MLB,26,SF,Giants,SP,Trevor,McDonald,2001-02-26,"6' 0""",205.0,72,NULL,United States,"Mobile, AL",2024,5185136,R,R,NULL,NULL,NULL
+4152950,MLB,26,SF,Giants,RP,Erik,Miller,1998-02-13,"6' 5""",269.0,68,Stanford,United States,"St. Louis, MO",2024,4152950,L,L,NULL,NULL,NULL
+32175,MLB,26,SF,Giants,SP,Robbie,Ray,1991-10-01,"6' 2""",220.0,38,NULL,United States,"Brentwood, TN",2014,32175,L,L,NULL,NULL,NULL
+4345404,MLB,26,SF,Giants,SP,Landen,Roupp,1998-09-10,"6' 2""",220.0,65,UNC Wilmington,United States,"Rocky Mount, NC",2024,4345404,R,R,NULL,NULL,NULL
+4414123,MLB,26,SF,Giants,RP,Dylan,Smith,2000-05-28,"6' 2""",180.0,66,Alabama,United States,"Huntsville, AL",2025,4414123,R,R,NULL,NULL,NULL
+41216,MLB,26,SF,Giants,SP,Logan,Webb,1996-11-18,"6' 2""",221.0,62,NULL,United States,"Rocklin, CA",2019,41216,R,R,NULL,NULL,NULL
+5116843,MLB,26,SF,Giants,RP,Keaton,Winn,1998-02-20,"6' 4""",230.0,67,NULL,United States,"Ollie, IA",2023,5116843,R,R,NULL,NULL,NULL
+5270445,MLB,26,SF,Giants,C,Drew,Cavanaugh,2002-01-27,"6' 0""",219.0,61,NULL,United States,"Troy, MI",2026,5270445,L,R,NULL,NULL,NULL
+33452,MLB,26,SF,Giants,C,Eric,Haase,1992-12-18,"5' 10""",201.0,18,NULL,United States,"Detroit, MI",2018,33452,R,R,NULL,NULL,NULL
+5015255,MLB,26,SF,Giants,C,Jesus,Rodriguez,2002-04-23,"5' 10""",201.0,79,NULL,Venezuela,La Victoria,2026,5015255,R,R,NULL,NULL,NULL
+33675,MLB,26,SF,Giants,SS,Willy,Adames,1995-09-02,"6' 0""",216.0,2,NULL,Dominican Republic,Santiago,2018,33675,R,R,NULL,NULL,NULL
+39572,MLB,26,SF,Giants,2B,Luis,Arraez,1997-04-09,"5' 10""",186.0,1,NULL,Venezuela,San Felipe,2019,39572,L,R,NULL,NULL,NULL
+33859,MLB,26,SF,Giants,1B,Rafael,Devers,1996-10-24,"6' 0""",235.0,16,NULL,Dominican Republic,Sanchez,2017,33859,L,R,NULL,NULL,NULL
+4109031,MLB,26,SF,Giants,2B,Christian,Koss,1998-01-27,"6' 1""",185.0,50,UC Irvine,United States,"Riverside, CA",2025,4109031,R,R,NULL,NULL,NULL
+4619467,MLB,26,SF,Giants,CF,Drew,Gilbert,2000-09-27,"5' 9""",195.0,0,Tennessee,United States,"Stillwater, MN",2025,4619467,L,L,NULL,NULL,NULL
+5134621,MLB,26,SF,Giants,RF,Jung Hoo,Lee,1998-08-20,"6' 0""",196.0,51,NULL,Japan,Nagoya,2024,5134621,L,R,NULL,NULL,NULL
+4919922,MLB,26,SF,Giants,CF,Grant,McCray,2000-12-07,"6' 1""",195.0,58,NULL,United States,"Billings, MT",2024,4919922,L,R,NULL,NULL,NULL
+39642,MLB,26,SF,Giants,LF,Heliot,Ramos,1999-09-07,"5' 11""",235.0,17,NULL,Puerto Rico,Humacao,2022,39642,R,R,NULL,NULL,NULL
+4301949,MLB,26,SF,Giants,LF,Casey,Schmitt,1999-03-01,"6' 0""",215.0,10,San Diego State,United States,"San Diego, CA",2023,4301949,R,R,NULL,NULL,NULL
+5149064,MLB,26,SF,Giants,DH,Bryce,Eldridge,2004-10-20,"6' 7""",251.0,8,NULL,United States,"Fairfax, VA",2025,5149064,L,R,NULL,NULL,NULL
+41939,MLB,12,SEA,Mariners,RP,Eduard,Bazardo,1995-09-01,"6' 0""",190.0,83,NULL,Venezuela,Maracay,2021,41939,R,R,NULL,NULL,NULL
+35124,MLB,12,SEA,Mariners,SP,Luis,Castillo,1992-12-12,"6' 2""",200.0,58,NULL,Dominican Republic,Bani,2017,35124,R,R,NULL,NULL,NULL
+4630786,MLB,12,SEA,Mariners,RP,Nick,Davila,1998-11-21,"6' 3""",230.0,82,South Florida,United States,"Hialeah, FL",2026,4630786,R,R,NULL,NULL,NULL
+5119607,MLB,12,SEA,Mariners,RP,Jose,Ferrer,2000-03-03,"6' 1""",233.0,45,NULL,Dominican Republic,Maimon,2023,5119607,L,L,NULL,NULL,NULL
+41221,MLB,12,SEA,Mariners,SP,Logan,Gilbert,1997-05-05,"6' 6""",215.0,36,Stetson,United States,"Winter Park, FL",2021,41221,R,R,NULL,NULL,NULL
+4297897,MLB,12,SEA,Mariners,SP,Emerson,Hancock,1999-05-31,"6' 4""",213.0,26,Georgia,United States,"Cairo, GA",2023,4297897,R,R,NULL,NULL,NULL
+42406,MLB,12,SEA,Mariners,SP,George,Kirby,1998-02-04,"6' 4""",215.0,68,NULL,United States,"Rye, NY",2022,42406,R,R,NULL,NULL,NULL
+4654313,MLB,12,SEA,Mariners,SP,Bryce,Miller,1998-08-23,"6' 2""",200.0,50,Texas A&M,United States,"Mount Pleasant, TX",2023,4654313,R,R,NULL,NULL,NULL
+40939,MLB,12,SEA,Mariners,RP,Andres,Munoz,1999-01-16,"6' 2""",222.0,75,NULL,Mexico,Los Mochis,2019,40939,R,R,NULL,NULL,NULL
+40996,MLB,12,SEA,Mariners,RP,Michael,Rucker,1994-04-27,"6' 1""",195.0,38,NULL,United States,"Columbus, MS",2021,40996,R,R,NULL,NULL,NULL
+40327,MLB,12,SEA,Mariners,RP,Gabe,Speier,1995-04-12,"5' 11""",200.0,55,NULL,United States,"Santa Barbara, CA",2019,40327,L,L,NULL,NULL,NULL
+4413868,MLB,12,SEA,Mariners,RP,Cole,Wilcox,1999-07-14,"6' 5""",232.0,43,Georgia,United States,"Chattanooga, TN",2025,4413868,R,R,NULL,NULL,NULL
+4629089,MLB,12,SEA,Mariners,SP,Bryan,Woo,2000-01-30,"6' 2""",205.0,22,Cal Poly,United States,"Oakland, CA",2023,4629089,R,R,NULL,NULL,NULL
+33667,MLB,12,SEA,Mariners,C,Mitch,Garver,1991-01-15,"6' 1""",220.0,18,New Mexico,United States,"Albuquerque, NM",2017,33667,R,R,NULL,NULL,NULL
+41292,MLB,12,SEA,Mariners,C,Cal,Raleigh,1996-11-26,"6' 2""",235.0,29,Florida State,United States,"Harrisonburg, VA",2021,41292,B,R,NULL,NULL,NULL
+33210,MLB,12,SEA,Mariners,SS,J.P.,Crawford,1995-01-11,"6' 0""",202.0,3,NULL,United States,"Long Beach, CA",2017,33210,L,R,NULL,NULL,NULL
+5149068,MLB,12,SEA,Mariners,SS,Colt,Emerson,2005-07-20,"6' 0""",195.0,4,NULL,United States,"Zanesville, OH",2026,5149068,L,R,NULL,NULL,NULL
+42985,MLB,12,SEA,Mariners,1B,Buddy,Kennedy,1998-10-05,"5' 10""",213.0,39,NULL,United States,"Millville, NJ",2022,42985,R,R,NULL,NULL,NULL
+40900,MLB,12,SEA,Mariners,3B,Miles,Mastrobuoni,1995-10-31,"5' 9""",185.0,21,Nevada,United States,"San Ramon, CA",2022,40900,L,R,NULL,NULL,NULL
+35066,MLB,12,SEA,Mariners,1B,Josh,Naylor,1997-06-22,"5' 10""",235.0,12,NULL,Canada,"Mississauga, ON",2019,35066,L,L,NULL,NULL,NULL
+38682,MLB,12,SEA,Mariners,3B,Weston,Wilson,1994-09-11,"6' 3""",215.0,31,Clemson,United States,"High Point, NC",2023,38682,R,R,NULL,NULL,NULL
+5080641,MLB,12,SEA,Mariners,2B,Cole,Young,2003-07-29,"5' 10""",180.0,2,NULL,United States,"Pittsburgh, PA",2025,5080641,L,R,NULL,NULL,NULL
+36488,MLB,12,SEA,Mariners,LF,Randy,Arozarena,1995-02-28,"5' 10""",185.0,56,NULL,Cuba,Havana,2019,36488,R,R,NULL,NULL,NULL
+40422,MLB,12,SEA,Mariners,RF,Luke,Raley,1994-09-19,"6' 3""",235.0,20,NULL,United States,"Hinckley, OH",2021,40422,L,R,NULL,NULL,NULL
+35042,MLB,12,SEA,Mariners,RF,Victor,Robles,1997-05-19,"6' 0""",193.0,10,NULL,Dominican Republic,Santo Domingo,2017,35042,R,R,NULL,NULL,NULL
+4345621,MLB,12,SEA,Mariners,DH,Dominic,Canzone,1997-08-16,"6' 0""",190.0,8,Ohio State,United States,"Cleveland, OH",2023,4345621,L,R,NULL,NULL,NULL
+42735,MLB,24,STL,Cardinals,RP,Justin,Bruihl,1997-06-26,"6' 2""",215.0,47,NULL,United States,"Petaluma, CA",2021,42735,L,L,NULL,NULL,NULL
+5205835,MLB,24,STL,Cardinals,RP,Luis,Gastelum,2001-09-27,"6' 2""",175.0,72,NULL,Mexico,Sinaloa,2026,5205835,R,R,NULL,NULL,NULL
+5123582,MLB,24,STL,Cardinals,RP,Gordon,Graceffo,2000-03-17,"6' 4""",220.0,44,NULL,United States,"Wayne, NJ",2024,5123582,R,R,NULL,NULL,NULL
+5006093,MLB,24,STL,Cardinals,SP,Kyle,Leahy,1997-06-04,"6' 5""",225.0,62,NULL,United States,"Boulder, CO",2023,5006093,B,R,NULL,NULL,NULL
+41173,MLB,24,STL,Cardinals,SP,Matthew,Liberatore,1999-11-06,"6' 4""",215.0,32,NULL,United States,"Peoria, AZ",2022,41173,L,L,NULL,NULL,NULL
+40937,MLB,24,STL,Cardinals,SP,Dustin,May,1997-09-06,"6' 6""",180.0,3,NULL,United States,"Justin, TX",2019,40937,R,R,NULL,NULL,NULL
+4424141,MLB,24,STL,Cardinals,SP,Michael,McGreevy,2000-07-08,"6' 4""",220.0,36,UC Santa Barbara,United States,"San Clemente, CA",2024,4424141,L,R,NULL,NULL,NULL
+41509,MLB,24,STL,Cardinals,RP,Riley,O'Brien,1995-02-06,"6' 4""",180.0,61,College of Idaho,United States,"Seattle, WA",2021,41509,R,R,NULL,NULL,NULL
+4109034,MLB,24,STL,Cardinals,SP,Andre,Pallante,1998-09-18,"6' 0""",215.0,53,UC Irvine,United States,"Mission Viejo, CA",2022,4109034,R,R,NULL,NULL,NULL
+40456,MLB,24,STL,Cardinals,RP,JoJo,Romero,1996-09-09,"5' 11""",215.0,59,Yavapai College,United States,"Camarillo, CA",2020,40456,L,L,NULL,NULL,NULL
+4917836,MLB,24,STL,Cardinals,RP,George,Soriano,1999-03-24,"6' 2""",210.0,65,NULL,Dominican Republic,San Pedro de Macoris,2023,4917836,R,R,NULL,NULL,NULL
+33301,MLB,24,STL,Cardinals,RP,Ryne,Stanek,1991-07-26,"6' 4""",226.0,55,Arkansas,United States,"St. Louis, MO",2017,33301,R,R,NULL,NULL,NULL
+4649953,MLB,24,STL,Cardinals,RP,Matt,Svanson,1999-01-31,"6' 5""",235.0,49,Lehigh,United States,"Lake Zurich, IL",2025,4649953,R,R,NULL,NULL,NULL
+41118,MLB,24,STL,Cardinals,RP,Bruce,Zimmermann,1995-02-09,"6' 3""",236.0,54,NULL,United States,"Baltimore, MD",2020,41118,L,L,NULL,NULL,NULL
+4749675,MLB,24,STL,Cardinals,C,Jimmy,Crooks,2001-07-19,"6' 0""",230.0,8,NULL,United States,"Euless, TX",2025,4749675,L,R,NULL,NULL,NULL
+42608,MLB,24,STL,Cardinals,C,Pedro,Pages,1998-09-17,"5' 11""",245.0,43,NULL,Venezuela,"Maracay, FL",2024,42608,R,R,NULL,NULL,NULL
+4345070,MLB,24,STL,Cardinals,1B,Alec,Burleson,1998-11-25,"6' 0""",225.0,41,East Carolina,United States,"Charlotte, NC",2022,4345070,L,L,NULL,NULL,NULL
+4722953,MLB,24,STL,Cardinals,3B,Blaze,Jordan,2002-12-19,"6' 1""",220.0,33,NULL,United States,"Southaven, MS",2026,4722953,R,R,NULL,NULL,NULL
+4941056,MLB,24,STL,Cardinals,2B,JJ,Wetherholt,2002-09-10,"5' 9""",190.0,26,West Virginia,United States,"Baltimore, MD",2026,4941056,L,R,NULL,NULL,NULL
+4683365,MLB,24,STL,Cardinals,SS,Masyn,Winn,2002-03-21,"5' 9""",185.0,0,NULL,United States,"Katy, TX",2023,4683365,R,R,NULL,NULL,NULL
+4843048,MLB,24,STL,Cardinals,LF,Nathan,Church,2000-07-12,"5' 10""",180.0,27,UC Irvine,United States,"Newport Beach, CA",2025,4843048,L,L,NULL,NULL,NULL
+38851,MLB,24,STL,Cardinals,LF,Jose,Fermin,1999-03-29,"5' 10""",198.0,15,NULL,Dominican Republic,Puerto Plata,2023,38851,R,R,NULL,NULL,NULL
+4448736,MLB,24,STL,Cardinals,LF,Lars,Nootbaar,1997-09-08,"6' 1""",205.0,21,NULL,United States,"El Segundo, CA",2021,4448736,L,R,NULL,NULL,NULL
+5125653,MLB,24,STL,Cardinals,LF,Bryan,Torres,1997-07-02,"5' 7""",165.0,39,NULL,Puerto Rico,Caguas,2026,5125653,L,R,NULL,NULL,NULL
+41047,MLB,24,STL,Cardinals,LF,Nelson,Velazquez,1998-12-26,"5' 11""",190.0,38,NULL,Puerto Rico,Carolina,2022,41047,R,R,NULL,NULL,NULL
+4684778,MLB,24,STL,Cardinals,RF,Jordan,Walker,2002-05-22,"6' 6""",250.0,18,NULL,United States,"Stone Mountain, GA",2023,4684778,R,R,NULL,NULL,NULL
+41889,MLB,24,STL,Cardinals,DH,Ivan,Herrera,2000-06-01,"5' 11""",220.0,48,NULL,Panama,Panama City,2022,41889,R,R,NULL,NULL,NULL
+40884,MLB,30,TB,Rays,RP,Bryan,Baker,1994-12-02,"6' 6""",235.0,47,NULL,United States,"Fort Walton Beach, FL",2021,40884,R,R,NULL,NULL,NULL
+2560565,MLB,30,TB,Rays,RP,Cam,Booser,1992-05-04,"6' 3""",230.0,62,Oregon State,United States,"Seattle, WA",2024,2560565,L,L,NULL,NULL,NULL
+36429,MLB,30,TB,Rays,RP,Garrett,Cleavinger,1994-04-23,"6' 1""",225.0,60,Oregon,United States,"Lawrence, KS",2020,36429,R,L,NULL,NULL,NULL
+42604,MLB,30,TB,Rays,SP,Griffin,Jax,1994-11-22,"6' 2""",195.0,22,NULL,United States,"Phoenix, AZ",2021,42604,R,R,NULL,NULL,NULL
+5001153,MLB,30,TB,Rays,RP,Kevin,Kelly,1997-11-28,"6' 2""",195.0,49,NULL,United States,"Springfield, VA",2023,5001153,R,R,NULL,NULL,NULL
+30653,MLB,30,TB,Rays,RP,Craig,Kimbrel,1988-05-28,"6' 0""",215.0,46,Wallace State CC,United States,"Huntsville, AL",2010,30653,R,R,NULL,NULL,NULL
+4346117,MLB,30,TB,Rays,RP,Casey,Legumina,1997-06-19,"6' 2""",195.0,67,Gonzaga,United States,"Dallas, TX",2023,4346117,R,R,NULL,NULL,NULL
+33372,MLB,30,TB,Rays,SP,Nick,Martinez,1990-08-05,"6' 1""",200.0,28,Fordham,United States,"Miami, FL",2014,33372,L,R,NULL,NULL,NULL
+41199,MLB,30,TB,Rays,SP,Shane,McClanahan,1997-04-28,"6' 3""",210.0,18,South Florida,United States,"Baltimore, MD",2020,41199,L,L,NULL,NULL,NULL
+42584,MLB,30,TB,Rays,SP,Drew,Rasmussen,1995-07-27,"6' 1""",240.0,57,Oregon State,United States,"Puyallup, WA",2020,42584,R,R,NULL,NULL,NULL
+5201199,MLB,30,TB,Rays,RP,Chris,Roycroft,1997-06-21,"6' 8""",230.0,56,NULL,United States,"Dundee, IL",2024,5201199,R,R,NULL,NULL,NULL
+4669425,MLB,30,TB,Rays,SP,Ian,Seymour,1998-12-13,"6' 0""",215.0,61,Virginia Tech,United States,"Madison, CT",2025,4669425,L,L,NULL,NULL,NULL
+37825,MLB,30,TB,Rays,RP,Cole,Sulser,1990-03-12,"6' 0""",200.0,71,Dartmouth,United States,"Santa Ysabel, CA",2019,37825,R,R,NULL,NULL,NULL
+41801,MLB,30,TB,Rays,C,Hunter,Feduccia,1997-06-05,"6' 1""",215.0,9,LSU,United States,"Lake Charles, LA",2024,41801,L,R,NULL,NULL,NULL
+41674,MLB,30,TB,Rays,C,Nick,Fortes,1996-11-11,"5' 11""",198.0,40,NULL,United States,"Miami, FL",2021,41674,R,R,NULL,NULL,NULL
+40810,MLB,30,TB,Rays,1B,Jonathan,Aranda,1998-05-23,"6' 0""",215.0,8,NULL,Mexico,Baja California,2022,40810,L,R,NULL,NULL,NULL
+4905921,MLB,30,TB,Rays,3B,Junior,Caminero,2003-07-05,"6' 1""",220.0,13,NULL,Dominican Republic,Santo Domingo,2023,4905921,R,R,NULL,NULL,NULL
+41359,MLB,30,TB,Rays,2B,Richie,Palacios,1997-05-16,"5' 8""",185.0,1,Towson,United States,"Brooklyn, NY",2022,41359,L,R,NULL,NULL,NULL
+40576,MLB,30,TB,Rays,SS,Taylor,Walls,1996-07-10,"5' 9""",185.0,6,Florida State,United States,"Cordele, GA",2021,40576,B,R,NULL,NULL,NULL
+4626239,MLB,30,TB,Rays,2B,Ben,Williamson,2000-11-05,"6' 0""",210.0,15,William & Mary,United States,"Fairfax, VA",2025,4626239,R,R,NULL,NULL,NULL
+5005912,MLB,30,TB,Rays,RF,Jonny,DeLuca,1998-07-10,"5' 10""",195.0,21,Oregon,United States,"Thousand Oaks, CA",2023,5005912,R,R,NULL,NULL,NULL
+4917849,MLB,30,TB,Rays,RF,Victor,Mesa Jr.,2001-09-08,"5' 11""",195.0,25,NULL,Cuba,Havana,2025,4917849,L,L,NULL,NULL,NULL
+35578,MLB,30,TB,Rays,CF,Cedric,Mullins,1994-10-01,"5' 7""",175.0,31,Campbell,United States,"Greensboro, NC",2018,35578,L,L,NULL,NULL,NULL
+4679983,MLB,30,TB,Rays,LF,Chandler,Simpson,2000-11-18,"5' 11""",170.0,14,NULL,United States,"Atlanta, GA",2025,4679983,L,R,NULL,NULL,NULL
+40960,MLB,30,TB,Rays,RF,Ryan,Vilade,1999-02-18,"6' 1""",226.0,26,NULL,United States,"Grapevine, TX",2021,40960,R,R,NULL,NULL,NULL
+33481,MLB,30,TB,Rays,DH,Yandy,Diaz,1991-08-08,"6' 0""",235.0,2,NULL,Cuba,Villa Clara,2017,33481,R,R,NULL,NULL,NULL
+4832142,MLB,13,TEX,Rangers,RP,Robby,Ahlstrom,1999-06-18,"6' 3""",195.0,54,Oregon,United States,"Placerville, CA",2026,4832142,L,L,NULL,NULL,NULL
+40360,MLB,13,TEX,Rangers,RP,Tyler,Alexander,1994-07-14,"6' 1""",214.0,13,TCU,United States,"Chicago, IL",2019,40360,R,L,NULL,NULL,NULL
+5205875,MLB,13,TEX,Rangers,RP,Gavin,Collyer,2001-05-12,"6' 1""",165.0,65,NULL,United States,"Lawrenceville, GA",2026,5205875,R,R,NULL,NULL,NULL
+32796,MLB,13,TEX,Rangers,SP,Jacob,deGrom,1988-06-19,"6' 4""",180.0,48,Stetson,United States,"DeLand, FL",2014,32796,L,R,NULL,NULL,NULL
+31174,MLB,13,TEX,Rangers,SP,Nathan,Eovaldi,1990-02-13,"6' 2""",217.0,17,NULL,United States,"Houston, TX",2011,31174,R,R,NULL,NULL,NULL
+39636,MLB,13,TEX,Rangers,SP,MacKenzie,Gore,1999-02-24,"6' 2""",193.0,1,NULL,United States,"Wilmington, NC",2022,39636,L,L,NULL,NULL,NULL
+4187628,MLB,13,TEX,Rangers,RP,Peyton,Gray,1995-06-02,"6' 4""",235.0,75,Florida Gulf Coast,United States,"Columbus, IN",2026,4187628,R,R,NULL,NULL,NULL
+3210625,MLB,13,TEX,Rangers,RP,Jacob,Latz,1996-04-08,"6' 2""",185.0,67,LSU,United States,"Lemont, IL",2021,3210625,R,L,NULL,NULL,NULL
+5202543,MLB,13,TEX,Rangers,RP,Ben,Peoples,2001-05-01,"6' 1""",175.0,70,NULL,United States,"Columbia, TN",2026,5202543,L,R,NULL,NULL,NULL
+39875,MLB,13,TEX,Rangers,RP,Cal,Quantrill,1995-02-10,"6' 3""",195.0,44,Stanford,Canada,"Port Hope, ON",2019,39875,L,R,NULL,NULL,NULL
+4414525,MLB,13,TEX,Rangers,SP,Kumar,Rocker,1999-11-22,"6' 5""",245.0,80,Vanderbilt,United States,"Watkinsville, GA",2024,4414525,R,R,NULL,NULL,NULL
+5124007,MLB,13,TEX,Rangers,SP,Emiliano,Teodo,2001-02-14,"6' 1""",165.0,56,NULL,Dominican Republic,Barahona,2026,5124007,R,R,NULL,NULL,NULL
+41177,MLB,13,TEX,Rangers,RP,Cole,Winn,1999-11-25,"6' 2""",190.0,60,NULL,United States,"Longmont, CO",2024,41177,R,R,NULL,NULL,NULL
+33594,MLB,13,TEX,Rangers,C,Elias,Diaz,1990-11-17,"6' 1""",223.0,35,NULL,Venezuela,Maracaibo,2015,33594,R,R,NULL,NULL,NULL
+30545,MLB,13,TEX,Rangers,C,Kyle,Higashioka,1990-04-20,"6' 1""",202.0,11,NULL,United States,"Huntington Beach, CA",2017,30545,R,R,NULL,NULL,NULL
+39882,MLB,13,TEX,Rangers,1B,Jake,Burger,1996-04-10,"6' 0""",230.0,21,Missouri State,United States,"St. Louis, MO",2021,39882,R,R,NULL,NULL,NULL
+4917917,MLB,13,TEX,Rangers,SS,Cam,Cauley,2003-02-06,"5' 9""",170.0,27,NULL,United States,"Houston, TX",2026,4917917,R,R,NULL,NULL,NULL
+42457,MLB,13,TEX,Rangers,SS,Ezequiel,Duran,1999-05-22,"5' 10""",185.0,20,NULL,Dominican Republic,San Juan de la Maguana,2022,42457,R,R,NULL,NULL,NULL
+4298639,MLB,13,TEX,Rangers,2B,Justin,Foscue,1999-03-02,"5' 11""",205.0,14,Mississippi State,United States,"Huntsville, AL",2024,4298639,R,R,NULL,NULL,NULL
+42437,MLB,13,TEX,Rangers,3B,Josh,Jung,1998-02-12,"6' 1""",214.0,6,Texas Tech,United States,"San Antonio, TX",2022,42437,R,R,NULL,NULL,NULL
+38106,MLB,13,TEX,Rangers,2B,Nicky,Lopez,1995-03-13,"5' 10""",186.0,33,Creighton,United States,"Naperville, IL",2019,38106,L,R,NULL,NULL,NULL
+4917921,MLB,13,TEX,Rangers,CF,Evan,Carter,2002-08-29,"6' 2""",190.0,32,NULL,United States,"Elizabethton, TN",2023,4917921,L,R,NULL,NULL,NULL
+4719324,MLB,13,TEX,Rangers,LF,Wyatt,Langford,2001-11-15,"6' 0""",225.0,36,Florida,United States,"Trenton, FL",2024,4719324,R,R,NULL,NULL,NULL
+32159,MLB,13,TEX,Rangers,RF,Brandon,Nimmo,1993-03-27,"6' 1""",206.0,24,NULL,United States,"Cheyenne, WY",2016,32159,L,R,NULL,NULL,NULL
+4916547,MLB,13,TEX,Rangers,LF,Alejandro,Osuna,2002-10-10,"5' 9""",185.0,19,NULL,Mexico,Ahome,2025,4916547,L,L,NULL,NULL,NULL
+31392,MLB,13,TEX,Rangers,DH,Joc,Pederson,1992-04-21,"6' 1""",220.0,3,NULL,United States,"Palo Alto, CA",2014,31392,L,L,NULL,NULL,NULL
+40912,MLB,14,TOR,Blue Jays,SP,Shane,Bieber,1995-05-31,"6' 3""",200.0,57,UC Santa Barbara,United States,"Orange, CA",2018,40912,R,R,NULL,NULL,NULL
+34943,MLB,14,TOR,Blue Jays,SP,Dylan,Cease,1995-12-28,"6' 2""",200.0,84,NULL,United States,"Milton, GA",2019,34943,R,R,NULL,NULL,NULL
+31313,MLB,14,TOR,Blue Jays,SP,Patrick,Corbin,1989-07-19,"6' 4""",225.0,46,Chipola,United States,"Clay, NY",2012,31313,L,L,NULL,NULL,NULL
+41318,MLB,14,TOR,Blue Jays,RP,Braydon,Fisher,2000-07-26,"6' 4""",180.0,63,NULL,United States,"League City, TX",2025,41318,R,R,NULL,NULL,NULL
+4622501,MLB,14,TOR,Blue Jays,RP,Mason,Fluharty,2001-08-13,"6' 2""",215.0,68,Liberty,United States,"Lewes, DE",2025,4622501,R,L,NULL,NULL,NULL
+32667,MLB,14,TOR,Blue Jays,SP,Kevin,Gausman,1991-01-06,"6' 2""",205.0,34,LSU,United States,"Centennial, CO",2013,32667,L,R,NULL,NULL,NULL
+33841,MLB,14,TOR,Blue Jays,RP,Jeff,Hoffman,1993-01-08,"6' 5""",235.0,23,East Carolina,United States,"Latham, NY",2016,33841,R,R,NULL,NULL,NULL
+4918157,MLB,14,TOR,Blue Jays,RP,Adam,Macko,2000-12-30,"6' 0""",170.0,64,NULL,Slovakia,Bratislava,2026,4918157,L,L,NULL,NULL,NULL
+4833671,MLB,14,TOR,Blue Jays,RP,Spencer,Miles,2000-07-26,"6' 3""",180.0,62,Missouri,United States,"Columbia, MO",2026,4833671,L,R,NULL,NULL,NULL
+34026,MLB,14,TOR,Blue Jays,RP,Tyler,Rogers,1990-12-17,"6' 3""",180.0,71,Austin Peay,United States,"Denver, CO",2019,34026,R,R,NULL,NULL,NULL
+4315215,MLB,14,TOR,Blue Jays,SP,C.J.,Van Eyk,1998-09-15,"6' 1""",198.0,58,Florida State,United States,"Tampa, FL",2026,4315215,R,R,NULL,NULL,NULL
+4917888,MLB,14,TOR,Blue Jays,RP,Louis,Varland,1997-12-09,"6' 1""",205.0,77,Concordia St. Paul,United States,"Saint Paul, MN",2022,4917888,L,R,NULL,NULL,NULL
+4949041,MLB,14,TOR,Blue Jays,SP,Trey,Yesavage,2003-07-28,"6' 4""",225.0,39,East Carolina,United States,"Pottstown, PA",2025,4949041,R,R,NULL,NULL,NULL
+42081,MLB,14,TOR,Blue Jays,C,Alejandro,Kirk,1998-11-06,"5' 8""",245.0,30,NULL,Mexico,Tijuana,2020,42081,R,R,NULL,NULL,NULL
+4918248,MLB,14,TOR,Blue Jays,C,Brandon,Valenzuela,2000-10-02,"6' 0""",225.0,59,NULL,Mexico,Hermosillo,2026,4918248,B,R,NULL,NULL,NULL
+41287,MLB,14,TOR,Blue Jays,2B,Ernie,Clement,1996-03-22,"6' 0""",170.0,22,Virginia,United States,"Rochester, NY",2021,41287,R,R,NULL,NULL,NULL
+37729,MLB,14,TOR,Blue Jays,SS,Andres,Gimenez,1998-09-04,"5' 11""",161.0,0,NULL,Venezuela,Barquisimeto,2020,37729,L,R,NULL,NULL,NULL
+35002,MLB,14,TOR,Blue Jays,1B,Vladimir,Guerrero Jr.,1999-03-16,"6' 0""",245.0,27,NULL,Canada,"Montreal, PQ",2019,35002,R,R,NULL,NULL,NULL
+5134636,MLB,14,TOR,Blue Jays,3B,Kazuma,Okamoto,1996-06-30,"6' 1""",220.0,7,NULL,Japan,Nara,2026,5134636,R,R,NULL,NULL,NULL
+35383,MLB,14,TOR,Blue Jays,2B,Luis,Urias,1997-06-03,"5' 9""",202.0,48,NULL,Mexico,Sonora,2018,35383,R,R,NULL,NULL,NULL
+4918159,MLB,14,TOR,Blue Jays,LF,Jonatan,Clase,2002-05-23,"5' 10""",150.0,8,NULL,Dominican Republic,Santo Domingo,2024,4918159,B,R,NULL,NULL,NULL
+35682,MLB,14,TOR,Blue Jays,RF,Nathan,Lukes,1994-07-12,"5' 11""",180.0,38,Sacramento State,United States,"Sacramento, CA",2023,35682,L,R,NULL,NULL,NULL
+39105,MLB,14,TOR,Blue Jays,RF,Myles,Straw,1994-10-17,"5' 9""",178.0,3,St. John's River State CC,United States,"Garden Grove, CA",2018,39105,R,R,NULL,NULL,NULL
+40963,MLB,14,TOR,Blue Jays,CF,Daulton,Varsho,1996-07-02,"5' 8""",207.0,5,Milwaukee,United States,"Marshfield, WI",2020,40963,L,R,NULL,NULL,NULL
+5128241,MLB,14,TOR,Blue Jays,DH,Sean,Keys,2003-05-26,"6' 1""",232.0,20,Bucknell,United States,"Huntington, NY",2026,5128241,L,R,NULL,NULL,NULL
+32078,MLB,14,TOR,Blue Jays,DH,George,Springer,1989-09-19,"6' 1""",220.0,4,UConn,United States,"New Britain, CT",2014,32078,R,R,NULL,NULL,NULL
+4300668,MLB,20,WSH,Nationals,SP,Andrew,Alvarez,1999-06-13,"6' 3""",215.0,54,Cal Poly,United States,"Anaheim, CA",2025,4300668,L,L,NULL,NULL,NULL
+4313143,MLB,20,WSH,Nationals,RP,Clayton,Beeter,1998-10-09,"6' 2""",220.0,39,Texas Tech,United States,"Fort Worth, TX",2024,4313143,R,R,NULL,NULL,NULL
+4308037,MLB,20,WSH,Nationals,SP,Cade,Cavalli,1998-08-14,"6' 4""",223.0,24,Oklahoma,United States,"Tulsa, OK",2022,4308037,R,R,NULL,NULL,NULL
+4622146,MLB,20,WSH,Nationals,RP,Riley,Cornelio,2000-06-06,"6' 3""",195.0,74,TCU,United States,"Honolulu, HI",2026,4622146,R,R,NULL,NULL,NULL
+4990459,MLB,20,WSH,Nationals,RP,Tom,Cosgrove,1996-06-14,"6' 2""",190.0,34,NULL,United States,"Staten Island, NY",2023,4990459,L,L,NULL,NULL,NULL
+33773,MLB,20,WSH,Nationals,SP,Foster,Griffin,1995-07-27,"6' 3""",225.0,22,NULL,United States,"Orlando, FL",2020,33773,R,L,NULL,NULL,NULL
+41310,MLB,20,WSH,Nationals,RP,Justin,Lawrence,1994-11-25,"6' 3""",211.0,44,NULL,Panama,Panama City,2021,41310,R,R,NULL,NULL,NULL
+36052,MLB,20,WSH,Nationals,SP,Zack,Littell,1995-10-05,"6' 4""",250.0,18,NULL,United States,"Burlington, NC",2018,36052,R,R,NULL,NULL,NULL
+4621424,MLB,20,WSH,Nationals,RP,Carson,Palmquist,2000-10-17,"6' 3""",206.0,51,Miami,United States,"Fort Myers, FL",2025,4621424,L,L,NULL,NULL,NULL
+4019760,MLB,20,WSH,Nationals,RP,PJ,Poulin,1996-07-25,"6' 1""",195.0,50,UConn,United States,"Marion, MA",2025,4019760,R,L,NULL,NULL,NULL
+5132036,MLB,20,WSH,Nationals,RP,Orlando,Ribalta,1998-03-05,"6' 7""",245.0,64,NULL,Cuba,Santa Clara,2024,5132036,R,R,NULL,NULL,NULL
+4228448,MLB,20,WSH,Nationals,C,Drew,Millas,1998-01-15,"6' 0""",204.0,14,Missouri State,United States,"St. Louis, MO",2023,4228448,B,R,NULL,NULL,NULL
+38827,MLB,20,WSH,Nationals,C,Keibert,Ruiz,1998-07-20,"5' 11""",238.0,20,NULL,Venezuela,Valencia,2020,38827,B,R,NULL,NULL,NULL
+42402,MLB,20,WSH,Nationals,SS,CJ,Abrams,2000-10-03,"6' 0""",191.0,5,NULL,United States,"Alpharetta, GA",2022,42402,L,R,NULL,NULL,NULL
+42949,MLB,20,WSH,Nationals,1B,Andres,Chaparro,1999-05-04,"6' 0""",200.0,87,NULL,Venezuela,El Vigia,2024,42949,R,R,NULL,NULL,NULL
+40459,MLB,20,WSH,Nationals,1B,Luis,Garcia Jr.,2000-05-16,"6' 1""",216.0,2,NULL,United States,"New York, NY",2020,40459,L,R,NULL,NULL,NULL
+42360,MLB,20,WSH,Nationals,3B,Curtis,Mead,2000-10-26,"6' 1""",225.0,45,NULL,Australia,"Adelaide, SA",2023,42360,R,R,NULL,NULL,NULL
+4728688,MLB,20,WSH,Nationals,2B,Nasim,Nunez,2000-08-18,"5' 8""",165.0,26,NULL,United States,"Bronx, NY",2024,4728688,B,R,NULL,NULL,NULL
+5194635,MLB,20,WSH,Nationals,1B,Abimelec,Ortiz,2002-02-22,"5' 10""",230.0,81,NULL,Puerto Rico,Bayamon,2026,5194635,L,L,NULL,NULL,NULL
+4722676,MLB,20,WSH,Nationals,3B,Jorbit,Vivas,2001-03-09,"5' 9""",171.0,84,NULL,Venezuela,Puerto Cabello,2025,4722676,L,R,NULL,NULL,NULL
+4719511,MLB,20,WSH,Nationals,RF,Dylan,Crews,2002-02-26,"5' 11""",203.0,3,LSU,United States,"Altamonte Springs, FL",2024,4719511,R,R,NULL,NULL,NULL
+4917889,MLB,20,WSH,Nationals,LF,Daylen,Lile,2002-11-30,"5' 11""",195.0,4,NULL,United States,"Louisville, KY",2025,4917889,L,R,NULL,NULL,NULL
+4918256,MLB,20,WSH,Nationals,RF,James,Wood,2002-09-17,"6' 6""",234.0,29,NULL,United States,"Rockville, MD",2024,4918256,L,R,NULL,NULL,NULL
+4414210,MLB,20,WSH,Nationals,CF,Jacob,Young,1999-07-27,"5' 11""",192.0,30,Florida,United States,"Ponte Vedra, FL",2023,4414210,R,R,NULL,NULL,NULL
+42105,MLB,20,WSH,Nationals,DH,Jose,Tena,2001-03-20,"5' 10""",195.0,8,NULL,Dominican Republic,San Cristóbal,2023,42105,L,R,NULL,NULL,NULL
