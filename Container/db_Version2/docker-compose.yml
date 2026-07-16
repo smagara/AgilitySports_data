@@ -1,0 +1,85 @@
+name: agilitysports-V2-test-sql-db
+
+services:
+  sqlserver:
+    image: ${SQLSERVER_IMAGE:-mcr.microsoft.com/mssql/server:2022-latest}
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Developer"
+      MSSQL_SA_PASSWORD: ${MSSQL_SA_PASSWORD:?MSSQL_SA_PASSWORD is required}
+    ports:
+      - "${HOST_SQL_PORT:-21433}:1433"
+    volumes:
+      - db_v2_data:/var/opt/mssql
+      - ./database:/docker-init/database:ro
+      - ./security:/docker-init/security:ro
+      - ./schema:/docker-init/schema:ro
+      - ./seed:/docker-init/seed:ro
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P \"$${MSSQL_SA_PASSWORD}\" -C -Q \"SELECT 1\" || exit 1",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 30s
+    restart: unless-stopped
+
+  init-db-image:
+    image: ${SQLSERVER_IMAGE:-mcr.microsoft.com/mssql/server:2022-latest}
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    environment:
+      MSSQL_SA_PASSWORD: ${MSSQL_SA_PASSWORD:?MSSQL_SA_PASSWORD is required}
+      AGILITY_DB_NAME: ${AGILITY_DB_NAME:-AgilitySports}
+      AGILITY_TEST_LOGIN: ${AGILITY_TEST_LOGIN}
+      AGILITY_TEST_PASSWORD: ${AGILITY_TEST_PASSWORD}
+    volumes:
+      - ./database:/docker-init/database:ro
+      - ./security:/docker-init/security:ro
+      - ./schema:/docker-init/schema:ro
+      - ./seed:/docker-init/seed:ro
+    command: >
+      /bin/bash -c '
+      set -e;
+      /opt/mssql-tools18/bin/sqlcmd -S sqlserver -U sa -P "$${MSSQL_SA_PASSWORD}" -C -d master -b -v DB_NAME="$${AGILITY_DB_NAME}" -i /docker-init/database/001-create-database.sql;
+      echo "Docker Database creation complete.";
+      echo "Waiting for database [$${AGILITY_DB_NAME}] to become ONLINE...";
+      for i in $$(seq 1 60); do
+        if /opt/mssql-tools18/bin/sqlcmd -S sqlserver -U sa -P "$${MSSQL_SA_PASSWORD}" -C -d "$${AGILITY_DB_NAME}" -b -Q "SELECT 1" >/dev/null 2>&1; then
+          echo "Database [$${AGILITY_DB_NAME}] is ONLINE.";
+          break;
+        fi;
+        if [ "$$i" -eq 60 ]; then
+          echo "Database [$${AGILITY_DB_NAME}] did not become ONLINE in time.";
+          exit 1;
+        fi;
+        sleep 2;
+      done;
+      /opt/mssql-tools18/bin/sqlcmd -S sqlserver -U sa -P "$${MSSQL_SA_PASSWORD}" -C -d master -b -v DB_NAME="$${AGILITY_DB_NAME}" TEST_USER_LOGIN="$${AGILITY_TEST_LOGIN}" TEST_USER_PASSWORD="$${AGILITY_TEST_PASSWORD}" -i /docker-init/security/002-security.sql;
+      echo "Docker Database Security complete.";
+      /opt/mssql-tools18/bin/sqlcmd -S sqlserver -U sa -P "$${MSSQL_SA_PASSWORD}" -C -d master -b -v DB_NAME="$${AGILITY_DB_NAME}" TEST_USER_LOGIN="$${AGILITY_TEST_LOGIN}" -i /docker-init/schema/003-schema.sql;
+      echo "Docker Database Schema complete.";
+      if command -v dos2unix >/dev/null 2>&1; then
+        cp /docker-init/schema/003a-sprocs.sql /tmp/003a-sprocs.sql;
+        dos2unix /tmp/003a-sprocs.sql;
+      else
+        sed "s/\r$//" /docker-init/schema/003a-sprocs.sql > /tmp/003a-sprocs.sql;
+      fi;
+      /opt/mssql-tools18/bin/sqlcmd -S sqlserver -U sa -P "$${MSSQL_SA_PASSWORD}" -C -d "$${AGILITY_DB_NAME}" -b -v DB_NAME="$${AGILITY_DB_NAME}" TEST_USER_LOGIN="$${AGILITY_TEST_LOGIN}" -i /tmp/003a-sprocs.sql;
+      echo "Docker Database Sprocs complete.";
+      /opt/mssql-tools18/bin/sqlcmd -S sqlserver -U sa -P "$${MSSQL_SA_PASSWORD}" -C -d "$${AGILITY_DB_NAME}" -b -v DB_NAME="$${AGILITY_DB_NAME}" -i /docker-init/seed/004-seed-common-data.sql;
+      /opt/mssql-tools18/bin/sqlcmd -S sqlserver -U sa -P "$${MSSQL_SA_PASSWORD}" -C -d "$${AGILITY_DB_NAME}" -b -v DB_NAME="$${AGILITY_DB_NAME}" -i /docker-init/seed/005-seed-dev-data-NBA.sql;
+      /opt/mssql-tools18/bin/sqlcmd -S sqlserver -U sa -P "$${MSSQL_SA_PASSWORD}" -C -d "$${AGILITY_DB_NAME}" -b -v DB_NAME="$${AGILITY_DB_NAME}" -i /docker-init/seed/006-seed-dev-data-NFL.sql;
+      /opt/mssql-tools18/bin/sqlcmd -S sqlserver -U sa -P "$${MSSQL_SA_PASSWORD}" -C -d "$${AGILITY_DB_NAME}" -b -v DB_NAME="$${AGILITY_DB_NAME}" -i /docker-init/seed/007-seed-dev-data-NHL.sql;
+      /opt/mssql-tools18/bin/sqlcmd -S sqlserver -U sa -P "$${MSSQL_SA_PASSWORD}" -C -d "$${AGILITY_DB_NAME}" -b -v DB_NAME="$${AGILITY_DB_NAME}" -i /docker-init/seed/008-seed-dev-data-MLB.sql;
+      /opt/mssql-tools18/bin/sqlcmd -S sqlserver -U sa -P "$${MSSQL_SA_PASSWORD}" -C -d "$${AGILITY_DB_NAME}" -b -v DB_NAME="$${AGILITY_DB_NAME}" -i /docker-init/seed/009-seed-dev-data-PGA.sql;
+      echo "Docker Database Seeding complete.";
+      '
+    restart: "no"
+
+volumes:
+  db_v2_data:
