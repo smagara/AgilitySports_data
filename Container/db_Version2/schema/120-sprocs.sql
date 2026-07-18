@@ -12,9 +12,9 @@ GO
 -- 12/13/2023 - Created
 -- 07/15/2026 - Upgrade to V2
 --
--- EXEC MLB.[attendanceReportSproc] @sportCode = 'MLB', @beginDecade = 1940, @endDecade = 1980
+-- EXEC stats.[attendanceReportSproc] @sportCode = 'MLB', @beginDecade = 1940, @endDecade = 1980
 -- ================================================
-CREATE OR ALTER PROCEDURE MLB.[attendanceReportSproc] 
+CREATE OR ALTER PROCEDURE stats.[attendanceReportSproc] 
 	@sportCode varchar(3), @beginDecade int, @endDecade int
 AS
 BEGIN
@@ -24,7 +24,7 @@ BEGIN
 		attendance = sum(attendance),
 		sportCode
 	FROM stats.Attendance 
-	WHERE yearId between 1980 and (2000 + 9)
+	WHERE yearId between @beginDecade and (@endDecade + 9)
 	GROUP BY sportCode, yearId / 10 * 10
 	Order by 1		
 
@@ -34,11 +34,11 @@ GO
 IF USER_ID(N'$(TEST_USER_LOGIN)') IS NOT NULL
 BEGIN
 	DECLARE @grantExecSql NVARCHAR(MAX);
-	SET @grantExecSql = N'GRANT EXEC ON [MLB].[attendanceReportSproc] TO [' + N'$(TEST_USER_LOGIN)' + N'];';
+	SET @grantExecSql = N'GRANT EXEC ON stats.[attendanceReportSproc] TO [' + N'$(TEST_USER_LOGIN)' + N'];';
 	PRINT @grantExecSql;
 	EXEC (@grantExecSql);
 END
-GRANT EXEC ON [MLB].[attendanceReportSproc] to public;
+GRANT EXEC ON [stats].[attendanceReportSproc] to public;
 GO
 
 declare @status varchar(100);
