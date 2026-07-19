@@ -7,5 +7,5 @@
 MSSQL_SA_PASSWORD=YourStrongPassword1234
 HOST_SQL_PORT=21433 # Connect MS SQL Server Management studio to this port, with a comma, rather than a colon.
 AGILITY_DB_NAME=AgilitySports
-AGILITY_TEST_LOGIN=test_user # Ensure the AgilitySports 
+AGILITY_TEST_LOGIN=test_user # Ensure the AgilitySports db supports this user
 AGILITY_TEST_PASSWORD=test.1234
