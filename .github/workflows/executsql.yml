@@ -34,9 +34,14 @@ jobs:
           AZURE_SQL_SERVER: ${{ secrets.AZURE_SQL_SERVER }}
           AZURE_SQL_DATABASE: ${{ secrets.AZURE_SQL_DATABASE }}
         run: |
+          set -uo pipefail
+
           # Initialize a log file
           LOG_FILE="execution_log.txt"
           echo "SQL Execution Log - $(date)" > $LOG_FILE
+
+          FAILED=0
+          RAN_COUNT=0
 
           # Get the list of changed files
           if git rev-parse HEAD~1 >/dev/null 2>&1; then
@@ -46,18 +51,61 @@ jobs:
             CHANGED_FILES=$(git ls-files)
           fi
 
+          # Keep only SQL files
+          mapfile -t SQL_FILES < <(printf '%s\n' "$CHANGED_FILES" | grep -Ei '\.sql$' || true)
+          if [ ${#SQL_FILES[@]} -eq 0 ]; then
+            echo "No changed SQL files found."
+            echo "No changed SQL files found." | tee -a $LOG_FILE
+            cat $LOG_FILE
+            exit 0
+          fi
+
           # Filter for .sql files and execute them
-          for file in $CHANGED_FILES; do
-            if [[ $file == *.sql ]]; then
-              echo "Executing $file" | tee -a $LOG_FILE
-              /opt/mssql-tools/bin/sqlcmd -S $AZURE_SQL_SERVER -d $AZURE_SQL_DATABASE -U $AZURE_SQL_USER -P $AZURE_SQL_PASSWORD -i "$file" >> $LOG_FILE 2>&1
-              if [ $? -eq 0 ]; then
-                echo "Execution of $file succeeded." | tee -a $LOG_FILE
-              else
-                echo "Execution of $file failed." | tee -a $LOG_FILE
-              fi
+          for file in "${SQL_FILES[@]}"; do
+            if [ ! -f "$file" ]; then
+              echo "Execution of $file failed: file does not exist." | tee -a $LOG_FILE
+              echo "::error file=$file::SQL file does not exist in workspace."
+              FAILED=1
+              continue
             fi
+
+            echo "Executing $file" | tee -a $LOG_FILE
+
+            TMP_OUT="$(mktemp)"
+            /opt/mssql-tools/bin/sqlcmd \
+              -S "$AZURE_SQL_SERVER" \
+              -d "$AZURE_SQL_DATABASE" \
+              -U "$AZURE_SQL_USER" \
+              -P "$AZURE_SQL_PASSWORD" \
+              -b \
+              -r1 \
+              -i "$file" > "$TMP_OUT" 2>&1
+            SQLCMD_EXIT=$?
+
+            cat "$TMP_OUT" >> "$LOG_FILE"
+            RAN_COUNT=$((RAN_COUNT + 1))
+
+            if [ $SQLCMD_EXIT -ne 0 ]; then
+              echo "Execution of $file failed (sqlcmd exit $SQLCMD_EXIT)." | tee -a $LOG_FILE
+              echo "::error file=$file::sqlcmd exited with code $SQLCMD_EXIT. See execution_log.txt for details."
+              FAILED=1
+            fi
+
+            if grep -Eiq "Invalid filename|cannot open|No such file or directory" "$TMP_OUT"; then
+              echo "Execution of $file failed (include/path resolution error)." | tee -a $LOG_FILE
+              echo "::error file=$file::Include/path resolution error detected (for example: Invalid filename). Use POSIX paths in :r includes on Linux runners."
+              FAILED=1
+            fi
+
+            rm -f "$TMP_OUT"
           done
 
           # Display the log file in the workflow logs
           cat $LOG_FILE
+
+          echo "Executed SQL files: $RAN_COUNT"
+
+          if [ $FAILED -ne 0 ]; then
+            echo "One or more SQL scripts failed. Failing job."
+            exit 1
+          fi
