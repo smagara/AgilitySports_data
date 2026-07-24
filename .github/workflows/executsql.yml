@@ -33,6 +33,7 @@ jobs:
           AZURE_SQL_PASSWORD: ${{ secrets.AZURE_SQL_PASSWORD }}
           AZURE_SQL_SERVER: ${{ secrets.AZURE_SQL_SERVER }}
           AZURE_SQL_DATABASE: ${{ secrets.AZURE_SQL_DATABASE }}
+        shell: bash
         run: |
           set -uo pipefail
 
@@ -72,6 +73,8 @@ jobs:
             echo "Executing $file" | tee -a $LOG_FILE
 
             TMP_OUT="$(mktemp)"
+            # bash -e would exit immediately on non-zero sqlcmd; capture status manually.
+            set +e
             /opt/mssql-tools/bin/sqlcmd \
               -S "$AZURE_SQL_SERVER" \
               -d "$AZURE_SQL_DATABASE" \
@@ -81,6 +84,7 @@ jobs:
               -r1 \
               -i "$file" > "$TMP_OUT" 2>&1
             SQLCMD_EXIT=$?
+            set -e
 
             cat "$TMP_OUT" >> "$LOG_FILE"
             RAN_COUNT=$((RAN_COUNT + 1))
@@ -88,6 +92,10 @@ jobs:
             if [ $SQLCMD_EXIT -ne 0 ]; then
               echo "Execution of $file failed (sqlcmd exit $SQLCMD_EXIT)." | tee -a $LOG_FILE
               echo "::error file=$file::sqlcmd exited with code $SQLCMD_EXIT. See execution_log.txt for details."
+              echo "--- Failure summary for $file ---"
+              grep -Ein "^Msg [0-9]+|^Sqlcmd: Error|Invalid filename|cannot open|No such file or directory" "$TMP_OUT" | head -n 20 || true
+              echo "--- Last 40 lines of sqlcmd output for $file ---"
+              tail -n 40 "$TMP_OUT" || true
               FAILED=1
             fi
 
