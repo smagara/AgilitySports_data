@@ -30,14 +30,6 @@ BEGIN
 
 END
 
-GO
-IF USER_ID(N'$(TEST_USER_LOGIN)') IS NOT NULL
-BEGIN
-	DECLARE @grantExecSql NVARCHAR(MAX);
-	SET @grantExecSql = N'GRANT EXEC ON stats.[attendanceReportSproc] TO [' + N'$(TEST_USER_LOGIN)' + N'];';
-	PRINT @grantExecSql;
-	EXEC (@grantExecSql);
-END
 GRANT EXEC ON [stats].[attendanceReportSproc] to public;
 GO
 
