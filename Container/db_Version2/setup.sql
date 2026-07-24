@@ -2,7 +2,10 @@
 -- Primary/authoritative container initialization is defined in docker-compose.yml (init-db-image).
 -- Keep this file aligned with compose script order for local/manual execution.
 
-:r .\database\001-create-database.sql
+-- 07/24/2026 Sending this up by PR and CD/CD Azure SQL pipeline
+-- Overlaying existing database (schemas are all different).
+
+--:r .\database\001-create-database.sql
 :r .\security\002-security.sql
 :r .\schema\101-ddl.V2.schemas.sql
 :r .\schema\102-ddl.V2.Sports.sql
