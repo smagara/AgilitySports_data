@@ -1,7 +1,7 @@
 IF SUSER_ID(N'$(AZURE_SQL_USER)') IS NULL
 BEGIN
-	DECLARE @testLogin SYSNAME = N'$(AZURE_SQL_USER)';
-	DECLARE @testPassword NVARCHAR(128) = N'$(AZURE_SQL_PASSWORD)';
+	DECLARE @Login SYSNAME = N'$(AZURE_SQL_USER)';
+	DECLARE @Password NVARCHAR(128) = N'$(AZURE_SQL_PASSWORD)';
 	DECLARE @quotedPassword NVARCHAR(260);
 	DECLARE @createLoginSql NVARCHAR(MAX);
 	SET @quotedPassword = N'''' + REPLACE(@Password, N'''', N'''''') + N'''';
