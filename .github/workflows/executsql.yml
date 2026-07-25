@@ -12,7 +12,7 @@ jobs:
     steps:
       # Step 1: Checkout the repository to access the files
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0  # Fetch the full history to ensure HEAD~1 is valid
 
@@ -73,6 +73,7 @@ jobs:
             echo "Executing $file" | tee -a $LOG_FILE
 
             TMP_OUT="$(mktemp)"
+
             # bash -e would exit immediately on non-zero sqlcmd; capture status manually.
             set +e
             /opt/mssql-tools/bin/sqlcmd \
