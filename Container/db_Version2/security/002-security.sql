@@ -18,7 +18,7 @@ GO
 IF USER_ID(N'$(AZURE_SQL_USER)') IS NULL
 BEGIN
 	DECLARE @createUserSql NVARCHAR(MAX);
-	SET @createUserSql = N'CREATE USER ' + N'$(AZURE_SQL_USER)' + N' FOR LOGIN ' + N'$(AZURE_SQL_USER)' + N';';
+	SET @createUserSql = N'CREATE USER ' + N'$(AGILITY_TEST_USER)' + N' FOR LOGIN ' + N'$(AGILITY_TEST_USER)' + N';';
 	EXEC (@createUserSql);
 END
 GO
@@ -26,8 +26,8 @@ GO
 DECLARE @grantReaderSql NVARCHAR(MAX);
 DECLARE @grantWriterSql NVARCHAR(MAX);
 
-SET @grantReaderSql = N'ALTER ROLE db_datareader ADD MEMBER ' + N'$(AZURE_SQL_USER)' + N';';
-SET @grantWriterSql = N'ALTER ROLE db_datawriter ADD MEMBER ' + N'$(AZURE_SQL_USER)' + N';';
+SET @grantReaderSql = N'ALTER ROLE db_datareader ADD MEMBER ' + N'$(AGILITY_TEST_USER)' + N';';
+SET @grantWriterSql = N'ALTER ROLE db_datawriter ADD MEMBER ' + N'$(AGILITY_TEST_USER)' + N';';
 
 EXEC (@grantReaderSql);
 EXEC (@grantWriterSql);
