@@ -1,3 +1,5 @@
+/*
+-- User already exists in Master, remove CREATE LOGIN, keep CREATE USER (for new DB)
 IF SUSER_ID(N'$(AZURE_SQL_USER)') IS NULL
 BEGIN
 	DECLARE @Login SYSNAME = N'$(AZURE_SQL_USER)';
@@ -9,7 +11,7 @@ BEGIN
 	EXEC (@createLoginSql);
 END
 GO
-
+*/
 USE [$(DB_NAME)];
 GO
 
