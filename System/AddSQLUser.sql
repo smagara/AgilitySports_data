@@ -6,8 +6,17 @@
 DROP USER [agility_user]; -- run in AgilitySports2  
 DROP LOGIN [agility_user_login]; -- run in master
 
+/*
+
 /* Create a new SQL login from an Azure managed identity for passwordless access */
 CREATE LOGIN AgilitySQLUserReadonly  FROM EXTERNAL PROVIDER; -- run in Master
 CREATE USER AgilitySQLUserReadonly   FROM EXTERNAL PROVIDER; -- run in AgilitySports2
 ALTER ROLE db_datareader ADD MEMBER AgilitySQLUserReadonly ; -- run in AgilitySports2
 ALTER ROLE db_datawriter ADD MEMBER AgilitySQLUserReadonly ; -- run in AgilitySports2
+
+/* for new V2 database, as well */
+CREATE USER AgilitySQLUserReadonly   FROM EXTERNAL PROVIDER; -- run in AgilitySports
+ALTER ROLE db_datareader ADD MEMBER AgilitySQLUserReadonly ; -- run in AgilitySports
+ALTER ROLE db_datawriter ADD MEMBER AgilitySQLUserReadonly ; -- run in AgilitySports
+
+*/
