@@ -4,9 +4,10 @@
 
 -- 07/24/2026 Sending this up by PR and CD/CD Azure SQL pipeline
 -- Overlaying existing database (schemas are all different).
+-- Adding back Db and UID creation, for Azure
 
---:r Container/db_Version2/database/001-create-database.sql
---:r Container/db_Version2/security/002-security.sql
+:r Container/db_Version2/database/001-create-database.sql
+:r Container/db_Version2/security/002-security.sql
 :r Container/db_Version2/schema/101-ddl.V2.schemas.sql
 :r Container/db_Version2/schema/102-ddl.V2.Sports.sql
 :r Container/db_Version2/schema/103-ddl.V2.PositionsCodes.sql
