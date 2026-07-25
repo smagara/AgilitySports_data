@@ -3,7 +3,7 @@
 -- Keep this file aligned with compose script order for local/manual execution.
 
 -- 07/24/2026 Sending this up by PR and CD/CD Azure SQL pipeline
--- Creating into new database "AgilitySports". No CREATE LOGIN needed, already in Master db. Added to yml.
+-- Creating into new database "AgilitySports". No CREATE LOGIN needed, already in Master db. Added to yml..
 -- Now creating targe database directly in Azure, since it is rare, and the script would otherwise need to start in master.
 
 -- :r Container/db_Version2/database/001-create-database.sql
