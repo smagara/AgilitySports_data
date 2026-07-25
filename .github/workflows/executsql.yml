@@ -83,6 +83,7 @@ jobs:
               -d "$AZURE_SQL_DATABASE" \
               -U "$AZURE_SQL_USER" \
               -P "$AZURE_SQL_PASSWORD" \
+              -v AGILITY_TEST_USER="$AGILITY_TEST_USER" \
               -b \
               -r1 \
               -i "$file" > "$TMP_OUT" 2>&1
