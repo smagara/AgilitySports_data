@@ -10,9 +10,9 @@ BEGIN
 	SET @createLoginSql = N'CREATE LOGIN ' + @Login + N' WITH PASSWORD = ' + @quotedPassword + N';';
 	EXEC (@createLoginSql);
 END
-GO
+
 */
-USE [$(DB_NAME)];
+USE [$(AZURE_SQL_DATABASE)];
 GO
 
 IF USER_ID(N'$(AZURE_SQL_USER)') IS NULL
