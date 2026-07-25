@@ -33,6 +33,8 @@ jobs:
           AZURE_SQL_PASSWORD: ${{ secrets.AZURE_SQL_PASSWORD }}
           AZURE_SQL_SERVER: ${{ secrets.AZURE_SQL_SERVER }}
           AZURE_SQL_DATABASE: ${{ secrets.AZURE_SQL_DATABASE }}
+          AGILITY_TEST_USER: ${{ secrets.AGILITY_TEST_USER }}
+          
         shell: bash
         run: |
           set -uo pipefail
