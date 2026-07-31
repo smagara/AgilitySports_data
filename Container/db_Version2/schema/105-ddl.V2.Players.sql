@@ -12,7 +12,7 @@ if OBJECT_ID(N'core.Players', N'U') IS NOT NULL
 else begin
 CREATE TABLE core.Players
 (
-	playerID int IDENTITY(9000000,1) NOT NULL,
+	playerID int IDENTITY(300001,1) NOT NULL,
 	sportCode varchar(3) NOT NULL,
 	teamCode varchar(15) NOT NULL,
 	positionCode varchar(3) NULL,

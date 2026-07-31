@@ -58,7 +58,12 @@ BEGIN TRY
         (N'NHL', N'F', N'Forward'),
         (N'NHL', N'G', N'Goalie'),
         (N'NHL', N'LW', N'Left Winger'),
-        (N'NHL', N'RW', N'Right Winger');
+        (N'NHL', N'RW', N'Right Winger'),
+        (N'FIF', N'G', N'Goalkeeper'),
+        (N'FIF', N'D', N'Defender'),
+        (N'FIF', N'M', N'Midfielder'),
+        (N'FIF', N'F', N'Forward'),
+        (N'FIF', N'UNK', N'Unknown');
 
     COMMIT TRANSACTION;
 END TRY

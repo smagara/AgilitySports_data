@@ -6,7 +6,8 @@ Dependencies: reference.Sports
 
 Change Log:
 2026-07-06  Initial version
-2026-07-14  Updates from ChatGPT-assisted analysis
+2026-07-14  Updates from ChatGPT-assisted analysis
+2026-07-31  Widen ESPNteamCode for FIFA national-team IDs
 */
 CREATE TABLE [core].[Teams](
 	[teamCode] [varchar](15) NOT NULL,
@@ -14,7 +15,7 @@ CREATE TABLE [core].[Teams](
 	[teamShortName] [varchar](30) NULL,
 	[teamName] [varchar](50) NOT NULL,
 	[league] [varchar](50) NULL,
-	[ESPNteamCode] [varchar](3) NULL,
+	[ESPNteamCode] [varchar](10) NULL,
  CONSTRAINT [PK_Teams_sportCode_teamCode] PRIMARY KEY CLUSTERED ([sportCode] ASC, [teamCode] ASC)
 )
 GO

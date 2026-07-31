@@ -65,3 +65,20 @@ def iter_roster_players(roster_data):
     for player in athletes:
         if isinstance(player, dict):
             yield player
+
+def extract_espn_stat_map(player):
+    """Flatten ESPN athlete statistics.splits.categories into name -> displayValue."""
+    stats_map = {}
+    statistics = player.get("statistics") or {}
+    splits = statistics.get("splits") or {}
+    categories = splits.get("categories") or []
+    for category in categories:
+        for stat in category.get("stats") or []:
+            name = stat.get("name")
+            if not name:
+                continue
+            value = stat.get("displayValue", stat.get("value"))
+            if value is None or value == "":
+                value = "NULL"
+            stats_map[name] = value
+    return stats_map

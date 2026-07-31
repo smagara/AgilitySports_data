@@ -1,13 +1,14 @@
 # Developer README
 
 ## Summary
-This project imports active player roster data for major sports leagues and exports normalized CSV files into the data folder. From either the public free ESPN API (NFL, NBA, MLB) or the NHL.COM API (NHL).
+This project imports active player roster data for major sports leagues and exports normalized CSV files into the data folder. From either the public free ESPN API (NFL, NBA, MLB, FIFA World Cup) or the NHL.COM API (NHL).
 
 Current import scripts:
 - import_MLB_Player_Data.py (ESPN public API)
 - import_NBA_Player_Data.py (ESPN public API)
 - Import_NFL_Player_Data.py (ESPN public API)
 - Import_NHL_Player_Data.py (NHL public API)
+- import_FIF_Player_Data.py (ESPN public API / FIFA World Cup 2026 via `fifa.world`)
 
 Shared helpers live under utilities and include ESPN API wrappers plus player normalization utilities.
 
@@ -41,6 +42,7 @@ Run each importer from the project root:
  python import_NBA_Player_Data.py
  python Import_NFL_Player_Data.py
  python Import_NHL_Player_Data.py
+ python import_FIF_Player_Data.py
 ```
 
 ## Output Files
@@ -49,6 +51,7 @@ Generated CSV outputs are written to:
 - data/nba_active_roster_full.csv
 - data/nfl_active_roster_full.csv
 - data/nhl_active_roster_full.csv
+- data/fif_worldcup_2026_roster_full.csv
 
 Additional file that may be generated:
 - data/exceptions.txt
@@ -57,6 +60,7 @@ Additional file that may be generated:
 - ESPN roster payloads can be grouped or flat; iter_roster_players handles both.
 - Scripts include light request throttling to reduce endpoint pressure.
 - If API response shapes change, first review utilities/espn_roster_api.py and utilities/player_model.py.
+- FIFA World Cup importer uses ESPN `soccer/fifa.world` (48 national teams for 2026) and exports `totalGoals`, `assists`, and `saves` from roster statistics.
 
 - ESPN_API Utilities
   - `player_model.py` Define the ESPN API player model and the methods to extract data into it.
@@ -66,5 +70,3 @@ Additional file that may be generated:
   - `infer_birth_country.py` Logic to attempt to infer the country from other ESPN API fields.
   - `city_country_lookup.py` Dictionary of city/country mappings as a last-resort
   = `geo_address_locator.py` Not in use. References the geopy `geolocator` which is slow, requiring sleep()s.
-
-

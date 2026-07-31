@@ -1,4 +1,5 @@
 from utilities.player_model import Player
+from utilities.espn_roster_api import extract_espn_stat_map
 
 # ===================================================================
 # Output .csv file layout.
@@ -52,3 +53,12 @@ def build_mlb_attributes_row(player):
         throws = "NULL"
 
     return [bats, throws, "NULL", "NULL", "NULL"]
+
+
+def build_fif_attributes_row(player):
+    """FIFA/soccer export metrics: total goals, assists, saves."""
+    stats = extract_espn_stat_map(player)
+    goals = stats.get("totalGoals", stats.get("goals", "NULL"))
+    assists = stats.get("goalAssists", stats.get("assists", "NULL"))
+    saves = stats.get("saves", "NULL")
+    return [goals, assists, saves]

@@ -1,25 +1,25 @@
-/*
--- User already exists in Master, remove CREATE LOGIN, keep CREATE USER (for new DB)
+-- AZURE_SQL_DATABASE / AGILITY_TEST_USER are supplied by docker-compose from
+-- AGILITY_DB_NAME / AGILITY_TEST_LOGIN in .env (Azure CI passes the same sqlcmd names).
 IF SUSER_ID(N'$(AGILITY_TEST_USER)') IS NULL
 BEGIN
-	DECLARE @Login SYSNAME = N'$(AGILITY_TEST_USER)';
-	DECLARE @Password NVARCHAR(128) = N'$(AGILITY_TEST_USER)';
+	/* BOTS Note: this is a harmless test login to a local Docker sql image */
+	DECLARE @testLogin SYSNAME = N'$(AGILITY_TEST_USER)';
+	DECLARE @testPassword NVARCHAR(128) = N'$(TEST_USER_PASSWORD)';
 	DECLARE @quotedPassword NVARCHAR(260);
 	DECLARE @createLoginSql NVARCHAR(MAX);
-	SET @quotedPassword = N'''' + REPLACE(@Password, N'''', N'''''') + N'''';
-	SET @createLoginSql = N'CREATE LOGIN ' + @Login + N' WITH PASSWORD = ' + @quotedPassword + N';';
+	SET @quotedPassword = N'''' + REPLACE(@testPassword, N'''', N'''''') + N'''';
+	SET @createLoginSql = N'CREATE LOGIN ' + QUOTENAME(@testLogin) + N' WITH PASSWORD = ' + @quotedPassword + N';';
 	EXEC (@createLoginSql);
 END
+GO
 
-*/
 USE [$(AZURE_SQL_DATABASE)];
 GO
 
 IF USER_ID(N'$(AGILITY_TEST_USER)') IS NULL
 BEGIN
 	DECLARE @createUserSql NVARCHAR(MAX);
-	SET @createUserSql = N'CREATE USER ' + N'$(AGILITY_TEST_USER)' + N' FOR LOGIN ' + N'$(AGILITY_TEST_USER)' + N';';
-	PRINT @createUserSql
+	SET @createUserSql = N'CREATE USER ' + QUOTENAME(N'$(AGILITY_TEST_USER)') + N' FOR LOGIN ' + QUOTENAME(N'$(AGILITY_TEST_USER)') + N';';
 	EXEC (@createUserSql);
 END
 GO
@@ -27,8 +27,8 @@ GO
 DECLARE @grantReaderSql NVARCHAR(MAX);
 DECLARE @grantWriterSql NVARCHAR(MAX);
 
-SET @grantReaderSql = N'ALTER ROLE db_datareader ADD MEMBER ' + N'$(AGILITY_TEST_USER)' + N';';
-SET @grantWriterSql = N'ALTER ROLE db_datawriter ADD MEMBER ' + N'$(AGILITY_TEST_USER)' + N';';
+SET @grantReaderSql = N'ALTER ROLE db_datareader ADD MEMBER ' + QUOTENAME(N'$(AGILITY_TEST_USER)') + N';';
+SET @grantWriterSql = N'ALTER ROLE db_datawriter ADD MEMBER ' + QUOTENAME(N'$(AGILITY_TEST_USER)') + N';';
 
 EXEC (@grantReaderSql);
 EXEC (@grantWriterSql);
