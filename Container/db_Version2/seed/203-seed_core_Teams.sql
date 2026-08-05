@@ -183,7 +183,8 @@ BEGIN TRY
         (N'TUR', N'FIF', N'Türkiye', N'Türkiye', N'FIFA World Cup', N'465'),
         (N'URU', N'FIF', N'Uruguay', N'Uruguay', N'FIFA World Cup', N'212'),
         (N'USA', N'FIF', N'United States', N'United States', N'FIFA World Cup', N'660'),
-        (N'UZB', N'FIF', N'Uzbekistan', N'Uzbekistan', N'FIFA World Cup', N'2570');
+        (N'UZB', N'FIF', N'Uzbekistan', N'Uzbekistan', N'FIFA World Cup', N'2570'),
+        (N'PGA', N'PGA', N'PGA Tour', N'PGA Tour', N'PGA Tour', N'1106');
 
     COMMIT TRANSACTION;
 END TRY

@@ -16,6 +16,7 @@
 :r Container/db_Version2/schema/107-ddl.V2.NBAPlayerStats.sql
 :r Container/db_Version2/schema/108-ddl.V2.NFLPlayerStats.sql
 :r Container/db_Version2/schema/109-ddl.V2.NHLPlayerStats.sql
+:r Container/db_Version2/schema/111-ddl.V2.PGAPlayerStats.sql
 :r Container/db_Version2/schema/115-ddl.V2.Attendance.sql
 :r Container/db_Version2/schema/120-sprocs.sql
 :r Container/db_Version2/seed/201-seed_reference_sports.sql

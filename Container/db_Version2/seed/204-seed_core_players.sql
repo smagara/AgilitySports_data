@@ -5103,1258 +5103,2646 @@ BEGIN TRY
         (105071, N'NHL', N'WSH', N'RW', N'Alex', N'Tuch', '1996-05-10', 76, 219, 89, NULL, N'United States', N'Syracuse, New York', 2014, 2026),
         (105072, N'NHL', N'WSH', N'RW', N'Tom', N'Wilson', '1994-03-29', 76, 225, 43, NULL, N'Canada', N'Toronto, Ontario', 2012, 2026);
 
+    INSERT INTO [core].[Players] ([playerID], [sportCode], [teamCode], [positionCode], [firstName], [lastName], [dateOfBirth], [heightInches], [weight], [number], [college], [birthCountry], [birthCityState], [draftYear], [seasonYear])
+
+    VALUES
+
+        (105073, N'FIF', N'ALG', N'G', N'Luca', N'Zidane', '1998-05-13', 72, 172, 23, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105074, N'FIF', N'ALG', N'G', N'Oussama', N'Benbot', '1994-10-11', 74, 196, 16, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105075, N'FIF', N'ALG', N'G', N'Melvin', N'Mastil', '2000-02-19', 76, 196, 1, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105076, N'FIF', N'ALG', N'D', N'Aïssa', N'Mandi', '1991-10-22', 73, 179, 2, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105077, N'FIF', N'ALG', N'D', N'Ramy', N'Bensebaini', '1995-04-16', 74, 181, 21, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105078, N'FIF', N'ALG', N'D', N'Rayan', N'Aït-Nouri', '2001-06-06', 71, 174, 15, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105079, N'FIF', N'ALG', N'D', N'Mohamed Amine', N'Tougai', '2000-01-22', 73, 183, 4, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105080, N'FIF', N'ALG', N'D', N'Zineddine', N'Belaïd', '1999-03-20', 73, 183, 5, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105081, N'FIF', N'ALG', N'D', N'Samir', N'Chergui', '1999-02-06', 73, 172, 26, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105082, N'FIF', N'ALG', N'D', N'Jaouen', N'Hadjam', '2003-03-26', 73, 181, 13, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105083, N'FIF', N'ALG', N'D', N'Rafik', N'Belghali', '2002-06-07', 70, 150, 17, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105084, N'FIF', N'ALG', N'D', N'Achraf', N'Abada', '1999-06-15', 73, 172, 3, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105085, N'FIF', N'ALG', N'M', N'Nabil', N'Bentaleb', '1994-11-24', 74, 168, 19, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105086, N'FIF', N'ALG', N'M', N'Houssem', N'Aouar', '1998-06-30', 69, 152, 8, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105087, N'FIF', N'ALG', N'M', N'Hicham', N'Boudaoui', '1999-09-23', 69, 132, 14, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105088, N'FIF', N'ALG', N'M', N'Ramiz', N'Zerrouki', '1998-05-26', 72, 181, 6, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105089, N'FIF', N'ALG', N'M', N'Farès', N'Chaïbi', '2002-11-28', 72, 150, 10, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105090, N'FIF', N'ALG', N'M', N'Yassine', N'Titraoui', '2003-07-26', 67, 152, 24, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105091, N'FIF', N'ALG', N'M', N'Ibrahim', N'Maza', '2005-11-24', 71, 172, 22, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105092, N'FIF', N'ALG', N'F', N'Riyad', N'Mahrez', '1991-02-21', 70, 161, 7, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105093, N'FIF', N'ALG', N'F', N'Amine', N'Gouiri', '2000-02-16', 71, 174, 9, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105094, N'FIF', N'ALG', N'F', N'Mohamed', N'Amoura', '2000-05-09', 67, 132, 18, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105095, N'FIF', N'ALG', N'F', N'Adil', N'Boulbina', '2003-05-02', 72, 174, 20, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105096, N'FIF', N'ALG', N'F', N'Anis', N'Hadj Moussa', '2002-02-11', 69, 163, 11, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105097, N'FIF', N'ALG', N'F', N'Nadhir', N'Benbouali', '2000-04-17', 75, 185, 12, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105098, N'FIF', N'ALG', N'F', N'Farès', N'Ghedjemis', '2002-09-06', 72, 181, 25, NULL, N'Algeria', NULL, 2025, 2025),
+
+        (105099, N'FIF', N'ARG', N'F', N'José Manuel', N'López', '2000-12-06', 75, 170, 21, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105100, N'FIF', N'ARG', N'F', N'Giuliano', N'Simeone', '2002-12-18', 68, 163, 17, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105101, N'FIF', N'ARG', N'G', N'Emiliano', N'Martínez', '1992-09-02', 77, 214, 23, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105102, N'FIF', N'ARG', N'G', N'Gerónimo', N'Rulli', '1992-05-20', 74, 174, 12, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105103, N'FIF', N'ARG', N'G', N'Juan', N'Musso', '1994-05-06', 75, 203, 1, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105104, N'FIF', N'ARG', N'D', N'Cristian', N'Romero', '1998-04-27', 73, 172, 13, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105105, N'FIF', N'ARG', N'D', N'Nicolás', N'Otamendi', '1988-02-12', 72, 183, 19, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105106, N'FIF', N'ARG', N'D', N'Nicolás', N'Tagliafico', '1992-08-31', 68, 141, 3, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105107, N'FIF', N'ARG', N'D', N'Nahuel', N'Molina', '1998-04-06', 69, 152, 26, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105108, N'FIF', N'ARG', N'D', N'Gonzalo', N'Montiel', '1997-01-01', 69, 152, 4, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105109, N'FIF', N'ARG', N'D', N'Lisandro', N'Martínez', '1998-01-18', 69, 172, 6, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105110, N'FIF', N'ARG', N'D', N'Marcos', N'Senesi', '1997-05-10', 73, 172, 2, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105111, N'FIF', N'ARG', N'D', N'Facundo', N'Medina', '1999-05-28', 72, 172, 25, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105112, N'FIF', N'ARG', N'M', N'Leandro', N'Paredes', '1994-06-29', 71, 161, 5, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105113, N'FIF', N'ARG', N'M', N'Rodrigo', N'De Paul', '1994-05-24', 71, 161, 7, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105114, N'FIF', N'ARG', N'M', N'Giovani', N'Lo Celso', '1996-04-09', 70, 150, 11, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105115, N'FIF', N'ARG', N'M', N'Exequiel', N'Palacios', '1998-10-05', 69, 159, 14, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105116, N'FIF', N'ARG', N'M', N'Alexis', N'Mac Allister', '1998-12-24', 69, 163, 20, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105117, N'FIF', N'ARG', N'M', N'Thiago', N'Almada', '2001-04-26', 67, 139, 16, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105118, N'FIF', N'ARG', N'M', N'Enzo', N'Fernández', '2001-01-17', 70, 161, 24, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105119, N'FIF', N'ARG', N'M', N'Valentín', N'Barco', '2004-07-23', 67, 148, 8, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105120, N'FIF', N'ARG', N'F', N'Lionel', N'Messi', '1987-06-24', 67, 148, 10, NULL, N'Argentina', N'Rosario', 2025, 2025),
+
+        (105121, N'FIF', N'ARG', N'F', N'Nico', N'González', '1998-04-06', 71, 170, 15, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105122, N'FIF', N'ARG', N'F', N'Lautaro', N'Martínez', '1997-08-22', 69, 152, 22, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105123, N'FIF', N'ARG', N'F', N'Julián', N'Álvarez', '2000-01-31', 67, 157, 9, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105124, N'FIF', N'ARG', N'F', N'Nico', N'Paz', '2004-09-08', 73, 172, 18, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105125, N'FIF', N'AUS', N'G', N'Mathew', N'Ryan', '1992-04-08', 72, 181, 1, NULL, N'Australia', N'Plumpton', 2025, 2025),
+
+        (105126, N'FIF', N'AUS', N'G', N'Paul', N'Izzo', '1995-01-06', 73, 179, 12, NULL, N'Australia', N'Adelaide', 2025, 2025),
+
+        (105127, N'FIF', N'AUS', N'G', N'Patrick', N'Beach', '2003-08-06', 75, 183, 18, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105128, N'FIF', N'AUS', N'D', N'Milos', N'Degenek', '1994-04-28', 74, 181, 2, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105129, N'FIF', N'AUS', N'D', N'Jason', N'Geria', '1993-05-10', 72, 163, 6, NULL, N'Australia', N'Canberra', 2025, 2025),
+
+        (105130, N'FIF', N'AUS', N'D', N'Aziz', N'Behich', '1990-12-16', 67, 150, 16, NULL, N'Australia', N'Melbourne', 2025, 2025),
+
+        (105131, N'FIF', N'AUS', N'D', N'Cameron', N'Burgess', '1995-10-21', 76, 203, 21, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105132, N'FIF', N'AUS', N'D', N'Harry', N'Souttar', '1998-10-22', 78, 218, 19, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105133, N'FIF', N'AUS', N'D', N'Jacob', N'Italiano', '2001-07-30', 70, 159, 4, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105134, N'FIF', N'AUS', N'D', N'Kai', N'Trewin', '2001-05-18', 72, 161, 15, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105135, N'FIF', N'AUS', N'D', N'Jordan', N'Bos', '2002-10-29', 72, 183, 5, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105136, N'FIF', N'AUS', N'D', N'Alessandro', N'Circati', '2003-10-10', 75, 185, 3, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105137, N'FIF', N'AUS', N'D', N'Lucas', N'Herrington', '2007-09-05', 76, 174, 25, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105138, N'FIF', N'AUS', N'M', N'Jackson', N'Irvine', '1993-03-07', 74, 161, 22, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105139, N'FIF', N'AUS', N'M', N'Awer', N'Mabil', '1995-09-15', 70, 161, 11, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105140, N'FIF', N'AUS', N'M', N'Ajdin', N'Hrustic', '1996-07-05', 72, 172, 10, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105141, N'FIF', N'AUS', N'M', N'Aiden', N'O''Neill', '1998-07-04', 72, 152, 13, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105142, N'FIF', N'AUS', N'M', N'Connor', N'Metcalfe', '1999-11-05', 72, 163, 8, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105143, N'FIF', N'AUS', N'M', N'Cameron', N'Devlin', '1998-06-07', 67, 150, 14, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105144, N'FIF', N'AUS', N'M', N'Cristian', N'Volpato', '2003-11-15', 74, 168, 20, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105145, N'FIF', N'AUS', N'M', N'Paul', N'Okon-Engstler', '2005-01-24', 73, 183, 24, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105146, N'FIF', N'AUS', N'F', N'Mathew', N'Leckie', '1991-02-04', 71, 172, 7, NULL, N'Australia', N'Melbourne', 2025, 2025),
+
+        (105147, N'FIF', N'AUS', N'F', N'Mohamed', N'Toure', '2004-03-26', 73, 172, 9, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105148, N'FIF', N'AUS', N'F', N'Tete', N'Yengi', '2000-11-28', 78, 183, 26, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105149, N'FIF', N'AUS', N'F', N'Nishan', N'Velupillay', '2001-05-07', 71, 170, 23, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105150, N'FIF', N'AUS', N'F', N'Nestory', N'Irankunda', '2006-02-09', 65, 163, 17, NULL, N'Australia', NULL, 2025, 2025),
+
+        (105151, N'FIF', N'AUT', N'G', N'Alexander', N'Schlager', '1996-02-01', 72, 174, 1, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105152, N'FIF', N'AUT', N'G', N'Patrick', N'Pentz', '1997-01-02', 72, 179, 13, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105153, N'FIF', N'AUT', N'G', N'Florian', N'Wiegele', '2001-03-21', 81, 214, 12, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105154, N'FIF', N'AUT', N'D', N'David', N'Alaba', '1992-06-24', 71, 172, 8, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105155, N'FIF', N'AUT', N'D', N'Philipp', N'Lienhart', '1996-07-11', 74, 183, 15, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105156, N'FIF', N'AUT', N'D', N'Marco', N'Friedl', '1998-03-16', 74, 181, 23, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105157, N'FIF', N'AUT', N'D', N'Stefan', N'Posch', '1997-05-14', 75, 181, 5, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105158, N'FIF', N'AUT', N'D', N'Phillipp', N'Mwene', '1994-01-29', 67, 146, 16, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105159, N'FIF', N'AUT', N'D', N'Kevin', N'Danso', '1998-09-19', 75, 185, 3, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105160, N'FIF', N'AUT', N'D', N'Michael', N'Svoboda', '1998-10-15', 77, 190, 25, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105161, N'FIF', N'AUT', N'D', N'David', N'Affengruber', '2001-03-19', 73, 172, 2, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105162, N'FIF', N'AUT', N'D', N'Alexander', N'Prass', '2001-05-26', 72, 159, 22, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105163, N'FIF', N'AUT', N'M', N'Konrad', N'Laimer', '1997-05-27', 71, 159, 20, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105164, N'FIF', N'AUT', N'M', N'Marcel', N'Sabitzer', '1994-03-17', 70, 170, 9, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105165, N'FIF', N'AUT', N'M', N'Alessandro', N'Schöpf', '1994-02-07', 70, 161, 26, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105166, N'FIF', N'AUT', N'M', N'Florian', N'Grillitsch', '1995-08-07', 74, 161, 10, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105167, N'FIF', N'AUT', N'M', N'Romano', N'Schmid', '2000-01-27', 66, 150, 18, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105168, N'FIF', N'AUT', N'M', N'Xaver', N'Schlager', '1997-09-28', 69, 172, 4, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105169, N'FIF', N'AUT', N'M', N'Carney', N'Chukwuemeka', '2003-10-20', 74, 170, 17, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105170, N'FIF', N'AUT', N'M', N'Patrick', N'Wimmer', '2001-05-30', 72, 170, 21, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105171, N'FIF', N'AUT', N'M', N'Nicolas', N'Seiwald', '2001-05-04', 71, 174, 6, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105172, N'FIF', N'AUT', N'M', N'Paul', N'Wanner', '2005-12-23', 73, 163, 24, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105173, N'FIF', N'AUT', N'F', N'Marko', N'Arnautovic', '1989-04-19', 76, 192, 7, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105174, N'FIF', N'AUT', N'F', N'Michael', N'Gregoritsch', '1994-04-18', 76, 201, 11, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105175, N'FIF', N'AUT', N'F', N'Sasa', N'Kalajdzic', '1997-07-07', 79, 196, 14, NULL, N'Austria', NULL, 2025, 2025),
+
+        (105176, N'FIF', N'BEL', N'G', N'Thibaut', N'Courtois', '1992-05-11', 79, 212, 1, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105177, N'FIF', N'BEL', N'G', N'Senne', N'Lammens', '2002-07-07', 76, 192, 12, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105178, N'FIF', N'BEL', N'G', N'Mike', N'Penders', '2005-07-31', 79, 227, 13, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105179, N'FIF', N'BEL', N'D', N'Thomas', N'Meunier', '1991-09-12', 75, 192, 15, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105180, N'FIF', N'BEL', N'D', N'Brandon', N'Mechele', '1993-01-28', 75, 172, 4, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105181, N'FIF', N'BEL', N'D', N'Timothy', N'Castagne', '1995-12-05', 73, 174, 21, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105182, N'FIF', N'BEL', N'D', N'Maxim', N'De Cuyper', '2000-12-22', 72, 157, 5, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105183, N'FIF', N'BEL', N'D', N'Arthur', N'Theate', '2000-05-25', 73, 172, 3, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105184, N'FIF', N'BEL', N'D', N'Koni', N'De Winter', '2002-06-12', 75, 172, 16, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105185, N'FIF', N'BEL', N'D', N'Zeno', N'Debast', '2003-10-24', 75, 163, 2, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105186, N'FIF', N'BEL', N'D', N'Nathan', N'Ngoy', '2003-06-10', 72, 172, 25, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105187, N'FIF', N'BEL', N'D', N'Joaquin', N'Seys', '2005-03-28', 70, 157, 18, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105188, N'FIF', N'BEL', N'M', N'Kevin', N'De Bruyne', '1991-06-28', 71, 172, 7, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105189, N'FIF', N'BEL', N'M', N'Axel', N'Witsel', '1989-01-12', 73, 181, 6, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105190, N'FIF', N'BEL', N'M', N'Youri', N'Tielemans', '1997-05-07', 69, 159, 8, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105191, N'FIF', N'BEL', N'M', N'Hans', N'Vanaken', '1992-08-24', 77, 190, 20, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105192, N'FIF', N'BEL', N'M', N'Nicolas', N'Raskin', '2001-02-23', 70, 168, 23, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105193, N'FIF', N'BEL', N'M', N'Amadou', N'Onana', '2001-08-16', 77, 168, 24, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105194, N'FIF', N'BEL', N'F', N'Romelu', N'Lukaku', '1993-05-13', 75, 225, 9, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105195, N'FIF', N'BEL', N'F', N'Leandro', N'Trossard', '1994-12-04', 68, 141, 10, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105196, N'FIF', N'BEL', N'F', N'Dodi', N'Lukébakio', '1997-09-24', 74, 170, 14, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105197, N'FIF', N'BEL', N'F', N'Alexis', N'Saelemaekers', '1999-06-27', 71, 159, 22, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105198, N'FIF', N'BEL', N'F', N'Jérémy', N'Doku', '2002-05-27', 68, 181, 11, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105199, N'FIF', N'BEL', N'F', N'Charles', N'De Ketelaere', '2001-03-10', 76, 183, 17, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105200, N'FIF', N'BEL', N'F', N'Diego', N'Moreira', '2004-08-06', 70, 161, 19, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105201, N'FIF', N'BEL', N'F', N'Matias', N'Fernandez-Pardo', '2005-02-03', 72, 190, 26, NULL, N'Belgium', NULL, 2025, 2025),
+
+        (105202, N'FIF', N'BIH', N'G', N'Nikola', N'Vasilj', '1995-12-02', 76, 190, 1, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105203, N'FIF', N'BIH', N'G', N'Martin', N'Zlomislic', '1998-08-16', 75, 185, 22, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105204, N'FIF', N'BIH', N'G', N'Mladen', N'Jurkas', '2007-10-07', 76, 196, 12, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105205, N'FIF', N'BIH', N'D', N'Sead', N'Kolasinac', '1993-06-20', 72, 185, 5, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105206, N'FIF', N'BIH', N'D', N'Nikola', N'Katic', '1996-10-10', 76, 196, 18, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105207, N'FIF', N'BIH', N'D', N'Dennis', N'Hadzikadunic', '1998-07-09', 75, 179, 3, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105208, N'FIF', N'BIH', N'D', N'Nihad', N'Mujakic', '1998-04-15', 74, 172, 2, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105209, N'FIF', N'BIH', N'D', N'Stjepan', N'Radeljic', '1997-09-05', 79, 192, 21, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105210, N'FIF', N'BIH', N'D', N'Amar', N'Dedic', '2002-08-18', 71, 161, 7, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105211, N'FIF', N'BIH', N'D', N'Tarik', N'Muharemovic', '2003-02-28', 76, 183, 4, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105212, N'FIF', N'BIH', N'D', N'Nidal', N'Celik', '2006-07-17', 76, 183, 24, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105213, N'FIF', N'BIH', N'M', N'Ivan', N'Sunjic', '1996-10-09', 73, 152, 14, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105214, N'FIF', N'BIH', N'M', N'Amir', N'Hadziahmetovic', '1997-03-08', 70, 157, 16, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105215, N'FIF', N'BIH', N'M', N'Dzenis', N'Burnic', '1998-05-22', 71, 161, 17, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105216, N'FIF', N'BIH', N'M', N'Armin', N'Gigovic', '2002-04-06', 74, 172, 8, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105217, N'FIF', N'BIH', N'M', N'Ivan', N'Basic', '2002-04-30', 70, 163, 13, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105218, N'FIF', N'BIH', N'M', N'Amar', N'Memic', '2001-01-20', 69, 159, 15, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105219, N'FIF', N'BIH', N'M', N'Benjamin', N'Tahirovic', '2003-03-03', 76, 183, 6, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105220, N'FIF', N'BIH', N'M', N'Ermin', N'Mahmic', '2005-03-14', 72, 179, 26, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105221, N'FIF', N'BIH', N'F', N'Edin', N'Dzeko', '1986-03-17', 76, 174, 11, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105222, N'FIF', N'BIH', N'F', N'Haris', N'Tabakovic', '1994-06-20', 77, 196, 23, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105223, N'FIF', N'BIH', N'F', N'Ermedin', N'Demirovic', '1998-03-25', 73, 183, 10, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105224, N'FIF', N'BIH', N'F', N'Jovo', N'Lukic', '1998-11-28', 75, 174, 25, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105225, N'FIF', N'BIH', N'F', N'Samed', N'Bazdar', '2004-01-31', 74, 174, 9, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105226, N'FIF', N'BIH', N'F', N'Esmir', N'Bajraktarevic', '2005-03-10', 69, 139, 20, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105227, N'FIF', N'BIH', N'F', N'Kerim', N'Alajbegovic', '2007-09-21', 73, 168, 19, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
+
+        (105228, N'FIF', N'BRA', N'G', N'Ederson', NULL, '1993-08-17', 74, 196, 23, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105229, N'FIF', N'BRA', N'G', N'Alisson', N'Becker', '1992-10-02', 76, 201, 1, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105230, N'FIF', N'BRA', N'G', N'Weverton', NULL, '1987-12-13', 74, 183, 12, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105231, N'FIF', N'BRA', N'D', N'Alex Sandro', NULL, '1991-01-26', 71, 181, 6, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105232, N'FIF', N'BRA', N'D', N'Léo', N'Pereira', '1996-01-31', 74, 174, 15, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105233, N'FIF', N'BRA', N'D', N'Marquinhos', NULL, '1994-05-14', 72, 172, 4, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105234, N'FIF', N'BRA', N'D', N'Danilo', NULL, '1991-07-15', 72, 183, 13, NULL, N'Brazil', N'Campinas', 2025, 2025),
+
+        (105235, N'FIF', N'BRA', N'D', N'Douglas', N'Santos', '1994-03-22', 68, 150, 16, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105236, N'FIF', N'BRA', N'D', N'Gabriel', N'Magalhães', '1997-12-19', 75, 203, 3, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105237, N'FIF', N'BRA', N'D', N'Bremer', NULL, '1997-03-18', 74, 192, 14, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105238, N'FIF', N'BRA', N'D', N'Roger', N'Ibañez', '1998-11-23', 73, 174, 24, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105239, N'FIF', N'BRA', N'M', N'Casemiro', NULL, '1992-02-23', 73, 183, 5, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105240, N'FIF', N'BRA', N'M', N'Fabinho', NULL, '1993-10-23', 74, 172, 17, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105241, N'FIF', N'BRA', N'M', N'Bruno', N'Guimarães', '1997-11-16', 72, 172, 8, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105242, N'FIF', N'BRA', N'M', N'Lucas', N'Paquetá', '1997-08-27', 72, 161, 20, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105243, N'FIF', N'BRA', N'M', N'Éderson', NULL, '1999-07-07', 72, 183, 2, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105244, N'FIF', N'BRA', N'M', N'Danilo', N'Santos', '2001-04-29', 70, 152, 18, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105245, N'FIF', N'BRA', N'F', N'Neymar', NULL, '1992-02-05', 69, 161, 10, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105246, N'FIF', N'BRA', N'F', N'Raphinha', NULL, '1996-12-14', 69, 139, 11, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105247, N'FIF', N'BRA', N'F', N'Vinícius Júnior', NULL, '2000-07-12', 69, 170, 7, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105248, N'FIF', N'BRA', N'F', N'Matheus', N'Cunha', '1999-05-27', 72, 168, 9, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105249, N'FIF', N'BRA', N'F', N'Gabriel', N'Martinelli', '2001-06-18', 70, 161, 22, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105250, N'FIF', N'BRA', N'F', N'Igor', N'Thiago', '2001-06-26', 75, 207, 25, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105251, N'FIF', N'BRA', N'M', N'Luiz', N'Henrique', '2001-01-02', 72, 170, 21, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105252, N'FIF', N'BRA', N'F', N'Endrick', NULL, '2006-07-21', 68, 148, 19, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105253, N'FIF', N'BRA', N'F', N'Rayan', NULL, '2006-08-03', 74, 192, 26, NULL, N'Brazil', NULL, 2025, 2025),
+
+        (105254, N'FIF', N'CAN', N'G', N'Maxime', N'Crépeau', '1994-05-11', 71, 192, 16, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105255, N'FIF', N'CAN', N'G', N'Dayne', N'St. Clair', '1997-05-09', 75, 190, 1, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105256, N'FIF', N'CAN', N'G', N'Owen', N'Goodman', '2003-11-27', 76, 203, 18, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105257, N'FIF', N'CAN', N'D', N'Richie', N'Laryea', '1995-01-07', 69, 150, 22, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105258, N'FIF', N'CAN', N'D', N'Alphonso', N'Davies', '2000-11-02', 73, 170, 19, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105259, N'FIF', N'CAN', N'D', N'Joel', N'Waterman', '1996-01-24', 74, 172, 5, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105260, N'FIF', N'CAN', N'D', N'Derek', N'Cornelius', '1997-11-25', 74, 190, 13, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105261, N'FIF', N'CAN', N'D', N'Alfie', N'Jones', '1997-10-07', 75, 194, 3, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105262, N'FIF', N'CAN', N'D', N'Alistair', N'Johnston', '1998-10-08', 71, 170, 2, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105263, N'FIF', N'CAN', N'D', N'Moïse', N'Bombito', '2000-03-30', 75, 183, 15, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105264, N'FIF', N'CAN', N'D', N'Luc', N'de Fougerolles', '2005-10-12', 72, 159, 4, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105265, N'FIF', N'CAN', N'M', N'Jonathan', N'Osorio', '1992-06-12', 69, 150, 21, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105266, N'FIF', N'CAN', N'M', N'Stephen', N'Eustáquio', '1996-12-21', 70, 152, 7, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105267, N'FIF', N'CAN', N'M', N'Mathieu', N'Choinière', '1999-02-07', 69, 150, 6, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105268, N'FIF', N'CAN', N'M', N'Nathan', N'Saliba', '2004-02-07', 71, 157, 25, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105269, N'FIF', N'CAN', N'M', N'Ismaël', N'Koné', '2002-06-16', 74, 168, 8, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105270, N'FIF', N'CAN', N'M', N'Ali', N'Ahmed', '2000-10-10', 71, 163, 20, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105271, N'FIF', N'CAN', N'M', N'Niko', N'Sigur', '2003-09-09', 71, 170, 23, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105272, N'FIF', N'CAN', N'F', N'Cyle', N'Larin', '1995-04-17', 74, 203, 9, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105273, N'FIF', N'CAN', N'F', N'Liam', N'Millar', '1999-09-27', 71, 159, 11, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105274, N'FIF', N'CAN', N'F', N'Jonathan', N'David', '2000-01-14', 70, 179, 10, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105275, N'FIF', N'CAN', N'F', N'Jayden', N'Nelson', '2002-09-26', 67, 148, 26, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105276, N'FIF', N'CAN', N'F', N'Tajon', N'Buchanan', '1999-02-08', 72, 150, 17, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105277, N'FIF', N'CAN', N'F', N'Jacob', N'Shaffelburg', '1999-11-26', 71, 161, 14, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105278, N'FIF', N'CAN', N'F', N'Tani', N'Oluwaseyi', '2000-05-15', 74, 174, 12, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105279, N'FIF', N'CAN', N'F', N'Promise', N'David', '2001-07-03', 77, 201, 24, NULL, N'Canada', NULL, 2025, 2025),
+
+        (105280, N'FIF', N'CPV', N'G', N'Vozinha', NULL, '1986-06-03', 74, 161, 1, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105281, N'FIF', N'CPV', N'G', N'Márcio', N'Rosa', '1997-02-23', 73, 181, 12, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105282, N'FIF', N'CPV', N'G', N'CJ', N'dos Santos', '2000-08-24', 75, 168, 23, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105283, N'FIF', N'CPV', N'D', N'Stopira', NULL, '1988-05-20', 70, 159, 2, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105284, N'FIF', N'CPV', N'D', N'Steven', N'Moreira', '1994-08-13', 70, 159, 22, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105285, N'FIF', N'CPV', N'D', N'Diney', N'Borges', '1995-01-17', 73, 172, 3, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105286, N'FIF', N'CPV', N'D', N'Pico', N'Lopes', '1992-06-17', 73, 183, 4, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105287, N'FIF', N'CPV', N'D', N'Logan', N'Costa', '2001-04-01', 75, 201, 5, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105288, N'FIF', N'CPV', N'D', N'Sidny', N'Lopes Cabral', '2002-09-18', 69, 161, 13, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105289, N'FIF', N'CPV', N'D', N'Wagner', N'Pina', '2002-11-03', 71, 159, 24, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105290, N'FIF', N'CPV', N'D', N'Kelvin', N'Pires', '2000-06-05', 76, 185, 25, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105291, N'FIF', N'CPV', N'M', N'Yannick', N'Semedo', '1995-12-29', 69, 130, 16, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105292, N'FIF', N'CPV', N'M', N'Laros', N'Duarte', '1997-02-28', 71, 159, 15, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105293, N'FIF', N'CPV', N'M', N'Jamiro', N'Monteiro', '1993-11-23', 69, 150, 10, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105294, N'FIF', N'CPV', N'M', N'Deroy', N'Duarte', '1999-07-04', 70, 152, 14, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105295, N'FIF', N'CPV', N'M', N'Telmo', N'Arcanjo', '2001-06-21', 71, 172, 18, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105296, N'FIF', N'CPV', N'M', N'João', N'Paulo', '1998-05-26', 71, 163, 8, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105297, N'FIF', N'CPV', N'M', N'Kevin', N'Pina', '1997-01-27', 71, 174, 6, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105298, N'FIF', N'CPV', N'F', N'Ryan', N'Mendes', '1990-01-08', 70, 152, 20, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105299, N'FIF', N'CPV', N'F', N'Garry', N'Rodrigues', '1990-11-27', 68, 150, 11, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105300, N'FIF', N'CPV', N'F', N'Nuno', N'da Costa', '1991-02-10', 72, 150, 21, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105301, N'FIF', N'CPV', N'F', N'Jovane', N'Cabral', '1998-06-14', 69, 159, 7, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105302, N'FIF', N'CPV', N'F', N'Willy', N'Semedo', '1994-04-27', 73, 150, 17, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105303, N'FIF', N'CPV', N'F', N'Gilson', N'Benchimol', '2001-12-29', 74, 172, 9, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105304, N'FIF', N'CPV', N'F', N'Dailon', N'Livramento', '2001-05-04', 73, 161, 19, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105305, N'FIF', N'CPV', N'F', N'Hélio', N'Varela', '2002-05-03', 69, 159, 26, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
+
+        (105306, N'FIF', N'COL', N'G', N'David', N'Ospina', '1988-08-31', 72, 172, 1, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105307, N'FIF', N'COL', N'G', N'Álvaro', N'Montero', '1995-03-29', 79, 214, 24, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105308, N'FIF', N'COL', N'G', N'Camilo', N'Vargas', '1989-03-09', 72, 192, 12, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105309, N'FIF', N'COL', N'D', N'Daniel', N'Muñoz', '1996-05-26', 71, 172, 2, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105310, N'FIF', N'COL', N'D', N'Santiago', N'Arias', '1992-01-13', 70, 168, 4, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105311, N'FIF', N'COL', N'D', N'Johan', N'Mojica', '1992-08-21', 73, 174, 17, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105312, N'FIF', N'COL', N'D', N'Yerry', N'Mina', '1994-09-23', 77, 216, 13, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105313, N'FIF', N'COL', N'D', N'Davinson', N'Sánchez', '1996-06-12', 74, 181, 23, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105314, N'FIF', N'COL', N'D', N'Deiver', N'Machado', '1993-09-02', 71, 163, 22, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105315, N'FIF', N'COL', N'D', N'Jhon', N'Lucumí', '1998-06-26', 74, 183, 3, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105316, N'FIF', N'COL', N'D', N'Willer', N'Ditta', '1998-01-23', 71, 174, 18, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105317, N'FIF', N'COL', N'M', N'James', N'Rodríguez', '1991-07-12', 71, 161, 10, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105318, N'FIF', N'COL', N'M', N'Juan', N'Portilla', '1998-09-12', 72, 174, 15, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105319, N'FIF', N'COL', N'M', N'Juan Fernando', N'Quintero', '1993-01-18', 66, 157, 20, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105320, N'FIF', N'COL', N'M', N'Jefferson', N'Lerma', '1994-10-25', 70, 183, 16, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105321, N'FIF', N'COL', N'M', N'Jorge', N'Carrascal', '1998-05-25', 71, 163, 8, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105322, N'FIF', N'COL', N'M', N'Jhon', N'Arias', '1997-09-21', 66, 181, 11, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105323, N'FIF', N'COL', N'M', N'Jáminton', N'Campaz', '2000-05-24', 65, 163, 21, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105324, N'FIF', N'COL', N'M', N'Richard', N'Ríos', '2000-06-02', 73, 185, 6, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105325, N'FIF', N'COL', N'M', N'Kevin', N'Castaño', '2000-09-29', 70, 161, 5, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105326, N'FIF', N'COL', N'M', N'Gustavo', N'Puerta', '2003-07-23', 69, 152, 14, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105327, N'FIF', N'COL', N'F', N'Jhon', N'Córdoba', '1993-05-11', 74, 185, 9, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105328, N'FIF', N'COL', N'F', N'Luis', N'Díaz', '1997-01-13', 71, 152, 7, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105329, N'FIF', N'COL', N'F', N'Luis', N'Suárez', '1997-12-02', 71, 183, 25, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105330, N'FIF', N'COL', N'F', N'Andrés', N'Gómez', '2002-09-12', 67, 157, 26, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105331, N'FIF', N'COL', N'F', N'Cucho', N'Hernández', '1999-04-20', 69, 172, 19, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105332, N'FIF', N'COD', N'G', N'Lionel', N'Mpasi', '1994-08-01', 72, 161, 1, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105333, N'FIF', N'COD', N'G', N'Timothy', N'Fayulu', '1999-07-24', 76, 183, 16, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105334, N'FIF', N'COD', N'G', N'Matthieu', N'Epolo', '2005-01-15', 72, 163, 21, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105335, N'FIF', N'COD', N'D', N'Arthur', N'Masuaku', '1993-11-07', 70, 152, 26, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105336, N'FIF', N'COD', N'D', N'Chancel', N'Mbemba', '1994-08-08', 72, 179, 22, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105337, N'FIF', N'COD', N'D', N'Joris', N'Kayembe', '1994-08-08', 71, 161, 12, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105338, N'FIF', N'COD', N'D', N'Axel', N'Tuanzebe', '1997-11-14', 73, 163, 4, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105339, N'FIF', N'COD', N'D', N'Aaron', N'Wan-Bissaka', '1997-11-26', 72, 159, 2, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105340, N'FIF', N'COD', N'D', N'Dylan', N'Batubinsika', '1996-02-15', 73, 183, 5, NULL, N'France', NULL, 2025, 2025),
+
+        (105341, N'FIF', N'COD', N'D', N'Gédéon', N'Kalulu', '1997-08-29', 70, 159, 24, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105342, N'FIF', N'COD', N'D', N'Steve', N'Kapuadi', '1998-04-30', 77, 192, 3, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105343, N'FIF', N'COD', N'M', N'Gaël', N'Kakuta', '1991-06-21', 69, 150, 11, NULL, N'France', NULL, 2025, 2025),
+
+        (105344, N'FIF', N'COD', N'M', N'Aaron', N'Tshibola', '1995-01-02', 75, 161, 15, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105345, N'FIF', N'COD', N'M', N'Théo', N'Bongonda', '1995-11-20', 69, 139, 10, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105346, N'FIF', N'COD', N'M', N'Charles', N'Pickel', '1997-05-15', 74, 172, 18, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105347, N'FIF', N'COD', N'M', N'Samuel', N'Moutoussamy', '1996-08-12', 69, 159, 8, NULL, N'France', NULL, 2025, 2025),
+
+        (105348, N'FIF', N'COD', N'M', N'Edo', N'Kayembe', '1998-06-03', 72, 170, 25, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105349, N'FIF', N'COD', N'M', N'Noah', N'Sadiki', '2004-12-17', 68, 161, 14, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105350, N'FIF', N'COD', N'M', N'Ngal''ayel', N'Mukau', '2004-11-03', 73, 172, 6, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105351, N'FIF', N'COD', N'F', N'Cédric', N'Bakambu', '1991-04-11', 72, 161, 17, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105352, N'FIF', N'COD', N'F', N'Yoane', N'Wissa', '1996-09-03', 69, 163, 20, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105353, N'FIF', N'COD', N'F', N'Simon', N'Banza', '1996-08-13', 74, 170, 23, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105354, N'FIF', N'COD', N'F', N'Meschack', N'Elia', '1997-08-06', 68, 148, 13, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105355, N'FIF', N'COD', N'F', N'Nathanaël', N'Mbuku', '2002-03-16', 67, 152, 7, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105356, N'FIF', N'COD', N'F', N'Fiston', N'Mayele', '1994-06-24', 73, 185, 19, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105357, N'FIF', N'COD', N'F', N'Brian', N'Cipenga', '1998-03-11', 68, 148, 9, NULL, N'Congo DR', NULL, 2025, 2025),
+
+        (105358, N'FIF', N'CRO', N'G', N'Dominik', N'Livakovic', '1995-01-09', 74, 172, 1, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105359, N'FIF', N'CRO', N'G', N'Dominik', N'Kotarski', '2000-02-10', 75, 174, 23, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105360, N'FIF', N'CRO', N'G', N'Ivor', N'Pandur', '2000-03-25', 73, 179, 12, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105361, N'FIF', N'CRO', N'D', N'Duje', N'Caleta-Car', '1996-09-17', 76, 194, 5, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105362, N'FIF', N'CRO', N'D', N'Martin', N'Erlic', '1998-01-24', 76, 172, 25, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105363, N'FIF', N'CRO', N'D', N'Marin', N'Pongracic', '1997-09-11', 76, 207, 3, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105364, N'FIF', N'CRO', N'D', N'Josip', N'Stanisic', '2000-04-02', 73, 170, 2, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105365, N'FIF', N'CRO', N'D', N'Josko', N'Gvardiol', '2002-01-23', 73, 174, 4, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105366, N'FIF', N'CRO', N'D', N'Josip', N'Sutalo', '2000-02-28', 73, 181, 6, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105367, N'FIF', N'CRO', N'D', N'Luka', N'Vuskovic', '2007-02-24', 76, 190, 22, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105368, N'FIF', N'CRO', N'M', N'Luka', N'Modric', '1985-09-09', 68, 146, 10, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105369, N'FIF', N'CRO', N'M', N'Mateo', N'Kovacic', '1994-05-06', 70, 172, 8, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105370, N'FIF', N'CRO', N'M', N'Mario', N'Pasalic', '1995-02-09', 74, 170, 15, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105371, N'FIF', N'CRO', N'M', N'Nikola', N'Vlasic', '1997-10-04', 70, 172, 13, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105372, N'FIF', N'CRO', N'M', N'Nikola', N'Moro', '1998-03-12', 72, 170, 7, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105373, N'FIF', N'CRO', N'M', N'Kristijan', N'Jakic', '1997-05-14', 71, 168, 18, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105374, N'FIF', N'CRO', N'M', N'Luka', N'Sucic', '2002-09-08', 73, 172, 21, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105375, N'FIF', N'CRO', N'M', N'Martin', N'Baturina', '2003-02-16', 68, 150, 16, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105376, N'FIF', N'CRO', N'M', N'Toni', N'Fruk', '2001-03-09', 70, 161, 19, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105377, N'FIF', N'CRO', N'M', N'Petar', N'Sucic', '2003-10-25', 72, 150, 17, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105378, N'FIF', N'CRO', N'F', N'Ivan', N'Perisic', '1989-02-02', 73, 174, 14, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105379, N'FIF', N'CRO', N'F', N'Andrej', N'Kramaric', '1991-06-19', 70, 161, 9, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105380, N'FIF', N'CRO', N'F', N'Ante', N'Budimir', '1991-07-22', 75, 163, 11, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105381, N'FIF', N'CRO', N'F', N'Petar', N'Musa', '1998-03-04', 75, 183, 26, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105382, N'FIF', N'CRO', N'F', N'Igor', N'Matanovic', '2003-03-31', 76, 196, 20, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105383, N'FIF', N'CRO', N'F', N'Marco', N'Pasalic', '2000-09-14', 70, 161, 24, NULL, N'Croatia', NULL, 2025, 2025),
+
+        (105384, N'FIF', N'CUW', N'G', N'Eloy', N'Room', '1989-02-06', 75, 179, 1, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105385, N'FIF', N'CUW', N'G', N'Trevor', N'Doornbusch', '1999-07-06', 74, 174, 26, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105386, N'FIF', N'CUW', N'G', N'Tyrick', N'Bodak', '2002-05-15', 75, 170, 25, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105387, N'FIF', N'CUW', N'D', N'Joshua', N'Brenet', '1994-03-20', 71, 161, 20, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105388, N'FIF', N'CUW', N'D', N'Riechedly', N'Bazoer', '1996-10-12', 72, 161, 23, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105389, N'FIF', N'CUW', N'D', N'Sherel', N'Floranus', '1998-08-23', 71, 161, 5, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105390, N'FIF', N'CUW', N'D', N'Armando', N'Obispo', '1999-03-05', 73, 172, 18, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105391, N'FIF', N'CUW', N'D', N'Juriën', N'Gaari', '1993-12-23', 72, 163, 3, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105392, N'FIF', N'CUW', N'D', N'Roshon', N'van Eijma', '1998-06-09', 73, 172, 4, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105393, N'FIF', N'CUW', N'D', N'Shurandy', N'Sambo', '2001-08-19', 69, 148, 2, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105394, N'FIF', N'CUW', N'D', N'Livano', N'Comenencia', '2004-02-03', 74, 172, 8, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105395, N'FIF', N'CUW', N'D', N'Deveron', N'Fonville', '2003-05-16', 74, 181, 24, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105396, N'FIF', N'CUW', N'M', N'Leandro', N'Bacuna', '1991-08-21', 71, 170, 10, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105397, N'FIF', N'CUW', N'M', N'Juninho', N'Bacuna', '1997-08-07', 71, 161, 7, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105398, N'FIF', N'CUW', N'M', N'Kevin', N'Felida', '1999-11-11', 69, 146, 22, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105399, N'FIF', N'CUW', N'M', N'Godfried', N'Roemeratoe', '1999-08-19', 70, 161, 6, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105400, N'FIF', N'CUW', N'M', N'Tahith', N'Chong', '1999-12-04', 73, 163, 21, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105401, N'FIF', N'CUW', N'M', N'Ar''jany', N'Martha', '2003-09-04', 71, 141, 15, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105402, N'FIF', N'CUW', N'M', N'Tyrese', N'Noslin', '2002-09-11', 72, 168, 13, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105403, N'FIF', N'CUW', N'F', N'Jürgen', N'Locadia', '1993-11-07', 76, 201, 9, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105404, N'FIF', N'CUW', N'F', N'Brandley', N'Kuwas', '1992-09-19', 71, 183, 17, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105405, N'FIF', N'CUW', N'F', N'Gervane', N'Kastaneer', '1996-06-09', 74, 174, 19, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105406, N'FIF', N'CUW', N'F', N'Kenji', N'Gorré', '1994-09-29', 69, 157, 14, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105407, N'FIF', N'CUW', N'F', N'Sontje', N'Hansen', '2002-05-18', 69, 150, 12, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105408, N'FIF', N'CUW', N'F', N'Jearl', N'Margaritha', '2000-04-10', 71, 161, 16, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105409, N'FIF', N'CUW', N'F', N'Jeremy', N'Antonisse', '2002-03-29', 72, 152, 11, NULL, N'Curaçao', NULL, 2025, 2025),
+
+        (105410, N'FIF', N'CZE', N'G', N'Jindrich', N'Stanek', '1996-04-27', 76, 196, 16, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105411, N'FIF', N'CZE', N'G', N'Matej', N'Kovár', '2000-05-17', 77, 183, 1, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105412, N'FIF', N'CZE', N'G', N'Lukás', N'Hornícek', '2002-07-13', 78, 203, 23, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105413, N'FIF', N'CZE', N'D', N'Ladislav', N'Krejcí', '1999-04-20', 75, 192, 7, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105414, N'FIF', N'CZE', N'D', N'Vladimír', N'Coufal', '1992-08-22', 69, 168, 5, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105415, N'FIF', N'CZE', N'D', N'Jaroslav', N'Zelený', '1992-08-20', 75, 179, 20, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105416, N'FIF', N'CZE', N'D', N'Tomás', N'Holes', '1993-03-31', 71, 161, 3, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105417, N'FIF', N'CZE', N'D', N'David', N'Zima', '2000-11-08', 75, 174, 2, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105418, N'FIF', N'CZE', N'D', N'Robin', N'Hranác', '2000-01-29', 75, 181, 4, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105419, N'FIF', N'CZE', N'D', N'David', N'Jurásek', '2000-08-07', 72, 170, 14, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105420, N'FIF', N'CZE', N'D', N'Stepán', N'Chaloupek', '2003-03-08', 74, 150, 6, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105421, N'FIF', N'CZE', N'M', N'Vladimír', N'Darida', '1990-08-08', 68, 141, 8, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105422, N'FIF', N'CZE', N'M', N'Tomás', N'Soucek', '1995-02-27', 76, 190, 22, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105423, N'FIF', N'CZE', N'M', N'Michal', N'Sadílek', '1999-05-31', 67, 141, 18, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105424, N'FIF', N'CZE', N'M', N'Lukás', N'Provod', '1996-10-23', 75, 185, 17, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105425, N'FIF', N'CZE', N'M', N'Lukás', N'Cerv', '2001-04-10', 72, 159, 12, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105426, N'FIF', N'CZE', N'M', N'Pavel', N'Sulc', '2000-12-29', 70, 163, 15, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105427, N'FIF', N'CZE', N'M', N'Denis', N'Visinský', '2003-03-21', 70, 163, 26, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105428, N'FIF', N'CZE', N'M', N'David', N'Doudera', '1998-05-31', 69, 146, 21, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105429, N'FIF', N'CZE', N'M', N'Alexandr', N'Sojka', '2003-04-02', 74, 170, 24, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105430, N'FIF', N'CZE', N'M', N'Hugo', N'Sochurek', '2008-06-07', 72, 172, 25, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105431, N'FIF', N'CZE', N'F', N'Patrik', N'Schick', '1996-01-24', 75, 190, 10, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105432, N'FIF', N'CZE', N'F', N'Tomás', N'Chorý', '1995-01-26', 78, 218, 19, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105433, N'FIF', N'CZE', N'F', N'Adam', N'Hlozek', '2002-07-25', 74, 183, 9, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105434, N'FIF', N'CZE', N'F', N'Jan', N'Kuchta', '1997-01-08', 73, 190, 11, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105435, N'FIF', N'CZE', N'F', N'Mojmír', N'Chytil', '1999-04-29', 74, 181, 13, NULL, N'Czechia', NULL, 2025, 2025),
+
+        (105436, N'FIF', N'ECU', N'G', N'Gonzalo', N'Valle', '1996-02-28', 73, 190, 22, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105437, N'FIF', N'ECU', N'G', N'Hernán', N'Galíndez', '1987-03-30', 74, 183, 1, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105438, N'FIF', N'ECU', N'G', N'Moisés', N'Ramírez', '2000-09-09', 73, 181, 12, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105439, N'FIF', N'ECU', N'D', N'Pervis', N'Estupiñán', '1998-01-21', 69, 161, 7, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105440, N'FIF', N'ECU', N'D', N'Félix', N'Torres', '1997-01-11', 74, 172, 2, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105441, N'FIF', N'ECU', N'D', N'Ángelo', N'Preciado', '1998-02-18', 69, 161, 17, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105442, N'FIF', N'ECU', N'D', N'Jackson', N'Porozo', '2000-08-04', 76, 190, 25, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105443, N'FIF', N'ECU', N'D', N'Willian', N'Pacho', '2001-10-16', 74, 179, 6, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105444, N'FIF', N'ECU', N'D', N'Piero', N'Hincapié', '2002-01-09', 72, 170, 3, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105445, N'FIF', N'ECU', N'D', N'Yaimar', N'Medina', '2004-11-05', 70, 174, 26, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105446, N'FIF', N'ECU', N'D', N'Joel', N'Ordóñez', '2004-04-21', 74, 168, 4, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105447, N'FIF', N'ECU', N'M', N'Alan', N'Franco', '1998-08-21', 69, 168, 21, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105448, N'FIF', N'ECU', N'M', N'Jordy', N'Alcívar', '1999-08-05', 66, 157, 5, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105449, N'FIF', N'ECU', N'M', N'Moisés', N'Caicedo', '2001-11-02', 70, 161, 23, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105450, N'FIF', N'ECU', N'M', N'Pedro', N'Vite', '2002-03-09', 68, 150, 15, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105451, N'FIF', N'ECU', N'M', N'Denil', N'Castillo', '2004-03-24', 74, 168, 18, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105452, N'FIF', N'ECU', N'M', N'Kendry', N'Páez', '2007-05-04', 70, 157, 10, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105453, N'FIF', N'ECU', N'F', N'Enner', N'Valencia', '1989-11-04', 70, 161, 13, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105454, N'FIF', N'ECU', N'F', N'Jordy', N'Caicedo', '1997-11-18', 73, 181, 16, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105455, N'FIF', N'ECU', N'F', N'John', N'Yeboah', '2000-06-23', 67, 146, 9, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105456, N'FIF', N'ECU', N'F', N'Gonzalo', N'Plata', '2000-11-01', 70, 168, 19, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105457, N'FIF', N'ECU', N'F', N'Kevin', N'Rodríguez', '2000-03-04', 75, 183, 11, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105458, N'FIF', N'ECU', N'F', N'Anthony', N'Valencia', '2003-07-21', 68, 150, 8, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105459, N'FIF', N'ECU', N'F', N'Nilson', N'Angulo', '2003-06-19', 72, 150, 20, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105460, N'FIF', N'ECU', N'F', N'Alan', N'Minda', '2003-05-14', 69, 132, 14, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105461, N'FIF', N'ECU', N'F', N'Jeremy', N'Arévalo', '2005-03-19', 72, 192, 24, NULL, N'Ecuador', NULL, 2025, 2025),
+
+        (105462, N'FIF', N'EGY', N'G', N'Mohamed', N'El Shenawy', '1988-12-18', 75, 196, 1, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105463, N'FIF', N'EGY', N'G', N'Mahdy', N'Soliman', '1987-06-08', 74, 196, 16, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105464, N'FIF', N'EGY', N'G', N'Mostafa', N'Shoubir', '2000-05-15', 77, 203, 23, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105465, N'FIF', N'EGY', N'G', N'Mohamed', N'Alaa', '1999-01-01', 74, 168, 26, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105466, N'FIF', N'EGY', N'D', N'Mohamed', N'Hany', '1996-02-02', 69, 152, 3, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105467, N'FIF', N'EGY', N'D', N'Ramy', N'Rabia', '1993-05-20', 72, 170, 5, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105468, N'FIF', N'EGY', N'D', N'Karim', N'Hafez', '1996-03-12', 69, 161, 15, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105469, N'FIF', N'EGY', N'D', N'Mohamed', N'Abdelmoneim', '1999-02-01', 72, 163, 6, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105470, N'FIF', N'EGY', N'D', N'Ahmed', N'Fatouh', '1998-03-22', 70, 152, 13, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105471, N'FIF', N'EGY', N'D', N'Yasser', N'Ibrahim', '1993-02-10', 73, 181, 2, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105472, N'FIF', N'EGY', N'D', N'Hossam', N'Abdelmaguid', '2001-04-30', 76, 185, 4, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105473, N'FIF', N'EGY', N'D', N'Tarek', N'Alaa', '2002-01-05', 70, 141, 24, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105474, N'FIF', N'EGY', N'M', N'Hamdy', N'Fathy', '1994-09-29', 71, 174, 14, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105475, N'FIF', N'EGY', N'M', N'Nabil', N'Donga', '1996-04-06', 70, 161, 18, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105476, N'FIF', N'EGY', N'M', N'Emam', N'Ashour', '1998-02-20', 71, 170, 8, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105477, N'FIF', N'EGY', N'M', N'Mahmoud', N'Saber', '2001-07-30', 67, 163, 21, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105478, N'FIF', N'EGY', N'M', N'Mohanad', N'Lashin', '1996-05-29', 73, 185, 17, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105479, N'FIF', N'EGY', N'M', N'Marawan', N'Attia', '1998-08-01', 69, 174, 19, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105480, N'FIF', N'EGY', N'F', N'Mostafa', N'Zico', '1997-04-27', 70, 161, 11, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105481, N'FIF', N'EGY', N'F', N'Trézéguet', NULL, '1994-10-01', 71, 170, 7, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105482, N'FIF', N'EGY', N'F', N'Mohamed', N'Salah', '1992-06-15', 69, 172, 10, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105483, N'FIF', N'EGY', N'M', N'Zizo', NULL, '1996-01-10', 69, 168, 25, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105484, N'FIF', N'EGY', N'F', N'Haissem', N'Hassan', '2002-02-08', 69, 174, 12, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105485, N'FIF', N'EGY', N'F', N'Ibrahim', N'Adel', '2001-04-23', 70, 152, 20, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105486, N'FIF', N'EGY', N'F', N'Omar', N'Marmoush', '1999-02-07', 71, 174, 22, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105487, N'FIF', N'EGY', N'F', N'Hamza', N'Abdelkarim', '2008-01-01', 72, 168, 9, NULL, N'Egypt', NULL, 2025, 2025),
+
+        (105488, N'FIF', N'ENG', N'G', N'Jordan', N'Pickford', '1994-03-07', 73, 170, 1, NULL, N'England', NULL, 2025, 2025),
+
+        (105489, N'FIF', N'ENG', N'G', N'Dean', N'Henderson', '1997-03-12', 74, 185, 13, NULL, N'England', NULL, 2025, 2025),
+
+        (105490, N'FIF', N'ENG', N'G', N'James', N'Trafford', '2002-10-10', 78, 183, 23, NULL, N'England', NULL, 2025, 2025),
+
+        (105491, N'FIF', N'ENG', N'D', N'John', N'Stones', '1994-05-28', 74, 174, 5, NULL, N'England', NULL, 2025, 2025),
+
+        (105492, N'FIF', N'ENG', N'D', N'Reece', N'James', '1999-12-08', 71, 203, 24, NULL, N'England', NULL, 2025, 2025),
+
+        (105493, N'FIF', N'ENG', N'D', N'Dan', N'Burn', '1992-05-09', 79, 192, 15, NULL, N'England', NULL, 2025, 2025),
+
+        (105494, N'FIF', N'ENG', N'D', N'Trevoh', N'Chalobah', '1999-07-05', 75, 163, 12, NULL, N'England', NULL, 2025, 2025),
+
+        (105495, N'FIF', N'ENG', N'D', N'Ezri', N'Konsa', '1997-10-23', 72, 168, 2, NULL, N'England', NULL, 2025, 2025),
+
+        (105496, N'FIF', N'ENG', N'D', N'Marc', N'Guéhi', '2000-07-13', 72, 174, 6, NULL, N'England', NULL, 2025, 2025),
+
+        (105497, N'FIF', N'ENG', N'D', N'Djed', N'Spence', '2000-08-09', 73, 157, 25, NULL, N'England', NULL, 2025, 2025),
+
+        (105498, N'FIF', N'ENG', N'D', N'Jarell', N'Quansah', '2003-01-29', 75, 183, 26, NULL, N'England', NULL, 2025, 2025),
+
+        (105499, N'FIF', N'ENG', N'D', N'Nico', N'O''Reilly', '2005-03-21', 76, 170, 3, NULL, N'England', NULL, 2025, 2025),
+
+        (105500, N'FIF', N'ENG', N'M', N'Jordan', N'Henderson', '1990-06-17', 72, 172, 14, NULL, N'England', NULL, 2025, 2025),
+
+        (105501, N'FIF', N'ENG', N'M', N'Declan', N'Rice', '1999-01-14', 74, 168, 4, NULL, N'England', NULL, 2025, 2025),
+
+        (105502, N'FIF', N'ENG', N'M', N'Elliot', N'Anderson', '2002-11-06', 70, 150, 8, NULL, N'England', NULL, 2025, 2025),
+
+        (105503, N'FIF', N'ENG', N'M', N'Eberechi', N'Eze', '1998-06-29', 70, 161, 21, NULL, N'England', NULL, 2025, 2025),
+
+        (105504, N'FIF', N'ENG', N'M', N'Morgan', N'Rogers', '2002-07-26', 74, 174, 17, NULL, N'England', NULL, 2025, 2025),
+
+        (105505, N'FIF', N'ENG', N'M', N'Jude', N'Bellingham', '2003-06-29', 73, 163, 10, NULL, N'England', NULL, 2025, 2025),
+
+        (105506, N'FIF', N'ENG', N'M', N'Kobbie', N'Mainoo', '2005-04-19', 72, 159, 16, NULL, N'England', NULL, 2025, 2025),
+
+        (105507, N'FIF', N'ENG', N'F', N'Harry', N'Kane', '1993-07-28', 74, 190, 9, NULL, N'England', NULL, 2025, 2025),
+
+        (105508, N'FIF', N'ENG', N'F', N'Ivan', N'Toney', '1996-03-16', 73, 192, 22, NULL, N'England', NULL, 2025, 2025),
+
+        (105509, N'FIF', N'ENG', N'F', N'Ollie', N'Watkins', '1995-12-30', 71, 163, 19, NULL, N'England', NULL, 2025, 2025),
+
+        (105510, N'FIF', N'ENG', N'F', N'Marcus', N'Rashford', '1997-10-31', 74, 174, 11, NULL, N'England', NULL, 2025, 2025),
+
+        (105511, N'FIF', N'ENG', N'F', N'Anthony', N'Gordon', '2001-02-24', 72, 159, 18, NULL, N'England', NULL, 2025, 2025),
+
+        (105512, N'FIF', N'ENG', N'F', N'Bukayo', N'Saka', '2001-09-05', 70, 141, 7, NULL, N'England', NULL, 2025, 2025),
+
+        (105513, N'FIF', N'ENG', N'F', N'Noni', N'Madueke', '2002-03-10', 72, 183, 20, NULL, N'England', NULL, 2025, 2025),
+
+        (105514, N'FIF', N'FRA', N'G', N'Brice', N'Samba', '1994-04-25', 74, 196, 1, NULL, N'France', NULL, 2025, 2025),
+
+        (105515, N'FIF', N'FRA', N'G', N'Mike', N'Maignan', '1995-07-03', 75, 194, 16, NULL, N'France', NULL, 2025, 2025),
+
+        (105516, N'FIF', N'FRA', N'G', N'Robin', N'Risser', '2004-12-02', 76, 183, 23, NULL, N'France', NULL, 2025, 2025),
+
+        (105517, N'FIF', N'FRA', N'D', N'Lucas', N'Digne', '1993-07-20', 70, 161, 3, NULL, N'France', NULL, 2025, 2025),
+
+        (105518, N'FIF', N'FRA', N'D', N'Lucas', N'Hernández', '1996-02-14', 72, 172, 21, NULL, N'France', N'Marseille', 2025, 2025),
+
+        (105519, N'FIF', N'FRA', N'D', N'Dayot', N'Upamecano', '1998-10-27', 73, 196, 4, NULL, N'France', NULL, 2025, 2025),
+
+        (105520, N'FIF', N'FRA', N'D', N'Jules', N'Koundé', '1998-11-12', 71, 183, 5, NULL, N'France', NULL, 2025, 2025),
+
+        (105521, N'FIF', N'FRA', N'D', N'Theo', N'Hernández', '1997-10-06', 72, 179, 19, NULL, N'France', NULL, 2025, 2025),
+
+        (105522, N'FIF', N'FRA', N'D', N'Ibrahima', N'Konaté', '1999-05-25', 76, 207, 15, NULL, N'France', NULL, 2025, 2025),
+
+        (105523, N'FIF', N'FRA', N'D', N'Maxence', N'Lacroix', '2000-04-06', 75, 192, 26, NULL, N'France', NULL, 2025, 2025),
+
+        (105524, N'FIF', N'FRA', N'D', N'William', N'Saliba', '2001-03-24', 76, 203, 17, NULL, N'France', NULL, 2025, 2025),
+
+        (105525, N'FIF', N'FRA', N'D', N'Malo', N'Gusto', '2003-05-19', 70, 148, 2, NULL, N'France', NULL, 2025, 2025),
+
+        (105526, N'FIF', N'FRA', N'M', N'N''Golo', N'Kanté', '1991-03-29', 66, 152, 13, NULL, N'France', NULL, 2025, 2025),
+
+        (105527, N'FIF', N'FRA', N'M', N'Adrien', N'Rabiot', '1995-04-03', 75, 190, 14, NULL, N'France', NULL, 2025, 2025),
+
+        (105528, N'FIF', N'FRA', N'M', N'Aurélien', N'Tchouaméni', '2000-01-27', 74, 179, 8, NULL, N'France', NULL, 2025, 2025),
+
+        (105529, N'FIF', N'FRA', N'M', N'Manu', N'Koné', '2001-05-17', 73, 174, 6, NULL, N'France', NULL, 2025, 2025),
+
+        (105530, N'FIF', N'FRA', N'M', N'Michael', N'Olise', '2001-12-12', 71, 172, 11, NULL, N'France', NULL, 2025, 2025),
+
+        (105531, N'FIF', N'FRA', N'M', N'Rayan', N'Cherki', '2003-08-17', 71, 157, 24, NULL, N'France', NULL, 2025, 2025),
+
+        (105532, N'FIF', N'FRA', N'M', N'Maghnes', N'Akliouche', '2002-02-25', 72, 152, 25, NULL, N'France', NULL, 2025, 2025),
+
+        (105533, N'FIF', N'FRA', N'M', N'Warren', N'Zaïre-Emery', '2006-03-08', 70, 150, 18, NULL, N'France', NULL, 2025, 2025),
+
+        (105534, N'FIF', N'FRA', N'F', N'Marcus', N'Thuram', '1997-08-06', 76, 196, 9, NULL, N'France', NULL, 2025, 2025),
+
+        (105535, N'FIF', N'FRA', N'F', N'Ousmane', N'Dembélé', '1997-05-15', 70, 148, 7, NULL, N'France', NULL, 2025, 2025),
+
+        (105536, N'FIF', N'FRA', N'F', N'Kylian', N'Mbappé', '1998-12-20', 70, 163, 10, NULL, N'France', NULL, 2025, 2025),
+
+        (105537, N'FIF', N'FRA', N'F', N'Jean-Philippe', N'Mateta', '1997-06-28', 76, 192, 22, NULL, N'France', NULL, 2025, 2025),
+
+        (105538, N'FIF', N'FRA', N'F', N'Bradley', N'Barcola', '2002-09-02', 72, 161, 12, NULL, N'France', NULL, 2025, 2025),
+
+        (105539, N'FIF', N'FRA', N'F', N'Désiré', N'Doué', '2005-06-03', 71, 172, 20, NULL, N'France', NULL, 2025, 2025),
+
+        (105540, N'FIF', N'GER', N'G', N'Manuel', N'Neuer', '1986-03-27', 76, 203, 1, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105541, N'FIF', N'GER', N'G', N'Oliver', N'Baumann', '1990-06-02', 74, 181, 12, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105542, N'FIF', N'GER', N'G', N'Alexander', N'Nübel', '1996-09-30', 76, 190, 21, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105543, N'FIF', N'GER', N'D', N'Nathaniel', N'Brown', '2003-06-16', 69, 148, 18, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105544, N'FIF', N'GER', N'D', N'Antonio', N'Rüdiger', '1993-03-03', 75, 185, 2, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105545, N'FIF', N'GER', N'D', N'Jonathan', N'Tah', '1996-02-11', 77, 205, 4, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105546, N'FIF', N'GER', N'D', N'Waldemar', N'Anton', '1996-07-20', 74, 190, 3, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105547, N'FIF', N'GER', N'D', N'David', N'Raum', '1998-04-22', 71, 163, 22, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105548, N'FIF', N'GER', N'D', N'Nico', N'Schlotterbeck', '1999-12-01', 75, 190, 15, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105549, N'FIF', N'GER', N'D', N'Malick', N'Thiaw', '2001-08-08', 76, 190, 24, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105550, N'FIF', N'GER', N'M', N'Pascal', N'Gross', '1991-06-15', 71, 172, 13, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105551, N'FIF', N'GER', N'M', N'Leon', N'Goretzka', '1995-02-06', 74, 181, 8, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105552, N'FIF', N'GER', N'M', N'Joshua', N'Kimmich', '1995-02-08', 70, 163, 6, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105553, N'FIF', N'GER', N'M', N'Nadiem', N'Amiri', '1996-10-27', 71, 163, 20, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105554, N'FIF', N'GER', N'M', N'Felix', N'Nmecha', '2000-10-10', 75, 161, 23, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105555, N'FIF', N'GER', N'M', N'Angelo', N'Stiller', '2001-04-04', 72, 170, 16, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105556, N'FIF', N'GER', N'M', N'Florian', N'Wirtz', '2003-05-03', 69, 161, 17, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105557, N'FIF', N'GER', N'M', N'Jamal', N'Musiala', '2003-02-26', 73, 163, 10, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105558, N'FIF', N'GER', N'M', N'Aleksandar', N'Pavlovic', '2004-05-03', 74, 172, 5, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105559, N'FIF', N'GER', N'M', N'Assan', N'Ouédraogo', '2006-05-09', 75, 183, 25, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105560, N'FIF', N'GER', N'F', N'Leroy', N'Sané', '1996-01-11', 72, 174, 19, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105561, N'FIF', N'GER', N'F', N'Kai', N'Havertz', '1999-06-11', 76, 183, 7, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105562, N'FIF', N'GER', N'F', N'Deniz', N'Undav', '1996-07-19', 70, 190, 26, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105563, N'FIF', N'GER', N'F', N'Maximilian', N'Beier', '2002-10-17', 72, 159, 14, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105564, N'FIF', N'GER', N'F', N'Jamie', N'Leweling', '2001-02-26', 73, 190, 9, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105565, N'FIF', N'GER', N'F', N'Nick', N'Woltemade', '2002-02-14', 78, 196, 11, NULL, N'Germany', NULL, 2025, 2025),
+
+        (105566, N'FIF', N'GHA', N'G', N'Lawrence Ati', N'Zigi', '1996-11-29', 74, 192, 1, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105567, N'FIF', N'GHA', N'G', N'Joseph', N'Anang', '2000-06-08', 75, 161, 12, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105568, N'FIF', N'GHA', N'G', N'Benjamin', N'Asare', '1992-07-13', 74, 172, 16, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105569, N'FIF', N'GHA', N'D', N'Baba', N'Rahman', '1994-07-02', 70, 150, 17, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105570, N'FIF', N'GHA', N'D', N'Derrick', N'Luckassen', '1995-07-03', 74, 172, 23, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105571, N'FIF', N'GHA', N'D', N'Abdul', N'Mumin', '1998-06-06', 74, 172, 6, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105572, N'FIF', N'GHA', N'D', N'Jerome', N'Opoku', '1998-10-14', 76, 172, 18, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105573, N'FIF', N'GHA', N'D', N'Gideon', N'Mensah', '2000-10-09', 72, 152, 14, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105574, N'FIF', N'GHA', N'D', N'Alidu', N'Seidu', '2000-06-04', 68, 159, 2, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105575, N'FIF', N'GHA', N'D', N'Marvin', N'Senaya', '2001-01-28', 71, 168, 26, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105576, N'FIF', N'GHA', N'D', N'Jonas', N'Adjetey', '2003-12-13', 74, 181, 4, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105577, N'FIF', N'GHA', N'D', N'Kojo Peprah', N'Oppong', '2004-06-04', 73, 170, 21, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105578, N'FIF', N'GHA', N'M', N'Thomas', N'Partey', '1993-06-13', 73, 170, 5, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105579, N'FIF', N'GHA', N'M', N'Elisha', N'Owusu', '1997-11-07', 72, 159, 15, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105580, N'FIF', N'GHA', N'M', N'Kwasi', N'Sibo', '1998-06-24', 72, 159, 8, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105581, N'FIF', N'GHA', N'F', N'Augustine', N'Boakye', '2000-11-03', 70, 172, 20, NULL, N'France', NULL, 2025, 2025),
+
+        (105582, N'FIF', N'GHA', N'M', N'Caleb', N'Yirenkyi', '2006-01-15', 72, 170, 3, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105583, N'FIF', N'GHA', N'F', N'Jordan', N'Ayew', '1991-09-11', 72, 192, 9, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105584, N'FIF', N'GHA', N'F', N'Iñaki', N'Williams', '1994-06-15', 73, 179, 19, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105585, N'FIF', N'GHA', N'F', N'Brandon', N'Thomas-Asante', '1998-12-29', 72, 159, 10, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105586, N'FIF', N'GHA', N'F', N'Antoine', N'Semenyo', '2000-01-07', 73, 161, 11, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105587, N'FIF', N'GHA', N'F', N'Kamaldeen', N'Sulemana', '2002-02-15', 69, 152, 22, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105588, N'FIF', N'GHA', N'F', N'Fatawu', N'Issahaku', '2004-03-08', 70, 161, 7, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105589, N'FIF', N'GHA', N'F', N'Ernest', N'Nuamah', '2003-11-01', 70, 157, 24, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105590, N'FIF', N'GHA', N'F', N'Christopher Bonsu', N'Baah', '2004-12-14', 68, 161, 13, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105591, N'FIF', N'GHA', N'F', N'Prince', N'Adu', '2003-09-23', 70, 172, 25, NULL, N'Ghana', NULL, 2025, 2025),
+
+        (105592, N'FIF', N'HAI', N'G', N'Johny', N'Placide', '1988-01-29', 71, 168, 1, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105593, N'FIF', N'HAI', N'G', N'Josué', N'Duverger', '2000-04-27', 74, 168, 23, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105594, N'FIF', N'HAI', N'G', N'Alexandre', N'Pierre', '2001-02-25', 75, 192, 12, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105595, N'FIF', N'HAI', N'D', N'Ricardo', N'Adé', '1990-05-21', 75, 152, 4, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105596, N'FIF', N'HAI', N'D', N'Carlens', N'Arcus', '1996-06-28', 71, 163, 2, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105597, N'FIF', N'HAI', N'D', N'Markhus', N'Lacroix', '1993-10-14', 69, 148, 13, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105598, N'FIF', N'HAI', N'D', N'Jean-Kévin', N'Duverne', '1997-07-12', 72, 170, 22, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105599, N'FIF', N'HAI', N'D', N'Hannes', N'Delcroix', '1999-02-28', 72, 172, 5, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105600, N'FIF', N'HAI', N'D', N'Martin', N'Expérience', '1999-03-09', 70, 172, 8, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105601, N'FIF', N'HAI', N'D', N'Garven', N'Metusala', '1999-12-31', 73, 181, 14, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105602, N'FIF', N'HAI', N'D', N'Wilguens', N'Paugain', '2001-08-24', 71, 152, 24, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105603, N'FIF', N'HAI', N'D', N'Keeto', N'Thermoncy', '2006-03-29', 70, 152, 3, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105604, N'FIF', N'HAI', N'M', N'Jean-Ricner', N'Bellegarde', '1998-06-27', 67, 146, 10, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105605, N'FIF', N'HAI', N'M', N'Carl', N'Sainté', '2002-08-09', 72, 163, 6, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105606, N'FIF', N'HAI', N'M', N'Danley', N'Jean Jacques', '2000-05-20', 72, 159, 17, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105607, N'FIF', N'HAI', N'M', N'Dominique', N'Simon', '2000-07-29', 70, 152, 25, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105608, N'FIF', N'HAI', N'M', N'Woodensky', N'Pierre', '2004-12-30', 70, 168, 26, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105609, N'FIF', N'HAI', N'F', N'Duckens', N'Nazon', '1994-04-07', 71, 172, 9, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105610, N'FIF', N'HAI', N'F', N'Derrick', N'Etienne Jr.', '1996-11-25', 70, 152, 7, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105611, N'FIF', N'HAI', N'F', N'Frantzdy', N'Pierrot', '1995-03-29', 76, 172, 20, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105612, N'FIF', N'HAI', N'F', N'Wilson', N'Isidor', '2000-08-27', 72, 159, 18, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105613, N'FIF', N'HAI', N'F', N'Yassin', N'Fortuné', '1999-01-30', 73, 161, 19, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105614, N'FIF', N'HAI', N'F', N'Louicius', N'Deedson', '2001-02-11', 70, 157, 11, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105615, N'FIF', N'HAI', N'F', N'Lenny', N'Joseph', '2000-10-12', 72, 152, 16, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105616, N'FIF', N'HAI', N'F', N'Josué', N'Casimir', '2001-09-24', 70, 150, 21, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105617, N'FIF', N'HAI', N'F', N'Ruben', N'Providence', '2001-07-07', 70, 161, 15, NULL, N'Haiti', NULL, 2025, 2025),
+
+        (105618, N'FIF', N'IRN', N'G', N'Hossein', N'Hosseini', '1992-06-30', 74, 183, 22, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105619, N'FIF', N'IRN', N'G', N'Alireza', N'Beiranvand', '1992-09-21', 77, 192, 1, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105620, N'FIF', N'IRN', N'G', N'Payam', N'Niazmand', '1995-04-06', 76, 203, 12, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105621, N'FIF', N'IRN', N'D', N'Shoja', N'Khalilzadeh', '1989-05-14', 72, 163, 4, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105622, N'FIF', N'IRN', N'D', N'Ehsan', N'Hajsafi', '1990-02-25', 70, 183, 3, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105623, N'FIF', N'IRN', N'D', N'Ramin', N'Rezaeian', '1990-03-21', 72, 163, 23, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105624, N'FIF', N'IRN', N'D', N'Milad', N'Mohammadi', '1993-09-29', 70, 152, 5, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105625, N'FIF', N'IRN', N'D', N'Hossein', N'Kanani', '1994-03-23', 74, 194, 13, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105626, N'FIF', N'IRN', N'D', N'Ali', N'Nemati', '1996-02-08', 72, 170, 19, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105627, N'FIF', N'IRN', N'D', N'Saleh', N'Hardani', '1998-12-26', 69, 150, 2, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105628, N'FIF', N'IRN', N'D', N'Arya', N'Yousefi', '2002-04-22', 71, 172, 17, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105629, N'FIF', N'IRN', N'D', N'Danial', N'Iri', '2003-10-26', 72, 163, 25, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105630, N'FIF', N'IRN', N'F', N'Alireza', N'Jahanbakhsh', '1993-08-11', 72, 172, 7, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105631, N'FIF', N'IRN', N'M', N'Saeid', N'Ezatolahi', '1996-10-01', 74, 194, 6, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105632, N'FIF', N'IRN', N'M', N'Mehdi', N'Torabi', '1994-09-10', 73, 170, 16, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105633, N'FIF', N'IRN', N'M', N'Saman', N'Ghoddos', '1993-09-06', 69, 170, 14, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105634, N'FIF', N'IRN', N'M', N'Roozbeh', N'Cheshmi', '1993-07-24', 76, 181, 15, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105635, N'FIF', N'IRN', N'M', N'Mohammad', N'Mohebbi', '1998-12-20', 74, 183, 8, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105636, N'FIF', N'IRN', N'M', N'Mohammad', N'Ghorbani', '2001-10-07', 75, 183, 21, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105637, N'FIF', N'IRN', N'M', N'Amirmohammad', N'Razzaghinia', '2006-04-11', 74, 183, 26, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105638, N'FIF', N'IRN', N'F', N'Mehdi', N'Taremi', '1992-07-18', 74, 181, 9, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105639, N'FIF', N'IRN', N'F', N'Ali', N'Alipour', '1995-11-11', 71, 163, 11, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105640, N'FIF', N'IRN', N'F', N'Mehdi', N'Ghayedi', '1998-12-05', 65, 130, 10, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105641, N'FIF', N'IRN', N'F', N'Amirhossein', N'Hosseinzadeh', '2000-10-30', 70, 179, 18, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105642, N'FIF', N'IRN', N'F', N'Dennis', N'Dargahi', '1997-01-09', 72, 181, 24, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105643, N'FIF', N'IRN', N'F', N'Shahriyar', N'Moghanloo', '1994-12-21', 74, 196, 20, NULL, N'Iran', NULL, 2025, 2025),
+
+        (105644, N'FIF', N'IRQ', N'G', N'Fahad', N'Talib', '1994-10-21', 76, 190, 1, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105645, N'FIF', N'IRQ', N'G', N'Jalal', N'Hassan', '1991-05-18', 74, 185, 12, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105646, N'FIF', N'IRQ', N'G', N'Ahmed', N'Basil', '1996-08-19', 73, 174, 22, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105647, N'FIF', N'IRQ', N'D', N'Frans', N'Putros', '1993-07-14', 71, 172, 26, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105648, N'FIF', N'IRQ', N'D', N'Rebin', N'Sulaka', '1992-04-12', 76, 185, 2, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105649, N'FIF', N'IRQ', N'D', N'Hussein', N'Ali', '2002-03-01', 72, 163, 3, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105650, N'FIF', N'IRQ', N'D', N'Munaf', N'Younus', '1996-11-16', 72, 172, 6, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105651, N'FIF', N'IRQ', N'D', N'Merchas', N'Doski', '1999-12-07', 68, 141, 23, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105652, N'FIF', N'IRQ', N'D', N'Ahmed', N'Maknazi', '2001-09-24', 71, 161, 15, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105653, N'FIF', N'IRQ', N'D', N'Mustafa', N'Saadoon', '2001-05-25', 71, 161, 25, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105654, N'FIF', N'IRQ', N'D', N'Akam', N'Hashim', '1998-08-16', 72, 161, 5, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105655, N'FIF', N'IRQ', N'D', N'Zaid', N'Tahseen', '2001-01-29', 76, 170, 4, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105656, N'FIF', N'IRQ', N'M', N'Ibrahim', N'Bayesh', '2000-05-01', 72, 172, 8, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105657, N'FIF', N'IRQ', N'M', N'Kevin', N'Yakob', '2000-10-10', 73, 163, 19, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105658, N'FIF', N'IRQ', N'M', N'Aimar', N'Sher', '2002-12-20', 69, 141, 20, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105659, N'FIF', N'IRQ', N'M', N'Amir', N'Al-Ammari', '1997-07-27', 72, 157, 16, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105660, N'FIF', N'IRQ', N'M', N'Zidane', N'Iqbal', '2003-04-27', 71, 157, 14, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105661, N'FIF', N'IRQ', N'M', N'Marko', N'Farji', '2004-03-16', 72, 172, 21, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105662, N'FIF', N'IRQ', N'M', N'Zaid', N'Ismael', '2002-01-03', 73, 161, 24, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105663, N'FIF', N'IRQ', N'F', N'Aymen', N'Hussein', '1996-03-22', 74, 183, 18, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105664, N'FIF', N'IRQ', N'F', N'Mohanad', N'Ali', '2000-06-20', 72, 168, 10, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105665, N'FIF', N'IRQ', N'F', N'Hashim', N'Ali', '2000-08-17', 65, 119, 13, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105666, N'FIF', N'IRQ', N'F', N'Ali', N'Jasim', '2004-01-20', 70, 161, 17, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105667, N'FIF', N'IRQ', N'F', N'Ahmed', N'Qasim', '2003-07-12', 72, 161, 11, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105668, N'FIF', N'IRQ', N'F', N'Youssef', N'Amyn', '2003-08-21', 68, 150, 7, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105669, N'FIF', N'IRQ', N'F', N'Ali', N'Al-Hamadi', '2002-03-01', 74, 179, 9, NULL, N'Iraq', NULL, 2025, 2025),
+
+        (105670, N'FIF', N'CIV', N'G', N'Alban', N'Lafont', '1999-01-23', 77, 185, 23, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105671, N'FIF', N'CIV', N'G', N'Yahia', N'Fofana', '2000-08-21', 76, 194, 1, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105672, N'FIF', N'CIV', N'G', N'Mohamed', N'Koné', '2002-03-07', 73, 172, 16, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105673, N'FIF', N'CIV', N'D', N'Evan', N'Ndicka', '1999-08-20', 76, 185, 21, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105674, N'FIF', N'CIV', N'D', N'Christopher', N'Operi', '1997-04-29', 72, 174, 13, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105675, N'FIF', N'CIV', N'D', N'Ghislain', N'Konan', '1995-12-27', 69, 172, 3, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105676, N'FIF', N'CIV', N'D', N'Odilon', N'Kossounou', '2001-01-04', 75, 183, 7, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105677, N'FIF', N'CIV', N'D', N'Wilfried', N'Singo', '2000-12-25', 75, 174, 5, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105678, N'FIF', N'CIV', N'D', N'Emmanuel', N'Agbadou', '1997-06-17', 76, 185, 20, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105679, N'FIF', N'CIV', N'D', N'Ousmane', N'Diomande', '2003-12-04', 75, 205, 2, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105680, N'FIF', N'CIV', N'D', N'Guela', N'Doué', '2002-10-17', 74, 192, 17, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105681, N'FIF', N'CIV', N'M', N'Seko', N'Fofana', '1995-05-07', 73, 183, 6, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105682, N'FIF', N'CIV', N'M', N'Jean Michaël', N'Seri', '1991-07-19', 67, 161, 4, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105683, N'FIF', N'CIV', N'M', N'Franck', N'Kessié', '1996-12-19', 72, 196, 8, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105684, N'FIF', N'CIV', N'M', N'Ibrahim', N'Sangaré', '1997-12-02', 75, 170, 18, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105685, N'FIF', N'CIV', N'M', N'Parfait', N'Guiagon', '2001-02-22', 67, 152, 25, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105686, N'FIF', N'CIV', N'M', N'Christ', N'Inao Oulaï', '2006-04-06', 68, 150, 26, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105687, N'FIF', N'CIV', N'F', N'Nicolas', N'Pépé', '1995-05-29', 72, 163, 19, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105688, N'FIF', N'CIV', N'F', N'Evann', N'Guessand', '2001-07-01', 74, 181, 22, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105689, N'FIF', N'CIV', N'F', N'Amad', N'Diallo', '2002-07-11', 68, 159, 15, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105690, N'FIF', N'CIV', N'F', N'Ange-Yoan', N'Bonny', '2003-10-25', 74, 183, 9, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105691, N'FIF', N'CIV', N'F', N'Elye', N'Wahi', '2003-01-02', 72, 161, 12, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105692, N'FIF', N'CIV', N'F', N'Simon', N'Adingra', '2002-01-01', 69, 150, 10, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105693, N'FIF', N'CIV', N'F', N'Oumar', N'Diakité', '2003-12-20', 73, 170, 14, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105694, N'FIF', N'CIV', N'F', N'Bazoumana', N'Touré', '2006-03-02', 70, 152, 24, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105695, N'FIF', N'CIV', N'F', N'Yan', N'Diomande', '2006-11-14', 71, 168, 11, NULL, N'Ivory Coast', NULL, 2025, 2025),
+
+        (105696, N'FIF', N'JPN', N'G', N'Keisuke', N'Osako', '1999-07-28', 74, 192, 12, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105697, N'FIF', N'JPN', N'G', N'Zion', N'Suzuki', '2002-08-21', 75, 218, 1, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105698, N'FIF', N'JPN', N'G', N'Tomoki', N'Hayakawa', '1999-03-03', 74, 179, 23, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105699, N'FIF', N'JPN', N'D', N'Hiroki', N'Ito', '1999-05-12', 74, 183, 21, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105700, N'FIF', N'JPN', N'D', N'Yuto', N'Nagatomo', '1986-09-12', 67, 150, 5, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105701, N'FIF', N'JPN', N'D', N'Shogo', N'Taniguchi', '1991-07-15', 73, 163, 3, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105702, N'FIF', N'JPN', N'D', N'Takehiro', N'Tomiyasu', '1998-11-05', 74, 183, 22, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105703, N'FIF', N'JPN', N'D', N'Kou', N'Itakura', '1997-01-27', 74, 174, 4, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105704, N'FIF', N'JPN', N'D', N'Ayumu', N'Seko', '2000-06-07', 73, 179, 20, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105705, N'FIF', N'JPN', N'D', N'Yukinari', N'Sugawara', '2000-06-28', 70, 157, 2, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105706, N'FIF', N'JPN', N'D', N'Tsuyoshi', N'Watanabe', '1997-02-05', 72, 168, 16, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105707, N'FIF', N'JPN', N'D', N'Junnosuke', N'Suzuki', '2003-07-12', 71, 157, 25, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105708, N'FIF', N'JPN', N'M', N'Wataru', N'Endo', '1993-02-09', 70, 170, 6, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105709, N'FIF', N'JPN', N'M', N'Daichi', N'Kamada', '1996-08-05', 71, 159, 15, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105710, N'FIF', N'JPN', N'M', N'Ritsu', N'Doan', '1998-06-16', 68, 152, 10, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105711, N'FIF', N'JPN', N'M', N'Ao', N'Tanaka', '1998-09-10', 71, 163, 7, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105712, N'FIF', N'JPN', N'M', N'Yuito', N'Suzuki', '2001-10-25', 69, 157, 17, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105713, N'FIF', N'JPN', N'M', N'Kaishu', N'Sano', '2000-12-30', 69, 148, 24, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105714, N'FIF', N'JPN', N'F', N'Junya', N'Ito', '1993-03-09', 70, 150, 14, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105715, N'FIF', N'JPN', N'F', N'Koki', N'Ogawa', '1997-08-08', 73, 172, 19, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105716, N'FIF', N'JPN', N'F', N'Takefusa', N'Kubo', '2001-06-04', 68, 148, 8, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105717, N'FIF', N'JPN', N'F', N'Keito', N'Nakamura', '2000-07-28', 71, 161, 13, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105718, N'FIF', N'JPN', N'F', N'Ayase', N'Ueda', '1998-08-28', 72, 168, 18, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105719, N'FIF', N'JPN', N'F', N'Daizen', N'Maeda', '1997-10-20', 68, 148, 11, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105720, N'FIF', N'JPN', N'F', N'Keisuke', N'Goto', '2005-06-03', 75, 152, 9, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105721, N'FIF', N'JPN', N'F', N'Kento', N'Shiogai', '2005-03-26', 71, 170, 26, NULL, N'Japan', NULL, 2025, 2025),
+
+        (105722, N'FIF', N'JOR', N'G', N'Yazeed', N'Abulaila', '1993-01-08', 74, 192, 1, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105723, N'FIF', N'JOR', N'G', N'Abdallah', N'Al-Fakhouri', '2000-01-22', 75, 174, 22, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105724, N'FIF', N'JOR', N'G', N'Nour', N'Bani Ateyah', '1993-01-25', 70, 168, 12, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105725, N'FIF', N'JOR', N'D', N'Ehsan', N'Haddad', '1994-02-05', 69, 172, 23, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105726, N'FIF', N'JOR', N'D', N'Yazan', N'Al-Arab', '1996-01-31', 73, 192, 5, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105727, N'FIF', N'JOR', N'D', N'Mohammad', N'Abualnadi', '2001-02-08', 73, 174, 16, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105728, N'FIF', N'JOR', N'D', N'Saleem', N'Obaid', '1992-01-17', 74, 181, 17, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105729, N'FIF', N'JOR', N'D', N'Abdallah', N'Nasib', '1994-02-25', 72, 172, 3, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105730, N'FIF', N'JOR', N'D', N'Mohannad', N'Abu Taha', '2003-02-02', 68, 168, 20, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105731, N'FIF', N'JOR', N'D', N'Mohammad', N'Abu Hasheesh', '1995-05-09', 70, 161, 2, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105732, N'FIF', N'JOR', N'D', N'Husam', N'Abu Dahab', '2000-05-13', 73, 179, 4, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105733, N'FIF', N'JOR', N'D', N'Saed', N'Al-Rosan', '1997-02-01', 73, 183, 19, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105734, N'FIF', N'JOR', N'D', N'Mohammad', N'Abughoush', '2005-07-13', 72, 161, 18, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105735, N'FIF', N'JOR', N'D', N'Anas', N'Badawi', '1997-09-13', 69, 152, 26, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105736, N'FIF', N'JOR', N'M', N'Rajaei', N'Ayed', '1993-07-25', 69, 152, 14, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105737, N'FIF', N'JOR', N'M', N'Noor', N'Al-Rawabdeh', '1997-02-24', 72, 163, 8, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105738, N'FIF', N'JOR', N'M', N'Ibrahim', N'Sadeh', '2000-04-27', 69, 152, 15, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105739, N'FIF', N'JOR', N'M', N'Mohammad', N'Al-Daoud', '1992-04-12', 73, 179, 25, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105740, N'FIF', N'JOR', N'M', N'Nizar', N'Al-Rashdan', '1999-03-23', 72, 161, 21, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105741, N'FIF', N'JOR', N'M', N'Amer', N'Jamous', '2002-07-03', 70, 168, 6, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105742, N'FIF', N'JOR', N'F', N'Mahmoud', N'Al-Mardi', '1993-10-06', 68, 159, 13, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105743, N'FIF', N'JOR', N'F', N'Mousa', N'Al-Tamari', '1997-06-10', 70, 152, 10, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105744, N'FIF', N'JOR', N'F', N'Mohammed', N'Abu Zraiq', '1997-12-30', 67, 152, 7, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105745, N'FIF', N'JOR', N'F', N'Ali', N'Olwan', '2000-03-26', 72, 179, 9, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105746, N'FIF', N'JOR', N'F', N'Odeh', N'Fakhoury', '2005-11-22', 71, 150, 11, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105747, N'FIF', N'JOR', N'F', N'Ali', N'Azaizeh', '2004-04-13', 70, 170, 24, NULL, N'Jordan', NULL, 2025, 2025),
+
+        (105748, N'FIF', N'MEX', N'G', N'Guillermo', N'Ochoa', '1985-07-13', 75, 185, 13, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105749, N'FIF', N'MEX', N'G', N'Carlos', N'Acevedo', '1996-04-19', 72, 161, 12, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105750, N'FIF', N'MEX', N'G', N'Raúl', N'Rangel', '2000-02-25', 75, 192, 1, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105751, N'FIF', N'MEX', N'D', N'Jesús', N'Gallardo', '1994-08-15', 70, 172, 23, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105752, N'FIF', N'MEX', N'D', N'Jorge', N'Sánchez', '1997-12-10', 69, 150, 2, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105753, N'FIF', N'MEX', N'D', N'César', N'Montes', '1997-02-24', 77, 194, 3, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105754, N'FIF', N'MEX', N'D', N'Johan', N'Vásquez', '1998-10-22', 72, 172, 5, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105755, N'FIF', N'MEX', N'D', N'Israel', N'Reyes', '2000-05-23', 70, 161, 15, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105756, N'FIF', N'MEX', N'D', N'Mateo', N'Chávez', '2004-05-12', 70, 161, 20, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105757, N'FIF', N'MEX', N'M', N'Luis', N'Chávez', '1996-01-15', 70, 161, 24, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105758, N'FIF', N'MEX', N'M', N'Orbelín', N'Pineda', '1996-03-24', 67, 141, 17, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105759, N'FIF', N'MEX', N'M', N'Edson', N'Álvarez', '1997-10-24', 75, 168, 4, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105760, N'FIF', N'MEX', N'M', N'Luis', N'Romo', '1995-06-05', 72, 172, 7, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105761, N'FIF', N'MEX', N'M', N'César', N'Huerta', '2000-12-03', 67, 132, 21, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105762, N'FIF', N'MEX', N'M', N'Érik', N'Lira', '2000-05-08', 68, 152, 6, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105763, N'FIF', N'MEX', N'M', N'Álvaro', N'Fidalgo', '1997-04-09', 69, 150, 8, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105764, N'FIF', N'MEX', N'D', N'Brian', N'Gutiérrez', '2007-01-21', 73, 181, 26, NULL, N'Argentina', NULL, 2025, 2025),
+
+        (105765, N'FIF', N'MEX', N'M', N'Obed', N'Vargas', '2005-08-05', 69, 150, 18, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105766, N'FIF', N'MEX', N'M', N'Gilberto', N'Mora', '2008-10-14', 66, 137, 19, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105767, N'FIF', N'MEX', N'F', N'Raúl', N'Jiménez', '1991-05-05', 74, 168, 9, NULL, N'Mexico', N'Hidalgo', 2025, 2025),
+
+        (105768, N'FIF', N'MEX', N'F', N'Guillermo', N'Martínez', '1995-03-15', 75, 201, 22, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105769, N'FIF', N'MEX', N'F', N'Roberto', N'Alvarado', '1998-09-07', 69, 152, 25, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105770, N'FIF', N'MEX', N'F', N'Alexis', N'Vega', '1997-11-25', 69, 168, 10, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105771, N'FIF', N'MEX', N'F', N'Julián', N'Quiñones', '1997-03-24', 71, 172, 16, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105772, N'FIF', N'MEX', N'F', N'Santiago', N'Gimenez', '2001-04-18', 73, 172, 11, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105773, N'FIF', N'MEX', N'F', N'Armando', N'González', '2003-04-20', 70, 148, 14, NULL, N'Mexico', NULL, 2025, 2025),
+
+        (105774, N'FIF', N'MAR', N'G', N'Yassine', N'Bounou', '1991-04-05', 76, 170, 1, NULL, N'Saudi Arabia', N'Montreal', 2025, 2025),
+
+        (105775, N'FIF', N'MAR', N'G', N'Ahmed Reda', N'Tagnaouti', '1996-04-05', 76, 183, 22, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105776, N'FIF', N'MAR', N'G', N'Munir', N'El Kajoui', '1989-05-10', 75, 172, 12, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105777, N'FIF', N'MAR', N'D', N'Issa', N'Diop', '1997-01-09', 76, 192, 14, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105778, N'FIF', N'MAR', N'D', N'Noussair', N'Mazraoui', '1997-11-14', 72, 172, 3, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105779, N'FIF', N'MAR', N'D', N'Achraf', N'Hakimi', '1998-11-04', 71, 172, 2, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105780, N'FIF', N'MAR', N'D', N'Nayef', N'Aguerd', '1996-03-30', 75, 174, 5, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105781, N'FIF', N'MAR', N'D', N'Anass', N'Salah-Eddine', '2002-01-18', 71, 146, 26, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105782, N'FIF', N'MAR', N'D', N'Chadi', N'Riad', '2003-06-17', 73, 172, 18, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105783, N'FIF', N'MAR', N'D', N'Zakaria', N'El Ouahdi', '2001-12-31', 67, 150, 13, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105784, N'FIF', N'MAR', N'D', N'Redouane', N'Halhal', '2003-03-05', 74, 181, 25, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105785, N'FIF', N'MAR', N'D', N'Youssef', N'Belammari', '1998-09-20', 69, 152, 19, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105786, N'FIF', N'MAR', N'M', N'Sofyan', N'Amrabat', '1996-08-21', 73, 170, 4, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105787, N'FIF', N'MAR', N'M', N'Brahim', N'Díaz', '1999-08-03', 67, 150, 10, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105788, N'FIF', N'MAR', N'M', N'Azzedine', N'Ounahi', '2000-04-19', 72, 141, 8, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105789, N'FIF', N'MAR', N'M', N'Ismael', N'Saibari', '2001-01-28', 73, 179, 11, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105790, N'FIF', N'MAR', N'M', N'Neil', N'El Aynaoui', '2001-07-02', 73, 174, 24, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105791, N'FIF', N'MAR', N'M', N'Bilal', N'El Khannouss', '2004-05-10', 71, 152, 23, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105792, N'FIF', N'MAR', N'M', N'Ayyoub', N'Bouaddi', '2007-10-02', 73, 163, 6, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105793, N'FIF', N'MAR', N'M', N'Samir', N'El Mourabet', '2005-10-06', 74, 159, 15, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105794, N'FIF', N'MAR', N'F', N'Ayoub', N'El Kaabi', '1993-06-25', 72, 174, 20, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105795, N'FIF', N'MAR', N'F', N'Soufiane', N'Rahimi', '1996-06-02', 71, 163, 9, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105796, N'FIF', N'MAR', N'F', N'Abde', N'Ezzalzouli', '2001-12-17', 70, 161, 17, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105797, N'FIF', N'MAR', N'F', N'Chemsdine', N'Talbi', '2005-05-09', 69, 152, 7, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105798, N'FIF', N'MAR', N'F', N'Gessime', N'Yassine', '2005-11-22', 68, 121, 16, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105799, N'FIF', N'MAR', N'F', N'Ayoube', N'Amaimouni', '2004-11-30', 70, 152, 21, NULL, N'Morocco', NULL, 2025, 2025),
+
+        (105800, N'FIF', N'NED', N'G', N'Mark', N'Flekken', '1993-06-13', 77, 192, 23, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105801, N'FIF', N'NED', N'G', N'Bart', N'Verbruggen', '2002-08-18', 76, 194, 1, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105802, N'FIF', N'NED', N'G', N'Robin', N'Roefs', '2003-01-17', 76, 159, 13, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105803, N'FIF', N'NED', N'D', N'Virgil', N'van Dijk', '1991-07-08', 77, 203, 4, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105804, N'FIF', N'NED', N'D', N'Nathan', N'Aké', '1995-02-18', 71, 183, 5, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105805, N'FIF', N'NED', N'D', N'Denzel', N'Dumfries', '1996-04-18', 74, 174, 22, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105806, N'FIF', N'NED', N'D', N'Lutsharel', N'Geertruida', '2000-07-18', 72, 150, 2, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105807, N'FIF', N'NED', N'D', N'Jan Paul', N'van Hecke', '2000-06-08', 74, 172, 6, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105808, N'FIF', N'NED', N'D', N'Micky', N'van de Ven', '2001-04-19', 76, 179, 15, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105809, N'FIF', N'NED', N'D', N'Jorrel', N'Hato', '2006-03-07', 72, 170, 25, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105810, N'FIF', N'NED', N'M', N'Marten', N'de Roon', '1991-03-29', 73, 168, 3, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105811, N'FIF', N'NED', N'M', N'Frenkie', N'de Jong', '1997-05-12', 71, 161, 21, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105812, N'FIF', N'NED', N'M', N'Guus', N'Til', '1997-12-22', 74, 172, 16, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105813, N'FIF', N'NED', N'M', N'Teun', N'Koopmeiners', '1998-02-28', 73, 183, 20, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105814, N'FIF', N'NED', N'M', N'Tijjani', N'Reijnders', '1998-07-29', 70, 174, 14, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105815, N'FIF', N'NED', N'M', N'Ryan', N'Gravenberch', '2002-05-16', 75, 183, 8, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105816, N'FIF', N'NED', N'M', N'Mats', N'Wieffer', '1999-11-16', 74, 172, 12, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105817, N'FIF', N'NED', N'M', N'Quinten', N'Timber', '2001-06-17', 69, 157, 26, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105818, N'FIF', N'NED', N'F', N'Memphis', N'Depay', '1994-02-13', 70, 172, 10, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105819, N'FIF', N'NED', N'F', N'Wout', N'Weghorst', '1992-08-07', 78, 196, 9, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105820, N'FIF', N'NED', N'F', N'Justin', N'Kluivert', '1999-05-05', 68, 146, 7, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105821, N'FIF', N'NED', N'F', N'Cody', N'Gakpo', '1999-05-07', 76, 172, 11, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105822, N'FIF', N'NED', N'F', N'Noa', N'Lang', '1999-06-17', 69, 152, 17, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105823, N'FIF', N'NED', N'F', N'Donyell', N'Malen', '1999-01-19', 70, 150, 18, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105824, N'FIF', N'NED', N'F', N'Brian', N'Brobbey', '2002-02-01', 71, 174, 19, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105825, N'FIF', N'NED', N'F', N'Crysencio', N'Summerville', '2001-10-30', 68, 139, 24, NULL, N'Netherlands', NULL, 2025, 2025),
+
+        (105826, N'FIF', N'NZL', N'G', N'Max', N'Crocombe', '1993-08-12', 76, 185, 1, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105827, N'FIF', N'NZL', N'G', N'Michael', N'Woud', '1999-01-16', 77, 194, 22, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105828, N'FIF', N'NZL', N'G', N'Alex', N'Paulsen', '2002-07-04', 72, 183, 12, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105829, N'FIF', N'NZL', N'D', N'Michael', N'Boxall', '1988-08-18', 75, 207, 5, NULL, N'USA', N'Auckland', 2025, 2025),
+
+        (105830, N'FIF', N'NZL', N'D', N'Tommy', N'Smith', '1990-03-31', 74, 183, 26, NULL, N'England', NULL, 2025, 2025),
+
+        (105831, N'FIF', N'NZL', N'D', N'Tim', N'Payne', '1994-01-10', 70, 161, 2, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105832, N'FIF', N'NZL', N'D', N'Francis', N'de Vries', '1994-11-28', 74, 174, 3, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105833, N'FIF', N'NZL', N'D', N'Liberato', N'Cacace', '2000-09-27', 72, 181, 13, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105834, N'FIF', N'NZL', N'D', N'Callan', N'Elliot', '1999-07-07', 70, 150, 24, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105835, N'FIF', N'NZL', N'D', N'Nando', N'Pijnaker', '1999-02-25', 75, 192, 15, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105836, N'FIF', N'NZL', N'D', N'Finn', N'Surman', '2003-09-23', 75, 183, 16, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105837, N'FIF', N'NZL', N'D', N'Tyler', N'Bindon', '2005-01-27', 75, 185, 4, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105838, N'FIF', N'NZL', N'M', N'Ryan', N'Thomas', '1994-12-20', 69, 152, 23, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105839, N'FIF', N'NZL', N'M', N'Alex', N'Rufer', '1996-06-12', 72, 163, 14, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (105840, N'FIF', N'NZL', N'M', N'Callum', N'McCowatt', '1999-04-30', 71, 163, 20, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105841, N'FIF', N'NZL', N'M', N'Sarpreet', N'Singh', '1999-02-20', 71, 157, 10, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105842, N'FIF', N'NZL', N'M', N'Joe', N'Bell', '1999-04-27', 72, 181, 6, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105843, N'FIF', N'NZL', N'M', N'Marko', N'Stamenic', '2002-02-19', 74, 172, 8, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105844, N'FIF', N'NZL', N'M', N'Matthew', N'Garbett', '2002-04-13', 76, 163, 7, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105845, N'FIF', N'NZL', N'M', N'Lachlan', N'Bayliss', '2002-07-24', 70, 163, 25, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105846, N'FIF', N'NZL', N'F', N'Chris', N'Wood', '1991-12-07', 75, 205, 9, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105847, N'FIF', N'NZL', N'F', N'Kosta', N'Barbarouses', '1990-02-19', 67, 150, 17, NULL, N'New Zealand', N'Wellington, NZ', 2025, 2025),
+
+        (105848, N'FIF', N'NZL', N'F', N'Elijah', N'Just', '2000-05-01', 69, 152, 11, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105849, N'FIF', N'NZL', N'F', N'Ben', N'Waine', '2001-06-11', 70, 174, 18, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105850, N'FIF', N'NZL', N'F', N'Jesse', N'Randall', '2002-08-19', 69, 152, 21, NULL, N'New Zealand', NULL, 2025, 2025),
+
+        (105851, N'FIF', N'NZL', N'F', N'Ben', N'Old', '2002-08-13', 68, 141, 19, NULL, N'France', NULL, 2025, 2025),
+
+        (105852, N'FIF', N'NOR', N'G', N'Ørjan', N'Nyland', '1990-09-10', 76, 196, 1, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105853, N'FIF', N'NOR', N'G', N'Egil', N'Selvik', '1997-07-30', 76, 196, 13, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105854, N'FIF', N'NOR', N'G', N'Sander', N'Tangvik', '2002-11-29', 76, 174, 12, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105855, N'FIF', N'NOR', N'D', N'Marcus', N'Holmgren Pedersen', '2000-07-16', 72, 168, 16, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105856, N'FIF', N'NOR', N'D', N'Kristoffer', N'Ajer', '1998-04-17', 78, 203, 3, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105857, N'FIF', N'NOR', N'D', N'Julian', N'Ryerson', '1997-11-17', 72, 190, 26, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105858, N'FIF', N'NOR', N'D', N'Fredrik André', N'Bjørkan', '1998-08-21', 71, 161, 15, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105859, N'FIF', N'NOR', N'D', N'Torbjørn', N'Heggem', '1999-01-12', 76, 174, 17, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105860, N'FIF', N'NOR', N'D', N'Leo', N'Østigard', '1999-11-28', 72, 179, 4, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105861, N'FIF', N'NOR', N'D', N'Henrik', N'Falchener', '2003-05-08', 76, 181, 25, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105862, N'FIF', N'NOR', N'D', N'David', N'Møller Wolfe', '2002-04-23', 73, 172, 5, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105863, N'FIF', N'NOR', N'D', N'Sondre', N'Langas', '2001-02-02', 75, 179, 24, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105864, N'FIF', N'NOR', N'M', N'Morten', N'Thorsby', '1996-05-05', 74, 159, 2, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105865, N'FIF', N'NOR', N'M', N'Martin', N'Ødegaard', '1998-12-17', 70, 150, 10, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105866, N'FIF', N'NOR', N'M', N'Patrick', N'Berg', '1997-11-24', 70, 161, 6, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105867, N'FIF', N'NOR', N'M', N'Fredrik', N'Aursnes', '1995-12-10', 71, 157, 14, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105868, N'FIF', N'NOR', N'M', N'Sander', N'Berge', '1998-02-14', 77, 212, 8, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105869, N'FIF', N'NOR', N'M', N'Jens Petter', N'Hauge', '1999-10-12', 72, 163, 23, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105870, N'FIF', N'NOR', N'M', N'Kristian', N'Thorstvedt', '1999-03-13', 74, 183, 18, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105871, N'FIF', N'NOR', N'M', N'Oscar', N'Bobb', '2003-07-12', 69, 159, 22, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105872, N'FIF', N'NOR', N'M', N'Thelo', N'Aasgaard', '2002-05-02', 74, 192, 19, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105873, N'FIF', N'NOR', N'M', N'Antonio', N'Nusa', '2005-04-17', 72, 170, 20, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105874, N'FIF', N'NOR', N'F', N'Alexander', N'Sørloth', '1995-12-05', 77, 205, 7, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105875, N'FIF', N'NOR', N'F', N'Jørgen Strand', N'Larsen', '2000-02-06', 76, 172, 11, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105876, N'FIF', N'NOR', N'F', N'Erling', N'Haaland', '2000-07-21', 77, 205, 9, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105877, N'FIF', N'NOR', N'F', N'Andreas', N'Schjelderup', '2004-06-01', 69, 161, 21, NULL, N'Norway', NULL, 2025, 2025),
+
+        (105878, N'FIF', N'PAN', N'G', N'Luis', N'Mejía', '1991-03-16', 76, 174, 1, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105879, N'FIF', N'PAN', N'G', N'Orlando', N'Mosquera', '1994-12-25', 75, 214, 22, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105880, N'FIF', N'PAN', N'G', N'César', N'Samudio', '1994-02-23', 74, 192, 12, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105881, N'FIF', N'PAN', N'D', N'Roderick', N'Miller', '1992-04-03', 75, 183, 25, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105882, N'FIF', N'PAN', N'D', N'Éric', N'Davis', '1991-03-31', 71, 172, 15, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105883, N'FIF', N'PAN', N'M', N'Andrés', N'Andrade', '1989-02-23', 72, 161, 16, NULL, N'Colombia', NULL, 2025, 2025),
+
+        (105884, N'FIF', N'PAN', N'D', N'Fidel', N'Escobar', '1995-01-09', 72, 161, 4, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105885, N'FIF', N'PAN', N'D', N'Amir', N'Murillo', '1996-02-11', 72, 163, 23, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105886, N'FIF', N'PAN', N'D', N'César', N'Blackman', '1998-04-02', 69, 170, 2, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105887, N'FIF', N'PAN', N'D', N'Jorge', N'Gutiérrez', '1998-09-01', 67, 150, 26, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105888, N'FIF', N'PAN', N'D', N'José', N'Córdoba', '2001-06-03', 74, 192, 3, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105889, N'FIF', N'PAN', N'D', N'Jiovany', N'Ramos', '1997-01-26', 74, 181, 13, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105890, N'FIF', N'PAN', N'D', N'Edgardo', N'Fariña', '2001-10-19', 76, 183, 5, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105891, N'FIF', N'PAN', N'M', N'Aníbal', N'Godoy', '1990-02-10', 72, 163, 20, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105892, N'FIF', N'PAN', N'M', N'Cristian', N'Martínez', '1997-02-06', 67, 159, 6, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105893, N'FIF', N'PAN', N'M', N'Édgar Yoel', N'Bárcenas', '1993-10-23', 69, 163, 11, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105894, N'FIF', N'PAN', N'M', N'Adalberto', N'Carrasquilla', '1998-11-28', 67, 172, 8, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105895, N'FIF', N'PAN', N'M', N'José Luis', N'Rodríguez', '1998-06-19', 71, 170, 7, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105896, N'FIF', N'PAN', N'M', N'Carlos', N'Harvey', '2000-02-03', 73, 194, 14, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105897, N'FIF', N'PAN', N'F', N'Alberto', N'Quintero', '1987-12-18', 66, 130, 19, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105898, N'FIF', N'PAN', N'F', N'Cecilio', N'Waterman', '1991-04-13', 71, 179, 18, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105899, N'FIF', N'PAN', N'F', N'Ismael', N'Díaz', '1997-05-12', 72, 179, 10, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105900, N'FIF', N'PAN', N'F', N'José', N'Fajardo', '1993-08-18', 71, 174, 17, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105901, N'FIF', N'PAN', N'F', N'Tomás', N'Rodríguez', '1999-03-09', 72, 163, 9, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105902, N'FIF', N'PAN', N'F', N'César', N'Yanis', '1996-01-28', 63, 128, 21, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105903, N'FIF', N'PAN', N'F', N'Azarias', N'Londoño', '2001-06-21', 73, 192, 24, NULL, N'Panama', NULL, 2025, 2025),
+
+        (105904, N'FIF', N'PAR', N'G', N'Gatito', N'Fernández', '1988-03-29', 75, 190, 1, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105905, N'FIF', N'PAR', N'G', N'Gastón', N'Olveira', '1993-04-21', 75, 179, 22, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105906, N'FIF', N'PAR', N'G', N'Orlando', N'Gill', '2000-06-11', 78, 179, 12, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105907, N'FIF', N'PAR', N'D', N'Juan Jose', N'Cáceres', '2000-06-01', 70, 174, 4, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105908, N'FIF', N'PAR', N'D', N'Gustavo', N'Gómez', '1993-05-06', 73, 150, 15, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105909, N'FIF', N'PAR', N'D', N'Gustavo', N'Velázquez', '1991-04-17', 70, 168, 2, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105910, N'FIF', N'PAR', N'D', N'Júnior', N'Alonso', '1993-02-09', 73, 183, 6, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105911, N'FIF', N'PAR', N'D', N'Fabián', N'Balbuena', '1991-08-23', 74, 183, 5, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105912, N'FIF', N'PAR', N'D', N'Omar', N'Alderete', '1996-12-26', 74, 170, 3, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105913, N'FIF', N'PAR', N'D', N'José', N'Canale', '1996-07-20', 74, 174, 13, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105914, N'FIF', N'PAR', N'D', N'Alexandro', N'Maidana', '2005-07-26', 70, 161, 26, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105915, N'FIF', N'PAR', N'M', N'Julio', N'Enciso', '2004-01-23', 68, 139, 19, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105916, N'FIF', N'PAR', N'M', N'Alejandro', N'Romero Gamarra', '1995-01-11', 67, 146, 17, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105917, N'FIF', N'PAR', N'M', N'Diego', N'Gómez', '2003-03-27', 73, 170, 8, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105918, N'FIF', N'PAR', N'M', N'Andrés', N'Cubas', '1996-05-11', 66, 146, 14, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105919, N'FIF', N'PAR', N'M', N'Braian', N'Ojeda', '2000-06-27', 68, 150, 20, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105920, N'FIF', N'PAR', N'M', N'Maurício', NULL, '2001-06-22', 69, 170, 11, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105921, N'FIF', N'PAR', N'M', N'Matías', N'Galarza', '2002-02-11', 69, 148, 23, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105922, N'FIF', N'PAR', N'M', N'Damián', N'Bobadilla', '2001-07-11', 71, 168, 16, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105923, N'FIF', N'PAR', N'F', N'Miguel', N'Almirón', '1994-02-10', 69, 152, 10, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105924, N'FIF', N'PAR', N'F', N'Gustavo', N'Caballero', '2001-09-21', 73, 161, 24, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105925, N'FIF', N'PAR', N'F', N'Antonio', N'Sanabria', '1996-03-04', 71, 152, 9, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105926, N'FIF', N'PAR', N'F', N'Gabriel', N'Ávalos', '1990-10-12', 75, 203, 21, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105927, N'FIF', N'PAR', N'F', N'Alex', N'Arce', '1995-06-16', 74, 174, 18, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105928, N'FIF', N'PAR', N'F', N'Isidro', N'Pitta', '1999-08-14', 72, 172, 25, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105929, N'FIF', N'PAR', N'F', N'Ramón', N'Sosa', '1999-08-31', 70, 163, 7, NULL, N'Paraguay', NULL, 2025, 2025),
+
+        (105930, N'FIF', N'POR', N'G', N'Rui', N'Silva', '1994-02-07', 75, 192, 22, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105931, N'FIF', N'POR', N'G', N'José', N'Sá', '1993-01-17', 76, 174, 12, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105932, N'FIF', N'POR', N'G', N'Diogo', N'Costa', '1999-09-19', 74, 190, 1, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105933, N'FIF', N'POR', N'D', N'João', N'Cancelo', '1994-05-27', 72, 161, 20, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105934, N'FIF', N'POR', N'D', N'Nélson', N'Semedo', '1993-11-16', 70, 146, 2, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105935, N'FIF', N'POR', N'D', N'Rúben', N'Dias', '1997-05-14', 74, 190, 3, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105936, N'FIF', N'POR', N'D', N'Diogo', N'Dalot', '1999-03-18', 72, 181, 5, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105937, N'FIF', N'POR', N'D', N'Nuno', N'Mendes', '2002-06-19', 71, 152, 25, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105938, N'FIF', N'POR', N'D', N'Gonçalo', N'Inácio', '2001-08-25', 73, 172, 14, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105939, N'FIF', N'POR', N'D', N'Tomás', N'Araújo', '2002-05-16', 74, 185, 4, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105940, N'FIF', N'POR', N'D', N'Renato', N'Veiga', '2003-07-29', 75, 192, 13, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105941, N'FIF', N'POR', N'M', N'Bruno', N'Fernandes', '1994-09-08', 72, 139, 8, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105942, N'FIF', N'POR', N'M', N'Samú', N'Costa', '2000-11-27', 73, 172, 24, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105943, N'FIF', N'POR', N'M', N'Bernardo', N'Silva', '1994-08-10', 68, 139, 10, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105944, N'FIF', N'POR', N'M', N'Rúben', N'Neves', '1997-03-13', 72, 183, 21, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105945, N'FIF', N'POR', N'M', N'Vitinha', NULL, '2000-02-13', 68, 139, 23, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105946, N'FIF', N'POR', N'M', N'Matheus', N'Nunes', '1998-08-27', 72, 172, 6, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105947, N'FIF', N'POR', N'M', N'João', N'Neves', '2004-09-27', 69, 146, 15, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105948, N'FIF', N'POR', N'F', N'Cristiano', N'Ronaldo', '1985-02-05', 74, 174, 7, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105949, N'FIF', N'POR', N'F', N'Gonçalo', N'Guedes', '1996-11-29', 70, 159, 19, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105950, N'FIF', N'POR', N'F', N'Pedro', N'Neto', '2000-03-09', 69, 172, 18, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105951, N'FIF', N'POR', N'F', N'Rafael', N'Leão', '1999-06-10', 74, 174, 17, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105952, N'FIF', N'POR', N'F', N'Francisco', N'Trincão', '1999-12-29', 72, 168, 16, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105953, N'FIF', N'POR', N'F', N'João', N'Félix', '1999-11-10', 71, 152, 11, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105954, N'FIF', N'POR', N'F', N'Gonçalo', N'Ramos', '2001-06-20', 73, 183, 9, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105955, N'FIF', N'POR', N'F', N'Francisco', N'Conceição', '2002-12-14', 65, 148, 26, NULL, N'Portugal', NULL, 2025, 2025),
+
+        (105956, N'FIF', N'QAT', N'G', N'Meshaal', N'Barsham', '1998-02-14', 71, 159, 22, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105957, N'FIF', N'QAT', N'G', N'Salah', N'Zakaria', '1999-04-24', 74, 190, 21, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105958, N'FIF', N'QAT', N'G', N'Mahmoud', N'Abunada', '2000-02-05', 75, 179, 1, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105959, N'FIF', N'QAT', N'D', N'Pedro', N'Miguel', '1990-08-06', 72, 185, 2, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105960, N'FIF', N'QAT', N'D', N'Lucas', N'Mendes', '1990-07-03', 72, 141, 3, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105961, N'FIF', N'QAT', N'D', N'Boualem', N'Khoukhi', '1990-07-09', 71, 161, 16, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105962, N'FIF', N'QAT', N'D', N'Sultan', N'Al-Brake', '1996-04-07', 69, 130, 18, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105963, N'FIF', N'QAT', N'D', N'Homam', N'Ahmed', '1999-08-25', 74, 170, 14, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105964, N'FIF', N'QAT', N'D', N'Jassem', N'Gaber', '2002-02-20', 71, 152, 5, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105965, N'FIF', N'QAT', N'D', N'Ayoub', N'Al-Oui', '2005-03-11', 71, 141, 13, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105966, N'FIF', N'QAT', N'D', N'Al-Hashmi', N'Al-Hussain', '2003-08-15', 72, 159, 25, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105967, N'FIF', N'QAT', N'D', N'Issa', N'Laye', '1997-12-22', 74, 157, 4, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105968, N'FIF', N'QAT', N'M', N'Abdulaziz', N'Hatem', '1990-10-28', 72, 150, 6, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105969, N'FIF', N'QAT', N'M', N'Karim', N'Boudiaf', '1990-09-16', 75, 185, 12, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105970, N'FIF', N'QAT', N'M', N'Assim', N'Madibo', '1996-10-22', 66, 159, 23, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105971, N'FIF', N'QAT', N'M', N'Ahmed', N'Fathy', '1993-01-25', 67, 148, 20, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105972, N'FIF', N'QAT', N'M', N'Mohamed', N'Manai', '2002-10-25', 71, 150, 26, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105973, N'FIF', N'QAT', N'F', N'Edmílson Junior', NULL, '1994-08-19', 71, 157, 8, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105974, N'FIF', N'QAT', N'F', N'Mohammed', N'Muntari', '1993-12-20', 76, 190, 9, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105975, N'FIF', N'QAT', N'F', N'Almoez', N'Ali', '1996-08-19', 71, 159, 19, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105976, N'FIF', N'QAT', N'F', N'Akram', N'Afif', '1996-11-18', 70, 152, 11, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105977, N'FIF', N'QAT', N'F', N'Hassan', N'Al-Haydos', '1990-12-11', 69, 137, 10, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105978, N'FIF', N'QAT', N'F', N'Ahmed', N'Alaaeldin', '1993-01-31', 70, 146, 7, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105979, N'FIF', N'QAT', N'F', N'Yusuf', N'Abdurisag', '1999-08-06', 69, 139, 15, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105980, N'FIF', N'QAT', N'F', N'Ahmed', N'Al-Ganehi', '2000-09-22', 70, 130, 17, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105981, N'FIF', N'QAT', N'F', N'Tahsin', N'Jamshid', '2006-06-16', 65, 128, 24, NULL, N'Qatar', NULL, 2025, 2025),
+
+        (105982, N'FIF', N'KSA', N'G', N'Ahmed', N'Al-Kassar', '1991-05-08', 70, 172, 22, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (105983, N'FIF', N'KSA', N'G', N'Mohammed', N'Al-Owais', '1991-10-10', 73, 170, 21, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (105984, N'FIF', N'KSA', N'G', N'Nawaf', N'Al-Aqidi', '2000-05-10', 73, 192, 1, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (105985, N'FIF', N'KSA', N'D', N'Hassan', N'Kadish', '1992-09-26', 70, 152, 14, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (105986, N'FIF', N'KSA', N'D', N'Hassan', N'Al-Tambakti', '1999-02-09', 72, 183, 5, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (105987, N'FIF', N'KSA', N'D', N'Abdulelah', N'Al-Amri', '1997-01-15', 73, 170, 4, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (105988, N'FIF', N'KSA', N'D', N'Saud', N'Abdulhamid', '1999-07-18', 68, 161, 12, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (105989, N'FIF', N'KSA', N'D', N'Ali', N'Lajami', '1996-04-24', 70, 157, 3, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (105990, N'FIF', N'KSA', N'D', N'Moteb', N'Al-Harbi', '2000-02-20', 68, 141, 24, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (105991, N'FIF', N'KSA', N'D', N'Nawaf', N'Boushal', '1999-09-16', 68, 139, 13, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (105992, N'FIF', N'KSA', N'D', N'Ali', N'Majrashi', '1999-10-02', 67, 150, 2, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (105993, N'FIF', N'KSA', N'D', N'Jehad', N'Thakri', '2001-07-21', 72, 179, 25, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (105994, N'FIF', N'KSA', N'M', N'Salem', N'Al-Dawsari', '1991-08-19', 68, 157, 10, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (105995, N'FIF', N'KSA', N'M', N'Mohamed', N'Kanno', '1994-09-22', 75, 148, 23, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (105996, N'FIF', N'KSA', N'M', N'Nasser', N'Al-Dawsari', '1998-12-19', 70, 170, 6, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (105997, N'FIF', N'KSA', N'M', N'Abdullah', N'Al-Khaibari', '1996-08-16', 69, 146, 15, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (105998, N'FIF', N'KSA', N'M', N'Aiman', N'Yahya', '2001-05-14', 68, 159, 8, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (105999, N'FIF', N'KSA', N'M', N'Ziyad', N'Al-Johani', '2001-11-11', 71, 139, 16, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (106000, N'FIF', N'KSA', N'M', N'Musab', N'Al-Juwayr', '2003-06-20', 69, 152, 7, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (106001, N'FIF', N'KSA', N'M', N'Ala', N'Al-Hajji', '1995-12-03', 70, 163, 18, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (106002, N'FIF', N'KSA', N'M', N'Mohammed', N'Abu Al-Shamat', '2002-08-11', 67, 137, 26, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (106003, N'FIF', N'KSA', N'F', N'Saleh', N'Al-Shehri', '1993-11-01', 72, 172, 11, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (106004, N'FIF', N'KSA', N'F', N'Feras', N'Al-Brikan', '2000-05-14', 73, 172, 9, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (106005, N'FIF', N'KSA', N'F', N'Sultan', N'Mandash', '1994-10-17', 68, 150, 20, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (106006, N'FIF', N'KSA', N'F', N'Khalid', N'Al-Ghannam', '2000-11-08', 67, 150, 17, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (106007, N'FIF', N'KSA', N'F', N'Abdullah', N'Al-Hamdan', '1999-09-13', 73, 172, 19, NULL, N'Saudi Arabia', NULL, 2025, 2025),
+
+        (106008, N'FIF', N'SCO', N'G', N'Liam', N'Kelly', '1996-01-23', 72, 174, 12, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106009, N'FIF', N'SCO', N'G', N'Craig', N'Gordon', '1982-12-31', 76, 183, 21, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106010, N'FIF', N'SCO', N'G', N'Angus', N'Gunn', '1996-01-22', 77, 170, 1, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106011, N'FIF', N'SCO', N'D', N'Andy', N'Robertson', '1994-03-11', 70, 139, 3, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106012, N'FIF', N'SCO', N'D', N'Grant', N'Hanley', '1991-11-20', 74, 185, 5, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106013, N'FIF', N'SCO', N'D', N'John', N'Souttar', '1996-09-25', 73, 163, 15, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106014, N'FIF', N'SCO', N'D', N'Scott', N'McKenna', '1996-11-12', 74, 161, 26, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106015, N'FIF', N'SCO', N'D', N'Jack', N'Hendry', '1995-05-07', 76, 190, 13, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106016, N'FIF', N'SCO', N'D', N'Kieran', N'Tierney', '1997-06-05', 71, 161, 6, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106017, N'FIF', N'SCO', N'D', N'Anthony', N'Ralston', '1998-11-16', 70, 152, 24, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106018, N'FIF', N'SCO', N'D', N'Dominic', N'Hyam', '1995-12-20', 74, 152, 16, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106019, N'FIF', N'SCO', N'D', N'Nathan', N'Patterson', '2001-10-16', 72, 159, 22, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106020, N'FIF', N'SCO', N'D', N'Aaron', N'Hickey', '2002-06-10', 73, 159, 2, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106021, N'FIF', N'SCO', N'M', N'Ryan', N'Christie', '1995-02-22', 70, 157, 11, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106022, N'FIF', N'SCO', N'M', N'Kenny', N'McLean', '1992-01-08', 72, 152, 23, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106023, N'FIF', N'SCO', N'M', N'John', N'McGinn', '1994-10-18', 70, 150, 7, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106024, N'FIF', N'SCO', N'M', N'Lewis', N'Ferguson', '1999-08-24', 71, 161, 19, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106025, N'FIF', N'SCO', N'M', N'Scott', N'McTominay', '1996-12-08', 76, 192, 4, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106026, N'FIF', N'SCO', N'M', N'Tyler', N'Fletcher', '2007-03-19', 72, 159, 8, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106027, N'FIF', N'SCO', N'F', N'Lawrence', N'Shankland', '1995-08-10', 73, 163, 20, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106028, N'FIF', N'SCO', N'F', N'Lyndon', N'Dykes', '1995-10-07', 74, 183, 9, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106029, N'FIF', N'SCO', N'F', N'Ché', N'Adams', '1996-07-13', 69, 152, 10, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106030, N'FIF', N'SCO', N'F', N'George', N'Hirst', '1999-02-15', 75, 179, 18, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106031, N'FIF', N'SCO', N'F', N'Ross', N'Stewart', '1996-07-11', 74, 185, 14, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106032, N'FIF', N'SCO', N'F', N'Ben', N'Gannon-Doak', '2005-11-11', 68, 141, 17, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106033, N'FIF', N'SCO', N'F', N'Findlay', N'Curtis', '2006-10-01', 71, 146, 25, NULL, N'Scotland', NULL, 2025, 2025),
+
+        (106034, N'FIF', N'SEN', N'G', N'Mory', N'Diaw', '1993-06-22', 78, 183, 23, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106035, N'FIF', N'SEN', N'G', N'Édouard', N'Mendy', '1992-03-01', 76, 214, 16, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106036, N'FIF', N'SEN', N'G', N'Yehvann', N'Diouf', '1999-11-16', 74, 161, 1, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106037, N'FIF', N'SEN', N'D', N'Kalidou', N'Koulibaly', '1991-06-20', 77, 194, 3, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106038, N'FIF', N'SEN', N'D', N'Moussa', N'Niakhaté', '1996-03-08', 75, 181, 19, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106039, N'FIF', N'SEN', N'D', N'Abdoulaye', N'Seck', '1992-06-04', 76, 174, 4, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106040, N'FIF', N'SEN', N'D', N'Ismail', N'Jakobs', '1999-08-17', 72, 163, 14, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106041, N'FIF', N'SEN', N'D', N'Antoine', N'Mendy', '2004-05-27', 74, 163, 24, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106042, N'FIF', N'SEN', N'D', N'Mamadou', N'Sarr', '2005-08-29', 76, 170, 2, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106043, N'FIF', N'SEN', N'D', N'El Hadji Malick', N'Diouf', '2004-12-29', 72, 150, 25, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106044, N'FIF', N'SEN', N'M', N'Lamine', N'Camara', '2004-01-01', 68, 141, 8, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106045, N'FIF', N'SEN', N'M', N'Idrissa', N'Gueye', '1989-09-26', 69, 146, 5, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106046, N'FIF', N'SEN', N'M', N'Krépin', N'Diatta', '1999-02-25', 69, 150, 15, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106047, N'FIF', N'SEN', N'M', N'Pape', N'Gueye', '1999-01-24', 74, 172, 26, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106048, N'FIF', N'SEN', N'M', N'Pathé', N'Ciss', '1994-03-16', 73, 157, 6, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106049, N'FIF', N'SEN', N'M', N'Pape Matar', N'Sarr', '2002-09-14', 73, 174, 17, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106050, N'FIF', N'SEN', N'M', N'Habib', N'Diarra', '2004-01-03', 70, 161, 21, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106051, N'FIF', N'SEN', N'M', N'Bara Sapoko', N'Ndiaye', '2007-12-31', 71, 172, 22, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106052, N'FIF', N'SEN', N'F', N'Sadio', N'Mané', '1992-04-10', 69, 150, 10, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106053, N'FIF', N'SEN', N'F', N'Ismaïla', N'Sarr', '1998-02-25', 73, 168, 18, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106054, N'FIF', N'SEN', N'F', N'Cherif', N'Ndiaye', '1996-01-23', 75, 183, 12, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106055, N'FIF', N'SEN', N'F', N'Iliman', N'Ndiaye', '2000-03-06', 71, 172, 13, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106056, N'FIF', N'SEN', N'F', N'Nicolas', N'Jackson', '2001-06-20', 74, 181, 11, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106057, N'FIF', N'SEN', N'F', N'Bamba', N'Dieng', '2000-03-23', 70, 172, 9, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106058, N'FIF', N'SEN', N'F', N'Assane', N'Diao', '2005-09-07', 73, 174, 7, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106059, N'FIF', N'SEN', N'F', N'Ibrahim', N'Mbaye', '2008-01-24', 73, 141, 20, NULL, N'Senegal', NULL, 2025, 2025),
+
+        (106060, N'FIF', N'RSA', N'G', N'Ricardo', N'Goss', '1994-04-02', 71, 163, 22, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106061, N'FIF', N'RSA', N'G', N'Ronwen', N'Williams', '1992-01-21', 72, 172, 1, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106062, N'FIF', N'RSA', N'G', N'Sipho', N'Chaine', '1996-12-14', 73, 170, 16, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106063, N'FIF', N'RSA', N'D', N'Aubrey', N'Modiba', '1995-07-22', 66, 161, 6, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106064, N'FIF', N'RSA', N'D', N'Nkosinathi', N'Sibisi', '1995-09-22', 70, 172, 19, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106065, N'FIF', N'RSA', N'D', N'Khuliso', N'Mudau', '1995-04-26', 71, 159, 20, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106066, N'FIF', N'RSA', N'D', N'Bradley', N'Cross', '2001-01-30', 69, 152, 26, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106067, N'FIF', N'RSA', N'D', N'Olwethu', N'Makhanya', '2004-04-30', 74, 159, 24, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106068, N'FIF', N'RSA', N'D', N'Ime', N'Okon', '2004-02-20', 74, 183, 21, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106069, N'FIF', N'RSA', N'D', N'Thabang', N'Matuludi', '1999-01-14', 74, 163, 2, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106070, N'FIF', N'RSA', N'D', N'Samukele', N'Kabini', '2004-03-15', 71, 172, 18, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106071, N'FIF', N'RSA', N'D', N'Khulumani', N'Ndamane', '2004-02-05', 72, 168, 3, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106072, N'FIF', N'RSA', N'D', N'Mbekezeli', N'Mbokazi', '2005-09-19', 71, 139, 14, NULL, N'South Africa', NULL, 2025, 2025);
+
+
+
+    INSERT INTO [core].[Players] ([playerID], [sportCode], [teamCode], [positionCode], [firstName], [lastName], [dateOfBirth], [heightInches], [weight], [number], [college], [birthCountry], [birthCityState], [draftYear], [seasonYear])
+
+    VALUES
+
+        (106073, N'FIF', N'RSA', N'M', N'Themba', N'Zwane', '1989-08-03', 67, 148, 11, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106074, N'FIF', N'RSA', N'M', N'Sphephelo', N'Sithole', '1999-03-03', 74, 192, 13, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106075, N'FIF', N'RSA', N'M', N'Teboho', N'Mokoena', '1997-01-24', 69, 168, 4, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106076, N'FIF', N'RSA', N'M', N'Thalente', N'Mbatha', '2000-03-06', 71, 157, 5, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106077, N'FIF', N'RSA', N'M', N'Jayden', N'Adams', '2001-05-05', 69, 150, 23, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106078, N'FIF', N'RSA', N'M', N'Kamogelo', N'Sebelebele', '2002-07-21', 65, 119, 25, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106079, N'FIF', N'RSA', N'F', N'Lyle', N'Foster', '2000-09-03', 73, 172, 9, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106080, N'FIF', N'RSA', N'F', N'Oswin', N'Appollis', '2001-08-25', 67, 152, 7, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106081, N'FIF', N'RSA', N'F', N'Iqraam', N'Rayners', '1995-12-19', 69, 168, 15, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106082, N'FIF', N'RSA', N'F', N'Evidence', N'Makgopa', '2000-06-05', 74, 161, 17, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106083, N'FIF', N'RSA', N'F', N'Tshepang', N'Moremi', '2000-10-02', 66, 152, 8, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106084, N'FIF', N'RSA', N'F', N'Thapelo', N'Maseko', '2003-11-11', 70, 161, 12, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106085, N'FIF', N'RSA', N'F', N'Relebohile', N'Mofokeng', '2004-10-23', 67, 150, 10, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106086, N'FIF', N'KOR', N'G', N'Kim', N'Seung-Gyu', '1990-09-30', 74, 183, 1, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106087, N'FIF', N'KOR', N'G', N'Jo', N'Hyeon-Woo', '1991-09-25', 74, 163, 21, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106088, N'FIF', N'KOR', N'G', N'Song', N'Bum-Keun', '1997-10-15', 77, 196, 12, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106089, N'FIF', N'KOR', N'D', N'Kim', N'Min-Jae', '1996-11-15', 75, 179, 4, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106090, N'FIF', N'KOR', N'D', N'Kim', N'Moon-Hwan', '1995-08-01', 68, 139, 15, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106091, N'FIF', N'KOR', N'D', N'Kim', N'Tae-Hyeon', '2000-09-17', 74, 181, 5, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106092, N'FIF', N'KOR', N'D', N'Lee', N'Tae-Seok', '2002-07-28', 69, 157, 13, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106093, N'FIF', N'KOR', N'D', N'Lee', N'Han-Beom', '2002-06-17', 75, 159, 2, NULL, N'South Africa', NULL, 2025, 2025),
+
+        (106094, N'FIF', N'KOR', N'D', N'Seol', N'Young-Woo', '1998-12-05', 72, 159, 22, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106095, N'FIF', N'KOR', N'D', N'Lee', N'Gi-Hyuk', '2000-07-07', 72, 159, 3, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106096, N'FIF', N'KOR', N'D', N'Cho', N'Wi-Je', '2001-08-25', 74, 181, 14, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106097, N'FIF', N'KOR', N'M', N'Kim', N'Jin-Gyu', '1997-02-24', 70, 150, 24, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106098, N'FIF', N'KOR', N'M', N'Lee', N'Jae-Sung', '1992-08-10', 71, 152, 10, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106099, N'FIF', N'KOR', N'M', N'Paik', N'Seung-Ho', '1997-03-17', 72, 159, 8, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106100, N'FIF', N'KOR', N'M', N'Lee', N'Dong-Gyeong', '1997-09-20', 69, 150, 26, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106101, N'FIF', N'KOR', N'M', N'Lee', N'Kang-In', '2001-02-19', 68, 146, 19, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106102, N'FIF', N'KOR', N'M', N'Hwang', N'In-Beom', '1996-09-20', 70, 152, 6, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106103, N'FIF', N'KOR', N'M', N'Jens', N'Castrop', '2003-07-29', 70, 168, 23, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106104, N'FIF', N'KOR', N'M', N'Park', N'Jin-Seop', '1995-10-23', 73, 170, 16, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106105, N'FIF', N'KOR', N'M', N'Bae', N'Jun-Ho', '2003-08-21', 71, 152, 17, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106106, N'FIF', N'KOR', N'F', N'Son', N'Heung-Min', '1992-07-08', 72, 168, 7, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106107, N'FIF', N'KOR', N'F', N'Hwang', N'Hee-Chan', '1996-01-26', 70, 170, 11, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106108, N'FIF', N'KOR', N'F', N'Eom', N'Ji-Sung', '2002-05-09', 70, 152, 25, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106109, N'FIF', N'KOR', N'F', N'Oh', N'Hyeon-Gyu', '2001-04-12', 74, 159, 18, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106110, N'FIF', N'KOR', N'F', N'Cho', N'Gue-Sung', '1998-01-25', 74, 181, 9, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106111, N'FIF', N'KOR', N'F', N'Yang', N'Hyun-Jun', '2002-05-25', 69, 161, 20, NULL, N'South Korea', NULL, 2025, 2025),
+
+        (106112, N'FIF', N'ESP', N'G', N'David', N'Raya', '1995-09-15', 72, 174, 1, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106113, N'FIF', N'ESP', N'G', N'Unai', N'Simón', '1997-06-11', 75, 192, 23, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106114, N'FIF', N'ESP', N'G', N'Joan', N'García', '2001-05-04', 76, 185, 13, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106115, N'FIF', N'ESP', N'D', N'Eric', N'García', '2001-01-09', 71, 170, 4, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106116, N'FIF', N'ESP', N'D', N'Aymeric', N'Laporte', '1994-05-27', 74, 190, 14, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106117, N'FIF', N'ESP', N'D', N'Alejandro', N'Grimaldo', '1995-09-20', 67, 139, 3, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106118, N'FIF', N'ESP', N'D', N'Marc', N'Cucurella', '1998-07-22', 69, 146, 24, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106119, N'FIF', N'ESP', N'D', N'Pedro', N'Porro', '1999-09-13', 68, 150, 12, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106120, N'FIF', N'ESP', N'D', N'Marc', N'Pubill', '2003-06-20', 75, 190, 2, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106121, N'FIF', N'ESP', N'D', N'Pau', N'Cubarsí', '2007-01-22', 72, 172, 22, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106122, N'FIF', N'ESP', N'M', N'Marcos', N'Llorente', '1995-01-30', 72, 161, 5, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106123, N'FIF', N'ESP', N'M', N'Mikel', N'Merino', '1996-06-22', 74, 183, 6, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106124, N'FIF', N'ESP', N'M', N'Fabián', N'Ruiz', '1996-04-03', 74, 152, 8, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106125, N'FIF', N'ESP', N'M', N'Dani', N'Olmo', '1998-05-07', 72, 161, 10, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106126, N'FIF', N'ESP', N'M', N'Rodri', NULL, '1996-06-22', 75, 196, 16, NULL, N'Spain', N'Madrid', 2025, 2025),
+
+        (106127, N'FIF', N'ESP', N'M', N'Pedri', NULL, '2002-11-25', 69, 150, 20, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106128, N'FIF', N'ESP', N'M', N'Martín', N'Zubimendi', '1999-02-02', 71, 161, 18, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106129, N'FIF', N'ESP', N'M', N'Yéremy', N'Pino', '2002-10-20', 68, 141, 11, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106130, N'FIF', N'ESP', N'M', N'Álex', N'Baena', '2001-07-20', 69, 152, 15, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106131, N'FIF', N'ESP', N'M', N'Gavi', NULL, '2004-08-05', 69, 150, 9, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106132, N'FIF', N'ESP', N'F', N'Borja', N'Iglesias', '1993-01-17', 74, 190, 26, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106133, N'FIF', N'ESP', N'F', N'Mikel', N'Oyarzabal', '1997-04-21', 71, 172, 21, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106134, N'FIF', N'ESP', N'F', N'Ferran', N'Torres', '2000-02-29', 72, 174, 7, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106135, N'FIF', N'ESP', N'F', N'Nico', N'Williams', '2002-07-12', 71, 148, 17, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106136, N'FIF', N'ESP', N'F', N'Lamine', N'Yamal', '2007-07-13', 70, 168, 19, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106137, N'FIF', N'ESP', N'F', N'Víctor', N'Muñoz', '2003-07-13', 68, 152, 25, NULL, N'Spain', NULL, 2025, 2025),
+
+        (106138, N'FIF', N'SWE', N'G', N'Kristoffer', N'Nordfeldt', '1989-06-23', 75, 185, 23, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106139, N'FIF', N'SWE', N'G', N'Viktor', N'Johansson', '1998-09-14', 74, 174, 12, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106140, N'FIF', N'SWE', N'G', N'Jacob', N'Widell Zetterström', '1998-07-11', 78, 192, 1, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106141, N'FIF', N'SWE', N'D', N'Carl', N'Starfelt', '1995-06-01', 73, 183, 15, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106142, N'FIF', N'SWE', N'M', N'Eric', N'Smith', '1997-01-08', 76, 190, 20, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106143, N'FIF', N'SWE', N'D', N'Victor', N'Lindelöf', '1994-07-17', 74, 181, 3, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106144, N'FIF', N'SWE', N'D', N'Gabriel', N'Gudmundsson', '1999-04-29', 71, 163, 5, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106145, N'FIF', N'SWE', N'D', N'Hjalmar', N'Ekdal', '1998-10-21', 74, 168, 14, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106146, N'FIF', N'SWE', N'D', N'Daniel', N'Svensson', '2002-02-12', 72, 159, 8, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106147, N'FIF', N'SWE', N'D', N'Isak', N'Hien', '1999-01-13', 75, 192, 4, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106148, N'FIF', N'SWE', N'D', N'Gustaf', N'Lagerbielke', '2000-04-10', 76, 174, 2, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106149, N'FIF', N'SWE', N'M', N'Ken', N'Sema', '1993-09-30', 71, 181, 13, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106150, N'FIF', N'SWE', N'M', N'Mattias', N'Svanberg', '1999-01-05', 73, 170, 19, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106151, N'FIF', N'SWE', N'M', N'Jesper', N'Karlström', '1995-06-21', 72, 179, 16, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106152, N'FIF', N'SWE', N'M', N'Yasin', N'Ayari', '2003-10-06', 68, 150, 18, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106153, N'FIF', N'SWE', N'M', N'Herman', N'Johansson', '1997-10-16', 75, 183, 6, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106154, N'FIF', N'SWE', N'M', N'Taha', N'Ali', '1998-07-01', 69, 139, 26, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106155, N'FIF', N'SWE', N'M', N'Besfort', N'Zeneli', '2002-11-21', 74, 157, 22, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106156, N'FIF', N'SWE', N'M', N'Lucas', N'Bergvall', '2006-02-02', 74, 163, 7, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106157, N'FIF', N'SWE', N'M', N'Elliot', N'Stroud', '2002-06-22', 73, 163, 24, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106158, N'FIF', N'SWE', N'F', N'Alexander', N'Isak', '1999-09-21', 75, 161, 9, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106159, N'FIF', N'SWE', N'F', N'Gustaf', N'Nilsson', '1997-05-23', 78, 192, 25, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106160, N'FIF', N'SWE', N'F', N'Viktor', N'Gyökeres', '1998-06-04', 74, 196, 17, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106161, N'FIF', N'SWE', N'F', N'Benjamin', N'Nygren', '2001-07-08', 74, 168, 10, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106162, N'FIF', N'SWE', N'F', N'Anthony', N'Elanga', '2002-04-27', 70, 163, 11, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106163, N'FIF', N'SWE', N'F', N'Alexander', N'Bernhardsson', '1998-09-08', 72, 152, 21, NULL, N'Sweden', NULL, 2025, 2025),
+
+        (106164, N'FIF', N'SUI', N'G', N'Yvon', N'Mvogo', '1994-06-06', 75, 192, 12, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106165, N'FIF', N'SUI', N'G', N'Gregor', N'Kobel', '1997-12-06', 77, 192, 1, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106166, N'FIF', N'SUI', N'G', N'Marvin', N'Keller', '2002-07-03', 74, 192, 21, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106167, N'FIF', N'SUI', N'D', N'Ricardo', N'Rodríguez', '1992-08-25', 72, 183, 13, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106168, N'FIF', N'SUI', N'D', N'Silvan', N'Widmer', '1993-03-05', 72, 170, 3, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106169, N'FIF', N'SUI', N'D', N'Nico', N'Elvedi', '1996-09-30', 74, 183, 4, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106170, N'FIF', N'SUI', N'D', N'Manuel', N'Akanji', '1995-07-19', 74, 201, 5, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106171, N'FIF', N'SUI', N'D', N'Eray', N'Cömert', '1998-02-04', 72, 174, 18, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106172, N'FIF', N'SUI', N'D', N'Miro', N'Muheim', '1998-03-24', 72, 170, 2, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106173, N'FIF', N'SUI', N'D', N'Aurèle', N'Amenda', '2003-07-31', 76, 196, 24, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106174, N'FIF', N'SUI', N'D', N'Luca', N'Jaquez', '2003-06-02', 74, 174, 25, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106175, N'FIF', N'SUI', N'M', N'Granit', N'Xhaka', '1992-09-27', 73, 174, 10, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106176, N'FIF', N'SUI', N'M', N'Remo', N'Freuler', '1992-04-15', 71, 170, 8, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106177, N'FIF', N'SUI', N'M', N'Djibril', N'Sow', '1997-02-06', 72, 168, 15, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106178, N'FIF', N'SUI', N'M', N'Denis', N'Zakaria', '1996-11-20', 75, 168, 6, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106179, N'FIF', N'SUI', N'M', N'Christian', N'Fassnacht', '1993-11-11', 73, 172, 16, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106180, N'FIF', N'SUI', N'M', N'Michel', N'Aebischer', '1997-01-06', 72, 172, 20, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106181, N'FIF', N'SUI', N'M', N'Rubén', N'Vargas', '1998-08-05', 70, 170, 17, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106182, N'FIF', N'SUI', N'M', N'Ardon', N'Jashari', '2002-07-30', 71, 179, 14, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106183, N'FIF', N'SUI', N'M', N'Fabian', N'Rieder', '2002-02-16', 70, 161, 22, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106184, N'FIF', N'SUI', N'M', N'Johan', N'Manzambi', '2005-10-14', 72, 163, 9, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106185, N'FIF', N'SUI', N'F', N'Breel', N'Embolo', '1997-02-14', 74, 183, 7, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106186, N'FIF', N'SUI', N'F', N'Cedric', N'Itten', '1996-12-27', 75, 183, 26, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106187, N'FIF', N'SUI', N'F', N'Noah', N'Okafor', '2000-05-24', 73, 185, 19, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106188, N'FIF', N'SUI', N'F', N'Dan', N'Ndoye', '2000-10-25', 72, 159, 11, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106189, N'FIF', N'SUI', N'F', N'Zeki', N'Amdouni', '2000-12-04', 73, 172, 23, NULL, N'Switzerland', NULL, 2025, 2025),
+
+        (106190, N'FIF', N'TUN', N'G', N'Sabri', N'Ben Hessen', '1996-06-13', 74, 174, 22, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106191, N'FIF', N'TUN', N'G', N'Aymen', N'Dahmen', '1997-01-28', 74, 174, 16, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106192, N'FIF', N'TUN', N'G', N'Mouhib', N'Chamakh', '2001-08-25', 74, 185, 1, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106193, N'FIF', N'TUN', N'D', N'Dylan', N'Bronn', '1995-06-19', 73, 163, 6, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106194, N'FIF', N'TUN', N'D', N'Yan', N'Valery', '1999-02-22', 71, 161, 20, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106195, N'FIF', N'TUN', N'D', N'Montassar', N'Talbi', '1998-05-26', 75, 174, 3, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106196, N'FIF', N'TUN', N'D', N'Ali', N'Abdi', '1993-12-20', 70, 172, 2, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106197, N'FIF', N'TUN', N'D', N'Mohamed Amine', N'Ben Hamida', '1995-12-15', 71, 152, 21, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106198, N'FIF', N'TUN', N'D', N'Omar', N'Rekik', '2001-12-20', 74, 170, 4, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106199, N'FIF', N'TUN', N'D', N'Moutaz', N'Neffati', '2004-09-04', 72, 163, 23, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106200, N'FIF', N'TUN', N'D', N'Adem', N'Arous', '2004-07-17', 74, 174, 5, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106201, N'FIF', N'TUN', N'D', N'Raed', N'Chikhaoui', '2004-06-09', 75, 185, 24, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106202, N'FIF', N'TUN', N'M', N'Rani', N'Khedira', '1994-01-27', 74, 183, 13, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106203, N'FIF', N'TUN', N'M', N'Ellyes', N'Skhiri', '1995-05-10', 73, 161, 17, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106204, N'FIF', N'TUN', N'M', N'Mortadha', N'Ben Ouanes', '1994-07-02', 74, 161, 12, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106205, N'FIF', N'TUN', N'M', N'Mohamed', N'Hadj Mahmoud', '2000-04-24', 70, 172, 15, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106206, N'FIF', N'TUN', N'M', N'Hannibal', N'Mejbri', '2003-01-21', 70, 161, 10, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106207, N'FIF', N'TUN', N'M', N'Anis', N'Slimane', '2001-03-16', 74, 190, 25, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106208, N'FIF', N'TUN', N'M', N'Elias', N'Achouri', '1999-02-10', 74, 161, 7, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106209, N'FIF', N'TUN', N'F', N'Firas', N'Chaouat', '1996-05-08', 73, 152, 19, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106210, N'FIF', N'TUN', N'F', N'Sebastian', N'Tounekti', '2002-07-13', 72, 174, 26, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106211, N'FIF', N'TUN', N'M', N'Ismaël', N'Gharbi', '2004-04-10', 71, 170, 11, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106212, N'FIF', N'TUN', N'F', N'Elias', N'Saad', '1999-12-27', 73, 174, 8, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106213, N'FIF', N'TUN', N'F', N'Hazem', N'Mastouri', '1997-06-18', 75, 174, 9, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106214, N'FIF', N'TUN', N'F', N'Khalil', N'Ayari', '2005-02-02', 69, 152, 14, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106215, N'FIF', N'TUN', N'F', N'Rayan', N'Elloumi', '2007-09-17', 71, 174, 18, NULL, N'Tunisia', NULL, 2025, 2025),
+
+        (106216, N'FIF', N'TUR', N'G', N'Mert', N'Günok', '1989-03-01', 77, 203, 1, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106217, N'FIF', N'TUR', N'G', N'Ugurcan', N'Çakir', '1996-04-05', 75, 185, 23, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106218, N'FIF', N'TUR', N'G', N'Altay', N'Bayindir', '1998-04-14', 78, 192, 12, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106219, N'FIF', N'TUR', N'D', N'Kaan', N'Ayhan', '1994-11-10', 73, 192, 22, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106220, N'FIF', N'TUR', N'D', N'Abdülkerim', N'Bardakçi', '1994-09-07', 73, 201, 14, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106221, N'FIF', N'TUR', N'D', N'Çaglar', N'Söyüncü', '1996-05-23', 73, 192, 4, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106222, N'FIF', N'TUR', N'D', N'Ferdi', N'Kadioglu', '1999-10-07', 69, 150, 20, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106223, N'FIF', N'TUR', N'D', N'Mert', N'Müldür', '1999-04-03', 72, 161, 18, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106224, N'FIF', N'TUR', N'D', N'Ozan', N'Kabak', '2000-03-25', 74, 190, 15, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106225, N'FIF', N'TUR', N'D', N'Merih', N'Demiral', '1998-03-05', 75, 190, 3, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106226, N'FIF', N'TUR', N'D', N'Zeki', N'Çelik', '1997-02-17', 71, 172, 2, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106227, N'FIF', N'TUR', N'D', N'Eren', N'Elmali', '2000-07-07', 71, 170, 13, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106228, N'FIF', N'TUR', N'D', N'Samet', N'Akaydin', '1994-03-13', 75, 183, 25, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106229, N'FIF', N'TUR', N'M', N'Hakan', N'Çalhanoglu', '1994-02-08', 70, 168, 10, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106230, N'FIF', N'TUR', N'M', N'Irfan Can', N'Kahveci', '1995-07-15', 71, 172, 17, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106231, N'FIF', N'TUR', N'M', N'Salih', N'Özcan', '1998-01-11', 72, 179, 5, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106232, N'FIF', N'TUR', N'M', N'Orkun', N'Kökçü', '2000-12-29', 69, 181, 6, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106233, N'FIF', N'TUR', N'M', N'Ismail', N'Yüksek', '1999-01-26', 72, 163, 16, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106234, N'FIF', N'TUR', N'M', N'Arda', N'Güler', '2005-02-25', 69, 148, 8, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106235, N'FIF', N'TUR', N'M', N'Can', N'Uzun', '2005-11-11', 73, 183, 26, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106236, N'FIF', N'TUR', N'F', N'Yunus', N'Akgün', '2000-07-07', 68, 159, 19, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106237, N'FIF', N'TUR', N'F', N'Kerem', N'Aktürkoglu', '1998-10-21', 68, 150, 7, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106238, N'FIF', N'TUR', N'F', N'Baris Alper', N'Yilmaz', '2000-05-23', 73, 190, 21, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106239, N'FIF', N'TUR', N'F', N'Oguz', N'Aydin', '2000-10-27', 72, 168, 24, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106240, N'FIF', N'TUR', N'F', N'Deniz', N'Gül', '2004-07-02', 75, 181, 9, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106241, N'FIF', N'TUR', N'F', N'Kenan', N'Yildiz', '2005-05-04', 74, 170, 11, NULL, N'Türkiye', NULL, 2025, 2025),
+
+        (106242, N'FIF', N'USA', N'G', N'Matt', N'Freese', '1998-09-02', 75, 192, 24, NULL, N'USA', NULL, 2025, 2025),
+
+        (106243, N'FIF', N'USA', N'G', N'Chris', N'Brady', '2004-03-03', 75, 170, 25, NULL, N'USA', NULL, 2025, 2025),
+
+        (106244, N'FIF', N'USA', N'G', N'Matt', N'Turner', '1994-06-24', 75, 183, 1, NULL, N'USA', NULL, 2025, 2025),
+
+        (106245, N'FIF', N'USA', N'D', N'Mark', N'McKenzie', '1999-02-25', 72, 183, 22, NULL, N'USA', N'New York City', 2025, 2025),
+
+        (106246, N'FIF', N'USA', N'D', N'Tim', N'Ream', '1987-10-05', 73, 174, 13, NULL, N'USA', NULL, 2025, 2025),
+
+        (106247, N'FIF', N'USA', N'D', N'Antonee', N'Robinson', '1997-08-08', 72, 161, 5, NULL, N'USA', NULL, 2025, 2025),
+
+        (106248, N'FIF', N'USA', N'D', N'Auston', N'Trusty', '1998-08-12', 75, 172, 6, NULL, N'USA', NULL, 2025, 2025),
+
+        (106249, N'FIF', N'USA', N'D', N'Alex', N'Freeman', '2004-08-09', 74, 174, 16, NULL, N'USA', NULL, 2025, 2025),
+
+        (106250, N'FIF', N'USA', N'D', N'Miles', N'Robinson', '1997-03-14', 74, 183, 12, NULL, N'USA', NULL, 2025, 2025),
+
+        (106251, N'FIF', N'USA', N'D', N'Sergiño', N'Dest', '2000-11-03', 68, 137, 2, NULL, N'USA', NULL, 2025, 2025),
+
+        (106252, N'FIF', N'USA', N'D', N'Joe', N'Scally', '2002-12-31', 72, 174, 23, NULL, N'USA', NULL, 2025, 2025),
+
+        (106253, N'FIF', N'USA', N'D', N'Chris', N'Richards', '2000-03-28', 74, 203, 3, NULL, N'USA', NULL, 2025, 2025),
+
+        (106254, N'FIF', N'USA', N'M', N'Cristian', N'Roldan', '1995-06-03', 68, 163, 15, NULL, N'USA', NULL, 2025, 2025),
+
+        (106255, N'FIF', N'USA', N'M', N'Tyler', N'Adams', '1999-02-14', 69, 159, 4, NULL, N'USA', NULL, 2025, 2025),
+
+        (106256, N'FIF', N'USA', N'M', N'Christian', N'Pulisic', '1998-09-18', 70, 161, 10, NULL, N'USA', NULL, 2025, 2025),
+
+        (106257, N'FIF', N'USA', N'M', N'Weston', N'McKennie', '1998-08-28', 73, 185, 8, NULL, N'USA', NULL, 2025, 2025),
+
+        (106258, N'FIF', N'USA', N'M', N'Brenden', N'Aaronson', '2000-10-22', 70, 150, 11, NULL, N'USA', NULL, 2025, 2025),
+
+        (106259, N'FIF', N'USA', N'M', N'Giovanni', N'Reyna', '2002-11-13', 73, 172, 7, NULL, N'USA', NULL, 2025, 2025),
+
+        (106260, N'FIF', N'USA', N'M', N'Sebastian', N'Berhalter', '2001-05-10', 69, 152, 14, NULL, N'USA', NULL, 2025, 2025),
+
+        (106261, N'FIF', N'USA', N'M', N'Malik', N'Tillman', '2002-05-28', 74, 190, 17, NULL, N'USA', NULL, 2025, 2025),
+
+        (106262, N'FIF', N'USA', N'F', N'Max', N'Arfsten', '2001-04-19', 73, 172, 18, NULL, N'USA', NULL, 2025, 2025),
+
+        (106263, N'FIF', N'USA', N'F', N'Alejandro', N'Zendejas', '1998-02-07', 66, 146, 26, NULL, N'USA', NULL, 2025, 2025),
+
+        (106264, N'FIF', N'USA', N'F', N'Haji', N'Wright', '1998-03-27', 75, 174, 19, NULL, N'USA', N'Los Angeles', 2025, 2025),
+
+        (106265, N'FIF', N'USA', N'F', N'Timothy', N'Weah', '2000-02-22', 72, 146, 21, NULL, N'USA', NULL, 2025, 2025),
+
+        (106266, N'FIF', N'USA', N'F', N'Folarin', N'Balogun', '2001-07-03', 70, 146, 20, NULL, N'USA', NULL, 2025, 2025),
+
+        (106267, N'FIF', N'USA', N'F', N'Ricardo', N'Pepi', '2003-01-09', 73, 161, 9, NULL, N'USA', NULL, 2025, 2025),
+
+        (106268, N'FIF', N'URU', N'G', N'Fernando', N'Muslera', '1986-06-16', 75, 183, 23, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106269, N'FIF', N'URU', N'G', N'Sergio', N'Rochet', '1993-03-23', 74, 181, 1, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106270, N'FIF', N'URU', N'G', N'Santiago', N'Mele', '1997-09-06', 72, 172, 12, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106271, N'FIF', N'URU', N'D', N'Guillermo', N'Varela', '1993-03-24', 68, 161, 13, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106272, N'FIF', N'URU', N'D', N'José María', N'Giménez', '1995-01-20', 73, 172, 2, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106273, N'FIF', N'URU', N'D', N'Mathías', N'Olivera', '1997-10-31', 69, 172, 16, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106274, N'FIF', N'URU', N'D', N'Santiago', N'Bueno', '1998-11-09', 75, 168, 24, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106275, N'FIF', N'URU', N'D', N'Joaquín', N'Piquerez', '1998-08-24', 72, 163, 22, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106276, N'FIF', N'URU', N'D', N'Matías', N'Viña', '1997-11-09', 69, 152, 17, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106277, N'FIF', N'URU', N'D', N'Ronald', N'Araújo', '1999-03-07', 75, 212, 4, NULL, N'Spain', N'Rivera', 2025, 2025),
+
+        (106278, N'FIF', N'URU', N'D', N'Sebastián', N'Cáceres', '1999-08-18', 71, 170, 3, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106279, N'FIF', N'URU', N'M', N'Emiliano', N'Martínez', '1999-08-17', 73, 141, 15, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106280, N'FIF', N'URU', N'M', N'Giorgian', N'de Arrascaeta', '1994-06-01', 68, 161, 10, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106281, N'FIF', N'URU', N'M', N'Rodrigo', N'Bentancur', '1997-06-25', 74, 159, 6, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106282, N'FIF', N'URU', N'M', N'Federico', N'Valverde', '1998-07-22', 72, 172, 8, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106283, N'FIF', N'URU', N'M', N'Manuel', N'Ugarte', '2001-04-11', 72, 170, 5, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106284, N'FIF', N'URU', N'M', N'Nicolás', N'de la Cruz', '1997-06-01', 66, 141, 7, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106285, N'FIF', N'URU', N'M', N'Maxi', N'Araújo', '2000-02-15', 70, 168, 20, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106286, N'FIF', N'URU', N'M', N'Rodrigo', N'Zalazar', '1999-08-12', 70, 152, 26, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106287, N'FIF', N'URU', N'M', N'Juan Manuel', N'Sanabria', '2000-03-29', 68, 130, 25, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106288, N'FIF', N'URU', N'M', N'Facundo', N'Pellistri', '2001-12-20', 69, 150, 11, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106289, N'FIF', N'URU', N'F', N'Brian', N'Rodríguez', '2000-05-20', 69, 150, 18, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106290, N'FIF', N'URU', N'F', N'Rodrigo', N'Aguirre', '1994-10-01', 72, 174, 19, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106291, N'FIF', N'URU', N'F', N'Agustín', N'Canobbio', '1998-10-01', 69, 179, 14, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106292, N'FIF', N'URU', N'F', N'Darwin', N'Núñez', '1999-06-24', 74, 179, 9, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106293, N'FIF', N'URU', N'F', N'Federico', N'Viñas', '1998-06-30', 71, 179, 21, NULL, N'Uruguay', NULL, 2025, 2025),
+
+        (106294, N'FIF', N'UZB', N'G', N'Botirali', N'Ergashev', '1995-06-23', 74, 172, 16, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106295, N'FIF', N'UZB', N'G', N'Utkir', N'Yusupov', '1991-01-04', 73, 168, 1, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106296, N'FIF', N'UZB', N'G', N'Abduvohid', N'Nematov', '2001-03-20', 72, 170, 12, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106297, N'FIF', N'UZB', N'D', N'Rustam', N'Ashurmatov', '1996-07-07', 73, 172, 5, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106298, N'FIF', N'UZB', N'D', N'Farrukh', N'Sayfiev', '1991-01-17', 72, 152, 4, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106299, N'FIF', N'UZB', N'D', N'Umar', N'Eshmurodov', '1992-11-30', 73, 159, 15, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106300, N'FIF', N'UZB', N'D', N'Khojiakbar', N'Alijonov', '1997-04-19', 71, 141, 3, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106301, N'FIF', N'UZB', N'D', N'Avazbek', N'Ulmasaliyev', '2000-03-27', 74, 159, 25, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106302, N'FIF', N'UZB', N'D', N'Sherzod', N'Nasrullaev', '1998-07-23', 72, 159, 13, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106303, N'FIF', N'UZB', N'D', N'Abdukodir', N'Khusanov', '2004-02-29', 73, 183, 2, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106304, N'FIF', N'UZB', N'D', N'Jakhongir', N'Urozov', '2004-01-18', 75, 174, 26, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106305, N'FIF', N'UZB', N'D', N'Behruzjon', N'Karimov', '2007-08-07', 68, 141, 24, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106306, N'FIF', N'UZB', N'M', N'Jamshid', N'Iskanderov', '1993-10-16', 67, 128, 8, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106307, N'FIF', N'UZB', N'M', N'Jaloliddin', N'Masharipov', '1993-09-01', 68, 139, 10, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106308, N'FIF', N'UZB', N'M', N'Odiljon', N'Xamrobekov', '1996-02-13', 71, 150, 9, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106309, N'FIF', N'UZB', N'M', N'Dostonbek', N'Khamdamov', '1996-07-24', 70, 139, 17, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106310, N'FIF', N'UZB', N'M', N'Otabek', N'Shukurov', '1996-06-22', 72, 163, 7, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106311, N'FIF', N'UZB', N'M', N'Azizjon', N'Ganiev', '1998-02-22', 71, 139, 19, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106312, N'FIF', N'UZB', N'M', N'Akmal', N'Mozgovoy', '1999-04-02', 71, 152, 6, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106313, N'FIF', N'UZB', N'M', N'Oston', N'Urunov', '2000-12-19', 71, 168, 11, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106314, N'FIF', N'UZB', N'M', N'Abbosbek', N'Fayzullaev', '2003-10-03', 66, 119, 22, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106315, N'FIF', N'UZB', N'M', N'Abdulla', N'Abdullaev', '1997-09-01', 71, 159, 18, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106316, N'FIF', N'UZB', N'M', N'Sherzod', N'Esanov', '2003-02-01', 75, 163, 23, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106317, N'FIF', N'UZB', N'F', N'Igor', N'Sergeev', '1993-04-30', 73, 168, 21, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106318, N'FIF', N'UZB', N'F', N'Eldor', N'Shomurodov', '1995-06-29', 75, 172, 14, NULL, N'Uzbekistan', NULL, 2025, 2025),
+
+        (106319, N'FIF', N'UZB', N'F', N'Azizbek', N'Amonov', '1997-10-30', 71, 159, 20, NULL, N'Uzbekistan', NULL, 2025, 2025);
+
+
+
     INSERT INTO [core].[Players] ([playerID], [sportCode], [teamCode], [positionCode], [firstName], [lastName], [dateOfBirth], [heightInches], [weight], [number], [college], [birthCountry], [birthCityState], [draftYear], [seasonYear])
     VALUES
-        (105073, N'FIF', N'ALG', N'G', N'Luca', N'Zidane', '1998-05-13', 72, 172, 23, NULL, N'Algeria', NULL, 2025, 2025),
-        (105074, N'FIF', N'ALG', N'G', N'Oussama', N'Benbot', '1994-10-11', 74, 196, 16, NULL, N'Algeria', NULL, 2025, 2025),
-        (105075, N'FIF', N'ALG', N'G', N'Melvin', N'Mastil', '2000-02-19', 76, 196, 1, NULL, N'Algeria', NULL, 2025, 2025),
-        (105076, N'FIF', N'ALG', N'D', N'Aïssa', N'Mandi', '1991-10-22', 73, 179, 2, NULL, N'Algeria', NULL, 2025, 2025),
-        (105077, N'FIF', N'ALG', N'D', N'Ramy', N'Bensebaini', '1995-04-16', 74, 181, 21, NULL, N'Algeria', NULL, 2025, 2025),
-        (105078, N'FIF', N'ALG', N'D', N'Rayan', N'Aït-Nouri', '2001-06-06', 71, 174, 15, NULL, N'Algeria', NULL, 2025, 2025),
-        (105079, N'FIF', N'ALG', N'D', N'Mohamed Amine', N'Tougai', '2000-01-22', 73, 183, 4, NULL, N'Algeria', NULL, 2025, 2025),
-        (105080, N'FIF', N'ALG', N'D', N'Zineddine', N'Belaïd', '1999-03-20', 73, 183, 5, NULL, N'Algeria', NULL, 2025, 2025),
-        (105081, N'FIF', N'ALG', N'D', N'Samir', N'Chergui', '1999-02-06', 73, 172, 26, NULL, N'Algeria', NULL, 2025, 2025),
-        (105082, N'FIF', N'ALG', N'D', N'Jaouen', N'Hadjam', '2003-03-26', 73, 181, 13, NULL, N'Algeria', NULL, 2025, 2025),
-        (105083, N'FIF', N'ALG', N'D', N'Rafik', N'Belghali', '2002-06-07', 70, 150, 17, NULL, N'Algeria', NULL, 2025, 2025),
-        (105084, N'FIF', N'ALG', N'D', N'Achraf', N'Abada', '1999-06-15', 73, 172, 3, NULL, N'Algeria', NULL, 2025, 2025),
-        (105085, N'FIF', N'ALG', N'M', N'Nabil', N'Bentaleb', '1994-11-24', 74, 168, 19, NULL, N'Algeria', NULL, 2025, 2025),
-        (105086, N'FIF', N'ALG', N'M', N'Houssem', N'Aouar', '1998-06-30', 69, 152, 8, NULL, N'Algeria', NULL, 2025, 2025),
-        (105087, N'FIF', N'ALG', N'M', N'Hicham', N'Boudaoui', '1999-09-23', 69, 132, 14, NULL, N'Algeria', NULL, 2025, 2025),
-        (105088, N'FIF', N'ALG', N'M', N'Ramiz', N'Zerrouki', '1998-05-26', 72, 181, 6, NULL, N'Algeria', NULL, 2025, 2025),
-        (105089, N'FIF', N'ALG', N'M', N'Farès', N'Chaïbi', '2002-11-28', 72, 150, 10, NULL, N'Algeria', NULL, 2025, 2025),
-        (105090, N'FIF', N'ALG', N'M', N'Yassine', N'Titraoui', '2003-07-26', 67, 152, 24, NULL, N'Algeria', NULL, 2025, 2025),
-        (105091, N'FIF', N'ALG', N'M', N'Ibrahim', N'Maza', '2005-11-24', 71, 172, 22, NULL, N'Algeria', NULL, 2025, 2025),
-        (105092, N'FIF', N'ALG', N'F', N'Riyad', N'Mahrez', '1991-02-21', 70, 161, 7, NULL, N'Algeria', NULL, 2025, 2025),
-        (105093, N'FIF', N'ALG', N'F', N'Amine', N'Gouiri', '2000-02-16', 71, 174, 9, NULL, N'Algeria', NULL, 2025, 2025),
-        (105094, N'FIF', N'ALG', N'F', N'Mohamed', N'Amoura', '2000-05-09', 67, 132, 18, NULL, N'Algeria', NULL, 2025, 2025),
-        (105095, N'FIF', N'ALG', N'F', N'Adil', N'Boulbina', '2003-05-02', 72, 174, 20, NULL, N'Algeria', NULL, 2025, 2025),
-        (105096, N'FIF', N'ALG', N'F', N'Anis', N'Hadj Moussa', '2002-02-11', 69, 163, 11, NULL, N'Algeria', NULL, 2025, 2025),
-        (105097, N'FIF', N'ALG', N'F', N'Nadhir', N'Benbouali', '2000-04-17', 75, 185, 12, NULL, N'Algeria', NULL, 2025, 2025),
-        (105098, N'FIF', N'ALG', N'F', N'Farès', N'Ghedjemis', '2002-09-06', 72, 181, 25, NULL, N'Algeria', NULL, 2025, 2025),
-        (105099, N'FIF', N'ARG', N'F', N'José Manuel', N'López', '2000-12-06', 75, 170, 21, NULL, N'Argentina', NULL, 2025, 2025),
-        (105100, N'FIF', N'ARG', N'F', N'Giuliano', N'Simeone', '2002-12-18', 68, 163, 17, NULL, N'Argentina', NULL, 2025, 2025),
-        (105101, N'FIF', N'ARG', N'G', N'Emiliano', N'Martínez', '1992-09-02', 77, 214, 23, NULL, N'Argentina', NULL, 2025, 2025),
-        (105102, N'FIF', N'ARG', N'G', N'Gerónimo', N'Rulli', '1992-05-20', 74, 174, 12, NULL, N'Argentina', NULL, 2025, 2025),
-        (105103, N'FIF', N'ARG', N'G', N'Juan', N'Musso', '1994-05-06', 75, 203, 1, NULL, N'Argentina', NULL, 2025, 2025),
-        (105104, N'FIF', N'ARG', N'D', N'Cristian', N'Romero', '1998-04-27', 73, 172, 13, NULL, N'Argentina', NULL, 2025, 2025),
-        (105105, N'FIF', N'ARG', N'D', N'Nicolás', N'Otamendi', '1988-02-12', 72, 183, 19, NULL, N'Argentina', NULL, 2025, 2025),
-        (105106, N'FIF', N'ARG', N'D', N'Nicolás', N'Tagliafico', '1992-08-31', 68, 141, 3, NULL, N'Argentina', NULL, 2025, 2025),
-        (105107, N'FIF', N'ARG', N'D', N'Nahuel', N'Molina', '1998-04-06', 69, 152, 26, NULL, N'Argentina', NULL, 2025, 2025),
-        (105108, N'FIF', N'ARG', N'D', N'Gonzalo', N'Montiel', '1997-01-01', 69, 152, 4, NULL, N'Argentina', NULL, 2025, 2025),
-        (105109, N'FIF', N'ARG', N'D', N'Lisandro', N'Martínez', '1998-01-18', 69, 172, 6, NULL, N'Argentina', NULL, 2025, 2025),
-        (105110, N'FIF', N'ARG', N'D', N'Marcos', N'Senesi', '1997-05-10', 73, 172, 2, NULL, N'Argentina', NULL, 2025, 2025),
-        (105111, N'FIF', N'ARG', N'D', N'Facundo', N'Medina', '1999-05-28', 72, 172, 25, NULL, N'Argentina', NULL, 2025, 2025),
-        (105112, N'FIF', N'ARG', N'M', N'Leandro', N'Paredes', '1994-06-29', 71, 161, 5, NULL, N'Argentina', NULL, 2025, 2025),
-        (105113, N'FIF', N'ARG', N'M', N'Rodrigo', N'De Paul', '1994-05-24', 71, 161, 7, NULL, N'Argentina', NULL, 2025, 2025),
-        (105114, N'FIF', N'ARG', N'M', N'Giovani', N'Lo Celso', '1996-04-09', 70, 150, 11, NULL, N'Argentina', NULL, 2025, 2025),
-        (105115, N'FIF', N'ARG', N'M', N'Exequiel', N'Palacios', '1998-10-05', 69, 159, 14, NULL, N'Argentina', NULL, 2025, 2025),
-        (105116, N'FIF', N'ARG', N'M', N'Alexis', N'Mac Allister', '1998-12-24', 69, 163, 20, NULL, N'Argentina', NULL, 2025, 2025),
-        (105117, N'FIF', N'ARG', N'M', N'Thiago', N'Almada', '2001-04-26', 67, 139, 16, NULL, N'Argentina', NULL, 2025, 2025),
-        (105118, N'FIF', N'ARG', N'M', N'Enzo', N'Fernández', '2001-01-17', 70, 161, 24, NULL, N'Argentina', NULL, 2025, 2025),
-        (105119, N'FIF', N'ARG', N'M', N'Valentín', N'Barco', '2004-07-23', 67, 148, 8, NULL, N'Argentina', NULL, 2025, 2025),
-        (105120, N'FIF', N'ARG', N'F', N'Lionel', N'Messi', '1987-06-24', 67, 148, 10, NULL, N'Argentina', N'Rosario', 2025, 2025),
-        (105121, N'FIF', N'ARG', N'F', N'Nico', N'González', '1998-04-06', 71, 170, 15, NULL, N'Argentina', NULL, 2025, 2025),
-        (105122, N'FIF', N'ARG', N'F', N'Lautaro', N'Martínez', '1997-08-22', 69, 152, 22, NULL, N'Argentina', NULL, 2025, 2025),
-        (105123, N'FIF', N'ARG', N'F', N'Julián', N'Álvarez', '2000-01-31', 67, 157, 9, NULL, N'Argentina', NULL, 2025, 2025),
-        (105124, N'FIF', N'ARG', N'F', N'Nico', N'Paz', '2004-09-08', 73, 172, 18, NULL, N'Argentina', NULL, 2025, 2025),
-        (105125, N'FIF', N'AUS', N'G', N'Mathew', N'Ryan', '1992-04-08', 72, 181, 1, NULL, N'Australia', N'Plumpton', 2025, 2025),
-        (105126, N'FIF', N'AUS', N'G', N'Paul', N'Izzo', '1995-01-06', 73, 179, 12, NULL, N'Australia', N'Adelaide', 2025, 2025),
-        (105127, N'FIF', N'AUS', N'G', N'Patrick', N'Beach', '2003-08-06', 75, 183, 18, NULL, N'Australia', NULL, 2025, 2025),
-        (105128, N'FIF', N'AUS', N'D', N'Milos', N'Degenek', '1994-04-28', 74, 181, 2, NULL, N'Australia', NULL, 2025, 2025),
-        (105129, N'FIF', N'AUS', N'D', N'Jason', N'Geria', '1993-05-10', 72, 163, 6, NULL, N'Australia', N'Canberra', 2025, 2025),
-        (105130, N'FIF', N'AUS', N'D', N'Aziz', N'Behich', '1990-12-16', 67, 150, 16, NULL, N'Australia', N'Melbourne', 2025, 2025),
-        (105131, N'FIF', N'AUS', N'D', N'Cameron', N'Burgess', '1995-10-21', 76, 203, 21, NULL, N'Australia', NULL, 2025, 2025),
-        (105132, N'FIF', N'AUS', N'D', N'Harry', N'Souttar', '1998-10-22', 78, 218, 19, NULL, N'Australia', NULL, 2025, 2025),
-        (105133, N'FIF', N'AUS', N'D', N'Jacob', N'Italiano', '2001-07-30', 70, 159, 4, NULL, N'Australia', NULL, 2025, 2025),
-        (105134, N'FIF', N'AUS', N'D', N'Kai', N'Trewin', '2001-05-18', 72, 161, 15, NULL, N'Australia', NULL, 2025, 2025),
-        (105135, N'FIF', N'AUS', N'D', N'Jordan', N'Bos', '2002-10-29', 72, 183, 5, NULL, N'Australia', NULL, 2025, 2025),
-        (105136, N'FIF', N'AUS', N'D', N'Alessandro', N'Circati', '2003-10-10', 75, 185, 3, NULL, N'Australia', NULL, 2025, 2025),
-        (105137, N'FIF', N'AUS', N'D', N'Lucas', N'Herrington', '2007-09-05', 76, 174, 25, NULL, N'Australia', NULL, 2025, 2025),
-        (105138, N'FIF', N'AUS', N'M', N'Jackson', N'Irvine', '1993-03-07', 74, 161, 22, NULL, N'Australia', NULL, 2025, 2025),
-        (105139, N'FIF', N'AUS', N'M', N'Awer', N'Mabil', '1995-09-15', 70, 161, 11, NULL, N'Australia', NULL, 2025, 2025),
-        (105140, N'FIF', N'AUS', N'M', N'Ajdin', N'Hrustic', '1996-07-05', 72, 172, 10, NULL, N'Australia', NULL, 2025, 2025),
-        (105141, N'FIF', N'AUS', N'M', N'Aiden', N'O''Neill', '1998-07-04', 72, 152, 13, NULL, N'Australia', NULL, 2025, 2025),
-        (105142, N'FIF', N'AUS', N'M', N'Connor', N'Metcalfe', '1999-11-05', 72, 163, 8, NULL, N'Australia', NULL, 2025, 2025),
-        (105143, N'FIF', N'AUS', N'M', N'Cameron', N'Devlin', '1998-06-07', 67, 150, 14, NULL, N'Australia', NULL, 2025, 2025),
-        (105144, N'FIF', N'AUS', N'M', N'Cristian', N'Volpato', '2003-11-15', 74, 168, 20, NULL, N'Australia', NULL, 2025, 2025),
-        (105145, N'FIF', N'AUS', N'M', N'Paul', N'Okon-Engstler', '2005-01-24', 73, 183, 24, NULL, N'Australia', NULL, 2025, 2025),
-        (105146, N'FIF', N'AUS', N'F', N'Mathew', N'Leckie', '1991-02-04', 71, 172, 7, NULL, N'Australia', N'Melbourne', 2025, 2025),
-        (105147, N'FIF', N'AUS', N'F', N'Mohamed', N'Toure', '2004-03-26', 73, 172, 9, NULL, N'Australia', NULL, 2025, 2025),
-        (105148, N'FIF', N'AUS', N'F', N'Tete', N'Yengi', '2000-11-28', 78, 183, 26, NULL, N'Australia', NULL, 2025, 2025),
-        (105149, N'FIF', N'AUS', N'F', N'Nishan', N'Velupillay', '2001-05-07', 71, 170, 23, NULL, N'Australia', NULL, 2025, 2025),
-        (105150, N'FIF', N'AUS', N'F', N'Nestory', N'Irankunda', '2006-02-09', 65, 163, 17, NULL, N'Australia', NULL, 2025, 2025),
-        (105151, N'FIF', N'AUT', N'G', N'Alexander', N'Schlager', '1996-02-01', 72, 174, 1, NULL, N'Austria', NULL, 2025, 2025),
-        (105152, N'FIF', N'AUT', N'G', N'Patrick', N'Pentz', '1997-01-02', 72, 179, 13, NULL, N'Austria', NULL, 2025, 2025),
-        (105153, N'FIF', N'AUT', N'G', N'Florian', N'Wiegele', '2001-03-21', 81, 214, 12, NULL, N'Austria', NULL, 2025, 2025),
-        (105154, N'FIF', N'AUT', N'D', N'David', N'Alaba', '1992-06-24', 71, 172, 8, NULL, N'Austria', NULL, 2025, 2025),
-        (105155, N'FIF', N'AUT', N'D', N'Philipp', N'Lienhart', '1996-07-11', 74, 183, 15, NULL, N'Austria', NULL, 2025, 2025),
-        (105156, N'FIF', N'AUT', N'D', N'Marco', N'Friedl', '1998-03-16', 74, 181, 23, NULL, N'Austria', NULL, 2025, 2025),
-        (105157, N'FIF', N'AUT', N'D', N'Stefan', N'Posch', '1997-05-14', 75, 181, 5, NULL, N'Austria', NULL, 2025, 2025),
-        (105158, N'FIF', N'AUT', N'D', N'Phillipp', N'Mwene', '1994-01-29', 67, 146, 16, NULL, N'Austria', NULL, 2025, 2025),
-        (105159, N'FIF', N'AUT', N'D', N'Kevin', N'Danso', '1998-09-19', 75, 185, 3, NULL, N'Austria', NULL, 2025, 2025),
-        (105160, N'FIF', N'AUT', N'D', N'Michael', N'Svoboda', '1998-10-15', 77, 190, 25, NULL, N'Austria', NULL, 2025, 2025),
-        (105161, N'FIF', N'AUT', N'D', N'David', N'Affengruber', '2001-03-19', 73, 172, 2, NULL, N'Austria', NULL, 2025, 2025),
-        (105162, N'FIF', N'AUT', N'D', N'Alexander', N'Prass', '2001-05-26', 72, 159, 22, NULL, N'Austria', NULL, 2025, 2025),
-        (105163, N'FIF', N'AUT', N'M', N'Konrad', N'Laimer', '1997-05-27', 71, 159, 20, NULL, N'Austria', NULL, 2025, 2025),
-        (105164, N'FIF', N'AUT', N'M', N'Marcel', N'Sabitzer', '1994-03-17', 70, 170, 9, NULL, N'Austria', NULL, 2025, 2025),
-        (105165, N'FIF', N'AUT', N'M', N'Alessandro', N'Schöpf', '1994-02-07', 70, 161, 26, NULL, N'Austria', NULL, 2025, 2025),
-        (105166, N'FIF', N'AUT', N'M', N'Florian', N'Grillitsch', '1995-08-07', 74, 161, 10, NULL, N'Austria', NULL, 2025, 2025),
-        (105167, N'FIF', N'AUT', N'M', N'Romano', N'Schmid', '2000-01-27', 66, 150, 18, NULL, N'Austria', NULL, 2025, 2025),
-        (105168, N'FIF', N'AUT', N'M', N'Xaver', N'Schlager', '1997-09-28', 69, 172, 4, NULL, N'Austria', NULL, 2025, 2025),
-        (105169, N'FIF', N'AUT', N'M', N'Carney', N'Chukwuemeka', '2003-10-20', 74, 170, 17, NULL, N'Austria', NULL, 2025, 2025),
-        (105170, N'FIF', N'AUT', N'M', N'Patrick', N'Wimmer', '2001-05-30', 72, 170, 21, NULL, N'Austria', NULL, 2025, 2025),
-        (105171, N'FIF', N'AUT', N'M', N'Nicolas', N'Seiwald', '2001-05-04', 71, 174, 6, NULL, N'Austria', NULL, 2025, 2025),
-        (105172, N'FIF', N'AUT', N'M', N'Paul', N'Wanner', '2005-12-23', 73, 163, 24, NULL, N'Austria', NULL, 2025, 2025),
-        (105173, N'FIF', N'AUT', N'F', N'Marko', N'Arnautovic', '1989-04-19', 76, 192, 7, NULL, N'Austria', NULL, 2025, 2025),
-        (105174, N'FIF', N'AUT', N'F', N'Michael', N'Gregoritsch', '1994-04-18', 76, 201, 11, NULL, N'Austria', NULL, 2025, 2025),
-        (105175, N'FIF', N'AUT', N'F', N'Sasa', N'Kalajdzic', '1997-07-07', 79, 196, 14, NULL, N'Austria', NULL, 2025, 2025),
-        (105176, N'FIF', N'BEL', N'G', N'Thibaut', N'Courtois', '1992-05-11', 79, 212, 1, NULL, N'Belgium', NULL, 2025, 2025),
-        (105177, N'FIF', N'BEL', N'G', N'Senne', N'Lammens', '2002-07-07', 76, 192, 12, NULL, N'Belgium', NULL, 2025, 2025),
-        (105178, N'FIF', N'BEL', N'G', N'Mike', N'Penders', '2005-07-31', 79, 227, 13, NULL, N'Belgium', NULL, 2025, 2025),
-        (105179, N'FIF', N'BEL', N'D', N'Thomas', N'Meunier', '1991-09-12', 75, 192, 15, NULL, N'Belgium', NULL, 2025, 2025),
-        (105180, N'FIF', N'BEL', N'D', N'Brandon', N'Mechele', '1993-01-28', 75, 172, 4, NULL, N'Belgium', NULL, 2025, 2025),
-        (105181, N'FIF', N'BEL', N'D', N'Timothy', N'Castagne', '1995-12-05', 73, 174, 21, NULL, N'Belgium', NULL, 2025, 2025),
-        (105182, N'FIF', N'BEL', N'D', N'Maxim', N'De Cuyper', '2000-12-22', 72, 157, 5, NULL, N'Belgium', NULL, 2025, 2025),
-        (105183, N'FIF', N'BEL', N'D', N'Arthur', N'Theate', '2000-05-25', 73, 172, 3, NULL, N'Belgium', NULL, 2025, 2025),
-        (105184, N'FIF', N'BEL', N'D', N'Koni', N'De Winter', '2002-06-12', 75, 172, 16, NULL, N'Belgium', NULL, 2025, 2025),
-        (105185, N'FIF', N'BEL', N'D', N'Zeno', N'Debast', '2003-10-24', 75, 163, 2, NULL, N'Belgium', NULL, 2025, 2025),
-        (105186, N'FIF', N'BEL', N'D', N'Nathan', N'Ngoy', '2003-06-10', 72, 172, 25, NULL, N'Belgium', NULL, 2025, 2025),
-        (105187, N'FIF', N'BEL', N'D', N'Joaquin', N'Seys', '2005-03-28', 70, 157, 18, NULL, N'Belgium', NULL, 2025, 2025),
-        (105188, N'FIF', N'BEL', N'M', N'Kevin', N'De Bruyne', '1991-06-28', 71, 172, 7, NULL, N'Belgium', NULL, 2025, 2025),
-        (105189, N'FIF', N'BEL', N'M', N'Axel', N'Witsel', '1989-01-12', 73, 181, 6, NULL, N'Belgium', NULL, 2025, 2025),
-        (105190, N'FIF', N'BEL', N'M', N'Youri', N'Tielemans', '1997-05-07', 69, 159, 8, NULL, N'Belgium', NULL, 2025, 2025),
-        (105191, N'FIF', N'BEL', N'M', N'Hans', N'Vanaken', '1992-08-24', 77, 190, 20, NULL, N'Belgium', NULL, 2025, 2025),
-        (105192, N'FIF', N'BEL', N'M', N'Nicolas', N'Raskin', '2001-02-23', 70, 168, 23, NULL, N'Belgium', NULL, 2025, 2025),
-        (105193, N'FIF', N'BEL', N'M', N'Amadou', N'Onana', '2001-08-16', 77, 168, 24, NULL, N'Belgium', NULL, 2025, 2025),
-        (105194, N'FIF', N'BEL', N'F', N'Romelu', N'Lukaku', '1993-05-13', 75, 225, 9, NULL, N'Belgium', NULL, 2025, 2025),
-        (105195, N'FIF', N'BEL', N'F', N'Leandro', N'Trossard', '1994-12-04', 68, 141, 10, NULL, N'Belgium', NULL, 2025, 2025),
-        (105196, N'FIF', N'BEL', N'F', N'Dodi', N'Lukébakio', '1997-09-24', 74, 170, 14, NULL, N'Belgium', NULL, 2025, 2025),
-        (105197, N'FIF', N'BEL', N'F', N'Alexis', N'Saelemaekers', '1999-06-27', 71, 159, 22, NULL, N'Belgium', NULL, 2025, 2025),
-        (105198, N'FIF', N'BEL', N'F', N'Jérémy', N'Doku', '2002-05-27', 68, 181, 11, NULL, N'Belgium', NULL, 2025, 2025),
-        (105199, N'FIF', N'BEL', N'F', N'Charles', N'De Ketelaere', '2001-03-10', 76, 183, 17, NULL, N'Belgium', NULL, 2025, 2025),
-        (105200, N'FIF', N'BEL', N'F', N'Diego', N'Moreira', '2004-08-06', 70, 161, 19, NULL, N'Belgium', NULL, 2025, 2025),
-        (105201, N'FIF', N'BEL', N'F', N'Matias', N'Fernandez-Pardo', '2005-02-03', 72, 190, 26, NULL, N'Belgium', NULL, 2025, 2025),
-        (105202, N'FIF', N'BIH', N'G', N'Nikola', N'Vasilj', '1995-12-02', 76, 190, 1, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105203, N'FIF', N'BIH', N'G', N'Martin', N'Zlomislic', '1998-08-16', 75, 185, 22, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105204, N'FIF', N'BIH', N'G', N'Mladen', N'Jurkas', '2007-10-07', 76, 196, 12, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105205, N'FIF', N'BIH', N'D', N'Sead', N'Kolasinac', '1993-06-20', 72, 185, 5, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105206, N'FIF', N'BIH', N'D', N'Nikola', N'Katic', '1996-10-10', 76, 196, 18, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105207, N'FIF', N'BIH', N'D', N'Dennis', N'Hadzikadunic', '1998-07-09', 75, 179, 3, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105208, N'FIF', N'BIH', N'D', N'Nihad', N'Mujakic', '1998-04-15', 74, 172, 2, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105209, N'FIF', N'BIH', N'D', N'Stjepan', N'Radeljic', '1997-09-05', 79, 192, 21, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105210, N'FIF', N'BIH', N'D', N'Amar', N'Dedic', '2002-08-18', 71, 161, 7, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105211, N'FIF', N'BIH', N'D', N'Tarik', N'Muharemovic', '2003-02-28', 76, 183, 4, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105212, N'FIF', N'BIH', N'D', N'Nidal', N'Celik', '2006-07-17', 76, 183, 24, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105213, N'FIF', N'BIH', N'M', N'Ivan', N'Sunjic', '1996-10-09', 73, 152, 14, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105214, N'FIF', N'BIH', N'M', N'Amir', N'Hadziahmetovic', '1997-03-08', 70, 157, 16, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105215, N'FIF', N'BIH', N'M', N'Dzenis', N'Burnic', '1998-05-22', 71, 161, 17, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105216, N'FIF', N'BIH', N'M', N'Armin', N'Gigovic', '2002-04-06', 74, 172, 8, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105217, N'FIF', N'BIH', N'M', N'Ivan', N'Basic', '2002-04-30', 70, 163, 13, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105218, N'FIF', N'BIH', N'M', N'Amar', N'Memic', '2001-01-20', 69, 159, 15, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105219, N'FIF', N'BIH', N'M', N'Benjamin', N'Tahirovic', '2003-03-03', 76, 183, 6, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105220, N'FIF', N'BIH', N'M', N'Ermin', N'Mahmic', '2005-03-14', 72, 179, 26, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105221, N'FIF', N'BIH', N'F', N'Edin', N'Dzeko', '1986-03-17', 76, 174, 11, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105222, N'FIF', N'BIH', N'F', N'Haris', N'Tabakovic', '1994-06-20', 77, 196, 23, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105223, N'FIF', N'BIH', N'F', N'Ermedin', N'Demirovic', '1998-03-25', 73, 183, 10, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105224, N'FIF', N'BIH', N'F', N'Jovo', N'Lukic', '1998-11-28', 75, 174, 25, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105225, N'FIF', N'BIH', N'F', N'Samed', N'Bazdar', '2004-01-31', 74, 174, 9, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105226, N'FIF', N'BIH', N'F', N'Esmir', N'Bajraktarevic', '2005-03-10', 69, 139, 20, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105227, N'FIF', N'BIH', N'F', N'Kerim', N'Alajbegovic', '2007-09-21', 73, 168, 19, NULL, N'Bosnia and Herzegovina', NULL, 2025, 2025),
-        (105228, N'FIF', N'BRA', N'G', N'Ederson', NULL, '1993-08-17', 74, 196, 23, NULL, N'Brazil', NULL, 2025, 2025),
-        (105229, N'FIF', N'BRA', N'G', N'Alisson', N'Becker', '1992-10-02', 76, 201, 1, NULL, N'Brazil', NULL, 2025, 2025),
-        (105230, N'FIF', N'BRA', N'G', N'Weverton', NULL, '1987-12-13', 74, 183, 12, NULL, N'Brazil', NULL, 2025, 2025),
-        (105231, N'FIF', N'BRA', N'D', N'Alex Sandro', NULL, '1991-01-26', 71, 181, 6, NULL, N'Brazil', NULL, 2025, 2025),
-        (105232, N'FIF', N'BRA', N'D', N'Léo', N'Pereira', '1996-01-31', 74, 174, 15, NULL, N'Brazil', NULL, 2025, 2025),
-        (105233, N'FIF', N'BRA', N'D', N'Marquinhos', NULL, '1994-05-14', 72, 172, 4, NULL, N'Brazil', NULL, 2025, 2025),
-        (105234, N'FIF', N'BRA', N'D', N'Danilo', NULL, '1991-07-15', 72, 183, 13, NULL, N'Brazil', N'Campinas', 2025, 2025),
-        (105235, N'FIF', N'BRA', N'D', N'Douglas', N'Santos', '1994-03-22', 68, 150, 16, NULL, N'Brazil', NULL, 2025, 2025),
-        (105236, N'FIF', N'BRA', N'D', N'Gabriel', N'Magalhães', '1997-12-19', 75, 203, 3, NULL, N'Brazil', NULL, 2025, 2025),
-        (105237, N'FIF', N'BRA', N'D', N'Bremer', NULL, '1997-03-18', 74, 192, 14, NULL, N'Brazil', NULL, 2025, 2025),
-        (105238, N'FIF', N'BRA', N'D', N'Roger', N'Ibañez', '1998-11-23', 73, 174, 24, NULL, N'Brazil', NULL, 2025, 2025),
-        (105239, N'FIF', N'BRA', N'M', N'Casemiro', NULL, '1992-02-23', 73, 183, 5, NULL, N'Brazil', NULL, 2025, 2025),
-        (105240, N'FIF', N'BRA', N'M', N'Fabinho', NULL, '1993-10-23', 74, 172, 17, NULL, N'Brazil', NULL, 2025, 2025),
-        (105241, N'FIF', N'BRA', N'M', N'Bruno', N'Guimarães', '1997-11-16', 72, 172, 8, NULL, N'Brazil', NULL, 2025, 2025),
-        (105242, N'FIF', N'BRA', N'M', N'Lucas', N'Paquetá', '1997-08-27', 72, 161, 20, NULL, N'Brazil', NULL, 2025, 2025),
-        (105243, N'FIF', N'BRA', N'M', N'Éderson', NULL, '1999-07-07', 72, 183, 2, NULL, N'Brazil', NULL, 2025, 2025),
-        (105244, N'FIF', N'BRA', N'M', N'Danilo', N'Santos', '2001-04-29', 70, 152, 18, NULL, N'Brazil', NULL, 2025, 2025),
-        (105245, N'FIF', N'BRA', N'F', N'Neymar', NULL, '1992-02-05', 69, 161, 10, NULL, N'Brazil', NULL, 2025, 2025),
-        (105246, N'FIF', N'BRA', N'F', N'Raphinha', NULL, '1996-12-14', 69, 139, 11, NULL, N'Brazil', NULL, 2025, 2025),
-        (105247, N'FIF', N'BRA', N'F', N'Vinícius Júnior', NULL, '2000-07-12', 69, 170, 7, NULL, N'Brazil', NULL, 2025, 2025),
-        (105248, N'FIF', N'BRA', N'F', N'Matheus', N'Cunha', '1999-05-27', 72, 168, 9, NULL, N'Brazil', NULL, 2025, 2025),
-        (105249, N'FIF', N'BRA', N'F', N'Gabriel', N'Martinelli', '2001-06-18', 70, 161, 22, NULL, N'Brazil', NULL, 2025, 2025),
-        (105250, N'FIF', N'BRA', N'F', N'Igor', N'Thiago', '2001-06-26', 75, 207, 25, NULL, N'Brazil', NULL, 2025, 2025),
-        (105251, N'FIF', N'BRA', N'M', N'Luiz', N'Henrique', '2001-01-02', 72, 170, 21, NULL, N'Brazil', NULL, 2025, 2025),
-        (105252, N'FIF', N'BRA', N'F', N'Endrick', NULL, '2006-07-21', 68, 148, 19, NULL, N'Brazil', NULL, 2025, 2025),
-        (105253, N'FIF', N'BRA', N'F', N'Rayan', NULL, '2006-08-03', 74, 192, 26, NULL, N'Brazil', NULL, 2025, 2025),
-        (105254, N'FIF', N'CAN', N'G', N'Maxime', N'Crépeau', '1994-05-11', 71, 192, 16, NULL, N'Canada', NULL, 2025, 2025),
-        (105255, N'FIF', N'CAN', N'G', N'Dayne', N'St. Clair', '1997-05-09', 75, 190, 1, NULL, N'Canada', NULL, 2025, 2025),
-        (105256, N'FIF', N'CAN', N'G', N'Owen', N'Goodman', '2003-11-27', 76, 203, 18, NULL, N'Canada', NULL, 2025, 2025),
-        (105257, N'FIF', N'CAN', N'D', N'Richie', N'Laryea', '1995-01-07', 69, 150, 22, NULL, N'Canada', NULL, 2025, 2025),
-        (105258, N'FIF', N'CAN', N'D', N'Alphonso', N'Davies', '2000-11-02', 73, 170, 19, NULL, N'Canada', NULL, 2025, 2025),
-        (105259, N'FIF', N'CAN', N'D', N'Joel', N'Waterman', '1996-01-24', 74, 172, 5, NULL, N'Canada', NULL, 2025, 2025),
-        (105260, N'FIF', N'CAN', N'D', N'Derek', N'Cornelius', '1997-11-25', 74, 190, 13, NULL, N'Canada', NULL, 2025, 2025),
-        (105261, N'FIF', N'CAN', N'D', N'Alfie', N'Jones', '1997-10-07', 75, 194, 3, NULL, N'Canada', NULL, 2025, 2025),
-        (105262, N'FIF', N'CAN', N'D', N'Alistair', N'Johnston', '1998-10-08', 71, 170, 2, NULL, N'Canada', NULL, 2025, 2025),
-        (105263, N'FIF', N'CAN', N'D', N'Moïse', N'Bombito', '2000-03-30', 75, 183, 15, NULL, N'Canada', NULL, 2025, 2025),
-        (105264, N'FIF', N'CAN', N'D', N'Luc', N'de Fougerolles', '2005-10-12', 72, 159, 4, NULL, N'Canada', NULL, 2025, 2025),
-        (105265, N'FIF', N'CAN', N'M', N'Jonathan', N'Osorio', '1992-06-12', 69, 150, 21, NULL, N'Canada', NULL, 2025, 2025),
-        (105266, N'FIF', N'CAN', N'M', N'Stephen', N'Eustáquio', '1996-12-21', 70, 152, 7, NULL, N'Canada', NULL, 2025, 2025),
-        (105267, N'FIF', N'CAN', N'M', N'Mathieu', N'Choinière', '1999-02-07', 69, 150, 6, NULL, N'Canada', NULL, 2025, 2025),
-        (105268, N'FIF', N'CAN', N'M', N'Nathan', N'Saliba', '2004-02-07', 71, 157, 25, NULL, N'Canada', NULL, 2025, 2025),
-        (105269, N'FIF', N'CAN', N'M', N'Ismaël', N'Koné', '2002-06-16', 74, 168, 8, NULL, N'Canada', NULL, 2025, 2025),
-        (105270, N'FIF', N'CAN', N'M', N'Ali', N'Ahmed', '2000-10-10', 71, 163, 20, NULL, N'Canada', NULL, 2025, 2025),
-        (105271, N'FIF', N'CAN', N'M', N'Niko', N'Sigur', '2003-09-09', 71, 170, 23, NULL, N'Canada', NULL, 2025, 2025),
-        (105272, N'FIF', N'CAN', N'F', N'Cyle', N'Larin', '1995-04-17', 74, 203, 9, NULL, N'Canada', NULL, 2025, 2025),
-        (105273, N'FIF', N'CAN', N'F', N'Liam', N'Millar', '1999-09-27', 71, 159, 11, NULL, N'Canada', NULL, 2025, 2025),
-        (105274, N'FIF', N'CAN', N'F', N'Jonathan', N'David', '2000-01-14', 70, 179, 10, NULL, N'Canada', NULL, 2025, 2025),
-        (105275, N'FIF', N'CAN', N'F', N'Jayden', N'Nelson', '2002-09-26', 67, 148, 26, NULL, N'Canada', NULL, 2025, 2025),
-        (105276, N'FIF', N'CAN', N'F', N'Tajon', N'Buchanan', '1999-02-08', 72, 150, 17, NULL, N'Canada', NULL, 2025, 2025),
-        (105277, N'FIF', N'CAN', N'F', N'Jacob', N'Shaffelburg', '1999-11-26', 71, 161, 14, NULL, N'Canada', NULL, 2025, 2025),
-        (105278, N'FIF', N'CAN', N'F', N'Tani', N'Oluwaseyi', '2000-05-15', 74, 174, 12, NULL, N'Canada', NULL, 2025, 2025),
-        (105279, N'FIF', N'CAN', N'F', N'Promise', N'David', '2001-07-03', 77, 201, 24, NULL, N'Canada', NULL, 2025, 2025),
-        (105280, N'FIF', N'CPV', N'G', N'Vozinha', NULL, '1986-06-03', 74, 161, 1, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105281, N'FIF', N'CPV', N'G', N'Márcio', N'Rosa', '1997-02-23', 73, 181, 12, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105282, N'FIF', N'CPV', N'G', N'CJ', N'dos Santos', '2000-08-24', 75, 168, 23, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105283, N'FIF', N'CPV', N'D', N'Stopira', NULL, '1988-05-20', 70, 159, 2, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105284, N'FIF', N'CPV', N'D', N'Steven', N'Moreira', '1994-08-13', 70, 159, 22, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105285, N'FIF', N'CPV', N'D', N'Diney', N'Borges', '1995-01-17', 73, 172, 3, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105286, N'FIF', N'CPV', N'D', N'Pico', N'Lopes', '1992-06-17', 73, 183, 4, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105287, N'FIF', N'CPV', N'D', N'Logan', N'Costa', '2001-04-01', 75, 201, 5, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105288, N'FIF', N'CPV', N'D', N'Sidny', N'Lopes Cabral', '2002-09-18', 69, 161, 13, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105289, N'FIF', N'CPV', N'D', N'Wagner', N'Pina', '2002-11-03', 71, 159, 24, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105290, N'FIF', N'CPV', N'D', N'Kelvin', N'Pires', '2000-06-05', 76, 185, 25, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105291, N'FIF', N'CPV', N'M', N'Yannick', N'Semedo', '1995-12-29', 69, 130, 16, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105292, N'FIF', N'CPV', N'M', N'Laros', N'Duarte', '1997-02-28', 71, 159, 15, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105293, N'FIF', N'CPV', N'M', N'Jamiro', N'Monteiro', '1993-11-23', 69, 150, 10, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105294, N'FIF', N'CPV', N'M', N'Deroy', N'Duarte', '1999-07-04', 70, 152, 14, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105295, N'FIF', N'CPV', N'M', N'Telmo', N'Arcanjo', '2001-06-21', 71, 172, 18, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105296, N'FIF', N'CPV', N'M', N'João', N'Paulo', '1998-05-26', 71, 163, 8, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105297, N'FIF', N'CPV', N'M', N'Kevin', N'Pina', '1997-01-27', 71, 174, 6, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105298, N'FIF', N'CPV', N'F', N'Ryan', N'Mendes', '1990-01-08', 70, 152, 20, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105299, N'FIF', N'CPV', N'F', N'Garry', N'Rodrigues', '1990-11-27', 68, 150, 11, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105300, N'FIF', N'CPV', N'F', N'Nuno', N'da Costa', '1991-02-10', 72, 150, 21, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105301, N'FIF', N'CPV', N'F', N'Jovane', N'Cabral', '1998-06-14', 69, 159, 7, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105302, N'FIF', N'CPV', N'F', N'Willy', N'Semedo', '1994-04-27', 73, 150, 17, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105303, N'FIF', N'CPV', N'F', N'Gilson', N'Benchimol', '2001-12-29', 74, 172, 9, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105304, N'FIF', N'CPV', N'F', N'Dailon', N'Livramento', '2001-05-04', 73, 161, 19, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105305, N'FIF', N'CPV', N'F', N'Hélio', N'Varela', '2002-05-03', 69, 159, 26, NULL, N'Cape Verde Islands', NULL, 2025, 2025),
-        (105306, N'FIF', N'COL', N'G', N'David', N'Ospina', '1988-08-31', 72, 172, 1, NULL, N'Colombia', NULL, 2025, 2025),
-        (105307, N'FIF', N'COL', N'G', N'Álvaro', N'Montero', '1995-03-29', 79, 214, 24, NULL, N'Colombia', NULL, 2025, 2025),
-        (105308, N'FIF', N'COL', N'G', N'Camilo', N'Vargas', '1989-03-09', 72, 192, 12, NULL, N'Colombia', NULL, 2025, 2025),
-        (105309, N'FIF', N'COL', N'D', N'Daniel', N'Muñoz', '1996-05-26', 71, 172, 2, NULL, N'Colombia', NULL, 2025, 2025),
-        (105310, N'FIF', N'COL', N'D', N'Santiago', N'Arias', '1992-01-13', 70, 168, 4, NULL, N'Colombia', NULL, 2025, 2025),
-        (105311, N'FIF', N'COL', N'D', N'Johan', N'Mojica', '1992-08-21', 73, 174, 17, NULL, N'Colombia', NULL, 2025, 2025),
-        (105312, N'FIF', N'COL', N'D', N'Yerry', N'Mina', '1994-09-23', 77, 216, 13, NULL, N'Colombia', NULL, 2025, 2025),
-        (105313, N'FIF', N'COL', N'D', N'Davinson', N'Sánchez', '1996-06-12', 74, 181, 23, NULL, N'Colombia', NULL, 2025, 2025),
-        (105314, N'FIF', N'COL', N'D', N'Deiver', N'Machado', '1993-09-02', 71, 163, 22, NULL, N'Colombia', NULL, 2025, 2025),
-        (105315, N'FIF', N'COL', N'D', N'Jhon', N'Lucumí', '1998-06-26', 74, 183, 3, NULL, N'Colombia', NULL, 2025, 2025),
-        (105316, N'FIF', N'COL', N'D', N'Willer', N'Ditta', '1998-01-23', 71, 174, 18, NULL, N'Colombia', NULL, 2025, 2025),
-        (105317, N'FIF', N'COL', N'M', N'James', N'Rodríguez', '1991-07-12', 71, 161, 10, NULL, N'Colombia', NULL, 2025, 2025),
-        (105318, N'FIF', N'COL', N'M', N'Juan', N'Portilla', '1998-09-12', 72, 174, 15, NULL, N'Colombia', NULL, 2025, 2025),
-        (105319, N'FIF', N'COL', N'M', N'Juan Fernando', N'Quintero', '1993-01-18', 66, 157, 20, NULL, N'Colombia', NULL, 2025, 2025),
-        (105320, N'FIF', N'COL', N'M', N'Jefferson', N'Lerma', '1994-10-25', 70, 183, 16, NULL, N'Colombia', NULL, 2025, 2025),
-        (105321, N'FIF', N'COL', N'M', N'Jorge', N'Carrascal', '1998-05-25', 71, 163, 8, NULL, N'Colombia', NULL, 2025, 2025),
-        (105322, N'FIF', N'COL', N'M', N'Jhon', N'Arias', '1997-09-21', 66, 181, 11, NULL, N'Colombia', NULL, 2025, 2025),
-        (105323, N'FIF', N'COL', N'M', N'Jáminton', N'Campaz', '2000-05-24', 65, 163, 21, NULL, N'Colombia', NULL, 2025, 2025),
-        (105324, N'FIF', N'COL', N'M', N'Richard', N'Ríos', '2000-06-02', 73, 185, 6, NULL, N'Colombia', NULL, 2025, 2025),
-        (105325, N'FIF', N'COL', N'M', N'Kevin', N'Castaño', '2000-09-29', 70, 161, 5, NULL, N'Colombia', NULL, 2025, 2025),
-        (105326, N'FIF', N'COL', N'M', N'Gustavo', N'Puerta', '2003-07-23', 69, 152, 14, NULL, N'Colombia', NULL, 2025, 2025),
-        (105327, N'FIF', N'COL', N'F', N'Jhon', N'Córdoba', '1993-05-11', 74, 185, 9, NULL, N'Colombia', NULL, 2025, 2025),
-        (105328, N'FIF', N'COL', N'F', N'Luis', N'Díaz', '1997-01-13', 71, 152, 7, NULL, N'Colombia', NULL, 2025, 2025),
-        (105329, N'FIF', N'COL', N'F', N'Luis', N'Suárez', '1997-12-02', 71, 183, 25, NULL, N'Colombia', NULL, 2025, 2025),
-        (105330, N'FIF', N'COL', N'F', N'Andrés', N'Gómez', '2002-09-12', 67, 157, 26, NULL, N'Colombia', NULL, 2025, 2025),
-        (105331, N'FIF', N'COL', N'F', N'Cucho', N'Hernández', '1999-04-20', 69, 172, 19, NULL, N'Colombia', NULL, 2025, 2025),
-        (105332, N'FIF', N'COD', N'G', N'Lionel', N'Mpasi', '1994-08-01', 72, 161, 1, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105333, N'FIF', N'COD', N'G', N'Timothy', N'Fayulu', '1999-07-24', 76, 183, 16, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105334, N'FIF', N'COD', N'G', N'Matthieu', N'Epolo', '2005-01-15', 72, 163, 21, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105335, N'FIF', N'COD', N'D', N'Arthur', N'Masuaku', '1993-11-07', 70, 152, 26, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105336, N'FIF', N'COD', N'D', N'Chancel', N'Mbemba', '1994-08-08', 72, 179, 22, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105337, N'FIF', N'COD', N'D', N'Joris', N'Kayembe', '1994-08-08', 71, 161, 12, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105338, N'FIF', N'COD', N'D', N'Axel', N'Tuanzebe', '1997-11-14', 73, 163, 4, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105339, N'FIF', N'COD', N'D', N'Aaron', N'Wan-Bissaka', '1997-11-26', 72, 159, 2, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105340, N'FIF', N'COD', N'D', N'Dylan', N'Batubinsika', '1996-02-15', 73, 183, 5, NULL, N'France', NULL, 2025, 2025),
-        (105341, N'FIF', N'COD', N'D', N'Gédéon', N'Kalulu', '1997-08-29', 70, 159, 24, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105342, N'FIF', N'COD', N'D', N'Steve', N'Kapuadi', '1998-04-30', 77, 192, 3, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105343, N'FIF', N'COD', N'M', N'Gaël', N'Kakuta', '1991-06-21', 69, 150, 11, NULL, N'France', NULL, 2025, 2025),
-        (105344, N'FIF', N'COD', N'M', N'Aaron', N'Tshibola', '1995-01-02', 75, 161, 15, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105345, N'FIF', N'COD', N'M', N'Théo', N'Bongonda', '1995-11-20', 69, 139, 10, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105346, N'FIF', N'COD', N'M', N'Charles', N'Pickel', '1997-05-15', 74, 172, 18, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105347, N'FIF', N'COD', N'M', N'Samuel', N'Moutoussamy', '1996-08-12', 69, 159, 8, NULL, N'France', NULL, 2025, 2025),
-        (105348, N'FIF', N'COD', N'M', N'Edo', N'Kayembe', '1998-06-03', 72, 170, 25, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105349, N'FIF', N'COD', N'M', N'Noah', N'Sadiki', '2004-12-17', 68, 161, 14, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105350, N'FIF', N'COD', N'M', N'Ngal''ayel', N'Mukau', '2004-11-03', 73, 172, 6, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105351, N'FIF', N'COD', N'F', N'Cédric', N'Bakambu', '1991-04-11', 72, 161, 17, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105352, N'FIF', N'COD', N'F', N'Yoane', N'Wissa', '1996-09-03', 69, 163, 20, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105353, N'FIF', N'COD', N'F', N'Simon', N'Banza', '1996-08-13', 74, 170, 23, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105354, N'FIF', N'COD', N'F', N'Meschack', N'Elia', '1997-08-06', 68, 148, 13, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105355, N'FIF', N'COD', N'F', N'Nathanaël', N'Mbuku', '2002-03-16', 67, 152, 7, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105356, N'FIF', N'COD', N'F', N'Fiston', N'Mayele', '1994-06-24', 73, 185, 19, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105357, N'FIF', N'COD', N'F', N'Brian', N'Cipenga', '1998-03-11', 68, 148, 9, NULL, N'Congo DR', NULL, 2025, 2025),
-        (105358, N'FIF', N'CRO', N'G', N'Dominik', N'Livakovic', '1995-01-09', 74, 172, 1, NULL, N'Croatia', NULL, 2025, 2025),
-        (105359, N'FIF', N'CRO', N'G', N'Dominik', N'Kotarski', '2000-02-10', 75, 174, 23, NULL, N'Croatia', NULL, 2025, 2025),
-        (105360, N'FIF', N'CRO', N'G', N'Ivor', N'Pandur', '2000-03-25', 73, 179, 12, NULL, N'Croatia', NULL, 2025, 2025),
-        (105361, N'FIF', N'CRO', N'D', N'Duje', N'Caleta-Car', '1996-09-17', 76, 194, 5, NULL, N'Croatia', NULL, 2025, 2025),
-        (105362, N'FIF', N'CRO', N'D', N'Martin', N'Erlic', '1998-01-24', 76, 172, 25, NULL, N'Croatia', NULL, 2025, 2025),
-        (105363, N'FIF', N'CRO', N'D', N'Marin', N'Pongracic', '1997-09-11', 76, 207, 3, NULL, N'Croatia', NULL, 2025, 2025),
-        (105364, N'FIF', N'CRO', N'D', N'Josip', N'Stanisic', '2000-04-02', 73, 170, 2, NULL, N'Croatia', NULL, 2025, 2025),
-        (105365, N'FIF', N'CRO', N'D', N'Josko', N'Gvardiol', '2002-01-23', 73, 174, 4, NULL, N'Croatia', NULL, 2025, 2025),
-        (105366, N'FIF', N'CRO', N'D', N'Josip', N'Sutalo', '2000-02-28', 73, 181, 6, NULL, N'Croatia', NULL, 2025, 2025),
-        (105367, N'FIF', N'CRO', N'D', N'Luka', N'Vuskovic', '2007-02-24', 76, 190, 22, NULL, N'Croatia', NULL, 2025, 2025),
-        (105368, N'FIF', N'CRO', N'M', N'Luka', N'Modric', '1985-09-09', 68, 146, 10, NULL, N'Croatia', NULL, 2025, 2025),
-        (105369, N'FIF', N'CRO', N'M', N'Mateo', N'Kovacic', '1994-05-06', 70, 172, 8, NULL, N'Croatia', NULL, 2025, 2025),
-        (105370, N'FIF', N'CRO', N'M', N'Mario', N'Pasalic', '1995-02-09', 74, 170, 15, NULL, N'Croatia', NULL, 2025, 2025),
-        (105371, N'FIF', N'CRO', N'M', N'Nikola', N'Vlasic', '1997-10-04', 70, 172, 13, NULL, N'Croatia', NULL, 2025, 2025),
-        (105372, N'FIF', N'CRO', N'M', N'Nikola', N'Moro', '1998-03-12', 72, 170, 7, NULL, N'Croatia', NULL, 2025, 2025),
-        (105373, N'FIF', N'CRO', N'M', N'Kristijan', N'Jakic', '1997-05-14', 71, 168, 18, NULL, N'Croatia', NULL, 2025, 2025),
-        (105374, N'FIF', N'CRO', N'M', N'Luka', N'Sucic', '2002-09-08', 73, 172, 21, NULL, N'Croatia', NULL, 2025, 2025),
-        (105375, N'FIF', N'CRO', N'M', N'Martin', N'Baturina', '2003-02-16', 68, 150, 16, NULL, N'Croatia', NULL, 2025, 2025),
-        (105376, N'FIF', N'CRO', N'M', N'Toni', N'Fruk', '2001-03-09', 70, 161, 19, NULL, N'Croatia', NULL, 2025, 2025),
-        (105377, N'FIF', N'CRO', N'M', N'Petar', N'Sucic', '2003-10-25', 72, 150, 17, NULL, N'Croatia', NULL, 2025, 2025),
-        (105378, N'FIF', N'CRO', N'F', N'Ivan', N'Perisic', '1989-02-02', 73, 174, 14, NULL, N'Croatia', NULL, 2025, 2025),
-        (105379, N'FIF', N'CRO', N'F', N'Andrej', N'Kramaric', '1991-06-19', 70, 161, 9, NULL, N'Croatia', NULL, 2025, 2025),
-        (105380, N'FIF', N'CRO', N'F', N'Ante', N'Budimir', '1991-07-22', 75, 163, 11, NULL, N'Croatia', NULL, 2025, 2025),
-        (105381, N'FIF', N'CRO', N'F', N'Petar', N'Musa', '1998-03-04', 75, 183, 26, NULL, N'Croatia', NULL, 2025, 2025),
-        (105382, N'FIF', N'CRO', N'F', N'Igor', N'Matanovic', '2003-03-31', 76, 196, 20, NULL, N'Croatia', NULL, 2025, 2025),
-        (105383, N'FIF', N'CRO', N'F', N'Marco', N'Pasalic', '2000-09-14', 70, 161, 24, NULL, N'Croatia', NULL, 2025, 2025),
-        (105384, N'FIF', N'CUW', N'G', N'Eloy', N'Room', '1989-02-06', 75, 179, 1, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105385, N'FIF', N'CUW', N'G', N'Trevor', N'Doornbusch', '1999-07-06', 74, 174, 26, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105386, N'FIF', N'CUW', N'G', N'Tyrick', N'Bodak', '2002-05-15', 75, 170, 25, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105387, N'FIF', N'CUW', N'D', N'Joshua', N'Brenet', '1994-03-20', 71, 161, 20, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105388, N'FIF', N'CUW', N'D', N'Riechedly', N'Bazoer', '1996-10-12', 72, 161, 23, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105389, N'FIF', N'CUW', N'D', N'Sherel', N'Floranus', '1998-08-23', 71, 161, 5, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105390, N'FIF', N'CUW', N'D', N'Armando', N'Obispo', '1999-03-05', 73, 172, 18, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105391, N'FIF', N'CUW', N'D', N'Juriën', N'Gaari', '1993-12-23', 72, 163, 3, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105392, N'FIF', N'CUW', N'D', N'Roshon', N'van Eijma', '1998-06-09', 73, 172, 4, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105393, N'FIF', N'CUW', N'D', N'Shurandy', N'Sambo', '2001-08-19', 69, 148, 2, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105394, N'FIF', N'CUW', N'D', N'Livano', N'Comenencia', '2004-02-03', 74, 172, 8, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105395, N'FIF', N'CUW', N'D', N'Deveron', N'Fonville', '2003-05-16', 74, 181, 24, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105396, N'FIF', N'CUW', N'M', N'Leandro', N'Bacuna', '1991-08-21', 71, 170, 10, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105397, N'FIF', N'CUW', N'M', N'Juninho', N'Bacuna', '1997-08-07', 71, 161, 7, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105398, N'FIF', N'CUW', N'M', N'Kevin', N'Felida', '1999-11-11', 69, 146, 22, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105399, N'FIF', N'CUW', N'M', N'Godfried', N'Roemeratoe', '1999-08-19', 70, 161, 6, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105400, N'FIF', N'CUW', N'M', N'Tahith', N'Chong', '1999-12-04', 73, 163, 21, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105401, N'FIF', N'CUW', N'M', N'Ar''jany', N'Martha', '2003-09-04', 71, 141, 15, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105402, N'FIF', N'CUW', N'M', N'Tyrese', N'Noslin', '2002-09-11', 72, 168, 13, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105403, N'FIF', N'CUW', N'F', N'Jürgen', N'Locadia', '1993-11-07', 76, 201, 9, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105404, N'FIF', N'CUW', N'F', N'Brandley', N'Kuwas', '1992-09-19', 71, 183, 17, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105405, N'FIF', N'CUW', N'F', N'Gervane', N'Kastaneer', '1996-06-09', 74, 174, 19, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105406, N'FIF', N'CUW', N'F', N'Kenji', N'Gorré', '1994-09-29', 69, 157, 14, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105407, N'FIF', N'CUW', N'F', N'Sontje', N'Hansen', '2002-05-18', 69, 150, 12, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105408, N'FIF', N'CUW', N'F', N'Jearl', N'Margaritha', '2000-04-10', 71, 161, 16, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105409, N'FIF', N'CUW', N'F', N'Jeremy', N'Antonisse', '2002-03-29', 72, 152, 11, NULL, N'Curaçao', NULL, 2025, 2025),
-        (105410, N'FIF', N'CZE', N'G', N'Jindrich', N'Stanek', '1996-04-27', 76, 196, 16, NULL, N'Czechia', NULL, 2025, 2025),
-        (105411, N'FIF', N'CZE', N'G', N'Matej', N'Kovár', '2000-05-17', 77, 183, 1, NULL, N'Czechia', NULL, 2025, 2025),
-        (105412, N'FIF', N'CZE', N'G', N'Lukás', N'Hornícek', '2002-07-13', 78, 203, 23, NULL, N'Czechia', NULL, 2025, 2025),
-        (105413, N'FIF', N'CZE', N'D', N'Ladislav', N'Krejcí', '1999-04-20', 75, 192, 7, NULL, N'Czechia', NULL, 2025, 2025),
-        (105414, N'FIF', N'CZE', N'D', N'Vladimír', N'Coufal', '1992-08-22', 69, 168, 5, NULL, N'Czechia', NULL, 2025, 2025),
-        (105415, N'FIF', N'CZE', N'D', N'Jaroslav', N'Zelený', '1992-08-20', 75, 179, 20, NULL, N'Czechia', NULL, 2025, 2025),
-        (105416, N'FIF', N'CZE', N'D', N'Tomás', N'Holes', '1993-03-31', 71, 161, 3, NULL, N'Czechia', NULL, 2025, 2025),
-        (105417, N'FIF', N'CZE', N'D', N'David', N'Zima', '2000-11-08', 75, 174, 2, NULL, N'Czechia', NULL, 2025, 2025),
-        (105418, N'FIF', N'CZE', N'D', N'Robin', N'Hranác', '2000-01-29', 75, 181, 4, NULL, N'Czechia', NULL, 2025, 2025),
-        (105419, N'FIF', N'CZE', N'D', N'David', N'Jurásek', '2000-08-07', 72, 170, 14, NULL, N'Czechia', NULL, 2025, 2025),
-        (105420, N'FIF', N'CZE', N'D', N'Stepán', N'Chaloupek', '2003-03-08', 74, 150, 6, NULL, N'Czechia', NULL, 2025, 2025),
-        (105421, N'FIF', N'CZE', N'M', N'Vladimír', N'Darida', '1990-08-08', 68, 141, 8, NULL, N'Czechia', NULL, 2025, 2025),
-        (105422, N'FIF', N'CZE', N'M', N'Tomás', N'Soucek', '1995-02-27', 76, 190, 22, NULL, N'Czechia', NULL, 2025, 2025),
-        (105423, N'FIF', N'CZE', N'M', N'Michal', N'Sadílek', '1999-05-31', 67, 141, 18, NULL, N'Czechia', NULL, 2025, 2025),
-        (105424, N'FIF', N'CZE', N'M', N'Lukás', N'Provod', '1996-10-23', 75, 185, 17, NULL, N'Czechia', NULL, 2025, 2025),
-        (105425, N'FIF', N'CZE', N'M', N'Lukás', N'Cerv', '2001-04-10', 72, 159, 12, NULL, N'Czechia', NULL, 2025, 2025),
-        (105426, N'FIF', N'CZE', N'M', N'Pavel', N'Sulc', '2000-12-29', 70, 163, 15, NULL, N'Czechia', NULL, 2025, 2025),
-        (105427, N'FIF', N'CZE', N'M', N'Denis', N'Visinský', '2003-03-21', 70, 163, 26, NULL, N'Czechia', NULL, 2025, 2025),
-        (105428, N'FIF', N'CZE', N'M', N'David', N'Doudera', '1998-05-31', 69, 146, 21, NULL, N'Czechia', NULL, 2025, 2025),
-        (105429, N'FIF', N'CZE', N'M', N'Alexandr', N'Sojka', '2003-04-02', 74, 170, 24, NULL, N'Czechia', NULL, 2025, 2025),
-        (105430, N'FIF', N'CZE', N'M', N'Hugo', N'Sochurek', '2008-06-07', 72, 172, 25, NULL, N'Czechia', NULL, 2025, 2025),
-        (105431, N'FIF', N'CZE', N'F', N'Patrik', N'Schick', '1996-01-24', 75, 190, 10, NULL, N'Czechia', NULL, 2025, 2025),
-        (105432, N'FIF', N'CZE', N'F', N'Tomás', N'Chorý', '1995-01-26', 78, 218, 19, NULL, N'Czechia', NULL, 2025, 2025),
-        (105433, N'FIF', N'CZE', N'F', N'Adam', N'Hlozek', '2002-07-25', 74, 183, 9, NULL, N'Czechia', NULL, 2025, 2025),
-        (105434, N'FIF', N'CZE', N'F', N'Jan', N'Kuchta', '1997-01-08', 73, 190, 11, NULL, N'Czechia', NULL, 2025, 2025),
-        (105435, N'FIF', N'CZE', N'F', N'Mojmír', N'Chytil', '1999-04-29', 74, 181, 13, NULL, N'Czechia', NULL, 2025, 2025),
-        (105436, N'FIF', N'ECU', N'G', N'Gonzalo', N'Valle', '1996-02-28', 73, 190, 22, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105437, N'FIF', N'ECU', N'G', N'Hernán', N'Galíndez', '1987-03-30', 74, 183, 1, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105438, N'FIF', N'ECU', N'G', N'Moisés', N'Ramírez', '2000-09-09', 73, 181, 12, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105439, N'FIF', N'ECU', N'D', N'Pervis', N'Estupiñán', '1998-01-21', 69, 161, 7, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105440, N'FIF', N'ECU', N'D', N'Félix', N'Torres', '1997-01-11', 74, 172, 2, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105441, N'FIF', N'ECU', N'D', N'Ángelo', N'Preciado', '1998-02-18', 69, 161, 17, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105442, N'FIF', N'ECU', N'D', N'Jackson', N'Porozo', '2000-08-04', 76, 190, 25, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105443, N'FIF', N'ECU', N'D', N'Willian', N'Pacho', '2001-10-16', 74, 179, 6, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105444, N'FIF', N'ECU', N'D', N'Piero', N'Hincapié', '2002-01-09', 72, 170, 3, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105445, N'FIF', N'ECU', N'D', N'Yaimar', N'Medina', '2004-11-05', 70, 174, 26, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105446, N'FIF', N'ECU', N'D', N'Joel', N'Ordóñez', '2004-04-21', 74, 168, 4, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105447, N'FIF', N'ECU', N'M', N'Alan', N'Franco', '1998-08-21', 69, 168, 21, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105448, N'FIF', N'ECU', N'M', N'Jordy', N'Alcívar', '1999-08-05', 66, 157, 5, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105449, N'FIF', N'ECU', N'M', N'Moisés', N'Caicedo', '2001-11-02', 70, 161, 23, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105450, N'FIF', N'ECU', N'M', N'Pedro', N'Vite', '2002-03-09', 68, 150, 15, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105451, N'FIF', N'ECU', N'M', N'Denil', N'Castillo', '2004-03-24', 74, 168, 18, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105452, N'FIF', N'ECU', N'M', N'Kendry', N'Páez', '2007-05-04', 70, 157, 10, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105453, N'FIF', N'ECU', N'F', N'Enner', N'Valencia', '1989-11-04', 70, 161, 13, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105454, N'FIF', N'ECU', N'F', N'Jordy', N'Caicedo', '1997-11-18', 73, 181, 16, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105455, N'FIF', N'ECU', N'F', N'John', N'Yeboah', '2000-06-23', 67, 146, 9, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105456, N'FIF', N'ECU', N'F', N'Gonzalo', N'Plata', '2000-11-01', 70, 168, 19, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105457, N'FIF', N'ECU', N'F', N'Kevin', N'Rodríguez', '2000-03-04', 75, 183, 11, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105458, N'FIF', N'ECU', N'F', N'Anthony', N'Valencia', '2003-07-21', 68, 150, 8, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105459, N'FIF', N'ECU', N'F', N'Nilson', N'Angulo', '2003-06-19', 72, 150, 20, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105460, N'FIF', N'ECU', N'F', N'Alan', N'Minda', '2003-05-14', 69, 132, 14, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105461, N'FIF', N'ECU', N'F', N'Jeremy', N'Arévalo', '2005-03-19', 72, 192, 24, NULL, N'Ecuador', NULL, 2025, 2025),
-        (105462, N'FIF', N'EGY', N'G', N'Mohamed', N'El Shenawy', '1988-12-18', 75, 196, 1, NULL, N'Egypt', NULL, 2025, 2025),
-        (105463, N'FIF', N'EGY', N'G', N'Mahdy', N'Soliman', '1987-06-08', 74, 196, 16, NULL, N'Egypt', NULL, 2025, 2025),
-        (105464, N'FIF', N'EGY', N'G', N'Mostafa', N'Shoubir', '2000-05-15', 77, 203, 23, NULL, N'Egypt', NULL, 2025, 2025),
-        (105465, N'FIF', N'EGY', N'G', N'Mohamed', N'Alaa', '1999-01-01', 74, 168, 26, NULL, N'Egypt', NULL, 2025, 2025),
-        (105466, N'FIF', N'EGY', N'D', N'Mohamed', N'Hany', '1996-02-02', 69, 152, 3, NULL, N'Egypt', NULL, 2025, 2025),
-        (105467, N'FIF', N'EGY', N'D', N'Ramy', N'Rabia', '1993-05-20', 72, 170, 5, NULL, N'Egypt', NULL, 2025, 2025),
-        (105468, N'FIF', N'EGY', N'D', N'Karim', N'Hafez', '1996-03-12', 69, 161, 15, NULL, N'Egypt', NULL, 2025, 2025),
-        (105469, N'FIF', N'EGY', N'D', N'Mohamed', N'Abdelmoneim', '1999-02-01', 72, 163, 6, NULL, N'Egypt', NULL, 2025, 2025),
-        (105470, N'FIF', N'EGY', N'D', N'Ahmed', N'Fatouh', '1998-03-22', 70, 152, 13, NULL, N'Egypt', NULL, 2025, 2025),
-        (105471, N'FIF', N'EGY', N'D', N'Yasser', N'Ibrahim', '1993-02-10', 73, 181, 2, NULL, N'Egypt', NULL, 2025, 2025),
-        (105472, N'FIF', N'EGY', N'D', N'Hossam', N'Abdelmaguid', '2001-04-30', 76, 185, 4, NULL, N'Egypt', NULL, 2025, 2025),
-        (105473, N'FIF', N'EGY', N'D', N'Tarek', N'Alaa', '2002-01-05', 70, 141, 24, NULL, N'Egypt', NULL, 2025, 2025),
-        (105474, N'FIF', N'EGY', N'M', N'Hamdy', N'Fathy', '1994-09-29', 71, 174, 14, NULL, N'Egypt', NULL, 2025, 2025),
-        (105475, N'FIF', N'EGY', N'M', N'Nabil', N'Donga', '1996-04-06', 70, 161, 18, NULL, N'Egypt', NULL, 2025, 2025),
-        (105476, N'FIF', N'EGY', N'M', N'Emam', N'Ashour', '1998-02-20', 71, 170, 8, NULL, N'Egypt', NULL, 2025, 2025),
-        (105477, N'FIF', N'EGY', N'M', N'Mahmoud', N'Saber', '2001-07-30', 67, 163, 21, NULL, N'Egypt', NULL, 2025, 2025),
-        (105478, N'FIF', N'EGY', N'M', N'Mohanad', N'Lashin', '1996-05-29', 73, 185, 17, NULL, N'Egypt', NULL, 2025, 2025),
-        (105479, N'FIF', N'EGY', N'M', N'Marawan', N'Attia', '1998-08-01', 69, 174, 19, NULL, N'Egypt', NULL, 2025, 2025),
-        (105480, N'FIF', N'EGY', N'F', N'Mostafa', N'Zico', '1997-04-27', 70, 161, 11, NULL, N'Egypt', NULL, 2025, 2025),
-        (105481, N'FIF', N'EGY', N'F', N'Trézéguet', NULL, '1994-10-01', 71, 170, 7, NULL, N'Egypt', NULL, 2025, 2025),
-        (105482, N'FIF', N'EGY', N'F', N'Mohamed', N'Salah', '1992-06-15', 69, 172, 10, NULL, N'Egypt', NULL, 2025, 2025),
-        (105483, N'FIF', N'EGY', N'M', N'Zizo', NULL, '1996-01-10', 69, 168, 25, NULL, N'Egypt', NULL, 2025, 2025),
-        (105484, N'FIF', N'EGY', N'F', N'Haissem', N'Hassan', '2002-02-08', 69, 174, 12, NULL, N'Egypt', NULL, 2025, 2025),
-        (105485, N'FIF', N'EGY', N'F', N'Ibrahim', N'Adel', '2001-04-23', 70, 152, 20, NULL, N'Egypt', NULL, 2025, 2025),
-        (105486, N'FIF', N'EGY', N'F', N'Omar', N'Marmoush', '1999-02-07', 71, 174, 22, NULL, N'Egypt', NULL, 2025, 2025),
-        (105487, N'FIF', N'EGY', N'F', N'Hamza', N'Abdelkarim', '2008-01-01', 72, 168, 9, NULL, N'Egypt', NULL, 2025, 2025),
-        (105488, N'FIF', N'ENG', N'G', N'Jordan', N'Pickford', '1994-03-07', 73, 170, 1, NULL, N'England', NULL, 2025, 2025),
-        (105489, N'FIF', N'ENG', N'G', N'Dean', N'Henderson', '1997-03-12', 74, 185, 13, NULL, N'England', NULL, 2025, 2025),
-        (105490, N'FIF', N'ENG', N'G', N'James', N'Trafford', '2002-10-10', 78, 183, 23, NULL, N'England', NULL, 2025, 2025),
-        (105491, N'FIF', N'ENG', N'D', N'John', N'Stones', '1994-05-28', 74, 174, 5, NULL, N'England', NULL, 2025, 2025),
-        (105492, N'FIF', N'ENG', N'D', N'Reece', N'James', '1999-12-08', 71, 203, 24, NULL, N'England', NULL, 2025, 2025),
-        (105493, N'FIF', N'ENG', N'D', N'Dan', N'Burn', '1992-05-09', 79, 192, 15, NULL, N'England', NULL, 2025, 2025),
-        (105494, N'FIF', N'ENG', N'D', N'Trevoh', N'Chalobah', '1999-07-05', 75, 163, 12, NULL, N'England', NULL, 2025, 2025),
-        (105495, N'FIF', N'ENG', N'D', N'Ezri', N'Konsa', '1997-10-23', 72, 168, 2, NULL, N'England', NULL, 2025, 2025),
-        (105496, N'FIF', N'ENG', N'D', N'Marc', N'Guéhi', '2000-07-13', 72, 174, 6, NULL, N'England', NULL, 2025, 2025),
-        (105497, N'FIF', N'ENG', N'D', N'Djed', N'Spence', '2000-08-09', 73, 157, 25, NULL, N'England', NULL, 2025, 2025),
-        (105498, N'FIF', N'ENG', N'D', N'Jarell', N'Quansah', '2003-01-29', 75, 183, 26, NULL, N'England', NULL, 2025, 2025),
-        (105499, N'FIF', N'ENG', N'D', N'Nico', N'O''Reilly', '2005-03-21', 76, 170, 3, NULL, N'England', NULL, 2025, 2025),
-        (105500, N'FIF', N'ENG', N'M', N'Jordan', N'Henderson', '1990-06-17', 72, 172, 14, NULL, N'England', NULL, 2025, 2025),
-        (105501, N'FIF', N'ENG', N'M', N'Declan', N'Rice', '1999-01-14', 74, 168, 4, NULL, N'England', NULL, 2025, 2025),
-        (105502, N'FIF', N'ENG', N'M', N'Elliot', N'Anderson', '2002-11-06', 70, 150, 8, NULL, N'England', NULL, 2025, 2025),
-        (105503, N'FIF', N'ENG', N'M', N'Eberechi', N'Eze', '1998-06-29', 70, 161, 21, NULL, N'England', NULL, 2025, 2025),
-        (105504, N'FIF', N'ENG', N'M', N'Morgan', N'Rogers', '2002-07-26', 74, 174, 17, NULL, N'England', NULL, 2025, 2025),
-        (105505, N'FIF', N'ENG', N'M', N'Jude', N'Bellingham', '2003-06-29', 73, 163, 10, NULL, N'England', NULL, 2025, 2025),
-        (105506, N'FIF', N'ENG', N'M', N'Kobbie', N'Mainoo', '2005-04-19', 72, 159, 16, NULL, N'England', NULL, 2025, 2025),
-        (105507, N'FIF', N'ENG', N'F', N'Harry', N'Kane', '1993-07-28', 74, 190, 9, NULL, N'England', NULL, 2025, 2025),
-        (105508, N'FIF', N'ENG', N'F', N'Ivan', N'Toney', '1996-03-16', 73, 192, 22, NULL, N'England', NULL, 2025, 2025),
-        (105509, N'FIF', N'ENG', N'F', N'Ollie', N'Watkins', '1995-12-30', 71, 163, 19, NULL, N'England', NULL, 2025, 2025),
-        (105510, N'FIF', N'ENG', N'F', N'Marcus', N'Rashford', '1997-10-31', 74, 174, 11, NULL, N'England', NULL, 2025, 2025),
-        (105511, N'FIF', N'ENG', N'F', N'Anthony', N'Gordon', '2001-02-24', 72, 159, 18, NULL, N'England', NULL, 2025, 2025),
-        (105512, N'FIF', N'ENG', N'F', N'Bukayo', N'Saka', '2001-09-05', 70, 141, 7, NULL, N'England', NULL, 2025, 2025),
-        (105513, N'FIF', N'ENG', N'F', N'Noni', N'Madueke', '2002-03-10', 72, 183, 20, NULL, N'England', NULL, 2025, 2025),
-        (105514, N'FIF', N'FRA', N'G', N'Brice', N'Samba', '1994-04-25', 74, 196, 1, NULL, N'France', NULL, 2025, 2025),
-        (105515, N'FIF', N'FRA', N'G', N'Mike', N'Maignan', '1995-07-03', 75, 194, 16, NULL, N'France', NULL, 2025, 2025),
-        (105516, N'FIF', N'FRA', N'G', N'Robin', N'Risser', '2004-12-02', 76, 183, 23, NULL, N'France', NULL, 2025, 2025),
-        (105517, N'FIF', N'FRA', N'D', N'Lucas', N'Digne', '1993-07-20', 70, 161, 3, NULL, N'France', NULL, 2025, 2025),
-        (105518, N'FIF', N'FRA', N'D', N'Lucas', N'Hernández', '1996-02-14', 72, 172, 21, NULL, N'France', N'Marseille', 2025, 2025),
-        (105519, N'FIF', N'FRA', N'D', N'Dayot', N'Upamecano', '1998-10-27', 73, 196, 4, NULL, N'France', NULL, 2025, 2025),
-        (105520, N'FIF', N'FRA', N'D', N'Jules', N'Koundé', '1998-11-12', 71, 183, 5, NULL, N'France', NULL, 2025, 2025),
-        (105521, N'FIF', N'FRA', N'D', N'Theo', N'Hernández', '1997-10-06', 72, 179, 19, NULL, N'France', NULL, 2025, 2025),
-        (105522, N'FIF', N'FRA', N'D', N'Ibrahima', N'Konaté', '1999-05-25', 76, 207, 15, NULL, N'France', NULL, 2025, 2025),
-        (105523, N'FIF', N'FRA', N'D', N'Maxence', N'Lacroix', '2000-04-06', 75, 192, 26, NULL, N'France', NULL, 2025, 2025),
-        (105524, N'FIF', N'FRA', N'D', N'William', N'Saliba', '2001-03-24', 76, 203, 17, NULL, N'France', NULL, 2025, 2025),
-        (105525, N'FIF', N'FRA', N'D', N'Malo', N'Gusto', '2003-05-19', 70, 148, 2, NULL, N'France', NULL, 2025, 2025),
-        (105526, N'FIF', N'FRA', N'M', N'N''Golo', N'Kanté', '1991-03-29', 66, 152, 13, NULL, N'France', NULL, 2025, 2025),
-        (105527, N'FIF', N'FRA', N'M', N'Adrien', N'Rabiot', '1995-04-03', 75, 190, 14, NULL, N'France', NULL, 2025, 2025),
-        (105528, N'FIF', N'FRA', N'M', N'Aurélien', N'Tchouaméni', '2000-01-27', 74, 179, 8, NULL, N'France', NULL, 2025, 2025),
-        (105529, N'FIF', N'FRA', N'M', N'Manu', N'Koné', '2001-05-17', 73, 174, 6, NULL, N'France', NULL, 2025, 2025),
-        (105530, N'FIF', N'FRA', N'M', N'Michael', N'Olise', '2001-12-12', 71, 172, 11, NULL, N'France', NULL, 2025, 2025),
-        (105531, N'FIF', N'FRA', N'M', N'Rayan', N'Cherki', '2003-08-17', 71, 157, 24, NULL, N'France', NULL, 2025, 2025),
-        (105532, N'FIF', N'FRA', N'M', N'Maghnes', N'Akliouche', '2002-02-25', 72, 152, 25, NULL, N'France', NULL, 2025, 2025),
-        (105533, N'FIF', N'FRA', N'M', N'Warren', N'Zaïre-Emery', '2006-03-08', 70, 150, 18, NULL, N'France', NULL, 2025, 2025),
-        (105534, N'FIF', N'FRA', N'F', N'Marcus', N'Thuram', '1997-08-06', 76, 196, 9, NULL, N'France', NULL, 2025, 2025),
-        (105535, N'FIF', N'FRA', N'F', N'Ousmane', N'Dembélé', '1997-05-15', 70, 148, 7, NULL, N'France', NULL, 2025, 2025),
-        (105536, N'FIF', N'FRA', N'F', N'Kylian', N'Mbappé', '1998-12-20', 70, 163, 10, NULL, N'France', NULL, 2025, 2025),
-        (105537, N'FIF', N'FRA', N'F', N'Jean-Philippe', N'Mateta', '1997-06-28', 76, 192, 22, NULL, N'France', NULL, 2025, 2025),
-        (105538, N'FIF', N'FRA', N'F', N'Bradley', N'Barcola', '2002-09-02', 72, 161, 12, NULL, N'France', NULL, 2025, 2025),
-        (105539, N'FIF', N'FRA', N'F', N'Désiré', N'Doué', '2005-06-03', 71, 172, 20, NULL, N'France', NULL, 2025, 2025),
-        (105540, N'FIF', N'GER', N'G', N'Manuel', N'Neuer', '1986-03-27', 76, 203, 1, NULL, N'Germany', NULL, 2025, 2025),
-        (105541, N'FIF', N'GER', N'G', N'Oliver', N'Baumann', '1990-06-02', 74, 181, 12, NULL, N'Germany', NULL, 2025, 2025),
-        (105542, N'FIF', N'GER', N'G', N'Alexander', N'Nübel', '1996-09-30', 76, 190, 21, NULL, N'Germany', NULL, 2025, 2025),
-        (105543, N'FIF', N'GER', N'D', N'Nathaniel', N'Brown', '2003-06-16', 69, 148, 18, NULL, N'Germany', NULL, 2025, 2025),
-        (105544, N'FIF', N'GER', N'D', N'Antonio', N'Rüdiger', '1993-03-03', 75, 185, 2, NULL, N'Germany', NULL, 2025, 2025),
-        (105545, N'FIF', N'GER', N'D', N'Jonathan', N'Tah', '1996-02-11', 77, 205, 4, NULL, N'Germany', NULL, 2025, 2025),
-        (105546, N'FIF', N'GER', N'D', N'Waldemar', N'Anton', '1996-07-20', 74, 190, 3, NULL, N'Germany', NULL, 2025, 2025),
-        (105547, N'FIF', N'GER', N'D', N'David', N'Raum', '1998-04-22', 71, 163, 22, NULL, N'Germany', NULL, 2025, 2025),
-        (105548, N'FIF', N'GER', N'D', N'Nico', N'Schlotterbeck', '1999-12-01', 75, 190, 15, NULL, N'Germany', NULL, 2025, 2025),
-        (105549, N'FIF', N'GER', N'D', N'Malick', N'Thiaw', '2001-08-08', 76, 190, 24, NULL, N'Germany', NULL, 2025, 2025),
-        (105550, N'FIF', N'GER', N'M', N'Pascal', N'Gross', '1991-06-15', 71, 172, 13, NULL, N'Germany', NULL, 2025, 2025),
-        (105551, N'FIF', N'GER', N'M', N'Leon', N'Goretzka', '1995-02-06', 74, 181, 8, NULL, N'Germany', NULL, 2025, 2025),
-        (105552, N'FIF', N'GER', N'M', N'Joshua', N'Kimmich', '1995-02-08', 70, 163, 6, NULL, N'Germany', NULL, 2025, 2025),
-        (105553, N'FIF', N'GER', N'M', N'Nadiem', N'Amiri', '1996-10-27', 71, 163, 20, NULL, N'Germany', NULL, 2025, 2025),
-        (105554, N'FIF', N'GER', N'M', N'Felix', N'Nmecha', '2000-10-10', 75, 161, 23, NULL, N'Germany', NULL, 2025, 2025),
-        (105555, N'FIF', N'GER', N'M', N'Angelo', N'Stiller', '2001-04-04', 72, 170, 16, NULL, N'Germany', NULL, 2025, 2025),
-        (105556, N'FIF', N'GER', N'M', N'Florian', N'Wirtz', '2003-05-03', 69, 161, 17, NULL, N'Germany', NULL, 2025, 2025),
-        (105557, N'FIF', N'GER', N'M', N'Jamal', N'Musiala', '2003-02-26', 73, 163, 10, NULL, N'Germany', NULL, 2025, 2025),
-        (105558, N'FIF', N'GER', N'M', N'Aleksandar', N'Pavlovic', '2004-05-03', 74, 172, 5, NULL, N'Germany', NULL, 2025, 2025),
-        (105559, N'FIF', N'GER', N'M', N'Assan', N'Ouédraogo', '2006-05-09', 75, 183, 25, NULL, N'Germany', NULL, 2025, 2025),
-        (105560, N'FIF', N'GER', N'F', N'Leroy', N'Sané', '1996-01-11', 72, 174, 19, NULL, N'Germany', NULL, 2025, 2025),
-        (105561, N'FIF', N'GER', N'F', N'Kai', N'Havertz', '1999-06-11', 76, 183, 7, NULL, N'Germany', NULL, 2025, 2025),
-        (105562, N'FIF', N'GER', N'F', N'Deniz', N'Undav', '1996-07-19', 70, 190, 26, NULL, N'Germany', NULL, 2025, 2025),
-        (105563, N'FIF', N'GER', N'F', N'Maximilian', N'Beier', '2002-10-17', 72, 159, 14, NULL, N'Germany', NULL, 2025, 2025),
-        (105564, N'FIF', N'GER', N'F', N'Jamie', N'Leweling', '2001-02-26', 73, 190, 9, NULL, N'Germany', NULL, 2025, 2025),
-        (105565, N'FIF', N'GER', N'F', N'Nick', N'Woltemade', '2002-02-14', 78, 196, 11, NULL, N'Germany', NULL, 2025, 2025),
-        (105566, N'FIF', N'GHA', N'G', N'Lawrence Ati', N'Zigi', '1996-11-29', 74, 192, 1, NULL, N'Ghana', NULL, 2025, 2025),
-        (105567, N'FIF', N'GHA', N'G', N'Joseph', N'Anang', '2000-06-08', 75, 161, 12, NULL, N'Ghana', NULL, 2025, 2025),
-        (105568, N'FIF', N'GHA', N'G', N'Benjamin', N'Asare', '1992-07-13', 74, 172, 16, NULL, N'Ghana', NULL, 2025, 2025),
-        (105569, N'FIF', N'GHA', N'D', N'Baba', N'Rahman', '1994-07-02', 70, 150, 17, NULL, N'Ghana', NULL, 2025, 2025),
-        (105570, N'FIF', N'GHA', N'D', N'Derrick', N'Luckassen', '1995-07-03', 74, 172, 23, NULL, N'Ghana', NULL, 2025, 2025),
-        (105571, N'FIF', N'GHA', N'D', N'Abdul', N'Mumin', '1998-06-06', 74, 172, 6, NULL, N'Ghana', NULL, 2025, 2025),
-        (105572, N'FIF', N'GHA', N'D', N'Jerome', N'Opoku', '1998-10-14', 76, 172, 18, NULL, N'Ghana', NULL, 2025, 2025),
-        (105573, N'FIF', N'GHA', N'D', N'Gideon', N'Mensah', '2000-10-09', 72, 152, 14, NULL, N'Ghana', NULL, 2025, 2025),
-        (105574, N'FIF', N'GHA', N'D', N'Alidu', N'Seidu', '2000-06-04', 68, 159, 2, NULL, N'Ghana', NULL, 2025, 2025),
-        (105575, N'FIF', N'GHA', N'D', N'Marvin', N'Senaya', '2001-01-28', 71, 168, 26, NULL, N'Ghana', NULL, 2025, 2025),
-        (105576, N'FIF', N'GHA', N'D', N'Jonas', N'Adjetey', '2003-12-13', 74, 181, 4, NULL, N'Ghana', NULL, 2025, 2025),
-        (105577, N'FIF', N'GHA', N'D', N'Kojo Peprah', N'Oppong', '2004-06-04', 73, 170, 21, NULL, N'Ghana', NULL, 2025, 2025),
-        (105578, N'FIF', N'GHA', N'M', N'Thomas', N'Partey', '1993-06-13', 73, 170, 5, NULL, N'Ghana', NULL, 2025, 2025),
-        (105579, N'FIF', N'GHA', N'M', N'Elisha', N'Owusu', '1997-11-07', 72, 159, 15, NULL, N'Ghana', NULL, 2025, 2025),
-        (105580, N'FIF', N'GHA', N'M', N'Kwasi', N'Sibo', '1998-06-24', 72, 159, 8, NULL, N'Ghana', NULL, 2025, 2025),
-        (105581, N'FIF', N'GHA', N'F', N'Augustine', N'Boakye', '2000-11-03', 70, 172, 20, NULL, N'France', NULL, 2025, 2025),
-        (105582, N'FIF', N'GHA', N'M', N'Caleb', N'Yirenkyi', '2006-01-15', 72, 170, 3, NULL, N'Ghana', NULL, 2025, 2025),
-        (105583, N'FIF', N'GHA', N'F', N'Jordan', N'Ayew', '1991-09-11', 72, 192, 9, NULL, N'Ghana', NULL, 2025, 2025),
-        (105584, N'FIF', N'GHA', N'F', N'Iñaki', N'Williams', '1994-06-15', 73, 179, 19, NULL, N'Ghana', NULL, 2025, 2025),
-        (105585, N'FIF', N'GHA', N'F', N'Brandon', N'Thomas-Asante', '1998-12-29', 72, 159, 10, NULL, N'Ghana', NULL, 2025, 2025),
-        (105586, N'FIF', N'GHA', N'F', N'Antoine', N'Semenyo', '2000-01-07', 73, 161, 11, NULL, N'Ghana', NULL, 2025, 2025),
-        (105587, N'FIF', N'GHA', N'F', N'Kamaldeen', N'Sulemana', '2002-02-15', 69, 152, 22, NULL, N'Ghana', NULL, 2025, 2025),
-        (105588, N'FIF', N'GHA', N'F', N'Fatawu', N'Issahaku', '2004-03-08', 70, 161, 7, NULL, N'Ghana', NULL, 2025, 2025),
-        (105589, N'FIF', N'GHA', N'F', N'Ernest', N'Nuamah', '2003-11-01', 70, 157, 24, NULL, N'Ghana', NULL, 2025, 2025),
-        (105590, N'FIF', N'GHA', N'F', N'Christopher Bonsu', N'Baah', '2004-12-14', 68, 161, 13, NULL, N'Ghana', NULL, 2025, 2025),
-        (105591, N'FIF', N'GHA', N'F', N'Prince', N'Adu', '2003-09-23', 70, 172, 25, NULL, N'Ghana', NULL, 2025, 2025),
-        (105592, N'FIF', N'HAI', N'G', N'Johny', N'Placide', '1988-01-29', 71, 168, 1, NULL, N'Haiti', NULL, 2025, 2025),
-        (105593, N'FIF', N'HAI', N'G', N'Josué', N'Duverger', '2000-04-27', 74, 168, 23, NULL, N'Haiti', NULL, 2025, 2025),
-        (105594, N'FIF', N'HAI', N'G', N'Alexandre', N'Pierre', '2001-02-25', 75, 192, 12, NULL, N'Haiti', NULL, 2025, 2025),
-        (105595, N'FIF', N'HAI', N'D', N'Ricardo', N'Adé', '1990-05-21', 75, 152, 4, NULL, N'Haiti', NULL, 2025, 2025),
-        (105596, N'FIF', N'HAI', N'D', N'Carlens', N'Arcus', '1996-06-28', 71, 163, 2, NULL, N'Haiti', NULL, 2025, 2025),
-        (105597, N'FIF', N'HAI', N'D', N'Markhus', N'Lacroix', '1993-10-14', 69, 148, 13, NULL, N'Haiti', NULL, 2025, 2025),
-        (105598, N'FIF', N'HAI', N'D', N'Jean-Kévin', N'Duverne', '1997-07-12', 72, 170, 22, NULL, N'Haiti', NULL, 2025, 2025),
-        (105599, N'FIF', N'HAI', N'D', N'Hannes', N'Delcroix', '1999-02-28', 72, 172, 5, NULL, N'Haiti', NULL, 2025, 2025),
-        (105600, N'FIF', N'HAI', N'D', N'Martin', N'Expérience', '1999-03-09', 70, 172, 8, NULL, N'Haiti', NULL, 2025, 2025),
-        (105601, N'FIF', N'HAI', N'D', N'Garven', N'Metusala', '1999-12-31', 73, 181, 14, NULL, N'Haiti', NULL, 2025, 2025),
-        (105602, N'FIF', N'HAI', N'D', N'Wilguens', N'Paugain', '2001-08-24', 71, 152, 24, NULL, N'Haiti', NULL, 2025, 2025),
-        (105603, N'FIF', N'HAI', N'D', N'Keeto', N'Thermoncy', '2006-03-29', 70, 152, 3, NULL, N'Haiti', NULL, 2025, 2025),
-        (105604, N'FIF', N'HAI', N'M', N'Jean-Ricner', N'Bellegarde', '1998-06-27', 67, 146, 10, NULL, N'Haiti', NULL, 2025, 2025),
-        (105605, N'FIF', N'HAI', N'M', N'Carl', N'Sainté', '2002-08-09', 72, 163, 6, NULL, N'Haiti', NULL, 2025, 2025),
-        (105606, N'FIF', N'HAI', N'M', N'Danley', N'Jean Jacques', '2000-05-20', 72, 159, 17, NULL, N'Haiti', NULL, 2025, 2025),
-        (105607, N'FIF', N'HAI', N'M', N'Dominique', N'Simon', '2000-07-29', 70, 152, 25, NULL, N'Haiti', NULL, 2025, 2025),
-        (105608, N'FIF', N'HAI', N'M', N'Woodensky', N'Pierre', '2004-12-30', 70, 168, 26, NULL, N'Haiti', NULL, 2025, 2025),
-        (105609, N'FIF', N'HAI', N'F', N'Duckens', N'Nazon', '1994-04-07', 71, 172, 9, NULL, N'Haiti', NULL, 2025, 2025),
-        (105610, N'FIF', N'HAI', N'F', N'Derrick', N'Etienne Jr.', '1996-11-25', 70, 152, 7, NULL, N'Haiti', NULL, 2025, 2025),
-        (105611, N'FIF', N'HAI', N'F', N'Frantzdy', N'Pierrot', '1995-03-29', 76, 172, 20, NULL, N'Haiti', NULL, 2025, 2025),
-        (105612, N'FIF', N'HAI', N'F', N'Wilson', N'Isidor', '2000-08-27', 72, 159, 18, NULL, N'Haiti', NULL, 2025, 2025),
-        (105613, N'FIF', N'HAI', N'F', N'Yassin', N'Fortuné', '1999-01-30', 73, 161, 19, NULL, N'Haiti', NULL, 2025, 2025),
-        (105614, N'FIF', N'HAI', N'F', N'Louicius', N'Deedson', '2001-02-11', 70, 157, 11, NULL, N'Haiti', NULL, 2025, 2025),
-        (105615, N'FIF', N'HAI', N'F', N'Lenny', N'Joseph', '2000-10-12', 72, 152, 16, NULL, N'Haiti', NULL, 2025, 2025),
-        (105616, N'FIF', N'HAI', N'F', N'Josué', N'Casimir', '2001-09-24', 70, 150, 21, NULL, N'Haiti', NULL, 2025, 2025),
-        (105617, N'FIF', N'HAI', N'F', N'Ruben', N'Providence', '2001-07-07', 70, 161, 15, NULL, N'Haiti', NULL, 2025, 2025),
-        (105618, N'FIF', N'IRN', N'G', N'Hossein', N'Hosseini', '1992-06-30', 74, 183, 22, NULL, N'Iran', NULL, 2025, 2025),
-        (105619, N'FIF', N'IRN', N'G', N'Alireza', N'Beiranvand', '1992-09-21', 77, 192, 1, NULL, N'Iran', NULL, 2025, 2025),
-        (105620, N'FIF', N'IRN', N'G', N'Payam', N'Niazmand', '1995-04-06', 76, 203, 12, NULL, N'Iran', NULL, 2025, 2025),
-        (105621, N'FIF', N'IRN', N'D', N'Shoja', N'Khalilzadeh', '1989-05-14', 72, 163, 4, NULL, N'Iran', NULL, 2025, 2025),
-        (105622, N'FIF', N'IRN', N'D', N'Ehsan', N'Hajsafi', '1990-02-25', 70, 183, 3, NULL, N'Iran', NULL, 2025, 2025),
-        (105623, N'FIF', N'IRN', N'D', N'Ramin', N'Rezaeian', '1990-03-21', 72, 163, 23, NULL, N'Iran', NULL, 2025, 2025),
-        (105624, N'FIF', N'IRN', N'D', N'Milad', N'Mohammadi', '1993-09-29', 70, 152, 5, NULL, N'Iran', NULL, 2025, 2025),
-        (105625, N'FIF', N'IRN', N'D', N'Hossein', N'Kanani', '1994-03-23', 74, 194, 13, NULL, N'Iran', NULL, 2025, 2025),
-        (105626, N'FIF', N'IRN', N'D', N'Ali', N'Nemati', '1996-02-08', 72, 170, 19, NULL, N'Iran', NULL, 2025, 2025),
-        (105627, N'FIF', N'IRN', N'D', N'Saleh', N'Hardani', '1998-12-26', 69, 150, 2, NULL, N'Iran', NULL, 2025, 2025),
-        (105628, N'FIF', N'IRN', N'D', N'Arya', N'Yousefi', '2002-04-22', 71, 172, 17, NULL, N'Iran', NULL, 2025, 2025),
-        (105629, N'FIF', N'IRN', N'D', N'Danial', N'Iri', '2003-10-26', 72, 163, 25, NULL, N'Iran', NULL, 2025, 2025),
-        (105630, N'FIF', N'IRN', N'F', N'Alireza', N'Jahanbakhsh', '1993-08-11', 72, 172, 7, NULL, N'Iran', NULL, 2025, 2025),
-        (105631, N'FIF', N'IRN', N'M', N'Saeid', N'Ezatolahi', '1996-10-01', 74, 194, 6, NULL, N'Iran', NULL, 2025, 2025),
-        (105632, N'FIF', N'IRN', N'M', N'Mehdi', N'Torabi', '1994-09-10', 73, 170, 16, NULL, N'Iran', NULL, 2025, 2025),
-        (105633, N'FIF', N'IRN', N'M', N'Saman', N'Ghoddos', '1993-09-06', 69, 170, 14, NULL, N'Iran', NULL, 2025, 2025),
-        (105634, N'FIF', N'IRN', N'M', N'Roozbeh', N'Cheshmi', '1993-07-24', 76, 181, 15, NULL, N'Iran', NULL, 2025, 2025),
-        (105635, N'FIF', N'IRN', N'M', N'Mohammad', N'Mohebbi', '1998-12-20', 74, 183, 8, NULL, N'Iran', NULL, 2025, 2025),
-        (105636, N'FIF', N'IRN', N'M', N'Mohammad', N'Ghorbani', '2001-10-07', 75, 183, 21, NULL, N'Iran', NULL, 2025, 2025),
-        (105637, N'FIF', N'IRN', N'M', N'Amirmohammad', N'Razzaghinia', '2006-04-11', 74, 183, 26, NULL, N'Iran', NULL, 2025, 2025),
-        (105638, N'FIF', N'IRN', N'F', N'Mehdi', N'Taremi', '1992-07-18', 74, 181, 9, NULL, N'Iran', NULL, 2025, 2025),
-        (105639, N'FIF', N'IRN', N'F', N'Ali', N'Alipour', '1995-11-11', 71, 163, 11, NULL, N'Iran', NULL, 2025, 2025),
-        (105640, N'FIF', N'IRN', N'F', N'Mehdi', N'Ghayedi', '1998-12-05', 65, 130, 10, NULL, N'Iran', NULL, 2025, 2025),
-        (105641, N'FIF', N'IRN', N'F', N'Amirhossein', N'Hosseinzadeh', '2000-10-30', 70, 179, 18, NULL, N'Iran', NULL, 2025, 2025),
-        (105642, N'FIF', N'IRN', N'F', N'Dennis', N'Dargahi', '1997-01-09', 72, 181, 24, NULL, N'Iran', NULL, 2025, 2025),
-        (105643, N'FIF', N'IRN', N'F', N'Shahriyar', N'Moghanloo', '1994-12-21', 74, 196, 20, NULL, N'Iran', NULL, 2025, 2025),
-        (105644, N'FIF', N'IRQ', N'G', N'Fahad', N'Talib', '1994-10-21', 76, 190, 1, NULL, N'Iraq', NULL, 2025, 2025),
-        (105645, N'FIF', N'IRQ', N'G', N'Jalal', N'Hassan', '1991-05-18', 74, 185, 12, NULL, N'Iraq', NULL, 2025, 2025),
-        (105646, N'FIF', N'IRQ', N'G', N'Ahmed', N'Basil', '1996-08-19', 73, 174, 22, NULL, N'Iraq', NULL, 2025, 2025),
-        (105647, N'FIF', N'IRQ', N'D', N'Frans', N'Putros', '1993-07-14', 71, 172, 26, NULL, N'Iraq', NULL, 2025, 2025),
-        (105648, N'FIF', N'IRQ', N'D', N'Rebin', N'Sulaka', '1992-04-12', 76, 185, 2, NULL, N'Iraq', NULL, 2025, 2025),
-        (105649, N'FIF', N'IRQ', N'D', N'Hussein', N'Ali', '2002-03-01', 72, 163, 3, NULL, N'Iraq', NULL, 2025, 2025),
-        (105650, N'FIF', N'IRQ', N'D', N'Munaf', N'Younus', '1996-11-16', 72, 172, 6, NULL, N'Iraq', NULL, 2025, 2025),
-        (105651, N'FIF', N'IRQ', N'D', N'Merchas', N'Doski', '1999-12-07', 68, 141, 23, NULL, N'Iraq', NULL, 2025, 2025),
-        (105652, N'FIF', N'IRQ', N'D', N'Ahmed', N'Maknazi', '2001-09-24', 71, 161, 15, NULL, N'Iraq', NULL, 2025, 2025),
-        (105653, N'FIF', N'IRQ', N'D', N'Mustafa', N'Saadoon', '2001-05-25', 71, 161, 25, NULL, N'Iraq', NULL, 2025, 2025),
-        (105654, N'FIF', N'IRQ', N'D', N'Akam', N'Hashim', '1998-08-16', 72, 161, 5, NULL, N'Iraq', NULL, 2025, 2025),
-        (105655, N'FIF', N'IRQ', N'D', N'Zaid', N'Tahseen', '2001-01-29', 76, 170, 4, NULL, N'Iraq', NULL, 2025, 2025),
-        (105656, N'FIF', N'IRQ', N'M', N'Ibrahim', N'Bayesh', '2000-05-01', 72, 172, 8, NULL, N'Iraq', NULL, 2025, 2025),
-        (105657, N'FIF', N'IRQ', N'M', N'Kevin', N'Yakob', '2000-10-10', 73, 163, 19, NULL, N'Iraq', NULL, 2025, 2025),
-        (105658, N'FIF', N'IRQ', N'M', N'Aimar', N'Sher', '2002-12-20', 69, 141, 20, NULL, N'Iraq', NULL, 2025, 2025),
-        (105659, N'FIF', N'IRQ', N'M', N'Amir', N'Al-Ammari', '1997-07-27', 72, 157, 16, NULL, N'Iraq', NULL, 2025, 2025),
-        (105660, N'FIF', N'IRQ', N'M', N'Zidane', N'Iqbal', '2003-04-27', 71, 157, 14, NULL, N'Iraq', NULL, 2025, 2025),
-        (105661, N'FIF', N'IRQ', N'M', N'Marko', N'Farji', '2004-03-16', 72, 172, 21, NULL, N'Iraq', NULL, 2025, 2025),
-        (105662, N'FIF', N'IRQ', N'M', N'Zaid', N'Ismael', '2002-01-03', 73, 161, 24, NULL, N'Iraq', NULL, 2025, 2025),
-        (105663, N'FIF', N'IRQ', N'F', N'Aymen', N'Hussein', '1996-03-22', 74, 183, 18, NULL, N'Iraq', NULL, 2025, 2025),
-        (105664, N'FIF', N'IRQ', N'F', N'Mohanad', N'Ali', '2000-06-20', 72, 168, 10, NULL, N'Iraq', NULL, 2025, 2025),
-        (105665, N'FIF', N'IRQ', N'F', N'Hashim', N'Ali', '2000-08-17', 65, 119, 13, NULL, N'Qatar', NULL, 2025, 2025),
-        (105666, N'FIF', N'IRQ', N'F', N'Ali', N'Jasim', '2004-01-20', 70, 161, 17, NULL, N'Iraq', NULL, 2025, 2025),
-        (105667, N'FIF', N'IRQ', N'F', N'Ahmed', N'Qasim', '2003-07-12', 72, 161, 11, NULL, N'Iraq', NULL, 2025, 2025),
-        (105668, N'FIF', N'IRQ', N'F', N'Youssef', N'Amyn', '2003-08-21', 68, 150, 7, NULL, N'Iraq', NULL, 2025, 2025),
-        (105669, N'FIF', N'IRQ', N'F', N'Ali', N'Al-Hamadi', '2002-03-01', 74, 179, 9, NULL, N'Iraq', NULL, 2025, 2025),
-        (105670, N'FIF', N'CIV', N'G', N'Alban', N'Lafont', '1999-01-23', 77, 185, 23, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105671, N'FIF', N'CIV', N'G', N'Yahia', N'Fofana', '2000-08-21', 76, 194, 1, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105672, N'FIF', N'CIV', N'G', N'Mohamed', N'Koné', '2002-03-07', 73, 172, 16, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105673, N'FIF', N'CIV', N'D', N'Evan', N'Ndicka', '1999-08-20', 76, 185, 21, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105674, N'FIF', N'CIV', N'D', N'Christopher', N'Operi', '1997-04-29', 72, 174, 13, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105675, N'FIF', N'CIV', N'D', N'Ghislain', N'Konan', '1995-12-27', 69, 172, 3, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105676, N'FIF', N'CIV', N'D', N'Odilon', N'Kossounou', '2001-01-04', 75, 183, 7, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105677, N'FIF', N'CIV', N'D', N'Wilfried', N'Singo', '2000-12-25', 75, 174, 5, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105678, N'FIF', N'CIV', N'D', N'Emmanuel', N'Agbadou', '1997-06-17', 76, 185, 20, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105679, N'FIF', N'CIV', N'D', N'Ousmane', N'Diomande', '2003-12-04', 75, 205, 2, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105680, N'FIF', N'CIV', N'D', N'Guela', N'Doué', '2002-10-17', 74, 192, 17, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105681, N'FIF', N'CIV', N'M', N'Seko', N'Fofana', '1995-05-07', 73, 183, 6, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105682, N'FIF', N'CIV', N'M', N'Jean Michaël', N'Seri', '1991-07-19', 67, 161, 4, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105683, N'FIF', N'CIV', N'M', N'Franck', N'Kessié', '1996-12-19', 72, 196, 8, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105684, N'FIF', N'CIV', N'M', N'Ibrahim', N'Sangaré', '1997-12-02', 75, 170, 18, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105685, N'FIF', N'CIV', N'M', N'Parfait', N'Guiagon', '2001-02-22', 67, 152, 25, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105686, N'FIF', N'CIV', N'M', N'Christ', N'Inao Oulaï', '2006-04-06', 68, 150, 26, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105687, N'FIF', N'CIV', N'F', N'Nicolas', N'Pépé', '1995-05-29', 72, 163, 19, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105688, N'FIF', N'CIV', N'F', N'Evann', N'Guessand', '2001-07-01', 74, 181, 22, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105689, N'FIF', N'CIV', N'F', N'Amad', N'Diallo', '2002-07-11', 68, 159, 15, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105690, N'FIF', N'CIV', N'F', N'Ange-Yoan', N'Bonny', '2003-10-25', 74, 183, 9, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105691, N'FIF', N'CIV', N'F', N'Elye', N'Wahi', '2003-01-02', 72, 161, 12, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105692, N'FIF', N'CIV', N'F', N'Simon', N'Adingra', '2002-01-01', 69, 150, 10, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105693, N'FIF', N'CIV', N'F', N'Oumar', N'Diakité', '2003-12-20', 73, 170, 14, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105694, N'FIF', N'CIV', N'F', N'Bazoumana', N'Touré', '2006-03-02', 70, 152, 24, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105695, N'FIF', N'CIV', N'F', N'Yan', N'Diomande', '2006-11-14', 71, 168, 11, NULL, N'Ivory Coast', NULL, 2025, 2025),
-        (105696, N'FIF', N'JPN', N'G', N'Keisuke', N'Osako', '1999-07-28', 74, 192, 12, NULL, N'Japan', NULL, 2025, 2025),
-        (105697, N'FIF', N'JPN', N'G', N'Zion', N'Suzuki', '2002-08-21', 75, 218, 1, NULL, N'Japan', NULL, 2025, 2025),
-        (105698, N'FIF', N'JPN', N'G', N'Tomoki', N'Hayakawa', '1999-03-03', 74, 179, 23, NULL, N'Japan', NULL, 2025, 2025),
-        (105699, N'FIF', N'JPN', N'D', N'Hiroki', N'Ito', '1999-05-12', 74, 183, 21, NULL, N'Japan', NULL, 2025, 2025),
-        (105700, N'FIF', N'JPN', N'D', N'Yuto', N'Nagatomo', '1986-09-12', 67, 150, 5, NULL, N'Japan', NULL, 2025, 2025),
-        (105701, N'FIF', N'JPN', N'D', N'Shogo', N'Taniguchi', '1991-07-15', 73, 163, 3, NULL, N'Japan', NULL, 2025, 2025),
-        (105702, N'FIF', N'JPN', N'D', N'Takehiro', N'Tomiyasu', '1998-11-05', 74, 183, 22, NULL, N'Japan', NULL, 2025, 2025),
-        (105703, N'FIF', N'JPN', N'D', N'Kou', N'Itakura', '1997-01-27', 74, 174, 4, NULL, N'Japan', NULL, 2025, 2025),
-        (105704, N'FIF', N'JPN', N'D', N'Ayumu', N'Seko', '2000-06-07', 73, 179, 20, NULL, N'Japan', NULL, 2025, 2025),
-        (105705, N'FIF', N'JPN', N'D', N'Yukinari', N'Sugawara', '2000-06-28', 70, 157, 2, NULL, N'Japan', NULL, 2025, 2025),
-        (105706, N'FIF', N'JPN', N'D', N'Tsuyoshi', N'Watanabe', '1997-02-05', 72, 168, 16, NULL, N'Japan', NULL, 2025, 2025),
-        (105707, N'FIF', N'JPN', N'D', N'Junnosuke', N'Suzuki', '2003-07-12', 71, 157, 25, NULL, N'Japan', NULL, 2025, 2025),
-        (105708, N'FIF', N'JPN', N'M', N'Wataru', N'Endo', '1993-02-09', 70, 170, 6, NULL, N'Japan', NULL, 2025, 2025),
-        (105709, N'FIF', N'JPN', N'M', N'Daichi', N'Kamada', '1996-08-05', 71, 159, 15, NULL, N'Japan', NULL, 2025, 2025),
-        (105710, N'FIF', N'JPN', N'M', N'Ritsu', N'Doan', '1998-06-16', 68, 152, 10, NULL, N'Japan', NULL, 2025, 2025),
-        (105711, N'FIF', N'JPN', N'M', N'Ao', N'Tanaka', '1998-09-10', 71, 163, 7, NULL, N'Japan', NULL, 2025, 2025),
-        (105712, N'FIF', N'JPN', N'M', N'Yuito', N'Suzuki', '2001-10-25', 69, 157, 17, NULL, N'Japan', NULL, 2025, 2025),
-        (105713, N'FIF', N'JPN', N'M', N'Kaishu', N'Sano', '2000-12-30', 69, 148, 24, NULL, N'Japan', NULL, 2025, 2025),
-        (105714, N'FIF', N'JPN', N'F', N'Junya', N'Ito', '1993-03-09', 70, 150, 14, NULL, N'Japan', NULL, 2025, 2025),
-        (105715, N'FIF', N'JPN', N'F', N'Koki', N'Ogawa', '1997-08-08', 73, 172, 19, NULL, N'Japan', NULL, 2025, 2025),
-        (105716, N'FIF', N'JPN', N'F', N'Takefusa', N'Kubo', '2001-06-04', 68, 148, 8, NULL, N'Japan', NULL, 2025, 2025),
-        (105717, N'FIF', N'JPN', N'F', N'Keito', N'Nakamura', '2000-07-28', 71, 161, 13, NULL, N'Japan', NULL, 2025, 2025),
-        (105718, N'FIF', N'JPN', N'F', N'Ayase', N'Ueda', '1998-08-28', 72, 168, 18, NULL, N'Japan', NULL, 2025, 2025),
-        (105719, N'FIF', N'JPN', N'F', N'Daizen', N'Maeda', '1997-10-20', 68, 148, 11, NULL, N'Japan', NULL, 2025, 2025),
-        (105720, N'FIF', N'JPN', N'F', N'Keisuke', N'Goto', '2005-06-03', 75, 152, 9, NULL, N'Japan', NULL, 2025, 2025),
-        (105721, N'FIF', N'JPN', N'F', N'Kento', N'Shiogai', '2005-03-26', 71, 170, 26, NULL, N'Japan', NULL, 2025, 2025),
-        (105722, N'FIF', N'JOR', N'G', N'Yazeed', N'Abulaila', '1993-01-08', 74, 192, 1, NULL, N'Jordan', NULL, 2025, 2025),
-        (105723, N'FIF', N'JOR', N'G', N'Abdallah', N'Al-Fakhouri', '2000-01-22', 75, 174, 22, NULL, N'Jordan', NULL, 2025, 2025),
-        (105724, N'FIF', N'JOR', N'G', N'Nour', N'Bani Ateyah', '1993-01-25', 70, 168, 12, NULL, N'Jordan', NULL, 2025, 2025),
-        (105725, N'FIF', N'JOR', N'D', N'Ehsan', N'Haddad', '1994-02-05', 69, 172, 23, NULL, N'Jordan', NULL, 2025, 2025),
-        (105726, N'FIF', N'JOR', N'D', N'Yazan', N'Al-Arab', '1996-01-31', 73, 192, 5, NULL, N'Jordan', NULL, 2025, 2025),
-        (105727, N'FIF', N'JOR', N'D', N'Mohammad', N'Abualnadi', '2001-02-08', 73, 174, 16, NULL, N'Jordan', NULL, 2025, 2025),
-        (105728, N'FIF', N'JOR', N'D', N'Saleem', N'Obaid', '1992-01-17', 74, 181, 17, NULL, N'Jordan', NULL, 2025, 2025),
-        (105729, N'FIF', N'JOR', N'D', N'Abdallah', N'Nasib', '1994-02-25', 72, 172, 3, NULL, N'Jordan', NULL, 2025, 2025),
-        (105730, N'FIF', N'JOR', N'D', N'Mohannad', N'Abu Taha', '2003-02-02', 68, 168, 20, NULL, N'Jordan', NULL, 2025, 2025),
-        (105731, N'FIF', N'JOR', N'D', N'Mohammad', N'Abu Hasheesh', '1995-05-09', 70, 161, 2, NULL, N'Jordan', NULL, 2025, 2025),
-        (105732, N'FIF', N'JOR', N'D', N'Husam', N'Abu Dahab', '2000-05-13', 73, 179, 4, NULL, N'Jordan', NULL, 2025, 2025),
-        (105733, N'FIF', N'JOR', N'D', N'Saed', N'Al-Rosan', '1997-02-01', 73, 183, 19, NULL, N'Jordan', NULL, 2025, 2025),
-        (105734, N'FIF', N'JOR', N'D', N'Mohammad', N'Abughoush', '2005-07-13', 72, 161, 18, NULL, N'Jordan', NULL, 2025, 2025),
-        (105735, N'FIF', N'JOR', N'D', N'Anas', N'Badawi', '1997-09-13', 69, 152, 26, NULL, N'Jordan', NULL, 2025, 2025),
-        (105736, N'FIF', N'JOR', N'M', N'Rajaei', N'Ayed', '1993-07-25', 69, 152, 14, NULL, N'Jordan', NULL, 2025, 2025),
-        (105737, N'FIF', N'JOR', N'M', N'Noor', N'Al-Rawabdeh', '1997-02-24', 72, 163, 8, NULL, N'Jordan', NULL, 2025, 2025),
-        (105738, N'FIF', N'JOR', N'M', N'Ibrahim', N'Sadeh', '2000-04-27', 69, 152, 15, NULL, N'Jordan', NULL, 2025, 2025),
-        (105739, N'FIF', N'JOR', N'M', N'Mohammad', N'Al-Daoud', '1992-04-12', 73, 179, 25, NULL, N'Jordan', NULL, 2025, 2025),
-        (105740, N'FIF', N'JOR', N'M', N'Nizar', N'Al-Rashdan', '1999-03-23', 72, 161, 21, NULL, N'Jordan', NULL, 2025, 2025),
-        (105741, N'FIF', N'JOR', N'M', N'Amer', N'Jamous', '2002-07-03', 70, 168, 6, NULL, N'Jordan', NULL, 2025, 2025),
-        (105742, N'FIF', N'JOR', N'F', N'Mahmoud', N'Al-Mardi', '1993-10-06', 68, 159, 13, NULL, N'Jordan', NULL, 2025, 2025),
-        (105743, N'FIF', N'JOR', N'F', N'Mousa', N'Al-Tamari', '1997-06-10', 70, 152, 10, NULL, N'Jordan', NULL, 2025, 2025),
-        (105744, N'FIF', N'JOR', N'F', N'Mohammed', N'Abu Zraiq', '1997-12-30', 67, 152, 7, NULL, N'Jordan', NULL, 2025, 2025),
-        (105745, N'FIF', N'JOR', N'F', N'Ali', N'Olwan', '2000-03-26', 72, 179, 9, NULL, N'Jordan', NULL, 2025, 2025),
-        (105746, N'FIF', N'JOR', N'F', N'Odeh', N'Fakhoury', '2005-11-22', 71, 150, 11, NULL, N'Jordan', NULL, 2025, 2025),
-        (105747, N'FIF', N'JOR', N'F', N'Ali', N'Azaizeh', '2004-04-13', 70, 170, 24, NULL, N'Jordan', NULL, 2025, 2025),
-        (105748, N'FIF', N'MEX', N'G', N'Guillermo', N'Ochoa', '1985-07-13', 75, 185, 13, NULL, N'Mexico', NULL, 2025, 2025),
-        (105749, N'FIF', N'MEX', N'G', N'Carlos', N'Acevedo', '1996-04-19', 72, 161, 12, NULL, N'Mexico', NULL, 2025, 2025),
-        (105750, N'FIF', N'MEX', N'G', N'Raúl', N'Rangel', '2000-02-25', 75, 192, 1, NULL, N'Mexico', NULL, 2025, 2025),
-        (105751, N'FIF', N'MEX', N'D', N'Jesús', N'Gallardo', '1994-08-15', 70, 172, 23, NULL, N'Mexico', NULL, 2025, 2025),
-        (105752, N'FIF', N'MEX', N'D', N'Jorge', N'Sánchez', '1997-12-10', 69, 150, 2, NULL, N'Mexico', NULL, 2025, 2025),
-        (105753, N'FIF', N'MEX', N'D', N'César', N'Montes', '1997-02-24', 77, 194, 3, NULL, N'Mexico', NULL, 2025, 2025),
-        (105754, N'FIF', N'MEX', N'D', N'Johan', N'Vásquez', '1998-10-22', 72, 172, 5, NULL, N'Mexico', NULL, 2025, 2025),
-        (105755, N'FIF', N'MEX', N'D', N'Israel', N'Reyes', '2000-05-23', 70, 161, 15, NULL, N'Mexico', NULL, 2025, 2025),
-        (105756, N'FIF', N'MEX', N'D', N'Mateo', N'Chávez', '2004-05-12', 70, 161, 20, NULL, N'Mexico', NULL, 2025, 2025),
-        (105757, N'FIF', N'MEX', N'M', N'Luis', N'Chávez', '1996-01-15', 70, 161, 24, NULL, N'Mexico', NULL, 2025, 2025),
-        (105758, N'FIF', N'MEX', N'M', N'Orbelín', N'Pineda', '1996-03-24', 67, 141, 17, NULL, N'Mexico', NULL, 2025, 2025),
-        (105759, N'FIF', N'MEX', N'M', N'Edson', N'Álvarez', '1997-10-24', 75, 168, 4, NULL, N'Mexico', NULL, 2025, 2025),
-        (105760, N'FIF', N'MEX', N'M', N'Luis', N'Romo', '1995-06-05', 72, 172, 7, NULL, N'Mexico', NULL, 2025, 2025),
-        (105761, N'FIF', N'MEX', N'M', N'César', N'Huerta', '2000-12-03', 67, 132, 21, NULL, N'Mexico', NULL, 2025, 2025),
-        (105762, N'FIF', N'MEX', N'M', N'Érik', N'Lira', '2000-05-08', 68, 152, 6, NULL, N'Mexico', NULL, 2025, 2025),
-        (105763, N'FIF', N'MEX', N'M', N'Álvaro', N'Fidalgo', '1997-04-09', 69, 150, 8, NULL, N'Mexico', NULL, 2025, 2025),
-        (105764, N'FIF', N'MEX', N'D', N'Brian', N'Gutiérrez', '2007-01-21', 73, 181, 26, NULL, N'Argentina', NULL, 2025, 2025),
-        (105765, N'FIF', N'MEX', N'M', N'Obed', N'Vargas', '2005-08-05', 69, 150, 18, NULL, N'Mexico', NULL, 2025, 2025),
-        (105766, N'FIF', N'MEX', N'M', N'Gilberto', N'Mora', '2008-10-14', 66, 137, 19, NULL, N'Mexico', NULL, 2025, 2025),
-        (105767, N'FIF', N'MEX', N'F', N'Raúl', N'Jiménez', '1991-05-05', 74, 168, 9, NULL, N'Mexico', N'Hidalgo', 2025, 2025),
-        (105768, N'FIF', N'MEX', N'F', N'Guillermo', N'Martínez', '1995-03-15', 75, 201, 22, NULL, N'Mexico', NULL, 2025, 2025),
-        (105769, N'FIF', N'MEX', N'F', N'Roberto', N'Alvarado', '1998-09-07', 69, 152, 25, NULL, N'Mexico', NULL, 2025, 2025),
-        (105770, N'FIF', N'MEX', N'F', N'Alexis', N'Vega', '1997-11-25', 69, 168, 10, NULL, N'Mexico', NULL, 2025, 2025),
-        (105771, N'FIF', N'MEX', N'F', N'Julián', N'Quiñones', '1997-03-24', 71, 172, 16, NULL, N'Mexico', NULL, 2025, 2025),
-        (105772, N'FIF', N'MEX', N'F', N'Santiago', N'Gimenez', '2001-04-18', 73, 172, 11, NULL, N'Mexico', NULL, 2025, 2025),
-        (105773, N'FIF', N'MEX', N'F', N'Armando', N'González', '2003-04-20', 70, 148, 14, NULL, N'Mexico', NULL, 2025, 2025),
-        (105774, N'FIF', N'MAR', N'G', N'Yassine', N'Bounou', '1991-04-05', 76, 170, 1, NULL, N'Saudi Arabia', N'Montreal', 2025, 2025),
-        (105775, N'FIF', N'MAR', N'G', N'Ahmed Reda', N'Tagnaouti', '1996-04-05', 76, 183, 22, NULL, N'Morocco', NULL, 2025, 2025),
-        (105776, N'FIF', N'MAR', N'G', N'Munir', N'El Kajoui', '1989-05-10', 75, 172, 12, NULL, N'Morocco', NULL, 2025, 2025),
-        (105777, N'FIF', N'MAR', N'D', N'Issa', N'Diop', '1997-01-09', 76, 192, 14, NULL, N'Morocco', NULL, 2025, 2025),
-        (105778, N'FIF', N'MAR', N'D', N'Noussair', N'Mazraoui', '1997-11-14', 72, 172, 3, NULL, N'Morocco', NULL, 2025, 2025),
-        (105779, N'FIF', N'MAR', N'D', N'Achraf', N'Hakimi', '1998-11-04', 71, 172, 2, NULL, N'Morocco', NULL, 2025, 2025),
-        (105780, N'FIF', N'MAR', N'D', N'Nayef', N'Aguerd', '1996-03-30', 75, 174, 5, NULL, N'Morocco', NULL, 2025, 2025),
-        (105781, N'FIF', N'MAR', N'D', N'Anass', N'Salah-Eddine', '2002-01-18', 71, 146, 26, NULL, N'Morocco', NULL, 2025, 2025),
-        (105782, N'FIF', N'MAR', N'D', N'Chadi', N'Riad', '2003-06-17', 73, 172, 18, NULL, N'Morocco', NULL, 2025, 2025),
-        (105783, N'FIF', N'MAR', N'D', N'Zakaria', N'El Ouahdi', '2001-12-31', 67, 150, 13, NULL, N'Morocco', NULL, 2025, 2025),
-        (105784, N'FIF', N'MAR', N'D', N'Redouane', N'Halhal', '2003-03-05', 74, 181, 25, NULL, N'Morocco', NULL, 2025, 2025),
-        (105785, N'FIF', N'MAR', N'D', N'Youssef', N'Belammari', '1998-09-20', 69, 152, 19, NULL, N'Morocco', NULL, 2025, 2025),
-        (105786, N'FIF', N'MAR', N'M', N'Sofyan', N'Amrabat', '1996-08-21', 73, 170, 4, NULL, N'Morocco', NULL, 2025, 2025),
-        (105787, N'FIF', N'MAR', N'M', N'Brahim', N'Díaz', '1999-08-03', 67, 150, 10, NULL, N'Morocco', NULL, 2025, 2025),
-        (105788, N'FIF', N'MAR', N'M', N'Azzedine', N'Ounahi', '2000-04-19', 72, 141, 8, NULL, N'Morocco', NULL, 2025, 2025),
-        (105789, N'FIF', N'MAR', N'M', N'Ismael', N'Saibari', '2001-01-28', 73, 179, 11, NULL, N'Morocco', NULL, 2025, 2025),
-        (105790, N'FIF', N'MAR', N'M', N'Neil', N'El Aynaoui', '2001-07-02', 73, 174, 24, NULL, N'Morocco', NULL, 2025, 2025),
-        (105791, N'FIF', N'MAR', N'M', N'Bilal', N'El Khannouss', '2004-05-10', 71, 152, 23, NULL, N'Morocco', NULL, 2025, 2025),
-        (105792, N'FIF', N'MAR', N'M', N'Ayyoub', N'Bouaddi', '2007-10-02', 73, 163, 6, NULL, N'Morocco', NULL, 2025, 2025),
-        (105793, N'FIF', N'MAR', N'M', N'Samir', N'El Mourabet', '2005-10-06', 74, 159, 15, NULL, N'Morocco', NULL, 2025, 2025),
-        (105794, N'FIF', N'MAR', N'F', N'Ayoub', N'El Kaabi', '1993-06-25', 72, 174, 20, NULL, N'Morocco', NULL, 2025, 2025),
-        (105795, N'FIF', N'MAR', N'F', N'Soufiane', N'Rahimi', '1996-06-02', 71, 163, 9, NULL, N'Morocco', NULL, 2025, 2025),
-        (105796, N'FIF', N'MAR', N'F', N'Abde', N'Ezzalzouli', '2001-12-17', 70, 161, 17, NULL, N'Morocco', NULL, 2025, 2025),
-        (105797, N'FIF', N'MAR', N'F', N'Chemsdine', N'Talbi', '2005-05-09', 69, 152, 7, NULL, N'Morocco', NULL, 2025, 2025),
-        (105798, N'FIF', N'MAR', N'F', N'Gessime', N'Yassine', '2005-11-22', 68, 121, 16, NULL, N'Morocco', NULL, 2025, 2025),
-        (105799, N'FIF', N'MAR', N'F', N'Ayoube', N'Amaimouni', '2004-11-30', 70, 152, 21, NULL, N'Morocco', NULL, 2025, 2025),
-        (105800, N'FIF', N'NED', N'G', N'Mark', N'Flekken', '1993-06-13', 77, 192, 23, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105801, N'FIF', N'NED', N'G', N'Bart', N'Verbruggen', '2002-08-18', 76, 194, 1, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105802, N'FIF', N'NED', N'G', N'Robin', N'Roefs', '2003-01-17', 76, 159, 13, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105803, N'FIF', N'NED', N'D', N'Virgil', N'van Dijk', '1991-07-08', 77, 203, 4, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105804, N'FIF', N'NED', N'D', N'Nathan', N'Aké', '1995-02-18', 71, 183, 5, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105805, N'FIF', N'NED', N'D', N'Denzel', N'Dumfries', '1996-04-18', 74, 174, 22, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105806, N'FIF', N'NED', N'D', N'Lutsharel', N'Geertruida', '2000-07-18', 72, 150, 2, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105807, N'FIF', N'NED', N'D', N'Jan Paul', N'van Hecke', '2000-06-08', 74, 172, 6, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105808, N'FIF', N'NED', N'D', N'Micky', N'van de Ven', '2001-04-19', 76, 179, 15, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105809, N'FIF', N'NED', N'D', N'Jorrel', N'Hato', '2006-03-07', 72, 170, 25, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105810, N'FIF', N'NED', N'M', N'Marten', N'de Roon', '1991-03-29', 73, 168, 3, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105811, N'FIF', N'NED', N'M', N'Frenkie', N'de Jong', '1997-05-12', 71, 161, 21, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105812, N'FIF', N'NED', N'M', N'Guus', N'Til', '1997-12-22', 74, 172, 16, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105813, N'FIF', N'NED', N'M', N'Teun', N'Koopmeiners', '1998-02-28', 73, 183, 20, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105814, N'FIF', N'NED', N'M', N'Tijjani', N'Reijnders', '1998-07-29', 70, 174, 14, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105815, N'FIF', N'NED', N'M', N'Ryan', N'Gravenberch', '2002-05-16', 75, 183, 8, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105816, N'FIF', N'NED', N'M', N'Mats', N'Wieffer', '1999-11-16', 74, 172, 12, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105817, N'FIF', N'NED', N'M', N'Quinten', N'Timber', '2001-06-17', 69, 157, 26, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105818, N'FIF', N'NED', N'F', N'Memphis', N'Depay', '1994-02-13', 70, 172, 10, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105819, N'FIF', N'NED', N'F', N'Wout', N'Weghorst', '1992-08-07', 78, 196, 9, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105820, N'FIF', N'NED', N'F', N'Justin', N'Kluivert', '1999-05-05', 68, 146, 7, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105821, N'FIF', N'NED', N'F', N'Cody', N'Gakpo', '1999-05-07', 76, 172, 11, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105822, N'FIF', N'NED', N'F', N'Noa', N'Lang', '1999-06-17', 69, 152, 17, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105823, N'FIF', N'NED', N'F', N'Donyell', N'Malen', '1999-01-19', 70, 150, 18, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105824, N'FIF', N'NED', N'F', N'Brian', N'Brobbey', '2002-02-01', 71, 174, 19, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105825, N'FIF', N'NED', N'F', N'Crysencio', N'Summerville', '2001-10-30', 68, 139, 24, NULL, N'Netherlands', NULL, 2025, 2025),
-        (105826, N'FIF', N'NZL', N'G', N'Max', N'Crocombe', '1993-08-12', 76, 185, 1, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105827, N'FIF', N'NZL', N'G', N'Michael', N'Woud', '1999-01-16', 77, 194, 22, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105828, N'FIF', N'NZL', N'G', N'Alex', N'Paulsen', '2002-07-04', 72, 183, 12, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105829, N'FIF', N'NZL', N'D', N'Michael', N'Boxall', '1988-08-18', 75, 207, 5, NULL, N'USA', N'Auckland', 2025, 2025),
-        (105830, N'FIF', N'NZL', N'D', N'Tommy', N'Smith', '1990-03-31', 74, 183, 26, NULL, N'England', NULL, 2025, 2025),
-        (105831, N'FIF', N'NZL', N'D', N'Tim', N'Payne', '1994-01-10', 70, 161, 2, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105832, N'FIF', N'NZL', N'D', N'Francis', N'de Vries', '1994-11-28', 74, 174, 3, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105833, N'FIF', N'NZL', N'D', N'Liberato', N'Cacace', '2000-09-27', 72, 181, 13, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105834, N'FIF', N'NZL', N'D', N'Callan', N'Elliot', '1999-07-07', 70, 150, 24, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105835, N'FIF', N'NZL', N'D', N'Nando', N'Pijnaker', '1999-02-25', 75, 192, 15, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105836, N'FIF', N'NZL', N'D', N'Finn', N'Surman', '2003-09-23', 75, 183, 16, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105837, N'FIF', N'NZL', N'D', N'Tyler', N'Bindon', '2005-01-27', 75, 185, 4, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105838, N'FIF', N'NZL', N'M', N'Ryan', N'Thomas', '1994-12-20', 69, 152, 23, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105839, N'FIF', N'NZL', N'M', N'Alex', N'Rufer', '1996-06-12', 72, 163, 14, NULL, N'Switzerland', NULL, 2025, 2025),
-        (105840, N'FIF', N'NZL', N'M', N'Callum', N'McCowatt', '1999-04-30', 71, 163, 20, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105841, N'FIF', N'NZL', N'M', N'Sarpreet', N'Singh', '1999-02-20', 71, 157, 10, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105842, N'FIF', N'NZL', N'M', N'Joe', N'Bell', '1999-04-27', 72, 181, 6, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105843, N'FIF', N'NZL', N'M', N'Marko', N'Stamenic', '2002-02-19', 74, 172, 8, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105844, N'FIF', N'NZL', N'M', N'Matthew', N'Garbett', '2002-04-13', 76, 163, 7, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105845, N'FIF', N'NZL', N'M', N'Lachlan', N'Bayliss', '2002-07-24', 70, 163, 25, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105846, N'FIF', N'NZL', N'F', N'Chris', N'Wood', '1991-12-07', 75, 205, 9, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105847, N'FIF', N'NZL', N'F', N'Kosta', N'Barbarouses', '1990-02-19', 67, 150, 17, NULL, N'New Zealand', N'Wellington, NZ', 2025, 2025),
-        (105848, N'FIF', N'NZL', N'F', N'Elijah', N'Just', '2000-05-01', 69, 152, 11, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105849, N'FIF', N'NZL', N'F', N'Ben', N'Waine', '2001-06-11', 70, 174, 18, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105850, N'FIF', N'NZL', N'F', N'Jesse', N'Randall', '2002-08-19', 69, 152, 21, NULL, N'New Zealand', NULL, 2025, 2025),
-        (105851, N'FIF', N'NZL', N'F', N'Ben', N'Old', '2002-08-13', 68, 141, 19, NULL, N'France', NULL, 2025, 2025),
-        (105852, N'FIF', N'NOR', N'G', N'Ørjan', N'Nyland', '1990-09-10', 76, 196, 1, NULL, N'Norway', NULL, 2025, 2025),
-        (105853, N'FIF', N'NOR', N'G', N'Egil', N'Selvik', '1997-07-30', 76, 196, 13, NULL, N'Norway', NULL, 2025, 2025),
-        (105854, N'FIF', N'NOR', N'G', N'Sander', N'Tangvik', '2002-11-29', 76, 174, 12, NULL, N'Norway', NULL, 2025, 2025),
-        (105855, N'FIF', N'NOR', N'D', N'Marcus', N'Holmgren Pedersen', '2000-07-16', 72, 168, 16, NULL, N'Norway', NULL, 2025, 2025),
-        (105856, N'FIF', N'NOR', N'D', N'Kristoffer', N'Ajer', '1998-04-17', 78, 203, 3, NULL, N'Norway', NULL, 2025, 2025),
-        (105857, N'FIF', N'NOR', N'D', N'Julian', N'Ryerson', '1997-11-17', 72, 190, 26, NULL, N'Norway', NULL, 2025, 2025),
-        (105858, N'FIF', N'NOR', N'D', N'Fredrik André', N'Bjørkan', '1998-08-21', 71, 161, 15, NULL, N'Norway', NULL, 2025, 2025),
-        (105859, N'FIF', N'NOR', N'D', N'Torbjørn', N'Heggem', '1999-01-12', 76, 174, 17, NULL, N'Norway', NULL, 2025, 2025),
-        (105860, N'FIF', N'NOR', N'D', N'Leo', N'Østigard', '1999-11-28', 72, 179, 4, NULL, N'Norway', NULL, 2025, 2025),
-        (105861, N'FIF', N'NOR', N'D', N'Henrik', N'Falchener', '2003-05-08', 76, 181, 25, NULL, N'Norway', NULL, 2025, 2025),
-        (105862, N'FIF', N'NOR', N'D', N'David', N'Møller Wolfe', '2002-04-23', 73, 172, 5, NULL, N'Norway', NULL, 2025, 2025),
-        (105863, N'FIF', N'NOR', N'D', N'Sondre', N'Langas', '2001-02-02', 75, 179, 24, NULL, N'Norway', NULL, 2025, 2025),
-        (105864, N'FIF', N'NOR', N'M', N'Morten', N'Thorsby', '1996-05-05', 74, 159, 2, NULL, N'Norway', NULL, 2025, 2025),
-        (105865, N'FIF', N'NOR', N'M', N'Martin', N'Ødegaard', '1998-12-17', 70, 150, 10, NULL, N'Norway', NULL, 2025, 2025),
-        (105866, N'FIF', N'NOR', N'M', N'Patrick', N'Berg', '1997-11-24', 70, 161, 6, NULL, N'Norway', NULL, 2025, 2025),
-        (105867, N'FIF', N'NOR', N'M', N'Fredrik', N'Aursnes', '1995-12-10', 71, 157, 14, NULL, N'Norway', NULL, 2025, 2025),
-        (105868, N'FIF', N'NOR', N'M', N'Sander', N'Berge', '1998-02-14', 77, 212, 8, NULL, N'Norway', NULL, 2025, 2025),
-        (105869, N'FIF', N'NOR', N'M', N'Jens Petter', N'Hauge', '1999-10-12', 72, 163, 23, NULL, N'Norway', NULL, 2025, 2025),
-        (105870, N'FIF', N'NOR', N'M', N'Kristian', N'Thorstvedt', '1999-03-13', 74, 183, 18, NULL, N'Norway', NULL, 2025, 2025),
-        (105871, N'FIF', N'NOR', N'M', N'Oscar', N'Bobb', '2003-07-12', 69, 159, 22, NULL, N'Norway', NULL, 2025, 2025),
-        (105872, N'FIF', N'NOR', N'M', N'Thelo', N'Aasgaard', '2002-05-02', 74, 192, 19, NULL, N'Norway', NULL, 2025, 2025),
-        (105873, N'FIF', N'NOR', N'M', N'Antonio', N'Nusa', '2005-04-17', 72, 170, 20, NULL, N'Norway', NULL, 2025, 2025),
-        (105874, N'FIF', N'NOR', N'F', N'Alexander', N'Sørloth', '1995-12-05', 77, 205, 7, NULL, N'Norway', NULL, 2025, 2025),
-        (105875, N'FIF', N'NOR', N'F', N'Jørgen Strand', N'Larsen', '2000-02-06', 76, 172, 11, NULL, N'Norway', NULL, 2025, 2025),
-        (105876, N'FIF', N'NOR', N'F', N'Erling', N'Haaland', '2000-07-21', 77, 205, 9, NULL, N'Norway', NULL, 2025, 2025),
-        (105877, N'FIF', N'NOR', N'F', N'Andreas', N'Schjelderup', '2004-06-01', 69, 161, 21, NULL, N'Norway', NULL, 2025, 2025),
-        (105878, N'FIF', N'PAN', N'G', N'Luis', N'Mejía', '1991-03-16', 76, 174, 1, NULL, N'Panama', NULL, 2025, 2025),
-        (105879, N'FIF', N'PAN', N'G', N'Orlando', N'Mosquera', '1994-12-25', 75, 214, 22, NULL, N'Panama', NULL, 2025, 2025),
-        (105880, N'FIF', N'PAN', N'G', N'César', N'Samudio', '1994-02-23', 74, 192, 12, NULL, N'Panama', NULL, 2025, 2025),
-        (105881, N'FIF', N'PAN', N'D', N'Roderick', N'Miller', '1992-04-03', 75, 183, 25, NULL, N'Panama', NULL, 2025, 2025),
-        (105882, N'FIF', N'PAN', N'D', N'Éric', N'Davis', '1991-03-31', 71, 172, 15, NULL, N'Panama', NULL, 2025, 2025),
-        (105883, N'FIF', N'PAN', N'M', N'Andrés', N'Andrade', '1989-02-23', 72, 161, 16, NULL, N'Colombia', NULL, 2025, 2025),
-        (105884, N'FIF', N'PAN', N'D', N'Fidel', N'Escobar', '1995-01-09', 72, 161, 4, NULL, N'Panama', NULL, 2025, 2025),
-        (105885, N'FIF', N'PAN', N'D', N'Amir', N'Murillo', '1996-02-11', 72, 163, 23, NULL, N'Panama', NULL, 2025, 2025),
-        (105886, N'FIF', N'PAN', N'D', N'César', N'Blackman', '1998-04-02', 69, 170, 2, NULL, N'Panama', NULL, 2025, 2025),
-        (105887, N'FIF', N'PAN', N'D', N'Jorge', N'Gutiérrez', '1998-09-01', 67, 150, 26, NULL, N'Panama', NULL, 2025, 2025),
-        (105888, N'FIF', N'PAN', N'D', N'José', N'Córdoba', '2001-06-03', 74, 192, 3, NULL, N'Panama', NULL, 2025, 2025),
-        (105889, N'FIF', N'PAN', N'D', N'Jiovany', N'Ramos', '1997-01-26', 74, 181, 13, NULL, N'Panama', NULL, 2025, 2025),
-        (105890, N'FIF', N'PAN', N'D', N'Edgardo', N'Fariña', '2001-10-19', 76, 183, 5, NULL, N'Panama', NULL, 2025, 2025),
-        (105891, N'FIF', N'PAN', N'M', N'Aníbal', N'Godoy', '1990-02-10', 72, 163, 20, NULL, N'Panama', NULL, 2025, 2025),
-        (105892, N'FIF', N'PAN', N'M', N'Cristian', N'Martínez', '1997-02-06', 67, 159, 6, NULL, N'Panama', NULL, 2025, 2025),
-        (105893, N'FIF', N'PAN', N'M', N'Édgar Yoel', N'Bárcenas', '1993-10-23', 69, 163, 11, NULL, N'Panama', NULL, 2025, 2025),
-        (105894, N'FIF', N'PAN', N'M', N'Adalberto', N'Carrasquilla', '1998-11-28', 67, 172, 8, NULL, N'Panama', NULL, 2025, 2025),
-        (105895, N'FIF', N'PAN', N'M', N'José Luis', N'Rodríguez', '1998-06-19', 71, 170, 7, NULL, N'Panama', NULL, 2025, 2025),
-        (105896, N'FIF', N'PAN', N'M', N'Carlos', N'Harvey', '2000-02-03', 73, 194, 14, NULL, N'Panama', NULL, 2025, 2025),
-        (105897, N'FIF', N'PAN', N'F', N'Alberto', N'Quintero', '1987-12-18', 66, 130, 19, NULL, N'Panama', NULL, 2025, 2025),
-        (105898, N'FIF', N'PAN', N'F', N'Cecilio', N'Waterman', '1991-04-13', 71, 179, 18, NULL, N'Panama', NULL, 2025, 2025),
-        (105899, N'FIF', N'PAN', N'F', N'Ismael', N'Díaz', '1997-05-12', 72, 179, 10, NULL, N'Panama', NULL, 2025, 2025),
-        (105900, N'FIF', N'PAN', N'F', N'José', N'Fajardo', '1993-08-18', 71, 174, 17, NULL, N'Panama', NULL, 2025, 2025),
-        (105901, N'FIF', N'PAN', N'F', N'Tomás', N'Rodríguez', '1999-03-09', 72, 163, 9, NULL, N'Panama', NULL, 2025, 2025),
-        (105902, N'FIF', N'PAN', N'F', N'César', N'Yanis', '1996-01-28', 63, 128, 21, NULL, N'Panama', NULL, 2025, 2025),
-        (105903, N'FIF', N'PAN', N'F', N'Azarias', N'Londoño', '2001-06-21', 73, 192, 24, NULL, N'Panama', NULL, 2025, 2025),
-        (105904, N'FIF', N'PAR', N'G', N'Gatito', N'Fernández', '1988-03-29', 75, 190, 1, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105905, N'FIF', N'PAR', N'G', N'Gastón', N'Olveira', '1993-04-21', 75, 179, 22, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105906, N'FIF', N'PAR', N'G', N'Orlando', N'Gill', '2000-06-11', 78, 179, 12, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105907, N'FIF', N'PAR', N'D', N'Juan Jose', N'Cáceres', '2000-06-01', 70, 174, 4, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105908, N'FIF', N'PAR', N'D', N'Gustavo', N'Gómez', '1993-05-06', 73, 150, 15, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105909, N'FIF', N'PAR', N'D', N'Gustavo', N'Velázquez', '1991-04-17', 70, 168, 2, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105910, N'FIF', N'PAR', N'D', N'Júnior', N'Alonso', '1993-02-09', 73, 183, 6, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105911, N'FIF', N'PAR', N'D', N'Fabián', N'Balbuena', '1991-08-23', 74, 183, 5, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105912, N'FIF', N'PAR', N'D', N'Omar', N'Alderete', '1996-12-26', 74, 170, 3, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105913, N'FIF', N'PAR', N'D', N'José', N'Canale', '1996-07-20', 74, 174, 13, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105914, N'FIF', N'PAR', N'D', N'Alexandro', N'Maidana', '2005-07-26', 70, 161, 26, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105915, N'FIF', N'PAR', N'M', N'Julio', N'Enciso', '2004-01-23', 68, 139, 19, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105916, N'FIF', N'PAR', N'M', N'Alejandro', N'Romero Gamarra', '1995-01-11', 67, 146, 17, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105917, N'FIF', N'PAR', N'M', N'Diego', N'Gómez', '2003-03-27', 73, 170, 8, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105918, N'FIF', N'PAR', N'M', N'Andrés', N'Cubas', '1996-05-11', 66, 146, 14, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105919, N'FIF', N'PAR', N'M', N'Braian', N'Ojeda', '2000-06-27', 68, 150, 20, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105920, N'FIF', N'PAR', N'M', N'Maurício', NULL, '2001-06-22', 69, 170, 11, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105921, N'FIF', N'PAR', N'M', N'Matías', N'Galarza', '2002-02-11', 69, 148, 23, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105922, N'FIF', N'PAR', N'M', N'Damián', N'Bobadilla', '2001-07-11', 71, 168, 16, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105923, N'FIF', N'PAR', N'F', N'Miguel', N'Almirón', '1994-02-10', 69, 152, 10, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105924, N'FIF', N'PAR', N'F', N'Gustavo', N'Caballero', '2001-09-21', 73, 161, 24, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105925, N'FIF', N'PAR', N'F', N'Antonio', N'Sanabria', '1996-03-04', 71, 152, 9, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105926, N'FIF', N'PAR', N'F', N'Gabriel', N'Ávalos', '1990-10-12', 75, 203, 21, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105927, N'FIF', N'PAR', N'F', N'Alex', N'Arce', '1995-06-16', 74, 174, 18, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105928, N'FIF', N'PAR', N'F', N'Isidro', N'Pitta', '1999-08-14', 72, 172, 25, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105929, N'FIF', N'PAR', N'F', N'Ramón', N'Sosa', '1999-08-31', 70, 163, 7, NULL, N'Paraguay', NULL, 2025, 2025),
-        (105930, N'FIF', N'POR', N'G', N'Rui', N'Silva', '1994-02-07', 75, 192, 22, NULL, N'Portugal', NULL, 2025, 2025),
-        (105931, N'FIF', N'POR', N'G', N'José', N'Sá', '1993-01-17', 76, 174, 12, NULL, N'Portugal', NULL, 2025, 2025),
-        (105932, N'FIF', N'POR', N'G', N'Diogo', N'Costa', '1999-09-19', 74, 190, 1, NULL, N'Portugal', NULL, 2025, 2025),
-        (105933, N'FIF', N'POR', N'D', N'João', N'Cancelo', '1994-05-27', 72, 161, 20, NULL, N'Portugal', NULL, 2025, 2025),
-        (105934, N'FIF', N'POR', N'D', N'Nélson', N'Semedo', '1993-11-16', 70, 146, 2, NULL, N'Portugal', NULL, 2025, 2025),
-        (105935, N'FIF', N'POR', N'D', N'Rúben', N'Dias', '1997-05-14', 74, 190, 3, NULL, N'Portugal', NULL, 2025, 2025),
-        (105936, N'FIF', N'POR', N'D', N'Diogo', N'Dalot', '1999-03-18', 72, 181, 5, NULL, N'Portugal', NULL, 2025, 2025),
-        (105937, N'FIF', N'POR', N'D', N'Nuno', N'Mendes', '2002-06-19', 71, 152, 25, NULL, N'Portugal', NULL, 2025, 2025),
-        (105938, N'FIF', N'POR', N'D', N'Gonçalo', N'Inácio', '2001-08-25', 73, 172, 14, NULL, N'Portugal', NULL, 2025, 2025),
-        (105939, N'FIF', N'POR', N'D', N'Tomás', N'Araújo', '2002-05-16', 74, 185, 4, NULL, N'Portugal', NULL, 2025, 2025),
-        (105940, N'FIF', N'POR', N'D', N'Renato', N'Veiga', '2003-07-29', 75, 192, 13, NULL, N'Portugal', NULL, 2025, 2025),
-        (105941, N'FIF', N'POR', N'M', N'Bruno', N'Fernandes', '1994-09-08', 72, 139, 8, NULL, N'Portugal', NULL, 2025, 2025),
-        (105942, N'FIF', N'POR', N'M', N'Samú', N'Costa', '2000-11-27', 73, 172, 24, NULL, N'Portugal', NULL, 2025, 2025),
-        (105943, N'FIF', N'POR', N'M', N'Bernardo', N'Silva', '1994-08-10', 68, 139, 10, NULL, N'Portugal', NULL, 2025, 2025),
-        (105944, N'FIF', N'POR', N'M', N'Rúben', N'Neves', '1997-03-13', 72, 183, 21, NULL, N'Portugal', NULL, 2025, 2025),
-        (105945, N'FIF', N'POR', N'M', N'Vitinha', NULL, '2000-02-13', 68, 139, 23, NULL, N'Portugal', NULL, 2025, 2025),
-        (105946, N'FIF', N'POR', N'M', N'Matheus', N'Nunes', '1998-08-27', 72, 172, 6, NULL, N'Portugal', NULL, 2025, 2025),
-        (105947, N'FIF', N'POR', N'M', N'João', N'Neves', '2004-09-27', 69, 146, 15, NULL, N'Portugal', NULL, 2025, 2025),
-        (105948, N'FIF', N'POR', N'F', N'Cristiano', N'Ronaldo', '1985-02-05', 74, 174, 7, NULL, N'Portugal', NULL, 2025, 2025),
-        (105949, N'FIF', N'POR', N'F', N'Gonçalo', N'Guedes', '1996-11-29', 70, 159, 19, NULL, N'Portugal', NULL, 2025, 2025),
-        (105950, N'FIF', N'POR', N'F', N'Pedro', N'Neto', '2000-03-09', 69, 172, 18, NULL, N'Portugal', NULL, 2025, 2025),
-        (105951, N'FIF', N'POR', N'F', N'Rafael', N'Leão', '1999-06-10', 74, 174, 17, NULL, N'Portugal', NULL, 2025, 2025),
-        (105952, N'FIF', N'POR', N'F', N'Francisco', N'Trincão', '1999-12-29', 72, 168, 16, NULL, N'Portugal', NULL, 2025, 2025),
-        (105953, N'FIF', N'POR', N'F', N'João', N'Félix', '1999-11-10', 71, 152, 11, NULL, N'Portugal', NULL, 2025, 2025),
-        (105954, N'FIF', N'POR', N'F', N'Gonçalo', N'Ramos', '2001-06-20', 73, 183, 9, NULL, N'Portugal', NULL, 2025, 2025),
-        (105955, N'FIF', N'POR', N'F', N'Francisco', N'Conceição', '2002-12-14', 65, 148, 26, NULL, N'Portugal', NULL, 2025, 2025),
-        (105956, N'FIF', N'QAT', N'G', N'Meshaal', N'Barsham', '1998-02-14', 71, 159, 22, NULL, N'Qatar', NULL, 2025, 2025),
-        (105957, N'FIF', N'QAT', N'G', N'Salah', N'Zakaria', '1999-04-24', 74, 190, 21, NULL, N'Qatar', NULL, 2025, 2025),
-        (105958, N'FIF', N'QAT', N'G', N'Mahmoud', N'Abunada', '2000-02-05', 75, 179, 1, NULL, N'Qatar', NULL, 2025, 2025),
-        (105959, N'FIF', N'QAT', N'D', N'Pedro', N'Miguel', '1990-08-06', 72, 185, 2, NULL, N'Qatar', NULL, 2025, 2025),
-        (105960, N'FIF', N'QAT', N'D', N'Lucas', N'Mendes', '1990-07-03', 72, 141, 3, NULL, N'Qatar', NULL, 2025, 2025),
-        (105961, N'FIF', N'QAT', N'D', N'Boualem', N'Khoukhi', '1990-07-09', 71, 161, 16, NULL, N'Qatar', NULL, 2025, 2025),
-        (105962, N'FIF', N'QAT', N'D', N'Sultan', N'Al-Brake', '1996-04-07', 69, 130, 18, NULL, N'Qatar', NULL, 2025, 2025),
-        (105963, N'FIF', N'QAT', N'D', N'Homam', N'Ahmed', '1999-08-25', 74, 170, 14, NULL, N'Qatar', NULL, 2025, 2025),
-        (105964, N'FIF', N'QAT', N'D', N'Jassem', N'Gaber', '2002-02-20', 71, 152, 5, NULL, N'Qatar', NULL, 2025, 2025),
-        (105965, N'FIF', N'QAT', N'D', N'Ayoub', N'Al-Oui', '2005-03-11', 71, 141, 13, NULL, N'Qatar', NULL, 2025, 2025),
-        (105966, N'FIF', N'QAT', N'D', N'Al-Hashmi', N'Al-Hussain', '2003-08-15', 72, 159, 25, NULL, N'Qatar', NULL, 2025, 2025),
-        (105967, N'FIF', N'QAT', N'D', N'Issa', N'Laye', '1997-12-22', 74, 157, 4, NULL, N'Qatar', NULL, 2025, 2025),
-        (105968, N'FIF', N'QAT', N'M', N'Abdulaziz', N'Hatem', '1990-10-28', 72, 150, 6, NULL, N'Qatar', NULL, 2025, 2025),
-        (105969, N'FIF', N'QAT', N'M', N'Karim', N'Boudiaf', '1990-09-16', 75, 185, 12, NULL, N'Qatar', NULL, 2025, 2025),
-        (105970, N'FIF', N'QAT', N'M', N'Assim', N'Madibo', '1996-10-22', 66, 159, 23, NULL, N'Qatar', NULL, 2025, 2025),
-        (105971, N'FIF', N'QAT', N'M', N'Ahmed', N'Fathy', '1993-01-25', 67, 148, 20, NULL, N'Qatar', NULL, 2025, 2025),
-        (105972, N'FIF', N'QAT', N'M', N'Mohamed', N'Manai', '2002-10-25', 71, 150, 26, NULL, N'Qatar', NULL, 2025, 2025),
-        (105973, N'FIF', N'QAT', N'F', N'Edmílson Junior', NULL, '1994-08-19', 71, 157, 8, NULL, N'Qatar', NULL, 2025, 2025),
-        (105974, N'FIF', N'QAT', N'F', N'Mohammed', N'Muntari', '1993-12-20', 76, 190, 9, NULL, N'Qatar', NULL, 2025, 2025),
-        (105975, N'FIF', N'QAT', N'F', N'Almoez', N'Ali', '1996-08-19', 71, 159, 19, NULL, N'Qatar', NULL, 2025, 2025),
-        (105976, N'FIF', N'QAT', N'F', N'Akram', N'Afif', '1996-11-18', 70, 152, 11, NULL, N'Qatar', NULL, 2025, 2025),
-        (105977, N'FIF', N'QAT', N'F', N'Hassan', N'Al-Haydos', '1990-12-11', 69, 137, 10, NULL, N'Qatar', NULL, 2025, 2025),
-        (105978, N'FIF', N'QAT', N'F', N'Ahmed', N'Alaaeldin', '1993-01-31', 70, 146, 7, NULL, N'Qatar', NULL, 2025, 2025),
-        (105979, N'FIF', N'QAT', N'F', N'Yusuf', N'Abdurisag', '1999-08-06', 69, 139, 15, NULL, N'Qatar', NULL, 2025, 2025),
-        (105980, N'FIF', N'QAT', N'F', N'Ahmed', N'Al-Ganehi', '2000-09-22', 70, 130, 17, NULL, N'Qatar', NULL, 2025, 2025),
-        (105981, N'FIF', N'QAT', N'F', N'Tahsin', N'Jamshid', '2006-06-16', 65, 128, 24, NULL, N'Qatar', NULL, 2025, 2025),
-        (105982, N'FIF', N'KSA', N'G', N'Ahmed', N'Al-Kassar', '1991-05-08', 70, 172, 22, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (105983, N'FIF', N'KSA', N'G', N'Mohammed', N'Al-Owais', '1991-10-10', 73, 170, 21, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (105984, N'FIF', N'KSA', N'G', N'Nawaf', N'Al-Aqidi', '2000-05-10', 73, 192, 1, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (105985, N'FIF', N'KSA', N'D', N'Hassan', N'Kadish', '1992-09-26', 70, 152, 14, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (105986, N'FIF', N'KSA', N'D', N'Hassan', N'Al-Tambakti', '1999-02-09', 72, 183, 5, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (105987, N'FIF', N'KSA', N'D', N'Abdulelah', N'Al-Amri', '1997-01-15', 73, 170, 4, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (105988, N'FIF', N'KSA', N'D', N'Saud', N'Abdulhamid', '1999-07-18', 68, 161, 12, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (105989, N'FIF', N'KSA', N'D', N'Ali', N'Lajami', '1996-04-24', 70, 157, 3, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (105990, N'FIF', N'KSA', N'D', N'Moteb', N'Al-Harbi', '2000-02-20', 68, 141, 24, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (105991, N'FIF', N'KSA', N'D', N'Nawaf', N'Boushal', '1999-09-16', 68, 139, 13, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (105992, N'FIF', N'KSA', N'D', N'Ali', N'Majrashi', '1999-10-02', 67, 150, 2, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (105993, N'FIF', N'KSA', N'D', N'Jehad', N'Thakri', '2001-07-21', 72, 179, 25, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (105994, N'FIF', N'KSA', N'M', N'Salem', N'Al-Dawsari', '1991-08-19', 68, 157, 10, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (105995, N'FIF', N'KSA', N'M', N'Mohamed', N'Kanno', '1994-09-22', 75, 148, 23, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (105996, N'FIF', N'KSA', N'M', N'Nasser', N'Al-Dawsari', '1998-12-19', 70, 170, 6, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (105997, N'FIF', N'KSA', N'M', N'Abdullah', N'Al-Khaibari', '1996-08-16', 69, 146, 15, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (105998, N'FIF', N'KSA', N'M', N'Aiman', N'Yahya', '2001-05-14', 68, 159, 8, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (105999, N'FIF', N'KSA', N'M', N'Ziyad', N'Al-Johani', '2001-11-11', 71, 139, 16, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (106000, N'FIF', N'KSA', N'M', N'Musab', N'Al-Juwayr', '2003-06-20', 69, 152, 7, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (106001, N'FIF', N'KSA', N'M', N'Ala', N'Al-Hajji', '1995-12-03', 70, 163, 18, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (106002, N'FIF', N'KSA', N'M', N'Mohammed', N'Abu Al-Shamat', '2002-08-11', 67, 137, 26, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (106003, N'FIF', N'KSA', N'F', N'Saleh', N'Al-Shehri', '1993-11-01', 72, 172, 11, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (106004, N'FIF', N'KSA', N'F', N'Feras', N'Al-Brikan', '2000-05-14', 73, 172, 9, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (106005, N'FIF', N'KSA', N'F', N'Sultan', N'Mandash', '1994-10-17', 68, 150, 20, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (106006, N'FIF', N'KSA', N'F', N'Khalid', N'Al-Ghannam', '2000-11-08', 67, 150, 17, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (106007, N'FIF', N'KSA', N'F', N'Abdullah', N'Al-Hamdan', '1999-09-13', 73, 172, 19, NULL, N'Saudi Arabia', NULL, 2025, 2025),
-        (106008, N'FIF', N'SCO', N'G', N'Liam', N'Kelly', '1996-01-23', 72, 174, 12, NULL, N'Scotland', NULL, 2025, 2025),
-        (106009, N'FIF', N'SCO', N'G', N'Craig', N'Gordon', '1982-12-31', 76, 183, 21, NULL, N'Scotland', NULL, 2025, 2025),
-        (106010, N'FIF', N'SCO', N'G', N'Angus', N'Gunn', '1996-01-22', 77, 170, 1, NULL, N'Scotland', NULL, 2025, 2025),
-        (106011, N'FIF', N'SCO', N'D', N'Andy', N'Robertson', '1994-03-11', 70, 139, 3, NULL, N'Scotland', NULL, 2025, 2025),
-        (106012, N'FIF', N'SCO', N'D', N'Grant', N'Hanley', '1991-11-20', 74, 185, 5, NULL, N'Scotland', NULL, 2025, 2025),
-        (106013, N'FIF', N'SCO', N'D', N'John', N'Souttar', '1996-09-25', 73, 163, 15, NULL, N'Scotland', NULL, 2025, 2025),
-        (106014, N'FIF', N'SCO', N'D', N'Scott', N'McKenna', '1996-11-12', 74, 161, 26, NULL, N'Scotland', NULL, 2025, 2025),
-        (106015, N'FIF', N'SCO', N'D', N'Jack', N'Hendry', '1995-05-07', 76, 190, 13, NULL, N'Scotland', NULL, 2025, 2025),
-        (106016, N'FIF', N'SCO', N'D', N'Kieran', N'Tierney', '1997-06-05', 71, 161, 6, NULL, N'Scotland', NULL, 2025, 2025),
-        (106017, N'FIF', N'SCO', N'D', N'Anthony', N'Ralston', '1998-11-16', 70, 152, 24, NULL, N'Scotland', NULL, 2025, 2025),
-        (106018, N'FIF', N'SCO', N'D', N'Dominic', N'Hyam', '1995-12-20', 74, 152, 16, NULL, N'Scotland', NULL, 2025, 2025),
-        (106019, N'FIF', N'SCO', N'D', N'Nathan', N'Patterson', '2001-10-16', 72, 159, 22, NULL, N'Scotland', NULL, 2025, 2025),
-        (106020, N'FIF', N'SCO', N'D', N'Aaron', N'Hickey', '2002-06-10', 73, 159, 2, NULL, N'Scotland', NULL, 2025, 2025),
-        (106021, N'FIF', N'SCO', N'M', N'Ryan', N'Christie', '1995-02-22', 70, 157, 11, NULL, N'Scotland', NULL, 2025, 2025),
-        (106022, N'FIF', N'SCO', N'M', N'Kenny', N'McLean', '1992-01-08', 72, 152, 23, NULL, N'Scotland', NULL, 2025, 2025),
-        (106023, N'FIF', N'SCO', N'M', N'John', N'McGinn', '1994-10-18', 70, 150, 7, NULL, N'Scotland', NULL, 2025, 2025),
-        (106024, N'FIF', N'SCO', N'M', N'Lewis', N'Ferguson', '1999-08-24', 71, 161, 19, NULL, N'Scotland', NULL, 2025, 2025),
-        (106025, N'FIF', N'SCO', N'M', N'Scott', N'McTominay', '1996-12-08', 76, 192, 4, NULL, N'Scotland', NULL, 2025, 2025),
-        (106026, N'FIF', N'SCO', N'M', N'Tyler', N'Fletcher', '2007-03-19', 72, 159, 8, NULL, N'Scotland', NULL, 2025, 2025),
-        (106027, N'FIF', N'SCO', N'F', N'Lawrence', N'Shankland', '1995-08-10', 73, 163, 20, NULL, N'Scotland', NULL, 2025, 2025),
-        (106028, N'FIF', N'SCO', N'F', N'Lyndon', N'Dykes', '1995-10-07', 74, 183, 9, NULL, N'Scotland', NULL, 2025, 2025),
-        (106029, N'FIF', N'SCO', N'F', N'Ché', N'Adams', '1996-07-13', 69, 152, 10, NULL, N'Scotland', NULL, 2025, 2025),
-        (106030, N'FIF', N'SCO', N'F', N'George', N'Hirst', '1999-02-15', 75, 179, 18, NULL, N'Scotland', NULL, 2025, 2025),
-        (106031, N'FIF', N'SCO', N'F', N'Ross', N'Stewart', '1996-07-11', 74, 185, 14, NULL, N'Scotland', NULL, 2025, 2025),
-        (106032, N'FIF', N'SCO', N'F', N'Ben', N'Gannon-Doak', '2005-11-11', 68, 141, 17, NULL, N'Scotland', NULL, 2025, 2025),
-        (106033, N'FIF', N'SCO', N'F', N'Findlay', N'Curtis', '2006-10-01', 71, 146, 25, NULL, N'Scotland', NULL, 2025, 2025),
-        (106034, N'FIF', N'SEN', N'G', N'Mory', N'Diaw', '1993-06-22', 78, 183, 23, NULL, N'Senegal', NULL, 2025, 2025),
-        (106035, N'FIF', N'SEN', N'G', N'Édouard', N'Mendy', '1992-03-01', 76, 214, 16, NULL, N'Senegal', NULL, 2025, 2025),
-        (106036, N'FIF', N'SEN', N'G', N'Yehvann', N'Diouf', '1999-11-16', 74, 161, 1, NULL, N'Senegal', NULL, 2025, 2025),
-        (106037, N'FIF', N'SEN', N'D', N'Kalidou', N'Koulibaly', '1991-06-20', 77, 194, 3, NULL, N'Senegal', NULL, 2025, 2025),
-        (106038, N'FIF', N'SEN', N'D', N'Moussa', N'Niakhaté', '1996-03-08', 75, 181, 19, NULL, N'Senegal', NULL, 2025, 2025),
-        (106039, N'FIF', N'SEN', N'D', N'Abdoulaye', N'Seck', '1992-06-04', 76, 174, 4, NULL, N'Senegal', NULL, 2025, 2025),
-        (106040, N'FIF', N'SEN', N'D', N'Ismail', N'Jakobs', '1999-08-17', 72, 163, 14, NULL, N'Senegal', NULL, 2025, 2025),
-        (106041, N'FIF', N'SEN', N'D', N'Antoine', N'Mendy', '2004-05-27', 74, 163, 24, NULL, N'Senegal', NULL, 2025, 2025),
-        (106042, N'FIF', N'SEN', N'D', N'Mamadou', N'Sarr', '2005-08-29', 76, 170, 2, NULL, N'Senegal', NULL, 2025, 2025),
-        (106043, N'FIF', N'SEN', N'D', N'El Hadji Malick', N'Diouf', '2004-12-29', 72, 150, 25, NULL, N'Senegal', NULL, 2025, 2025),
-        (106044, N'FIF', N'SEN', N'M', N'Lamine', N'Camara', '2004-01-01', 68, 141, 8, NULL, N'Senegal', NULL, 2025, 2025),
-        (106045, N'FIF', N'SEN', N'M', N'Idrissa', N'Gueye', '1989-09-26', 69, 146, 5, NULL, N'Senegal', NULL, 2025, 2025),
-        (106046, N'FIF', N'SEN', N'M', N'Krépin', N'Diatta', '1999-02-25', 69, 150, 15, NULL, N'Senegal', NULL, 2025, 2025),
-        (106047, N'FIF', N'SEN', N'M', N'Pape', N'Gueye', '1999-01-24', 74, 172, 26, NULL, N'Senegal', NULL, 2025, 2025),
-        (106048, N'FIF', N'SEN', N'M', N'Pathé', N'Ciss', '1994-03-16', 73, 157, 6, NULL, N'Senegal', NULL, 2025, 2025),
-        (106049, N'FIF', N'SEN', N'M', N'Pape Matar', N'Sarr', '2002-09-14', 73, 174, 17, NULL, N'Senegal', NULL, 2025, 2025),
-        (106050, N'FIF', N'SEN', N'M', N'Habib', N'Diarra', '2004-01-03', 70, 161, 21, NULL, N'Senegal', NULL, 2025, 2025),
-        (106051, N'FIF', N'SEN', N'M', N'Bara Sapoko', N'Ndiaye', '2007-12-31', 71, 172, 22, NULL, N'Senegal', NULL, 2025, 2025),
-        (106052, N'FIF', N'SEN', N'F', N'Sadio', N'Mané', '1992-04-10', 69, 150, 10, NULL, N'Senegal', NULL, 2025, 2025),
-        (106053, N'FIF', N'SEN', N'F', N'Ismaïla', N'Sarr', '1998-02-25', 73, 168, 18, NULL, N'Senegal', NULL, 2025, 2025),
-        (106054, N'FIF', N'SEN', N'F', N'Cherif', N'Ndiaye', '1996-01-23', 75, 183, 12, NULL, N'Senegal', NULL, 2025, 2025),
-        (106055, N'FIF', N'SEN', N'F', N'Iliman', N'Ndiaye', '2000-03-06', 71, 172, 13, NULL, N'Senegal', NULL, 2025, 2025),
-        (106056, N'FIF', N'SEN', N'F', N'Nicolas', N'Jackson', '2001-06-20', 74, 181, 11, NULL, N'Senegal', NULL, 2025, 2025),
-        (106057, N'FIF', N'SEN', N'F', N'Bamba', N'Dieng', '2000-03-23', 70, 172, 9, NULL, N'Senegal', NULL, 2025, 2025),
-        (106058, N'FIF', N'SEN', N'F', N'Assane', N'Diao', '2005-09-07', 73, 174, 7, NULL, N'Senegal', NULL, 2025, 2025),
-        (106059, N'FIF', N'SEN', N'F', N'Ibrahim', N'Mbaye', '2008-01-24', 73, 141, 20, NULL, N'Senegal', NULL, 2025, 2025),
-        (106060, N'FIF', N'RSA', N'G', N'Ricardo', N'Goss', '1994-04-02', 71, 163, 22, NULL, N'South Africa', NULL, 2025, 2025),
-        (106061, N'FIF', N'RSA', N'G', N'Ronwen', N'Williams', '1992-01-21', 72, 172, 1, NULL, N'South Africa', NULL, 2025, 2025),
-        (106062, N'FIF', N'RSA', N'G', N'Sipho', N'Chaine', '1996-12-14', 73, 170, 16, NULL, N'South Africa', NULL, 2025, 2025),
-        (106063, N'FIF', N'RSA', N'D', N'Aubrey', N'Modiba', '1995-07-22', 66, 161, 6, NULL, N'South Africa', NULL, 2025, 2025),
-        (106064, N'FIF', N'RSA', N'D', N'Nkosinathi', N'Sibisi', '1995-09-22', 70, 172, 19, NULL, N'South Africa', NULL, 2025, 2025),
-        (106065, N'FIF', N'RSA', N'D', N'Khuliso', N'Mudau', '1995-04-26', 71, 159, 20, NULL, N'South Africa', NULL, 2025, 2025),
-        (106066, N'FIF', N'RSA', N'D', N'Bradley', N'Cross', '2001-01-30', 69, 152, 26, NULL, N'South Africa', NULL, 2025, 2025),
-        (106067, N'FIF', N'RSA', N'D', N'Olwethu', N'Makhanya', '2004-04-30', 74, 159, 24, NULL, N'South Africa', NULL, 2025, 2025),
-        (106068, N'FIF', N'RSA', N'D', N'Ime', N'Okon', '2004-02-20', 74, 183, 21, NULL, N'South Africa', NULL, 2025, 2025),
-        (106069, N'FIF', N'RSA', N'D', N'Thabang', N'Matuludi', '1999-01-14', 74, 163, 2, NULL, N'South Africa', NULL, 2025, 2025),
-        (106070, N'FIF', N'RSA', N'D', N'Samukele', N'Kabini', '2004-03-15', 71, 172, 18, NULL, N'South Africa', NULL, 2025, 2025),
-        (106071, N'FIF', N'RSA', N'D', N'Khulumani', N'Ndamane', '2004-02-05', 72, 168, 3, NULL, N'South Africa', NULL, 2025, 2025),
-        (106072, N'FIF', N'RSA', N'D', N'Mbekezeli', N'Mbokazi', '2005-09-19', 71, 139, 14, NULL, N'South Africa', NULL, 2025, 2025);
-
-    INSERT INTO [core].[Players] ([playerID], [sportCode], [teamCode], [positionCode], [firstName], [lastName], [dateOfBirth], [heightInches], [weight], [number], [college], [birthCountry], [birthCityState], [draftYear], [seasonYear])
-    VALUES
-        (106073, N'FIF', N'RSA', N'M', N'Themba', N'Zwane', '1989-08-03', 67, 148, 11, NULL, N'South Africa', NULL, 2025, 2025),
-        (106074, N'FIF', N'RSA', N'M', N'Sphephelo', N'Sithole', '1999-03-03', 74, 192, 13, NULL, N'South Africa', NULL, 2025, 2025),
-        (106075, N'FIF', N'RSA', N'M', N'Teboho', N'Mokoena', '1997-01-24', 69, 168, 4, NULL, N'South Africa', NULL, 2025, 2025),
-        (106076, N'FIF', N'RSA', N'M', N'Thalente', N'Mbatha', '2000-03-06', 71, 157, 5, NULL, N'South Africa', NULL, 2025, 2025),
-        (106077, N'FIF', N'RSA', N'M', N'Jayden', N'Adams', '2001-05-05', 69, 150, 23, NULL, N'South Africa', NULL, 2025, 2025),
-        (106078, N'FIF', N'RSA', N'M', N'Kamogelo', N'Sebelebele', '2002-07-21', 65, 119, 25, NULL, N'South Africa', NULL, 2025, 2025),
-        (106079, N'FIF', N'RSA', N'F', N'Lyle', N'Foster', '2000-09-03', 73, 172, 9, NULL, N'South Africa', NULL, 2025, 2025),
-        (106080, N'FIF', N'RSA', N'F', N'Oswin', N'Appollis', '2001-08-25', 67, 152, 7, NULL, N'South Africa', NULL, 2025, 2025),
-        (106081, N'FIF', N'RSA', N'F', N'Iqraam', N'Rayners', '1995-12-19', 69, 168, 15, NULL, N'South Africa', NULL, 2025, 2025),
-        (106082, N'FIF', N'RSA', N'F', N'Evidence', N'Makgopa', '2000-06-05', 74, 161, 17, NULL, N'South Africa', NULL, 2025, 2025),
-        (106083, N'FIF', N'RSA', N'F', N'Tshepang', N'Moremi', '2000-10-02', 66, 152, 8, NULL, N'South Africa', NULL, 2025, 2025),
-        (106084, N'FIF', N'RSA', N'F', N'Thapelo', N'Maseko', '2003-11-11', 70, 161, 12, NULL, N'South Africa', NULL, 2025, 2025),
-        (106085, N'FIF', N'RSA', N'F', N'Relebohile', N'Mofokeng', '2004-10-23', 67, 150, 10, NULL, N'South Africa', NULL, 2025, 2025),
-        (106086, N'FIF', N'KOR', N'G', N'Kim', N'Seung-Gyu', '1990-09-30', 74, 183, 1, NULL, N'South Korea', NULL, 2025, 2025),
-        (106087, N'FIF', N'KOR', N'G', N'Jo', N'Hyeon-Woo', '1991-09-25', 74, 163, 21, NULL, N'South Korea', NULL, 2025, 2025),
-        (106088, N'FIF', N'KOR', N'G', N'Song', N'Bum-Keun', '1997-10-15', 77, 196, 12, NULL, N'South Korea', NULL, 2025, 2025),
-        (106089, N'FIF', N'KOR', N'D', N'Kim', N'Min-Jae', '1996-11-15', 75, 179, 4, NULL, N'South Korea', NULL, 2025, 2025),
-        (106090, N'FIF', N'KOR', N'D', N'Kim', N'Moon-Hwan', '1995-08-01', 68, 139, 15, NULL, N'South Korea', NULL, 2025, 2025),
-        (106091, N'FIF', N'KOR', N'D', N'Kim', N'Tae-Hyeon', '2000-09-17', 74, 181, 5, NULL, N'South Korea', NULL, 2025, 2025),
-        (106092, N'FIF', N'KOR', N'D', N'Lee', N'Tae-Seok', '2002-07-28', 69, 157, 13, NULL, N'South Korea', NULL, 2025, 2025),
-        (106093, N'FIF', N'KOR', N'D', N'Lee', N'Han-Beom', '2002-06-17', 75, 159, 2, NULL, N'South Africa', NULL, 2025, 2025),
-        (106094, N'FIF', N'KOR', N'D', N'Seol', N'Young-Woo', '1998-12-05', 72, 159, 22, NULL, N'South Korea', NULL, 2025, 2025),
-        (106095, N'FIF', N'KOR', N'D', N'Lee', N'Gi-Hyuk', '2000-07-07', 72, 159, 3, NULL, N'South Korea', NULL, 2025, 2025),
-        (106096, N'FIF', N'KOR', N'D', N'Cho', N'Wi-Je', '2001-08-25', 74, 181, 14, NULL, N'South Korea', NULL, 2025, 2025),
-        (106097, N'FIF', N'KOR', N'M', N'Kim', N'Jin-Gyu', '1997-02-24', 70, 150, 24, NULL, N'South Korea', NULL, 2025, 2025),
-        (106098, N'FIF', N'KOR', N'M', N'Lee', N'Jae-Sung', '1992-08-10', 71, 152, 10, NULL, N'South Korea', NULL, 2025, 2025),
-        (106099, N'FIF', N'KOR', N'M', N'Paik', N'Seung-Ho', '1997-03-17', 72, 159, 8, NULL, N'South Korea', NULL, 2025, 2025),
-        (106100, N'FIF', N'KOR', N'M', N'Lee', N'Dong-Gyeong', '1997-09-20', 69, 150, 26, NULL, N'South Korea', NULL, 2025, 2025),
-        (106101, N'FIF', N'KOR', N'M', N'Lee', N'Kang-In', '2001-02-19', 68, 146, 19, NULL, N'South Korea', NULL, 2025, 2025),
-        (106102, N'FIF', N'KOR', N'M', N'Hwang', N'In-Beom', '1996-09-20', 70, 152, 6, NULL, N'South Korea', NULL, 2025, 2025),
-        (106103, N'FIF', N'KOR', N'M', N'Jens', N'Castrop', '2003-07-29', 70, 168, 23, NULL, N'South Korea', NULL, 2025, 2025),
-        (106104, N'FIF', N'KOR', N'M', N'Park', N'Jin-Seop', '1995-10-23', 73, 170, 16, NULL, N'South Korea', NULL, 2025, 2025),
-        (106105, N'FIF', N'KOR', N'M', N'Bae', N'Jun-Ho', '2003-08-21', 71, 152, 17, NULL, N'South Korea', NULL, 2025, 2025),
-        (106106, N'FIF', N'KOR', N'F', N'Son', N'Heung-Min', '1992-07-08', 72, 168, 7, NULL, N'South Korea', NULL, 2025, 2025),
-        (106107, N'FIF', N'KOR', N'F', N'Hwang', N'Hee-Chan', '1996-01-26', 70, 170, 11, NULL, N'South Korea', NULL, 2025, 2025),
-        (106108, N'FIF', N'KOR', N'F', N'Eom', N'Ji-Sung', '2002-05-09', 70, 152, 25, NULL, N'South Korea', NULL, 2025, 2025),
-        (106109, N'FIF', N'KOR', N'F', N'Oh', N'Hyeon-Gyu', '2001-04-12', 74, 159, 18, NULL, N'South Korea', NULL, 2025, 2025),
-        (106110, N'FIF', N'KOR', N'F', N'Cho', N'Gue-Sung', '1998-01-25', 74, 181, 9, NULL, N'South Korea', NULL, 2025, 2025),
-        (106111, N'FIF', N'KOR', N'F', N'Yang', N'Hyun-Jun', '2002-05-25', 69, 161, 20, NULL, N'South Korea', NULL, 2025, 2025),
-        (106112, N'FIF', N'ESP', N'G', N'David', N'Raya', '1995-09-15', 72, 174, 1, NULL, N'Spain', NULL, 2025, 2025),
-        (106113, N'FIF', N'ESP', N'G', N'Unai', N'Simón', '1997-06-11', 75, 192, 23, NULL, N'Spain', NULL, 2025, 2025),
-        (106114, N'FIF', N'ESP', N'G', N'Joan', N'García', '2001-05-04', 76, 185, 13, NULL, N'Spain', NULL, 2025, 2025),
-        (106115, N'FIF', N'ESP', N'D', N'Eric', N'García', '2001-01-09', 71, 170, 4, NULL, N'Spain', NULL, 2025, 2025),
-        (106116, N'FIF', N'ESP', N'D', N'Aymeric', N'Laporte', '1994-05-27', 74, 190, 14, NULL, N'Spain', NULL, 2025, 2025),
-        (106117, N'FIF', N'ESP', N'D', N'Alejandro', N'Grimaldo', '1995-09-20', 67, 139, 3, NULL, N'Spain', NULL, 2025, 2025),
-        (106118, N'FIF', N'ESP', N'D', N'Marc', N'Cucurella', '1998-07-22', 69, 146, 24, NULL, N'Spain', NULL, 2025, 2025),
-        (106119, N'FIF', N'ESP', N'D', N'Pedro', N'Porro', '1999-09-13', 68, 150, 12, NULL, N'Spain', NULL, 2025, 2025),
-        (106120, N'FIF', N'ESP', N'D', N'Marc', N'Pubill', '2003-06-20', 75, 190, 2, NULL, N'Spain', NULL, 2025, 2025),
-        (106121, N'FIF', N'ESP', N'D', N'Pau', N'Cubarsí', '2007-01-22', 72, 172, 22, NULL, N'Spain', NULL, 2025, 2025),
-        (106122, N'FIF', N'ESP', N'M', N'Marcos', N'Llorente', '1995-01-30', 72, 161, 5, NULL, N'Spain', NULL, 2025, 2025),
-        (106123, N'FIF', N'ESP', N'M', N'Mikel', N'Merino', '1996-06-22', 74, 183, 6, NULL, N'Spain', NULL, 2025, 2025),
-        (106124, N'FIF', N'ESP', N'M', N'Fabián', N'Ruiz', '1996-04-03', 74, 152, 8, NULL, N'Spain', NULL, 2025, 2025),
-        (106125, N'FIF', N'ESP', N'M', N'Dani', N'Olmo', '1998-05-07', 72, 161, 10, NULL, N'Spain', NULL, 2025, 2025),
-        (106126, N'FIF', N'ESP', N'M', N'Rodri', NULL, '1996-06-22', 75, 196, 16, NULL, N'Spain', N'Madrid', 2025, 2025),
-        (106127, N'FIF', N'ESP', N'M', N'Pedri', NULL, '2002-11-25', 69, 150, 20, NULL, N'Spain', NULL, 2025, 2025),
-        (106128, N'FIF', N'ESP', N'M', N'Martín', N'Zubimendi', '1999-02-02', 71, 161, 18, NULL, N'Spain', NULL, 2025, 2025),
-        (106129, N'FIF', N'ESP', N'M', N'Yéremy', N'Pino', '2002-10-20', 68, 141, 11, NULL, N'Spain', NULL, 2025, 2025),
-        (106130, N'FIF', N'ESP', N'M', N'Álex', N'Baena', '2001-07-20', 69, 152, 15, NULL, N'Spain', NULL, 2025, 2025),
-        (106131, N'FIF', N'ESP', N'M', N'Gavi', NULL, '2004-08-05', 69, 150, 9, NULL, N'Spain', NULL, 2025, 2025),
-        (106132, N'FIF', N'ESP', N'F', N'Borja', N'Iglesias', '1993-01-17', 74, 190, 26, NULL, N'Spain', NULL, 2025, 2025),
-        (106133, N'FIF', N'ESP', N'F', N'Mikel', N'Oyarzabal', '1997-04-21', 71, 172, 21, NULL, N'Spain', NULL, 2025, 2025),
-        (106134, N'FIF', N'ESP', N'F', N'Ferran', N'Torres', '2000-02-29', 72, 174, 7, NULL, N'Spain', NULL, 2025, 2025),
-        (106135, N'FIF', N'ESP', N'F', N'Nico', N'Williams', '2002-07-12', 71, 148, 17, NULL, N'Spain', NULL, 2025, 2025),
-        (106136, N'FIF', N'ESP', N'F', N'Lamine', N'Yamal', '2007-07-13', 70, 168, 19, NULL, N'Spain', NULL, 2025, 2025),
-        (106137, N'FIF', N'ESP', N'F', N'Víctor', N'Muñoz', '2003-07-13', 68, 152, 25, NULL, N'Spain', NULL, 2025, 2025),
-        (106138, N'FIF', N'SWE', N'G', N'Kristoffer', N'Nordfeldt', '1989-06-23', 75, 185, 23, NULL, N'Sweden', NULL, 2025, 2025),
-        (106139, N'FIF', N'SWE', N'G', N'Viktor', N'Johansson', '1998-09-14', 74, 174, 12, NULL, N'Sweden', NULL, 2025, 2025),
-        (106140, N'FIF', N'SWE', N'G', N'Jacob', N'Widell Zetterström', '1998-07-11', 78, 192, 1, NULL, N'Sweden', NULL, 2025, 2025),
-        (106141, N'FIF', N'SWE', N'D', N'Carl', N'Starfelt', '1995-06-01', 73, 183, 15, NULL, N'Sweden', NULL, 2025, 2025),
-        (106142, N'FIF', N'SWE', N'M', N'Eric', N'Smith', '1997-01-08', 76, 190, 20, NULL, N'Sweden', NULL, 2025, 2025),
-        (106143, N'FIF', N'SWE', N'D', N'Victor', N'Lindelöf', '1994-07-17', 74, 181, 3, NULL, N'Sweden', NULL, 2025, 2025),
-        (106144, N'FIF', N'SWE', N'D', N'Gabriel', N'Gudmundsson', '1999-04-29', 71, 163, 5, NULL, N'Sweden', NULL, 2025, 2025),
-        (106145, N'FIF', N'SWE', N'D', N'Hjalmar', N'Ekdal', '1998-10-21', 74, 168, 14, NULL, N'Sweden', NULL, 2025, 2025),
-        (106146, N'FIF', N'SWE', N'D', N'Daniel', N'Svensson', '2002-02-12', 72, 159, 8, NULL, N'Sweden', NULL, 2025, 2025),
-        (106147, N'FIF', N'SWE', N'D', N'Isak', N'Hien', '1999-01-13', 75, 192, 4, NULL, N'Sweden', NULL, 2025, 2025),
-        (106148, N'FIF', N'SWE', N'D', N'Gustaf', N'Lagerbielke', '2000-04-10', 76, 174, 2, NULL, N'Sweden', NULL, 2025, 2025),
-        (106149, N'FIF', N'SWE', N'M', N'Ken', N'Sema', '1993-09-30', 71, 181, 13, NULL, N'Sweden', NULL, 2025, 2025),
-        (106150, N'FIF', N'SWE', N'M', N'Mattias', N'Svanberg', '1999-01-05', 73, 170, 19, NULL, N'Sweden', NULL, 2025, 2025),
-        (106151, N'FIF', N'SWE', N'M', N'Jesper', N'Karlström', '1995-06-21', 72, 179, 16, NULL, N'Sweden', NULL, 2025, 2025),
-        (106152, N'FIF', N'SWE', N'M', N'Yasin', N'Ayari', '2003-10-06', 68, 150, 18, NULL, N'Sweden', NULL, 2025, 2025),
-        (106153, N'FIF', N'SWE', N'M', N'Herman', N'Johansson', '1997-10-16', 75, 183, 6, NULL, N'Sweden', NULL, 2025, 2025),
-        (106154, N'FIF', N'SWE', N'M', N'Taha', N'Ali', '1998-07-01', 69, 139, 26, NULL, N'Sweden', NULL, 2025, 2025),
-        (106155, N'FIF', N'SWE', N'M', N'Besfort', N'Zeneli', '2002-11-21', 74, 157, 22, NULL, N'Sweden', NULL, 2025, 2025),
-        (106156, N'FIF', N'SWE', N'M', N'Lucas', N'Bergvall', '2006-02-02', 74, 163, 7, NULL, N'Sweden', NULL, 2025, 2025),
-        (106157, N'FIF', N'SWE', N'M', N'Elliot', N'Stroud', '2002-06-22', 73, 163, 24, NULL, N'Sweden', NULL, 2025, 2025),
-        (106158, N'FIF', N'SWE', N'F', N'Alexander', N'Isak', '1999-09-21', 75, 161, 9, NULL, N'Sweden', NULL, 2025, 2025),
-        (106159, N'FIF', N'SWE', N'F', N'Gustaf', N'Nilsson', '1997-05-23', 78, 192, 25, NULL, N'Sweden', NULL, 2025, 2025),
-        (106160, N'FIF', N'SWE', N'F', N'Viktor', N'Gyökeres', '1998-06-04', 74, 196, 17, NULL, N'Sweden', NULL, 2025, 2025),
-        (106161, N'FIF', N'SWE', N'F', N'Benjamin', N'Nygren', '2001-07-08', 74, 168, 10, NULL, N'Sweden', NULL, 2025, 2025),
-        (106162, N'FIF', N'SWE', N'F', N'Anthony', N'Elanga', '2002-04-27', 70, 163, 11, NULL, N'Sweden', NULL, 2025, 2025),
-        (106163, N'FIF', N'SWE', N'F', N'Alexander', N'Bernhardsson', '1998-09-08', 72, 152, 21, NULL, N'Sweden', NULL, 2025, 2025),
-        (106164, N'FIF', N'SUI', N'G', N'Yvon', N'Mvogo', '1994-06-06', 75, 192, 12, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106165, N'FIF', N'SUI', N'G', N'Gregor', N'Kobel', '1997-12-06', 77, 192, 1, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106166, N'FIF', N'SUI', N'G', N'Marvin', N'Keller', '2002-07-03', 74, 192, 21, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106167, N'FIF', N'SUI', N'D', N'Ricardo', N'Rodríguez', '1992-08-25', 72, 183, 13, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106168, N'FIF', N'SUI', N'D', N'Silvan', N'Widmer', '1993-03-05', 72, 170, 3, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106169, N'FIF', N'SUI', N'D', N'Nico', N'Elvedi', '1996-09-30', 74, 183, 4, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106170, N'FIF', N'SUI', N'D', N'Manuel', N'Akanji', '1995-07-19', 74, 201, 5, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106171, N'FIF', N'SUI', N'D', N'Eray', N'Cömert', '1998-02-04', 72, 174, 18, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106172, N'FIF', N'SUI', N'D', N'Miro', N'Muheim', '1998-03-24', 72, 170, 2, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106173, N'FIF', N'SUI', N'D', N'Aurèle', N'Amenda', '2003-07-31', 76, 196, 24, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106174, N'FIF', N'SUI', N'D', N'Luca', N'Jaquez', '2003-06-02', 74, 174, 25, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106175, N'FIF', N'SUI', N'M', N'Granit', N'Xhaka', '1992-09-27', 73, 174, 10, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106176, N'FIF', N'SUI', N'M', N'Remo', N'Freuler', '1992-04-15', 71, 170, 8, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106177, N'FIF', N'SUI', N'M', N'Djibril', N'Sow', '1997-02-06', 72, 168, 15, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106178, N'FIF', N'SUI', N'M', N'Denis', N'Zakaria', '1996-11-20', 75, 168, 6, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106179, N'FIF', N'SUI', N'M', N'Christian', N'Fassnacht', '1993-11-11', 73, 172, 16, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106180, N'FIF', N'SUI', N'M', N'Michel', N'Aebischer', '1997-01-06', 72, 172, 20, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106181, N'FIF', N'SUI', N'M', N'Rubén', N'Vargas', '1998-08-05', 70, 170, 17, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106182, N'FIF', N'SUI', N'M', N'Ardon', N'Jashari', '2002-07-30', 71, 179, 14, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106183, N'FIF', N'SUI', N'M', N'Fabian', N'Rieder', '2002-02-16', 70, 161, 22, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106184, N'FIF', N'SUI', N'M', N'Johan', N'Manzambi', '2005-10-14', 72, 163, 9, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106185, N'FIF', N'SUI', N'F', N'Breel', N'Embolo', '1997-02-14', 74, 183, 7, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106186, N'FIF', N'SUI', N'F', N'Cedric', N'Itten', '1996-12-27', 75, 183, 26, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106187, N'FIF', N'SUI', N'F', N'Noah', N'Okafor', '2000-05-24', 73, 185, 19, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106188, N'FIF', N'SUI', N'F', N'Dan', N'Ndoye', '2000-10-25', 72, 159, 11, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106189, N'FIF', N'SUI', N'F', N'Zeki', N'Amdouni', '2000-12-04', 73, 172, 23, NULL, N'Switzerland', NULL, 2025, 2025),
-        (106190, N'FIF', N'TUN', N'G', N'Sabri', N'Ben Hessen', '1996-06-13', 74, 174, 22, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106191, N'FIF', N'TUN', N'G', N'Aymen', N'Dahmen', '1997-01-28', 74, 174, 16, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106192, N'FIF', N'TUN', N'G', N'Mouhib', N'Chamakh', '2001-08-25', 74, 185, 1, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106193, N'FIF', N'TUN', N'D', N'Dylan', N'Bronn', '1995-06-19', 73, 163, 6, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106194, N'FIF', N'TUN', N'D', N'Yan', N'Valery', '1999-02-22', 71, 161, 20, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106195, N'FIF', N'TUN', N'D', N'Montassar', N'Talbi', '1998-05-26', 75, 174, 3, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106196, N'FIF', N'TUN', N'D', N'Ali', N'Abdi', '1993-12-20', 70, 172, 2, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106197, N'FIF', N'TUN', N'D', N'Mohamed Amine', N'Ben Hamida', '1995-12-15', 71, 152, 21, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106198, N'FIF', N'TUN', N'D', N'Omar', N'Rekik', '2001-12-20', 74, 170, 4, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106199, N'FIF', N'TUN', N'D', N'Moutaz', N'Neffati', '2004-09-04', 72, 163, 23, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106200, N'FIF', N'TUN', N'D', N'Adem', N'Arous', '2004-07-17', 74, 174, 5, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106201, N'FIF', N'TUN', N'D', N'Raed', N'Chikhaoui', '2004-06-09', 75, 185, 24, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106202, N'FIF', N'TUN', N'M', N'Rani', N'Khedira', '1994-01-27', 74, 183, 13, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106203, N'FIF', N'TUN', N'M', N'Ellyes', N'Skhiri', '1995-05-10', 73, 161, 17, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106204, N'FIF', N'TUN', N'M', N'Mortadha', N'Ben Ouanes', '1994-07-02', 74, 161, 12, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106205, N'FIF', N'TUN', N'M', N'Mohamed', N'Hadj Mahmoud', '2000-04-24', 70, 172, 15, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106206, N'FIF', N'TUN', N'M', N'Hannibal', N'Mejbri', '2003-01-21', 70, 161, 10, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106207, N'FIF', N'TUN', N'M', N'Anis', N'Slimane', '2001-03-16', 74, 190, 25, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106208, N'FIF', N'TUN', N'M', N'Elias', N'Achouri', '1999-02-10', 74, 161, 7, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106209, N'FIF', N'TUN', N'F', N'Firas', N'Chaouat', '1996-05-08', 73, 152, 19, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106210, N'FIF', N'TUN', N'F', N'Sebastian', N'Tounekti', '2002-07-13', 72, 174, 26, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106211, N'FIF', N'TUN', N'M', N'Ismaël', N'Gharbi', '2004-04-10', 71, 170, 11, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106212, N'FIF', N'TUN', N'F', N'Elias', N'Saad', '1999-12-27', 73, 174, 8, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106213, N'FIF', N'TUN', N'F', N'Hazem', N'Mastouri', '1997-06-18', 75, 174, 9, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106214, N'FIF', N'TUN', N'F', N'Khalil', N'Ayari', '2005-02-02', 69, 152, 14, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106215, N'FIF', N'TUN', N'F', N'Rayan', N'Elloumi', '2007-09-17', 71, 174, 18, NULL, N'Tunisia', NULL, 2025, 2025),
-        (106216, N'FIF', N'TUR', N'G', N'Mert', N'Günok', '1989-03-01', 77, 203, 1, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106217, N'FIF', N'TUR', N'G', N'Ugurcan', N'Çakir', '1996-04-05', 75, 185, 23, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106218, N'FIF', N'TUR', N'G', N'Altay', N'Bayindir', '1998-04-14', 78, 192, 12, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106219, N'FIF', N'TUR', N'D', N'Kaan', N'Ayhan', '1994-11-10', 73, 192, 22, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106220, N'FIF', N'TUR', N'D', N'Abdülkerim', N'Bardakçi', '1994-09-07', 73, 201, 14, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106221, N'FIF', N'TUR', N'D', N'Çaglar', N'Söyüncü', '1996-05-23', 73, 192, 4, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106222, N'FIF', N'TUR', N'D', N'Ferdi', N'Kadioglu', '1999-10-07', 69, 150, 20, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106223, N'FIF', N'TUR', N'D', N'Mert', N'Müldür', '1999-04-03', 72, 161, 18, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106224, N'FIF', N'TUR', N'D', N'Ozan', N'Kabak', '2000-03-25', 74, 190, 15, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106225, N'FIF', N'TUR', N'D', N'Merih', N'Demiral', '1998-03-05', 75, 190, 3, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106226, N'FIF', N'TUR', N'D', N'Zeki', N'Çelik', '1997-02-17', 71, 172, 2, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106227, N'FIF', N'TUR', N'D', N'Eren', N'Elmali', '2000-07-07', 71, 170, 13, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106228, N'FIF', N'TUR', N'D', N'Samet', N'Akaydin', '1994-03-13', 75, 183, 25, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106229, N'FIF', N'TUR', N'M', N'Hakan', N'Çalhanoglu', '1994-02-08', 70, 168, 10, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106230, N'FIF', N'TUR', N'M', N'Irfan Can', N'Kahveci', '1995-07-15', 71, 172, 17, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106231, N'FIF', N'TUR', N'M', N'Salih', N'Özcan', '1998-01-11', 72, 179, 5, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106232, N'FIF', N'TUR', N'M', N'Orkun', N'Kökçü', '2000-12-29', 69, 181, 6, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106233, N'FIF', N'TUR', N'M', N'Ismail', N'Yüksek', '1999-01-26', 72, 163, 16, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106234, N'FIF', N'TUR', N'M', N'Arda', N'Güler', '2005-02-25', 69, 148, 8, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106235, N'FIF', N'TUR', N'M', N'Can', N'Uzun', '2005-11-11', 73, 183, 26, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106236, N'FIF', N'TUR', N'F', N'Yunus', N'Akgün', '2000-07-07', 68, 159, 19, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106237, N'FIF', N'TUR', N'F', N'Kerem', N'Aktürkoglu', '1998-10-21', 68, 150, 7, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106238, N'FIF', N'TUR', N'F', N'Baris Alper', N'Yilmaz', '2000-05-23', 73, 190, 21, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106239, N'FIF', N'TUR', N'F', N'Oguz', N'Aydin', '2000-10-27', 72, 168, 24, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106240, N'FIF', N'TUR', N'F', N'Deniz', N'Gül', '2004-07-02', 75, 181, 9, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106241, N'FIF', N'TUR', N'F', N'Kenan', N'Yildiz', '2005-05-04', 74, 170, 11, NULL, N'Türkiye', NULL, 2025, 2025),
-        (106242, N'FIF', N'USA', N'G', N'Matt', N'Freese', '1998-09-02', 75, 192, 24, NULL, N'USA', NULL, 2025, 2025),
-        (106243, N'FIF', N'USA', N'G', N'Chris', N'Brady', '2004-03-03', 75, 170, 25, NULL, N'USA', NULL, 2025, 2025),
-        (106244, N'FIF', N'USA', N'G', N'Matt', N'Turner', '1994-06-24', 75, 183, 1, NULL, N'USA', NULL, 2025, 2025),
-        (106245, N'FIF', N'USA', N'D', N'Mark', N'McKenzie', '1999-02-25', 72, 183, 22, NULL, N'USA', N'New York City', 2025, 2025),
-        (106246, N'FIF', N'USA', N'D', N'Tim', N'Ream', '1987-10-05', 73, 174, 13, NULL, N'USA', NULL, 2025, 2025),
-        (106247, N'FIF', N'USA', N'D', N'Antonee', N'Robinson', '1997-08-08', 72, 161, 5, NULL, N'USA', NULL, 2025, 2025),
-        (106248, N'FIF', N'USA', N'D', N'Auston', N'Trusty', '1998-08-12', 75, 172, 6, NULL, N'USA', NULL, 2025, 2025),
-        (106249, N'FIF', N'USA', N'D', N'Alex', N'Freeman', '2004-08-09', 74, 174, 16, NULL, N'USA', NULL, 2025, 2025),
-        (106250, N'FIF', N'USA', N'D', N'Miles', N'Robinson', '1997-03-14', 74, 183, 12, NULL, N'USA', NULL, 2025, 2025),
-        (106251, N'FIF', N'USA', N'D', N'Sergiño', N'Dest', '2000-11-03', 68, 137, 2, NULL, N'USA', NULL, 2025, 2025),
-        (106252, N'FIF', N'USA', N'D', N'Joe', N'Scally', '2002-12-31', 72, 174, 23, NULL, N'USA', NULL, 2025, 2025),
-        (106253, N'FIF', N'USA', N'D', N'Chris', N'Richards', '2000-03-28', 74, 203, 3, NULL, N'USA', NULL, 2025, 2025),
-        (106254, N'FIF', N'USA', N'M', N'Cristian', N'Roldan', '1995-06-03', 68, 163, 15, NULL, N'USA', NULL, 2025, 2025),
-        (106255, N'FIF', N'USA', N'M', N'Tyler', N'Adams', '1999-02-14', 69, 159, 4, NULL, N'USA', NULL, 2025, 2025),
-        (106256, N'FIF', N'USA', N'M', N'Christian', N'Pulisic', '1998-09-18', 70, 161, 10, NULL, N'USA', NULL, 2025, 2025),
-        (106257, N'FIF', N'USA', N'M', N'Weston', N'McKennie', '1998-08-28', 73, 185, 8, NULL, N'USA', NULL, 2025, 2025),
-        (106258, N'FIF', N'USA', N'M', N'Brenden', N'Aaronson', '2000-10-22', 70, 150, 11, NULL, N'USA', NULL, 2025, 2025),
-        (106259, N'FIF', N'USA', N'M', N'Giovanni', N'Reyna', '2002-11-13', 73, 172, 7, NULL, N'USA', NULL, 2025, 2025),
-        (106260, N'FIF', N'USA', N'M', N'Sebastian', N'Berhalter', '2001-05-10', 69, 152, 14, NULL, N'USA', NULL, 2025, 2025),
-        (106261, N'FIF', N'USA', N'M', N'Malik', N'Tillman', '2002-05-28', 74, 190, 17, NULL, N'USA', NULL, 2025, 2025),
-        (106262, N'FIF', N'USA', N'F', N'Max', N'Arfsten', '2001-04-19', 73, 172, 18, NULL, N'USA', NULL, 2025, 2025),
-        (106263, N'FIF', N'USA', N'F', N'Alejandro', N'Zendejas', '1998-02-07', 66, 146, 26, NULL, N'USA', NULL, 2025, 2025),
-        (106264, N'FIF', N'USA', N'F', N'Haji', N'Wright', '1998-03-27', 75, 174, 19, NULL, N'USA', N'Los Angeles', 2025, 2025),
-        (106265, N'FIF', N'USA', N'F', N'Timothy', N'Weah', '2000-02-22', 72, 146, 21, NULL, N'USA', NULL, 2025, 2025),
-        (106266, N'FIF', N'USA', N'F', N'Folarin', N'Balogun', '2001-07-03', 70, 146, 20, NULL, N'USA', NULL, 2025, 2025),
-        (106267, N'FIF', N'USA', N'F', N'Ricardo', N'Pepi', '2003-01-09', 73, 161, 9, NULL, N'USA', NULL, 2025, 2025),
-        (106268, N'FIF', N'URU', N'G', N'Fernando', N'Muslera', '1986-06-16', 75, 183, 23, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106269, N'FIF', N'URU', N'G', N'Sergio', N'Rochet', '1993-03-23', 74, 181, 1, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106270, N'FIF', N'URU', N'G', N'Santiago', N'Mele', '1997-09-06', 72, 172, 12, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106271, N'FIF', N'URU', N'D', N'Guillermo', N'Varela', '1993-03-24', 68, 161, 13, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106272, N'FIF', N'URU', N'D', N'José María', N'Giménez', '1995-01-20', 73, 172, 2, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106273, N'FIF', N'URU', N'D', N'Mathías', N'Olivera', '1997-10-31', 69, 172, 16, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106274, N'FIF', N'URU', N'D', N'Santiago', N'Bueno', '1998-11-09', 75, 168, 24, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106275, N'FIF', N'URU', N'D', N'Joaquín', N'Piquerez', '1998-08-24', 72, 163, 22, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106276, N'FIF', N'URU', N'D', N'Matías', N'Viña', '1997-11-09', 69, 152, 17, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106277, N'FIF', N'URU', N'D', N'Ronald', N'Araújo', '1999-03-07', 75, 212, 4, NULL, N'Spain', N'Rivera', 2025, 2025),
-        (106278, N'FIF', N'URU', N'D', N'Sebastián', N'Cáceres', '1999-08-18', 71, 170, 3, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106279, N'FIF', N'URU', N'M', N'Emiliano', N'Martínez', '1999-08-17', 73, 141, 15, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106280, N'FIF', N'URU', N'M', N'Giorgian', N'de Arrascaeta', '1994-06-01', 68, 161, 10, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106281, N'FIF', N'URU', N'M', N'Rodrigo', N'Bentancur', '1997-06-25', 74, 159, 6, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106282, N'FIF', N'URU', N'M', N'Federico', N'Valverde', '1998-07-22', 72, 172, 8, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106283, N'FIF', N'URU', N'M', N'Manuel', N'Ugarte', '2001-04-11', 72, 170, 5, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106284, N'FIF', N'URU', N'M', N'Nicolás', N'de la Cruz', '1997-06-01', 66, 141, 7, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106285, N'FIF', N'URU', N'M', N'Maxi', N'Araújo', '2000-02-15', 70, 168, 20, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106286, N'FIF', N'URU', N'M', N'Rodrigo', N'Zalazar', '1999-08-12', 70, 152, 26, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106287, N'FIF', N'URU', N'M', N'Juan Manuel', N'Sanabria', '2000-03-29', 68, 130, 25, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106288, N'FIF', N'URU', N'M', N'Facundo', N'Pellistri', '2001-12-20', 69, 150, 11, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106289, N'FIF', N'URU', N'F', N'Brian', N'Rodríguez', '2000-05-20', 69, 150, 18, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106290, N'FIF', N'URU', N'F', N'Rodrigo', N'Aguirre', '1994-10-01', 72, 174, 19, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106291, N'FIF', N'URU', N'F', N'Agustín', N'Canobbio', '1998-10-01', 69, 179, 14, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106292, N'FIF', N'URU', N'F', N'Darwin', N'Núñez', '1999-06-24', 74, 179, 9, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106293, N'FIF', N'URU', N'F', N'Federico', N'Viñas', '1998-06-30', 71, 179, 21, NULL, N'Uruguay', NULL, 2025, 2025),
-        (106294, N'FIF', N'UZB', N'G', N'Botirali', N'Ergashev', '1995-06-23', 74, 172, 16, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106295, N'FIF', N'UZB', N'G', N'Utkir', N'Yusupov', '1991-01-04', 73, 168, 1, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106296, N'FIF', N'UZB', N'G', N'Abduvohid', N'Nematov', '2001-03-20', 72, 170, 12, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106297, N'FIF', N'UZB', N'D', N'Rustam', N'Ashurmatov', '1996-07-07', 73, 172, 5, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106298, N'FIF', N'UZB', N'D', N'Farrukh', N'Sayfiev', '1991-01-17', 72, 152, 4, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106299, N'FIF', N'UZB', N'D', N'Umar', N'Eshmurodov', '1992-11-30', 73, 159, 15, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106300, N'FIF', N'UZB', N'D', N'Khojiakbar', N'Alijonov', '1997-04-19', 71, 141, 3, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106301, N'FIF', N'UZB', N'D', N'Avazbek', N'Ulmasaliyev', '2000-03-27', 74, 159, 25, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106302, N'FIF', N'UZB', N'D', N'Sherzod', N'Nasrullaev', '1998-07-23', 72, 159, 13, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106303, N'FIF', N'UZB', N'D', N'Abdukodir', N'Khusanov', '2004-02-29', 73, 183, 2, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106304, N'FIF', N'UZB', N'D', N'Jakhongir', N'Urozov', '2004-01-18', 75, 174, 26, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106305, N'FIF', N'UZB', N'D', N'Behruzjon', N'Karimov', '2007-08-07', 68, 141, 24, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106306, N'FIF', N'UZB', N'M', N'Jamshid', N'Iskanderov', '1993-10-16', 67, 128, 8, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106307, N'FIF', N'UZB', N'M', N'Jaloliddin', N'Masharipov', '1993-09-01', 68, 139, 10, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106308, N'FIF', N'UZB', N'M', N'Odiljon', N'Xamrobekov', '1996-02-13', 71, 150, 9, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106309, N'FIF', N'UZB', N'M', N'Dostonbek', N'Khamdamov', '1996-07-24', 70, 139, 17, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106310, N'FIF', N'UZB', N'M', N'Otabek', N'Shukurov', '1996-06-22', 72, 163, 7, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106311, N'FIF', N'UZB', N'M', N'Azizjon', N'Ganiev', '1998-02-22', 71, 139, 19, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106312, N'FIF', N'UZB', N'M', N'Akmal', N'Mozgovoy', '1999-04-02', 71, 152, 6, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106313, N'FIF', N'UZB', N'M', N'Oston', N'Urunov', '2000-12-19', 71, 168, 11, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106314, N'FIF', N'UZB', N'M', N'Abbosbek', N'Fayzullaev', '2003-10-03', 66, 119, 22, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106315, N'FIF', N'UZB', N'M', N'Abdulla', N'Abdullaev', '1997-09-01', 71, 159, 18, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106316, N'FIF', N'UZB', N'M', N'Sherzod', N'Esanov', '2003-02-01', 75, 163, 23, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106317, N'FIF', N'UZB', N'F', N'Igor', N'Sergeev', '1993-04-30', 73, 168, 21, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106318, N'FIF', N'UZB', N'F', N'Eldor', N'Shomurodov', '1995-06-29', 75, 172, 14, NULL, N'Uzbekistan', NULL, 2025, 2025),
-        (106319, N'FIF', N'UZB', N'F', N'Azizbek', N'Amonov', '1997-10-30', 71, 159, 20, NULL, N'Uzbekistan', NULL, 2025, 2025);
+        (106320, N'PGA', N'PGA', N'G', N'A.J.', N'Ewart', NULL, NULL, NULL, NULL, NULL, N'Canada', NULL, 2026, 2026),
+        (106321, N'PGA', N'PGA', N'G', N'Aaron', N'Rai', '1995-03-03', 71, 151, NULL, NULL, N'England', N'Wolverhampton', 2019, 2026),
+        (106322, N'PGA', N'PGA', N'G', N'Adam', N'Scott', '1980-07-16', 72, 180, NULL, NULL, N'Australia', N'Adelaide, South Australia', 2000, 2026),
+        (106323, N'PGA', N'PGA', N'G', N'Adrien', N'Dumont de Chassart', '2000-03-01', NULL, NULL, NULL, NULL, N'Belgium', N'Villers la Ville', 2026, 2026),
+        (106324, N'PGA', N'PGA', N'G', N'Akshay', N'Bhatia', '2002-01-31', 73, 130, NULL, NULL, N'USA', N'Los Angeles, California', 2019, 2026),
+        (106325, N'PGA', N'PGA', N'G', N'Aldrich', N'Potgieter', '2004-09-13', 72, 192, NULL, NULL, N'South Africa', N'Pretoria', 2023, 2026),
+        (106326, N'PGA', N'PGA', N'G', N'Alejandro', N'Tosti', '1996-05-30', 66, 165, NULL, NULL, N'Argentina', N'Rosario', 2018, 2026),
+        (106327, N'PGA', N'PGA', N'G', N'Alex', N'Fitzpatrick', '1999-01-02', 68, 171, NULL, NULL, N'England', N'Sheffield', 2022, 2026),
+        (106328, N'PGA', N'PGA', N'G', N'Alex', N'Noren', '1982-07-12', 71, 165, NULL, NULL, N'Sweden', N'Stockholm', 2008, 2026),
+        (106329, N'PGA', N'PGA', N'G', N'Alex', N'Smalley', '1996-10-21', 72, 160, NULL, NULL, N'USA', N'Rochester, New York', 2017, 2026),
+        (106330, N'PGA', N'PGA', N'G', N'Andrew', N'Putnam', '1989-01-25', 73, 170, NULL, NULL, N'USA', N'Tacoma, Washington', 2010, 2026),
+        (106331, N'PGA', N'PGA', N'G', N'Austin', N'Eckroat', '1999-01-12', NULL, NULL, NULL, NULL, N'USA', N'Edmond, Oklahoma', 2020, 2026),
+        (106332, N'PGA', N'PGA', N'G', N'Beau', N'Hossler', '1995-03-16', 73, 195, NULL, NULL, N'USA', N'Mission Viejo, California', 2011, 2026),
+        (106333, N'PGA', N'PGA', N'G', N'Ben', N'Griffin', '1996-05-06', 73, 185, NULL, NULL, N'USA', N'Chapel Hill, North Carolina', 2018, 2026),
+        (106334, N'PGA', N'PGA', N'G', N'Brandt', N'Snedeker', '1980-12-08', 73, 185, NULL, NULL, N'USA', N'Nashville, Tennessee', 2004, 2026),
+        (106335, N'PGA', N'PGA', N'G', N'Brian', N'Harman', '1987-01-19', 67, 150, NULL, NULL, N'USA', N'Savannah, Georgia', 2004, 2026),
+        (106336, N'PGA', N'PGA', N'G', N'Brooks', N'Koepka', '1990-05-03', 72, 205, NULL, NULL, N'USA', N'West Palm Beach, Florida', 2012, 2026),
+        (106337, N'PGA', N'PGA', N'G', N'Bud', N'Cauley', '1990-03-16', 67, 160, NULL, NULL, N'USA', N'Jacksonville, Florida', 2010, 2026),
+        (106338, N'PGA', N'PGA', N'G', N'Cameron', N'Young', '1997-05-07', 71, 185, NULL, NULL, N'USA', N'Scarborough, New York', 2019, 2026),
+        (106339, N'PGA', N'PGA', N'G', N'Charley', N'Hoffman', '1976-12-27', 72, 200, NULL, NULL, N'USA', N'San Diego, California', 1994, 2026),
+        (106340, N'PGA', N'PGA', N'G', N'Chris', N'Gotterup', '1999-07-20', 72, 210, NULL, NULL, N'USA', N'Easton, Maryland', 2022, 2026),
+        (106341, N'PGA', N'PGA', N'G', N'Christiaan', N'Bezuidenhout', '1994-05-18', 73, 195, NULL, NULL, N'South Africa', N'Delmas', 2026, 2026),
+        (106342, N'PGA', N'PGA', N'G', N'Christo', N'Lamprecht', '2001-01-30', 80, 220, NULL, NULL, N'South Africa', N'George', 2026, 2026),
+        (106343, N'PGA', N'PGA', N'G', N'Collin', N'Morikawa', '1997-02-06', 69, 160, NULL, NULL, N'USA', N'Los Angeles, California', 2019, 2026),
+        (106344, N'PGA', N'PGA', N'G', N'Corey', N'Conners', '1992-01-06', 72, 190, NULL, NULL, N'Canada', N'Listowel, Ontario', 2013, 2026),
+        (106345, N'PGA', N'PGA', N'G', N'Daniel', N'Berger', '1993-04-07', 73, 175, NULL, NULL, N'USA', N'Jupiter, Florida', 2013, 2026),
+        (106346, N'PGA', N'PGA', N'G', N'Darren', N'Clarke', '1968-08-14', 74, 215, NULL, NULL, N'Northern Ireland', N'Dungannon', 1991, 2026),
+        (106347, N'PGA', N'PGA', N'G', N'David', N'Duval', '1971-11-09', 72, 180, NULL, NULL, N'USA', N'Jacksonville, Florida', 1990, 2026),
+        (106348, N'PGA', N'PGA', N'G', N'Davis', N'Thompson', '1999-06-05', 76, 195, NULL, NULL, N'USA', N'Atlanta, Georgia', 2021, 2026),
+        (106349, N'PGA', N'PGA', N'G', N'Denny', N'McCarthy', '1993-03-04', 69, 165, NULL, NULL, N'USA', N'Takoma Park, Maryland', 2015, 2026),
+        (106350, N'PGA', N'PGA', N'G', N'Doug', N'Ghim', '1996-04-16', 69, 165, NULL, NULL, N'USA', N'Arlington Heights, Illinois', 2026, 2026),
+        (106351, N'PGA', N'PGA', N'G', N'Eric', N'Cole', '1988-06-12', 69, 155, NULL, NULL, N'USA', N'Palm Springs, California', 2026, 2026),
+        (106352, N'PGA', N'PGA', N'G', N'Fred', N'Couples', '1959-10-03', 71, 185, NULL, NULL, N'USA', N'Seattle, Washington', 1979, 2026),
+        (106353, N'PGA', N'PGA', N'G', N'Gary', N'Woodland', '1984-05-21', 73, 195, NULL, NULL, N'USA', N'Topeka, Kansas', 2009, 2026),
+        (106354, N'PGA', N'PGA', N'G', N'Gordon', N'Sargent', NULL, NULL, NULL, NULL, NULL, N'USA', N'Birmingham, Alabama', 2026, 2026),
+        (106355, N'PGA', N'PGA', N'G', N'Graeme', N'McDowell', '1979-07-30', 70, 160, NULL, NULL, N'Northern Ireland', N'Portrush', 2001, 2026),
+        (106356, N'PGA', N'PGA', N'G', N'Haotong', N'Li', '1995-08-03', 72, 165, NULL, NULL, N'China', N'Hunan', 2014, 2026),
+        (106357, N'PGA', N'PGA', N'G', N'Harris', N'English', '1989-07-23', 75, 185, NULL, NULL, N'USA', N'Valdosta, Georgia', 2012, 2026),
+        (106358, N'PGA', N'PGA', N'G', N'Henrik', N'Stenson', '1976-04-05', 74, 190, NULL, NULL, N'Sweden', N'Gothenburg', 2001, 2026),
+        (106359, N'PGA', N'PGA', N'G', N'Hideki', N'Matsuyama', '1992-02-25', 71, 198, NULL, NULL, N'Japan', N'Ehime', 2011, 2026),
+        (106360, N'PGA', N'PGA', N'G', N'J.J.', N'Spaun', '1990-08-21', 69, 185, NULL, NULL, N'USA', N'Los Angeles, California', 2015, 2026),
+        (106361, N'PGA', N'PGA', N'G', N'J.T.', N'Poston', '1993-06-01', 74, 165, NULL, NULL, N'USA', N'Hickory, North Carolina', 2018, 2026),
+        (106362, N'PGA', N'PGA', N'G', N'Jackson', N'Koivun', '2005-05-23', NULL, NULL, NULL, NULL, N'USA', N'Chapel Hill, North Carolina', 2026, 2026),
+        (106363, N'PGA', N'PGA', N'G', N'Jackson', N'Suber', NULL, 73, 175, NULL, NULL, N'USA', N'Tampa, Florida', 2022, 2026),
+        (106364, N'PGA', N'PGA', N'G', N'Jacob', N'Bridgeman', '1999-12-06', 70, 170, NULL, NULL, N'USA', N'Inman, South Carolina', 2022, 2026),
+        (106365, N'PGA', N'PGA', N'G', N'Jake', N'Knapp', '1994-05-31', 72, 190, NULL, NULL, N'USA', N'Costa Mesa, California', 2016, 2026),
+        (106366, N'PGA', N'PGA', N'G', N'Jason', N'Dufner', '1977-03-24', 70, 180, NULL, NULL, N'USA', N'Cleveland, Ohio', 2001, 2026),
+        (106367, N'PGA', N'PGA', N'G', N'Jesper', N'Svensson', '1996-03-14', 75, NULL, NULL, NULL, N'Sweden', N'Uppsala', 2019, 2026),
+        (106368, N'PGA', N'PGA', N'G', N'Jimmy', N'Stanger', '1995-03-23', 70, 165, NULL, NULL, N'USA', N'Tampa, Florida', 2017, 2026),
+        (106369, N'PGA', N'PGA', N'G', N'Jimmy', N'Walker', '1979-01-16', 74, 180, NULL, NULL, N'USA', N'Oklahoma City, Oklahoma', 2001, 2026),
+        (106370, N'PGA', N'PGA', N'G', N'John', N'Parry', '1986-11-17', 67, 141, NULL, NULL, N'England', N'Harrogate', 2013, 2026),
+        (106371, N'PGA', N'PGA', N'G', N'Johnny', N'Keefer', NULL, 71, NULL, NULL, NULL, N'USA', N'Baltimore, Maryland', 2024, 2026),
+        (106372, N'PGA', N'PGA', N'G', N'Jonathan', N'Byrd', '1978-01-27', 69, 165, NULL, NULL, N'USA', N'Anderson, South Carolina', 2000, 2026),
+        (106373, N'PGA', N'PGA', N'G', N'Jordan', N'Smith', '1992-11-09', 70, 168, NULL, NULL, N'England', N'Bath', 2017, 2026),
+        (106374, N'PGA', N'PGA', N'G', N'Jordan', N'Spieth', '1993-07-27', 73, 175, NULL, NULL, N'USA', N'Dallas, Texas', 2010, 2026),
+        (106375, N'PGA', N'PGA', N'G', N'José María', N'Olazábal', '1966-02-05', 70, 160, NULL, NULL, N'Spain', N'Fuenterrabia', 1984, 2026),
+        (106376, N'PGA', N'PGA', N'G', N'Justin', N'Hicks', '1974-10-28', 75, 220, NULL, NULL, N'USA', N'Wyandotte, Michigan', 2001, 2026),
+        (106377, N'PGA', N'PGA', N'G', N'Justin', N'Rose', '1980-07-30', 75, 195, NULL, NULL, N'England', N'Johannesburg', 1998, 2026),
+        (106378, N'PGA', N'PGA', N'G', N'Justin', N'Thomas', '1993-04-29', 70, 160, NULL, NULL, N'USA', N'Goshen, Kentucky', 2009, 2026),
+        (106379, N'PGA', N'PGA', N'G', N'Keegan', N'Bradley', '1986-06-07', 75, 190, NULL, NULL, N'USA', N'Woodstock, Vermont', 2011, 2026),
+        (106380, N'PGA', N'PGA', N'G', N'Keita', N'Nakajima', '2000-06-24', 70, 160, NULL, NULL, N'Japan', N'Saitama', 2022, 2026),
+        (106381, N'PGA', N'PGA', N'G', N'Keith', N'Mitchell', '1992-01-07', 73, 185, NULL, NULL, N'USA', N'Chattanooga, Tennessee', 2013, 2026),
+        (106382, N'PGA', N'PGA', N'G', N'Kevin', N'Yu', '1998-08-11', NULL, NULL, NULL, NULL, N'Chinese Taipei', NULL, 2026, 2026),
+        (106383, N'PGA', N'PGA', N'G', N'Kristoffer', N'Reitan', '1998-03-08', NULL, NULL, NULL, NULL, N'Norway', N'Oslo', 2018, 2026),
+        (106384, N'PGA', N'PGA', N'G', N'Kristoffer', N'Ventura', '1995-02-24', 75, 180, NULL, NULL, N'Norway', NULL, 2026, 2026),
+        (106385, N'PGA', N'PGA', N'G', N'Kurt', N'Kitayama', '1993-01-14', 67, 170, NULL, NULL, N'USA', N'Chico, California', 2015, 2026),
+        (106386, N'PGA', N'PGA', N'G', N'Lee', N'Hodges', '1995-06-14', 72, 187, NULL, NULL, N'USA', N'Huntsville, Alabama', 2018, 2026),
+        (106387, N'PGA', N'PGA', N'G', N'Lucas', N'Glover', '1979-11-12', 74, 195, NULL, NULL, N'USA', N'Greenville, South Carolina', 2001, 2026),
+        (106388, N'PGA', N'PGA', N'G', N'Ludvig', N'Åberg', '1999-10-31', 75, NULL, NULL, NULL, N'Sweden', N'Eslov', 2023, 2026),
+        (106389, N'PGA', N'PGA', N'G', N'Luke', N'Donald', '1977-12-07', 69, 165, NULL, NULL, N'England', N'Hempstead', 1999, 2026),
+        (106390, N'PGA', N'PGA', N'G', N'Mac', N'Meissner', '1999-02-08', 75, 180, NULL, NULL, N'USA', N'Charleston, South Carolina', 2026, 2026),
+        (106391, N'PGA', N'PGA', N'G', N'Mackenzie', N'Hughes', '1990-11-23', 73, 180, NULL, NULL, N'Canada', N'Dundas, Ontario', 2012, 2026),
+        (106392, N'PGA', N'PGA', N'G', N'Marco', N'Penge', '1998-05-15', 73, NULL, NULL, NULL, N'England', N'Crawley', 2017, 2026),
+        (106393, N'PGA', N'PGA', N'G', N'Matt', N'Fitzpatrick', '1994-09-01', 70, 155, NULL, NULL, N'England', N'Sheffield', 2013, 2026),
+        (106394, N'PGA', N'PGA', N'G', N'Matt', N'Kuchar', '1978-06-21', 76, 195, NULL, NULL, N'USA', N'Winter Park, Florida', 1998, 2026),
+        (106395, N'PGA', N'PGA', N'G', N'Matt', N'McCarty', '1997-12-11', 72, 165, NULL, NULL, N'USA', N'Scottsdale, Arizona', 2021, 2026),
+        (106396, N'PGA', N'PGA', N'G', N'Matt', N'Wallace', '1990-04-12', 73, 187, NULL, NULL, N'England', N'Watford', 2017, 2026),
+        (106397, N'PGA', N'PGA', N'G', N'Maverick', N'McNealy', '1995-11-07', 73, 170, NULL, NULL, N'USA', N'Stanford, California', 2014, 2026),
+        (106398, N'PGA', N'PGA', N'G', N'Max', N'Greyserman', '1995-05-31', 70, 175, NULL, NULL, N'USA', N'Short Hills, New Jersey', 2017, 2026),
+        (106399, N'PGA', N'PGA', N'G', N'Max', N'Homa', '1990-11-19', 73, 180, NULL, NULL, N'USA', N'Burbank, California', 2013, 2026),
+        (106400, N'PGA', N'PGA', N'G', N'Michael', N'Brennan', '2002-02-09', NULL, NULL, NULL, NULL, N'USA', N'Leesburg, Virginia', 2024, 2026),
+        (106401, N'PGA', N'PGA', N'G', N'Michael', N'Kim', '1993-07-14', 71, 165, NULL, NULL, N'USA', N'Seoul', 2013, 2026),
+        (106402, N'PGA', N'PGA', N'G', N'Michael', N'Thorbjornsen', '2001-09-16', NULL, NULL, NULL, NULL, N'USA', N'Cleveland, Ohio', 2026, 2026),
+        (106403, N'PGA', N'PGA', N'G', N'Mike', N'Weir', '1970-05-12', 69, 155, NULL, NULL, N'Canada', N'Brights Grove, Ontario', 1989, 2026),
+        (106404, N'PGA', N'PGA', N'G', N'Min Woo', N'Lee', '1998-07-27', 72, 165, NULL, NULL, N'Australia', N'Perth, Western Australia', 2019, 2026),
+        (106405, N'PGA', N'PGA', N'G', N'Neal', N'Shipley', '2000-12-23', 75, NULL, NULL, NULL, N'USA', N'Pittsburgh, Pennsylvania', 2026, 2026),
+        (106406, N'PGA', N'PGA', N'G', N'Nick', N'Taylor', '1988-04-14', 72, 170, NULL, NULL, N'Canada', N'Winnipeg, Manitoba', 2008, 2026),
+        (106407, N'PGA', N'PGA', N'G', N'Nico', N'Echavarria', '1994-08-04', 72, 165, NULL, NULL, N'Colombia', N'Medellin', 2017, 2026),
+        (106408, N'PGA', N'PGA', N'G', N'Nicolai', N'Højgaard', '2001-03-12', 74, 193, NULL, NULL, N'Denmark', N'Billund', 2019, 2026),
+        (106409, N'PGA', N'PGA', N'G', N'Padraig', N'Harrington', '1971-08-31', 73, 196, NULL, NULL, N'Ireland', N'Dublin', 1996, 2026),
+        (106410, N'PGA', N'PGA', N'G', N'Patrick', N'Cantlay', '1992-03-17', 72, 190, NULL, NULL, N'USA', N'Long Beach, California', 2011, 2026),
+        (106411, N'PGA', N'PGA', N'G', N'Patrick', N'Rodgers', '1992-06-30', 74, 185, NULL, NULL, N'USA', N'Avon, Indiana', 2012, 2026),
+        (106412, N'PGA', N'PGA', N'G', N'Pierceson', N'Coody', '2000-01-07', 69, 175, NULL, NULL, N'USA', N'Plano, Texas', 2026, 2026),
+        (106413, N'PGA', N'PGA', N'G', N'Pontus', N'Nyholm', '1998-02-10', 75, 215, NULL, NULL, N'Sweden', NULL, 2026, 2026),
+        (106414, N'PGA', N'PGA', N'G', N'Rasmus', N'Højgaard', '2001-03-12', NULL, NULL, NULL, NULL, N'Denmark', N'Billund', 2019, 2026),
+        (106415, N'PGA', N'PGA', N'G', N'Rickie', N'Fowler', '1988-12-13', 69, 150, NULL, NULL, N'USA', N'Anaheim, California', 2008, 2026),
+        (106416, N'PGA', N'PGA', N'G', N'Ricky', N'Castillo', '2001-08-28', 73, 160, NULL, NULL, N'USA', NULL, 2026, 2026),
+        (106417, N'PGA', N'PGA', N'G', N'Rico', N'Hoey', '1995-09-19', 70, 205, NULL, NULL, N'Philippines', N'Manila', 2017, 2026),
+        (106418, N'PGA', N'PGA', N'G', N'Robert', N'MacIntyre', '1996-08-03', 71, NULL, NULL, NULL, N'Scotland', N'Oban', 2017, 2026),
+        (106419, N'PGA', N'PGA', N'G', N'Rory', N'McIlroy', '1989-05-04', 70, 160, NULL, NULL, N'Northern Ireland', N'Holywood', 2007, 2026),
+        (106420, N'PGA', N'PGA', N'G', N'Russell', N'Henley', '1989-04-12', 72, 180, NULL, NULL, N'USA', N'Macon, Georgia', 2010, 2026),
+        (106421, N'PGA', N'PGA', N'G', N'Ryan', N'Fox', '1987-01-22', 73, NULL, NULL, NULL, N'New Zealand', N'Auckland', 2015, 2026),
+        (106422, N'PGA', N'PGA', N'G', N'Ryan', N'Gerard', '1999-08-02', NULL, NULL, NULL, NULL, N'USA', N'Raleigh, North Carolina', 2022, 2026),
+        (106423, N'PGA', N'PGA', N'G', N'Ryo', N'Hisatsune', '2002-09-09', 69, 165, NULL, NULL, N'Japan', N'Okayama', 2020, 2026),
+        (106424, N'PGA', N'PGA', N'G', N'Sahith', N'Theegala', '1997-12-04', 75, 200, NULL, NULL, N'USA', N'Orange, California', 2017, 2026),
+        (106425, N'PGA', N'PGA', N'G', N'Sam', N'Burns', '1996-07-23', 73, 185, NULL, NULL, N'USA', N'Shreveport, Louisiana', 2017, 2026),
+        (106426, N'PGA', N'PGA', N'G', N'Sam', N'Stevens', '1996-07-04', 73, 190, NULL, NULL, N'USA', N'Fort Worth, Texas', 2018, 2026),
+        (106427, N'PGA', N'PGA', N'G', N'Scottie', N'Scheffler', '1996-06-21', 75, 200, NULL, NULL, N'USA', N'Dallas, Texas', 2014, 2026),
+        (106428, N'PGA', N'PGA', N'G', N'Sepp', N'Straka', '1993-05-01', 75, 235, NULL, NULL, N'Austria', N'Vienna', 2018, 2026),
+        (106429, N'PGA', N'PGA', N'G', N'Sergio', N'García', '1980-01-09', 70, 180, NULL, NULL, N'Spain', N'Castellon', 1996, 2026),
+        (106430, N'PGA', N'PGA', N'G', N'Shane', N'Lowry', '1987-04-02', 73, 216, NULL, NULL, N'Ireland', N'Clara', 2009, 2026),
+        (106431, N'PGA', N'PGA', N'G', N'Shaun', N'Micheel', '1969-01-05', 72, 185, NULL, NULL, N'USA', N'Orlando, Florida', 1992, 2026),
+        (106432, N'PGA', N'PGA', N'G', N'Si Woo', N'Kim', '1995-06-28', 71, 182, NULL, NULL, N'South Korea', N'Seoul', 2013, 2026),
+        (106433, N'PGA', N'PGA', N'G', N'Stefano', N'Mazzoli', '1996-12-27', NULL, NULL, NULL, NULL, N'Italy', NULL, 2016, 2026),
+        (106434, N'PGA', N'PGA', N'G', N'Stephan', N'Jaeger', '1989-05-30', 69, 170, NULL, NULL, N'Germany', N'Munich', 2012, 2026),
+        (106435, N'PGA', N'PGA', N'G', N'Steven', N'Fisk', '1997-04-17', 70, 175, NULL, NULL, N'USA', NULL, 2026, 2026),
+        (106436, N'PGA', N'PGA', N'G', N'Stewart', N'Cink', '1973-05-21', 76, 205, NULL, NULL, N'USA', N'Huntsville, Alabama', 1995, 2026),
+        (106437, N'PGA', N'PGA', N'G', N'Sudarshan', N'Yellamaraju', NULL, NULL, NULL, NULL, NULL, N'Canada', NULL, 2026, 2026),
+        (106438, N'PGA', N'PGA', N'G', N'Taylor', N'Moore', '1993-07-28', 69, 160, NULL, NULL, N'USA', N'San Angelo, Texas', 2016, 2026),
+        (106439, N'PGA', N'PGA', N'G', N'Taylor', N'Pendrith', '1991-05-30', 74, 200, NULL, NULL, N'Canada', N'Richmond Hill, Ontario', 2019, 2026),
+        (106440, N'PGA', N'PGA', N'G', N'Tom', N'Hoge', '1989-05-25', 73, 175, NULL, NULL, N'USA', N'Statesville, North Carolina', 2011, 2026),
+        (106441, N'PGA', N'PGA', N'G', N'Tom', N'Kim', '2002-06-21', 72, NULL, NULL, NULL, N'South Korea', N'Seoul', 2018, 2026),
+        (106442, N'PGA', N'PGA', N'G', N'Tommy', N'Fleetwood', '1991-01-19', 71, 168, NULL, NULL, N'England', N'Southport', 2010, 2026),
+        (106443, N'PGA', N'PGA', N'G', N'Tony', N'Finau', '1989-09-14', 76, 200, NULL, NULL, N'USA', N'Salt Lake City, Utah', 2007, 2026),
+        (106444, N'PGA', N'PGA', N'G', N'Vijay', N'Singh', '1963-02-22', 74, 208, NULL, NULL, N'Fiji', N'Lautoka', 1989, 2026),
+        (106445, N'PGA', N'PGA', N'G', N'Viktor', N'Hovland', '1997-09-18', 70, 165, NULL, NULL, N'Norway', N'Oslo', 2019, 2026),
+        (106446, N'PGA', N'PGA', N'G', N'William', N'Mouw', '2000-09-05', 72, 165, NULL, NULL, N'USA', N'Upland, California', 2026, 2026),
+        (106447, N'PGA', N'PGA', N'G', N'Wyndham', N'Clark', '1993-12-09', 72, 172, NULL, NULL, N'USA', N'Denver, Colorado', 2017, 2026),
+        (106448, N'PGA', N'PGA', N'G', N'Xander', N'Schauffele', '1993-10-25', 70, 175, NULL, NULL, N'USA', N'La Jolla, California', 2015, 2026),
+        (106449, N'PGA', N'PGA', N'G', N'Zach', N'Bauchou', '1995-12-28', NULL, NULL, NULL, NULL, N'USA', NULL, 2026, 2026),
+        (106450, N'PGA', N'PGA', N'G', N'Zecheng', N'Dou', '1997-01-22', 69, 154, NULL, NULL, N'China', N'Henan', 2015, 2026),
+        (106451, N'PGA', N'PGA', N'G', N'Ángel', N'Cabrera', '1969-09-12', 73, 210, NULL, NULL, N'Argentina', N'Cordoba', 1997, 2026);
 
     SET IDENTITY_INSERT [core].[Players] OFF;
 
