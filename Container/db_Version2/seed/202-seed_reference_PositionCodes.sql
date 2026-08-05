@@ -63,7 +63,9 @@ BEGIN TRY
         (N'FIF', N'D', N'Defender'),
         (N'FIF', N'M', N'Midfielder'),
         (N'FIF', N'F', N'Forward'),
-        (N'FIF', N'UNK', N'Unknown');
+        (N'FIF', N'UNK', N'Unknown'),
+        (N'PGA', N'G', N'Golfer'),
+        (N'PGA', N'UNK', N'Unknown');
 
     COMMIT TRANSACTION;
 END TRY
